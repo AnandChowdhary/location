@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2011-05-26",
+  "updatedAt": "2011-05-27",
   "approximateCoordinates": [
-    28.53,
-    77.24
+    14.59,
+    120.99
   ],
-  "label": "New Delhi",
+  "label": "Manila",
   "timezone": {
-    "name": "Asia/Kolkata",
+    "name": "Asia/Manila",
     "countries": [
-      "IN"
+      "PH"
     ],
-    "utcOffset": 330,
-    "utcOffsetStr": "+05:30",
-    "dstOffset": 330,
-    "dstOffsetStr": "+05:30",
+    "utcOffset": 480,
+    "utcOffsetStr": "+08:00",
+    "dstOffset": 480,
+    "dstOffsetStr": "+08:00",
     "aliasOf": null
   },
   "country": {
-    "code": "IN",
-    "name": "India",
+    "code": "PH",
+    "name": "Philippines",
     "timezones": [
-      "Asia/Kolkata"
+      "Asia/Manila"
     ]
   }
 }
