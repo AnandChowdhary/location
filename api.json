@@ -1,26 +1,29 @@
 {
-  "updatedAt": "2011-05-27",
+  "updatedAt": "2011-06-15",
   "approximateCoordinates": [
-    14.59,
-    120.99
+    12.93,
+    100.88
   ],
-  "label": "Manila",
+  "label": "Pattaya",
   "timezone": {
-    "name": "Asia/Manila",
+    "name": "Asia/Bangkok",
     "countries": [
-      "PH"
+      "TH",
+      "KH",
+      "LA",
+      "VN"
     ],
-    "utcOffset": 480,
-    "utcOffsetStr": "+08:00",
-    "dstOffset": 480,
-    "dstOffsetStr": "+08:00",
+    "utcOffset": 420,
+    "utcOffsetStr": "+07:00",
+    "dstOffset": 420,
+    "dstOffsetStr": "+07:00",
     "aliasOf": null
   },
   "country": {
-    "code": "PH",
-    "name": "Philippines",
+    "code": "TH",
+    "name": "Thailand",
     "timezones": [
-      "Asia/Manila"
+      "Asia/Bangkok"
     ]
   }
 }
