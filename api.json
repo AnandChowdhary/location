@@ -1,29 +1,26 @@
 {
-  "updatedAt": "2011-06-19",
+  "updatedAt": "2011-06-21",
   "approximateCoordinates": [
-    13.73,
-    100.47
+    28.53,
+    77.24
   ],
-  "label": "Bangkok",
+  "label": "New Delhi",
   "timezone": {
-    "name": "Asia/Bangkok",
+    "name": "Asia/Kolkata",
     "countries": [
-      "TH",
-      "KH",
-      "LA",
-      "VN"
+      "IN"
     ],
-    "utcOffset": 420,
-    "utcOffsetStr": "+07:00",
-    "dstOffset": 420,
-    "dstOffsetStr": "+07:00",
+    "utcOffset": 330,
+    "utcOffsetStr": "+05:30",
+    "dstOffset": 330,
+    "dstOffsetStr": "+05:30",
     "aliasOf": null
   },
   "country": {
-    "code": "TH",
-    "name": "Thailand",
+    "code": "IN",
+    "name": "India",
     "timezones": [
-      "Asia/Bangkok"
+      "Asia/Kolkata"
     ]
   }
 }
