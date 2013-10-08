@@ -1,0 +1,22 @@
+{
+  "date": "2013-10-08T09:12:29.736Z",
+  "coordinates": [
+    28.54,
+    77.24
+  ],
+  "label": "Delhi",
+  "full_label": "Indramohan Bhardwaj Marg, Alaknanda, Kalkaji Tehsil, South East Delhi, Delhi, 110048, India",
+  "timezone": {
+    "name": "Asia/Kolkata",
+    "countries": [
+      "IN"
+    ],
+    "utcOffset": 330,
+    "utcOffsetStr": "+05:30",
+    "dstOffset": 330,
+    "dstOffsetStr": "+05:30",
+    "aliasOf": null
+  },
+  "country_code": "in",
+  "country_emoji": "🇮🇳"
+}
