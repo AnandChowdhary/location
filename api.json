@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2014-11-28T22:53:39.720Z",
+  "updatedAt": "2014-12-02T12:47:13.683Z",
   "approximateCoordinates": [
-    35.76,
-    139.46
+    28.56,
+    77.1
   ],
-  "label": "日本",
+  "label": "Delhi",
   "timezone": {
-    "name": "Asia/Tokyo",
+    "name": "Asia/Kolkata",
     "countries": [
-      "JP"
+      "IN"
     ],
-    "utcOffset": 540,
-    "utcOffsetStr": "+09:00",
-    "dstOffset": 540,
-    "dstOffsetStr": "+09:00",
+    "utcOffset": 330,
+    "utcOffsetStr": "+05:30",
+    "dstOffset": 330,
+    "dstOffsetStr": "+05:30",
     "aliasOf": null
   },
   "country": {
-    "code": "JP",
-    "name": "Japan",
+    "code": "IN",
+    "name": "India",
     "timezones": [
-      "Asia/Tokyo"
+      "Asia/Kolkata"
     ]
   }
 }
