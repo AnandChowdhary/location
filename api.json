@@ -1,22 +1,26 @@
 {
-  "date": "2017-07-15T15:24:24.539Z",
+  "date": "2017-08-22T05:23:29.871Z",
   "coordinates": [
-    28.54,
-    77.24
+    25.25,
+    55.37
   ],
-  "label": "Delhi",
-  "full_label": "Indramohan Bhardwaj Marg, Alaknanda, Kalkaji Tehsil, South East Delhi, Delhi, 110048, India",
+  "label": "Dubai",
+  "full_label": "Dubai International Airport, Al Quds Street, Dubai International Airport, Dubai, United Arab Emirates",
   "timezone": {
-    "name": "Asia/Kolkata",
+    "name": "Asia/Dubai",
     "countries": [
-      "IN"
+      "AE",
+      "OM",
+      "RE",
+      "SC",
+      "TF"
     ],
-    "utcOffset": 330,
-    "utcOffsetStr": "+05:30",
-    "dstOffset": 330,
-    "dstOffsetStr": "+05:30",
+    "utcOffset": 240,
+    "utcOffsetStr": "+04:00",
+    "dstOffset": 240,
+    "dstOffsetStr": "+04:00",
     "aliasOf": null
   },
-  "country_code": "in",
-  "country_emoji": "🇮🇳"
+  "country_code": "ae",
+  "country_emoji": "🇦🇪"
 }
