@@ -1,26 +1,16 @@
 {
-  "updatedAt": "2017-10-21T21:03:04.733Z",
+  "updatedAt": "2017-11-18T05:36:58.000Z",
   "approximateCoordinates": [
     52.22,
-    6.89
+    7.02
   ],
-  "label": "Enschede",
-  "timezone": {
-    "name": "Europe/Amsterdam",
-    "countries": [
-      "NL"
-    ],
-    "utcOffset": 60,
-    "utcOffsetStr": "+01:00",
-    "dstOffset": 120,
-    "dstOffsetStr": "+02:00",
-    "aliasOf": null
-  },
+  "label": "Gronau (Westfalen)",
   "country": {
-    "code": "NL",
-    "name": "Netherlands",
+    "code": "DE",
+    "name": "Germany",
     "timezones": [
-      "Europe/Amsterdam"
+      "Europe/Berlin",
+      "Europe/Zurich"
     ]
   }
 }
