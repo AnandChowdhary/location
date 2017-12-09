@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2017-11-29T18:18:42.807Z",
+  "updatedAt": "2017-12-09T16:16:25.000Z",
   "approximateCoordinates": [
-    52.25,
-    6.85
+    null,
+    null
   ],
-  "label": "Enschede",
+  "label": "Oldenzaal",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
