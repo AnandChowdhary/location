@@ -1,14 +1,16 @@
 {
-  "updatedAt": "2017-12-22T23:40:24.989Z",
+  "updatedAt": "2017-12-23T07:58:32.857Z",
   "approximateCoordinates": [
-    52.31,
-    4.77
+    45.45,
+    9.28
   ],
-  "label": "Noord-Holland",
+  "label": "Milane",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Europe/Rome",
     "countries": [
-      "NL"
+      "IT",
+      "SM",
+      "VA"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -17,10 +19,10 @@
     "aliasOf": null
   },
   "country": {
-    "code": "NL",
-    "name": "Netherlands",
+    "code": "IT",
+    "name": "Italy",
     "timezones": [
-      "Europe/Amsterdam"
+      "Europe/Rome"
     ]
   }
 }
