@@ -1,26 +1,28 @@
 {
-  "updatedAt": "2018-01-07T13:32:31.511Z",
+  "updatedAt": "2018-01-13T07:46:41.017Z",
   "approximateCoordinates": [
-    28.52,
-    77.29
+    41.8,
+    12.25
   ],
-  "label": "Delhi",
+  "label": "Città Metropolitana di Roma",
   "timezone": {
-    "name": "Asia/Kolkata",
+    "name": "Europe/Rome",
     "countries": [
-      "IN"
+      "IT",
+      "SM",
+      "VA"
     ],
-    "utcOffset": 330,
-    "utcOffsetStr": "+05:30",
-    "dstOffset": 330,
-    "dstOffsetStr": "+05:30",
+    "utcOffset": 60,
+    "utcOffsetStr": "+01:00",
+    "dstOffset": 120,
+    "dstOffsetStr": "+02:00",
     "aliasOf": null
   },
   "country": {
-    "code": "IN",
-    "name": "India",
+    "code": "IT",
+    "name": "Italy",
     "timezones": [
-      "Asia/Kolkata"
+      "Europe/Rome"
     ]
   }
 }
