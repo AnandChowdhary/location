@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2018-02-15T10:42:03.538Z",
+  "updatedAt": "2018-02-15T20:35:08.081Z",
   "approximateCoordinates": [
-    52.38,
-    4.9
+    52.15,
+    5.37
   ],
-  "label": "Amsterdam",
+  "label": "Amersfoort",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
