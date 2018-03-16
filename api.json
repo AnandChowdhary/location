@@ -1,11 +1,11 @@
 {
-  "date": "2018-03-16T10:05:54.974Z",
+  "date": "2018-03-16T12:28:35.643Z",
   "coordinates": [
-    52.23,
-    5.18
+    52.35,
+    4.83
   ],
-  "label": "Hilversum",
-  "full_label": "10, Van Leeuwenhoekstraat, Johannes Geradtswegbuurt, Hilversum, North Holland, Netherlands, 1221 AH, Netherlands",
+  "label": "Amsterdam",
+  "full_label": "7-1, Wilhelmina Druckerstraat, Park Haagseweg, Nieuw-West, Amsterdam, North Holland, Netherlands, 1066 AA, Netherlands",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
