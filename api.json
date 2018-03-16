@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2018-03-16T12:49:10.000Z",
+  "updatedAt": "2018-03-16T17:34:29.000Z",
   "approximateCoordinates": [
-    52.34,
-    4.83
+    52.25,
+    6.85
   ],
-  "label": "Amsterdam",
+  "label": "Enschede",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
