@@ -1,23 +1,26 @@
 {
-  "date": "2018-03-16T15:13:45.997Z",
+  "date": "2018-04-27T12:38:22.922Z",
   "coordinates": [
-    52.24,
-    6.85
+    52.41,
+    9.82
   ],
-  "label": "Enschede",
-  "full_label": "Universiteit Twente, Witbreuksweg, Enschede, Overijssel, Netherlands, 7522 LL, Netherlands",
+  "label": "Hanover",
+  "full_label": "Karriere-Campus Hannover, 2, Swiss-Life-Platz, Lahe, Bothfeld-Vahrenheide, Hanover, Region Hannover, Lower Saxony, 30659, Germany",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Europe/Berlin",
     "countries": [
-      "NL"
+      "DE",
+      "DK",
+      "NO",
+      "SE",
+      "SJ"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": "Europe/Brussels",
-    "deprecated": true
+    "aliasOf": null
   },
-  "country_code": "nl",
-  "country_emoji": "🇳🇱"
+  "country_code": "de",
+  "country_emoji": "🇩🇪"
 }
