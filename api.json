@@ -1,26 +1,23 @@
 {
-  "date": "2018-04-27T12:38:22.922Z",
+  "date": "2018-04-29T22:24:42.325Z",
   "coordinates": [
-    52.41,
-    9.82
+    52.22,
+    6.89
   ],
-  "label": "Hanover",
-  "full_label": "Karriere-Campus Hannover, 2, Swiss-Life-Platz, Lahe, Bothfeld-Vahrenheide, Hanover, Region Hannover, Lower Saxony, 30659, Germany",
+  "label": "Enschede",
+  "full_label": "Van Galenstraat, Stadsmaten, Enschede, Overijssel, Netherlands, 7511 JL, Netherlands",
   "timezone": {
-    "name": "Europe/Berlin",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "DE",
-      "DK",
-      "NO",
-      "SE",
-      "SJ"
+      "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": null
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "de",
-  "country_emoji": "🇩🇪"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
