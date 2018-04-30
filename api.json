@@ -1,16 +1,26 @@
 {
-  "updatedAt": "2018-04-29T21:01:49.360Z",
+  "updatedAt": "2018-04-30T01:24:03.281Z",
   "approximateCoordinates": [
-    52.38,
-    9.74
+    52.22,
+    6.89
   ],
-  "label": "Hannover",
+  "label": "Enschede",
+  "timezone": {
+    "name": "Europe/Amsterdam",
+    "countries": [
+      "NL"
+    ],
+    "utcOffset": 60,
+    "utcOffsetStr": "+01:00",
+    "dstOffset": 120,
+    "dstOffsetStr": "+02:00",
+    "aliasOf": null
+  },
   "country": {
-    "code": "DE",
-    "name": "Germany",
+    "code": "NL",
+    "name": "Netherlands",
     "timezones": [
-      "Europe/Berlin",
-      "Europe/Zurich"
+      "Europe/Amsterdam"
     ]
   }
 }
