@@ -1,11 +1,11 @@
 {
-  "date": "2018-06-12T10:00:38.656Z",
+  "date": "2018-06-12T12:13:33.189Z",
   "coordinates": [
-    52.44,
-    5.42
+    52.38,
+    4.9
   ],
-  "label": "Lelystad",
-  "full_label": "Kotterbospad, Lelystad, Flevoland, Netherlands, 8218 PW, Netherlands",
+  "label": "Amsterdam",
+  "full_label": "Michiel de Ruijtertunnel, Centrum, Amsterdam, North Holland, Netherlands, 1012 AA, Netherlands",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
