@@ -1,23 +1,23 @@
 {
-  "date": "2018-06-13T20:28:47.484Z",
+  "date": "2018-06-13T22:27:00.501Z",
   "coordinates": [
-    51.99,
-    5.9
+    50.64,
+    3.08
   ],
-  "label": "Arnhem",
-  "full_label": "Zijpendaalseweg, Burgemeesterswijk, Arnhem, Gelderland, Netherlands, 6814 CE, Netherlands",
+  "label": "Lille",
+  "full_label": "65, Rue du Faubourg de Roubaix, Faubourg de Roubaix, Saint-Maurice Pellevoisin, Lille, Nord, Hauts-de-France, Metropolitan France, 59777, France",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Europe/Paris",
     "countries": [
-      "NL"
+      "FR",
+      "MC"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": "Europe/Brussels",
-    "deprecated": true
+    "aliasOf": null
   },
-  "country_code": "nl",
-  "country_emoji": "🇳🇱"
+  "country_code": "fr",
+  "country_emoji": "🇫🇷"
 }
