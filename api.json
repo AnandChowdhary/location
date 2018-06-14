@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2018-06-13T22:14:06.000Z",
+  "updatedAt": "2018-06-14T02:05:35.740Z",
   "approximateCoordinates": [
-    51.84,
-    5.86
+    50.64,
+    3.08
   ],
-  "label": "Nijmegen",
+  "label": "Euralille",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Europe/Paris",
     "countries": [
-      "NL"
+      "FR"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -17,10 +17,10 @@
     "aliasOf": null
   },
   "country": {
-    "code": "NL",
-    "name": "Netherlands",
+    "code": "FR",
+    "name": "France",
     "timezones": [
-      "Europe/Amsterdam"
+      "Europe/Paris"
     ]
   }
 }
