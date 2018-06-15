@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2018-06-15T09:46:09.462Z",
+  "updatedAt": "2018-06-15T13:56:48.873Z",
   "approximateCoordinates": [
-    48.9,
-    2.36
+    48.86,
+    2.3
   ],
-  "label": "Paris",
+  "label": "Île-de-France",
   "timezone": {
     "name": "Europe/Paris",
     "countries": [
