@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2018-06-22T10:10:08.939Z",
+  "updatedAt": "2018-06-22T20:45:52.000Z",
   "approximateCoordinates": [
-    51.92,
-    4.47
+    51.2,
+    3.23
   ],
-  "label": "Rotterdam",
+  "label": "Brugge",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Europe/Brussels",
     "countries": [
-      "NL"
+      "BE"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -17,10 +17,10 @@
     "aliasOf": null
   },
   "country": {
-    "code": "NL",
-    "name": "Netherlands",
+    "code": "BE",
+    "name": "Belgium",
     "timezones": [
-      "Europe/Amsterdam"
+      "Europe/Brussels"
     ]
   }
 }
