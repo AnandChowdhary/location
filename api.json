@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2018-06-23T17:01:20.965Z",
+  "updatedAt": "2018-06-23T18:23:44.000Z",
   "approximateCoordinates": [
-    51.22,
-    4.42
+    51.4,
+    5.38
   ],
-  "label": "Antwerpen",
+  "label": "Veldhoven",
   "timezone": {
-    "name": "Europe/Brussels",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "BE"
+      "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -17,10 +17,10 @@
     "aliasOf": null
   },
   "country": {
-    "code": "BE",
-    "name": "Belgium",
+    "code": "NL",
+    "name": "Netherlands",
     "timezones": [
-      "Europe/Brussels"
+      "Europe/Amsterdam"
     ]
   }
 }
