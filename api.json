@@ -1,11 +1,11 @@
 {
-  "date": "2018-06-22T16:26:30.604Z",
+  "date": "2018-06-23T15:24:53.403Z",
   "coordinates": [
-    51.2,
-    3.23
+    51.22,
+    4.42
   ],
-  "label": "Bruges",
-  "full_label": "143, Katelijnestraat, Brugge-Centrum, Brugge, Bruges, Brugge, West Flanders, 8000, Belgium",
+  "label": "Antwerp",
+  "full_label": "20-22, Van Arteveldestraat, Atheneum, Amandus-Atheneum, Antwerpen-Noord, Antwerp, Flanders, 2060, Belgium",
   "timezone": {
     "name": "Europe/Brussels",
     "countries": [
