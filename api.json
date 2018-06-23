@@ -1,24 +1,23 @@
 {
-  "date": "2018-06-23T15:24:53.403Z",
+  "date": "2018-06-23T17:15:21.804Z",
   "coordinates": [
-    51.22,
-    4.42
+    51.4,
+    5.38
   ],
-  "label": "Antwerp",
-  "full_label": "20-22, Van Arteveldestraat, Atheneum, Amandus-Atheneum, Antwerpen-Noord, Antwerp, Flanders, 2060, Belgium",
+  "label": "Veldhoven",
+  "full_label": "9, Schoot, Schootackers, Schoot, Veldhoven, North Brabant, Netherlands, 5504 ND, Netherlands",
   "timezone": {
-    "name": "Europe/Brussels",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "BE",
-      "LU",
       "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": null
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "be",
-  "country_emoji": "🇧🇪"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
