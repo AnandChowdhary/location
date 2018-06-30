@@ -1,23 +1,26 @@
 {
-  "date": "2018-06-28T21:27:30.859Z",
+  "date": "2018-06-30T10:01:30.640Z",
   "coordinates": [
-    52.24,
-    6.84
+    51.95,
+    7.63
   ],
-  "label": "Enschede",
-  "full_label": "Colosseum, Kennispark, Enschede, Overijssel, Netherlands, 7521 PA, Netherlands",
+  "label": "Münster",
+  "full_label": "63, Südstraße, Schützenhof, Mitte-Süd, Münster-Mitte, Münster, North Rhine-Westphalia, 48153, Germany",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Europe/Berlin",
     "countries": [
-      "NL"
+      "DE",
+      "DK",
+      "NO",
+      "SE",
+      "SJ"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": "Europe/Brussels",
-    "deprecated": true
+    "aliasOf": null
   },
-  "country_code": "nl",
-  "country_emoji": "🇳🇱"
+  "country_code": "de",
+  "country_emoji": "🇩🇪"
 }
