@@ -1,16 +1,26 @@
 {
-  "updatedAt": "2018-07-01T17:26:16.737Z",
+  "updatedAt": "2018-07-01T19:56:37.369Z",
   "approximateCoordinates": [
-    51.43,
-    6.78
+    52.22,
+    6.89
   ],
-  "label": "Duisburg",
+  "label": "Enschede",
+  "timezone": {
+    "name": "Europe/Amsterdam",
+    "countries": [
+      "NL"
+    ],
+    "utcOffset": 60,
+    "utcOffsetStr": "+01:00",
+    "dstOffset": 120,
+    "dstOffsetStr": "+02:00",
+    "aliasOf": null
+  },
   "country": {
-    "code": "DE",
-    "name": "Germany",
+    "code": "NL",
+    "name": "Netherlands",
     "timezones": [
-      "Europe/Berlin",
-      "Europe/Zurich"
+      "Europe/Amsterdam"
     ]
   }
 }
