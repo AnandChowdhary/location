@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2018-07-06T04:39:33.462Z",
+  "updatedAt": "2018-07-06T09:35:26.838Z",
   "approximateCoordinates": [
-    43.63,
-    1.37
+    52.31,
+    4.77
   ],
-  "label": "Blagnac",
+  "label": "Noord-Holland",
   "timezone": {
-    "name": "Europe/Paris",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "FR"
+      "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -17,10 +17,10 @@
     "aliasOf": null
   },
   "country": {
-    "code": "FR",
-    "name": "France",
+    "code": "NL",
+    "name": "Netherlands",
     "timezones": [
-      "Europe/Paris"
+      "Europe/Amsterdam"
     ]
   }
 }
