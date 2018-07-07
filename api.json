@@ -1,23 +1,24 @@
 {
-  "date": "2018-07-06T19:51:04.014Z",
+  "date": "2018-07-07T05:15:09.973Z",
   "coordinates": [
-    52.31,
-    4.76
+    45.45,
+    9.28
   ],
-  "label": "North Holland",
-  "full_label": "Vertrekpassage, Schiphol, Haarlemmermeer, North Holland, Netherlands, 1118 AS, Netherlands",
+  "label": "Peschiera Borromeo",
+  "full_label": "Via Benedetto Croce, Linate, Peschiera Borromeo, Milan, Lombardy, 20138, Italy",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Europe/Rome",
     "countries": [
-      "NL"
+      "IT",
+      "SM",
+      "VA"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": "Europe/Brussels",
-    "deprecated": true
+    "aliasOf": null
   },
-  "country_code": "nl",
-  "country_emoji": "🇳🇱"
+  "country_code": "it",
+  "country_emoji": "🇮🇹"
 }
