@@ -1,14 +1,16 @@
 {
-  "updatedAt": "2018-07-06T22:27:07.059Z",
+  "updatedAt": "2018-07-07T06:47:14.172Z",
   "approximateCoordinates": [
-    52.31,
-    4.77
+    45.45,
+    9.28
   ],
-  "label": "Noord-Holland",
+  "label": "Città Metropolitana di Milano",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Europe/Rome",
     "countries": [
-      "NL"
+      "IT",
+      "SM",
+      "VA"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -17,10 +19,10 @@
     "aliasOf": null
   },
   "country": {
-    "code": "NL",
-    "name": "Netherlands",
+    "code": "IT",
+    "name": "Italy",
     "timezones": [
-      "Europe/Amsterdam"
+      "Europe/Rome"
     ]
   }
 }
