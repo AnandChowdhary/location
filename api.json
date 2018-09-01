@@ -1,16 +1,14 @@
 {
-  "updatedAt": "2018-09-01T06:52:03.480Z",
+  "updatedAt": "2018-09-01T14:58:30.875Z",
   "approximateCoordinates": [
-    41.8,
-    12.25
+    52.31,
+    4.77
   ],
-  "label": "Città Metropolitana di Roma",
+  "label": "Noord-Holland",
   "timezone": {
-    "name": "Europe/Rome",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "IT",
-      "SM",
-      "VA"
+      "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -19,10 +17,10 @@
     "aliasOf": null
   },
   "country": {
-    "code": "IT",
-    "name": "Italy",
+    "code": "NL",
+    "name": "Netherlands",
     "timezones": [
-      "Europe/Rome"
+      "Europe/Amsterdam"
     ]
   }
 }
