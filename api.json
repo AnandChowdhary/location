@@ -1,23 +1,23 @@
 {
-  "date": "2018-10-19T19:31:29.040Z",
+  "date": "2018-10-22T15:02:53.309Z",
   "coordinates": [
-    51.43,
-    5.42
+    3.17,
+    101.69
   ],
-  "label": "Veldhoven",
-  "full_label": "91, Kruisstraat, Zeelst, Veldhoven, North Brabant, Netherlands, 5502 JC, Netherlands",
+  "label": "Kuala Lumpur",
+  "full_label": "Jalan Kolam Air, Sentul, Kuala Lumpur, 50586, Malaysia",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Asia/Kuala_Lumpur",
     "countries": [
-      "NL"
+      "MY"
     ],
-    "utcOffset": 60,
-    "utcOffsetStr": "+01:00",
-    "dstOffset": 120,
-    "dstOffsetStr": "+02:00",
-    "aliasOf": "Europe/Brussels",
+    "utcOffset": 480,
+    "utcOffsetStr": "+08:00",
+    "dstOffset": 480,
+    "dstOffsetStr": "+08:00",
+    "aliasOf": "Asia/Singapore",
     "deprecated": true
   },
-  "country_code": "nl",
-  "country_emoji": "🇳🇱"
+  "country_code": "my",
+  "country_emoji": "🇲🇾"
 }
