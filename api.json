@@ -1,26 +1,17 @@
 {
-  "updatedAt": "2018-10-19T22:04:06.998Z",
+  "updatedAt": "2018-10-23T03:38:17.213Z",
   "approximateCoordinates": [
-    51.43,
-    5.42
+    3.17,
+    101.69
   ],
-  "label": "Eindhoven",
-  "timezone": {
-    "name": "Europe/Amsterdam",
-    "countries": [
-      "NL"
-    ],
-    "utcOffset": 60,
-    "utcOffsetStr": "+01:00",
-    "dstOffset": 120,
-    "dstOffsetStr": "+02:00",
-    "aliasOf": null
-  },
+  "label": "Kuala Lumpur",
   "country": {
-    "code": "NL",
-    "name": "Netherlands",
+    "code": "MY",
+    "name": "Malaysia",
     "timezones": [
-      "Europe/Amsterdam"
+      "Asia/Kuala_Lumpur",
+      "Asia/Kuching",
+      "Asia/Singapore"
     ]
   }
 }
