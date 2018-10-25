@@ -1,22 +1,23 @@
 {
-  "date": "2018-10-24T16:01:29.032Z",
+  "date": "2018-10-25T09:20:48.681Z",
   "coordinates": [
-    28.54,
-    77.33
+    51.45,
+    5.46
   ],
-  "label": "Noida",
-  "full_label": "Bandh Road, Sector 127, Noida, Ralpur Khadar, Noida, Dadri, Gautam Buddha Nagar, Uttar Pradesh, 201313, India",
+  "label": "Eindhoven",
+  "full_label": "140, Leeghwaterstraat, Limbeek-Noord, Woensel-Zuid, Eindhoven, North Brabant, Netherlands, 5612 JK, Netherlands",
   "timezone": {
-    "name": "Asia/Kolkata",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "IN"
+      "NL"
     ],
-    "utcOffset": 330,
-    "utcOffsetStr": "+05:30",
-    "dstOffset": 330,
-    "dstOffsetStr": "+05:30",
-    "aliasOf": null
+    "utcOffset": 60,
+    "utcOffsetStr": "+01:00",
+    "dstOffset": 120,
+    "dstOffsetStr": "+02:00",
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "in",
-  "country_emoji": "🇮🇳"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
