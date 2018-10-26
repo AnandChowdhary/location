@@ -1,22 +1,23 @@
 {
-  "date": "2018-10-26T11:56:32.551Z",
+  "date": "2018-10-26T13:00:47.355Z",
   "coordinates": [
-    28.55,
-    77.25
+    51.45,
+    5.46
   ],
-  "label": "Delhi",
-  "full_label": "Eros Hotel, Nehru Place Road, Nehru Place, Kalkaji Tehsil, South East Delhi, Delhi, 110019, India",
+  "label": "Eindhoven",
+  "full_label": "140, Leeghwaterstraat, Limbeek-Noord, Woensel-Zuid, Eindhoven, North Brabant, Netherlands, 5612 JK, Netherlands",
   "timezone": {
-    "name": "Asia/Kolkata",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "IN"
+      "NL"
     ],
-    "utcOffset": 330,
-    "utcOffsetStr": "+05:30",
-    "dstOffset": 330,
-    "dstOffsetStr": "+05:30",
-    "aliasOf": null
+    "utcOffset": 60,
+    "utcOffsetStr": "+01:00",
+    "dstOffset": 120,
+    "dstOffsetStr": "+02:00",
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "in",
-  "country_emoji": "🇮🇳"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
