@@ -1,22 +1,23 @@
 {
-  "date": "2018-10-26T15:58:31.992Z",
+  "date": "2018-10-27T08:58:52.010Z",
   "coordinates": [
-    28.54,
-    77.24
+    51.45,
+    5.46
   ],
-  "label": "Delhi",
-  "full_label": "Indramohan Bhardwaj Marg, Alaknanda, Kalkaji Tehsil, South East Delhi, Delhi, 110048, India",
+  "label": "Eindhoven",
+  "full_label": "140, Leeghwaterstraat, Limbeek-Noord, Woensel-Zuid, Eindhoven, North Brabant, Netherlands, 5612 JK, Netherlands",
   "timezone": {
-    "name": "Asia/Kolkata",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "IN"
+      "NL"
     ],
-    "utcOffset": 330,
-    "utcOffsetStr": "+05:30",
-    "dstOffset": 330,
-    "dstOffsetStr": "+05:30",
-    "aliasOf": null
+    "utcOffset": 60,
+    "utcOffsetStr": "+01:00",
+    "dstOffset": 120,
+    "dstOffsetStr": "+02:00",
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "in",
-  "country_emoji": "🇮🇳"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
