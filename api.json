@@ -1,22 +1,23 @@
 {
-  "date": "2018-10-28T16:36:45.180Z",
+  "date": "2018-10-29T21:08:10.360Z",
   "coordinates": [
-    28.54,
-    77.24
+    52.24,
+    6.86
   ],
-  "label": "Delhi",
-  "full_label": "Indramohan Bhardwaj Marg, Alaknanda, Kalkaji Tehsil, South East Delhi, Delhi, 110048, India",
+  "label": "Enschede",
+  "full_label": "P3, De Knepse, Enschede, Overijssel, Netherlands, 7522 LW, Netherlands",
   "timezone": {
-    "name": "Asia/Kolkata",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "IN"
+      "NL"
     ],
-    "utcOffset": 330,
-    "utcOffsetStr": "+05:30",
-    "dstOffset": 330,
-    "dstOffsetStr": "+05:30",
-    "aliasOf": null
+    "utcOffset": 60,
+    "utcOffsetStr": "+01:00",
+    "dstOffset": 120,
+    "dstOffsetStr": "+02:00",
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "in",
-  "country_emoji": "🇮🇳"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
