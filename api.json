@@ -1,23 +1,22 @@
 {
-  "date": "2018-12-23T17:17:15.046Z",
+  "date": "2018-12-23T21:38:00.870Z",
   "coordinates": [
-    52.31,
-    4.76
+    55.97,
+    37.41
   ],
-  "label": "North Holland",
-  "full_label": "Vertrekpassage, Schiphol, Haarlemmermeer, North Holland, Netherlands, 1118 AS, Netherlands",
+  "label": "Khimki",
+  "full_label": "46Н-13925, Khimki, Khimki Urban Okrug, Moscow Oblast, Central Federal District, 141425, Russia",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Europe/Moscow",
     "countries": [
-      "NL"
+      "RU"
     ],
-    "utcOffset": 60,
-    "utcOffsetStr": "+01:00",
-    "dstOffset": 120,
-    "dstOffsetStr": "+02:00",
-    "aliasOf": "Europe/Brussels",
-    "deprecated": true
+    "utcOffset": 180,
+    "utcOffsetStr": "+03:00",
+    "dstOffset": 180,
+    "dstOffsetStr": "+03:00",
+    "aliasOf": null
   },
-  "country_code": "nl",
-  "country_emoji": "🇳🇱"
+  "country_code": "ru",
+  "country_emoji": "🇷🇺"
 }
