@@ -1,41 +1,26 @@
 {
-  "updatedAt": "2018-12-24T01:27:28.767Z",
+  "updatedAt": "2018-12-24T20:01:38.003Z",
   "approximateCoordinates": [
-    55.97,
-    37.41
+    28.54,
+    77.24
   ],
-  "label": "Россия",
+  "label": "Delhi",
+  "timezone": {
+    "name": "Asia/Kolkata",
+    "countries": [
+      "IN"
+    ],
+    "utcOffset": 330,
+    "utcOffsetStr": "+05:30",
+    "dstOffset": 330,
+    "dstOffsetStr": "+05:30",
+    "aliasOf": null
+  },
   "country": {
-    "code": "RU",
-    "name": "Russia",
+    "code": "IN",
+    "name": "India",
     "timezones": [
-      "Asia/Anadyr",
-      "Asia/Barnaul",
-      "Asia/Chita",
-      "Asia/Irkutsk",
-      "Asia/Kamchatka",
-      "Asia/Khandyga",
-      "Asia/Krasnoyarsk",
-      "Asia/Magadan",
-      "Asia/Novokuznetsk",
-      "Asia/Novosibirsk",
-      "Asia/Omsk",
-      "Asia/Sakhalin",
-      "Asia/Srednekolymsk",
-      "Asia/Tomsk",
-      "Asia/Ust-Nera",
-      "Asia/Vladivostok",
-      "Asia/Yakutsk",
-      "Asia/Yekaterinburg",
-      "Europe/Astrakhan",
-      "Europe/Kaliningrad",
-      "Europe/Kirov",
-      "Europe/Moscow",
-      "Europe/Samara",
-      "Europe/Saratov",
-      "Europe/Simferopol",
-      "Europe/Ulyanovsk",
-      "Europe/Volgograd"
+      "Asia/Kolkata"
     ]
   }
 }
