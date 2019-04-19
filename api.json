@@ -1,26 +1,41 @@
 {
-  "updatedAt": "2019-04-19T07:23:29.402Z",
+  "updatedAt": "2019-04-19T15:50:50.493Z",
   "approximateCoordinates": [
-    52.31,
-    4.76
+    55.97,
+    37.41
   ],
-  "label": "Schiphol",
-  "timezone": {
-    "name": "Europe/Amsterdam",
-    "countries": [
-      "NL"
-    ],
-    "utcOffset": 60,
-    "utcOffsetStr": "+01:00",
-    "dstOffset": 120,
-    "dstOffsetStr": "+02:00",
-    "aliasOf": null
-  },
+  "label": "Россия",
   "country": {
-    "code": "NL",
-    "name": "Netherlands",
+    "code": "RU",
+    "name": "Russia",
     "timezones": [
-      "Europe/Amsterdam"
+      "Asia/Anadyr",
+      "Asia/Barnaul",
+      "Asia/Chita",
+      "Asia/Irkutsk",
+      "Asia/Kamchatka",
+      "Asia/Khandyga",
+      "Asia/Krasnoyarsk",
+      "Asia/Magadan",
+      "Asia/Novokuznetsk",
+      "Asia/Novosibirsk",
+      "Asia/Omsk",
+      "Asia/Sakhalin",
+      "Asia/Srednekolymsk",
+      "Asia/Tomsk",
+      "Asia/Ust-Nera",
+      "Asia/Vladivostok",
+      "Asia/Yakutsk",
+      "Asia/Yekaterinburg",
+      "Europe/Astrakhan",
+      "Europe/Kaliningrad",
+      "Europe/Kirov",
+      "Europe/Moscow",
+      "Europe/Samara",
+      "Europe/Saratov",
+      "Europe/Simferopol",
+      "Europe/Ulyanovsk",
+      "Europe/Volgograd"
     ]
   }
 }
