@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2019-05-15T11:23:04.044Z",
+  "updatedAt": "2019-05-15T14:42:35.056Z",
   "approximateCoordinates": [
-    52.31,
-    4.76
+    48.88,
+    2.36
   ],
-  "label": "Schiphol",
+  "label": "Paris",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Europe/Paris",
     "countries": [
-      "NL"
+      "FR"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -17,10 +17,10 @@
     "aliasOf": null
   },
   "country": {
-    "code": "NL",
-    "name": "Netherlands",
+    "code": "FR",
+    "name": "France",
     "timezones": [
-      "Europe/Amsterdam"
+      "Europe/Paris"
     ]
   }
 }
