@@ -1,23 +1,23 @@
 {
-  "date": "2019-05-15T11:36:12.001Z",
+  "date": "2019-05-19T15:18:08.182Z",
   "coordinates": [
-    48.88,
-    2.36
+    51.92,
+    4.47
   ],
-  "label": "Paris",
-  "full_label": "Rue La Fayette, Grange aux Belles, 10th Arrondissement, Paris, Ile-de-France, Metropolitan France, 75010, France",
+  "label": "Rotterdam",
+  "full_label": "West-Kruiskade, Chinatown, Oude Westen, Centrum, Rotterdam, South Holland, Netherlands, 3014 AT, Netherlands",
   "timezone": {
-    "name": "Europe/Paris",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "FR",
-      "MC"
+      "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": null
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "fr",
-  "country_emoji": "🇫🇷"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
