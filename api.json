@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2019-05-15T14:42:35.056Z",
+  "updatedAt": "2019-05-19T18:07:25.595Z",
   "approximateCoordinates": [
-    48.88,
-    2.36
+    51.92,
+    4.47
   ],
-  "label": "Paris",
+  "label": "Rotterdam",
   "timezone": {
-    "name": "Europe/Paris",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "FR"
+      "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -17,10 +17,10 @@
     "aliasOf": null
   },
   "country": {
-    "code": "FR",
-    "name": "France",
+    "code": "NL",
+    "name": "Netherlands",
     "timezones": [
-      "Europe/Paris"
+      "Europe/Amsterdam"
     ]
   }
 }
