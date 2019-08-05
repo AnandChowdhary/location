@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2019-08-05T04:45:05.000Z",
+  "updatedAt": "2019-08-05T12:46:11.000Z",
   "approximateCoordinates": [
-    28.57,
-    77.32
+    null,
+    null
   ],
-  "label": "Uttar Pradesh",
+  "label": "Delhi",
   "timezone": {
     "name": "Asia/Kolkata",
     "countries": [
