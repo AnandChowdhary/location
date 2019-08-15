@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2019-08-12T12:58:26.000Z",
+  "updatedAt": "2019-08-15T07:37:58.000Z",
   "approximateCoordinates": [
-    null,
-    null
+    28.48,
+    77.08
   ],
-  "label": "Delhi",
+  "label": "Haryana",
   "timezone": {
     "name": "Asia/Kolkata",
     "countries": [
