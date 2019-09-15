@@ -1,22 +1,22 @@
 {
-  "date": "2019-09-15T04:05:27.050Z",
+  "date": "2019-09-15T14:48:56.459Z",
   "coordinates": [
-    25.08,
-    121.23
+    37.72,
+    -121.85
   ],
-  "label": "Taoyuan City",
-  "full_label": "Taiwan Taoyuan International Airport, 9, Hangzhan South Road, Puxin Village, Dayuan District, Taoyuan City, 33758, Taiwan",
+  "label": "Dublin",
+  "full_label": "5165, Salerno Drive, Dublin, Alameda County, California, 94568, United States",
   "timezone": {
-    "name": "Asia/Taipei",
+    "name": "America/Los_Angeles",
     "countries": [
-      "TW"
+      "US"
     ],
-    "utcOffset": 480,
-    "utcOffsetStr": "+08:00",
-    "dstOffset": 480,
-    "dstOffsetStr": "+08:00",
+    "utcOffset": -480,
+    "utcOffsetStr": "-08:00",
+    "dstOffset": -420,
+    "dstOffsetStr": "-07:00",
     "aliasOf": null
   },
-  "country_code": "tw",
-  "country_emoji": "🇹🇼"
+  "country_code": "us",
+  "country_emoji": "🇺🇸"
 }
