@@ -1,22 +1,22 @@
 {
-  "date": "2019-09-11T12:32:09.713Z",
+  "date": "2019-09-15T04:05:27.050Z",
   "coordinates": [
-    28.54,
-    77.24
+    25.08,
+    121.23
   ],
-  "label": "Delhi",
-  "full_label": "Indramohan Bhardwaj Marg, Alaknanda, Kalkaji Tehsil, South East Delhi, Delhi, 110048, India",
+  "label": "Taoyuan City",
+  "full_label": "Taiwan Taoyuan International Airport, 9, Hangzhan South Road, Puxin Village, Dayuan District, Taoyuan City, 33758, Taiwan",
   "timezone": {
-    "name": "Asia/Kolkata",
+    "name": "Asia/Taipei",
     "countries": [
-      "IN"
+      "TW"
     ],
-    "utcOffset": 330,
-    "utcOffsetStr": "+05:30",
-    "dstOffset": 330,
-    "dstOffsetStr": "+05:30",
+    "utcOffset": 480,
+    "utcOffsetStr": "+08:00",
+    "dstOffset": 480,
+    "dstOffsetStr": "+08:00",
     "aliasOf": null
   },
-  "country_code": "in",
-  "country_emoji": "🇮🇳"
+  "country_code": "tw",
+  "country_emoji": "🇹🇼"
 }
