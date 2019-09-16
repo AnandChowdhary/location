@@ -1,26 +1,43 @@
 {
-  "updatedAt": "2019-09-13T13:36:46.000Z",
+  "updatedAt": "2019-09-16T05:49:15.179Z",
   "approximateCoordinates": [
-    28.56,
-    77.2
+    37.72,
+    -121.85
   ],
-  "label": "Delhi",
-  "timezone": {
-    "name": "Asia/Kolkata",
-    "countries": [
-      "IN"
-    ],
-    "utcOffset": 330,
-    "utcOffsetStr": "+05:30",
-    "dstOffset": 330,
-    "dstOffsetStr": "+05:30",
-    "aliasOf": null
-  },
+  "label": "San Francisco",
   "country": {
-    "code": "IN",
-    "name": "India",
+    "code": "US",
+    "name": "United States of America",
     "timezones": [
-      "Asia/Kolkata"
+      "America/Adak",
+      "America/Anchorage",
+      "America/Boise",
+      "America/Chicago",
+      "America/Denver",
+      "America/Detroit",
+      "America/Indiana/Indianapolis",
+      "America/Indiana/Knox",
+      "America/Indiana/Marengo",
+      "America/Indiana/Petersburg",
+      "America/Indiana/Tell_City",
+      "America/Indiana/Vevay",
+      "America/Indiana/Vincennes",
+      "America/Indiana/Winamac",
+      "America/Juneau",
+      "America/Kentucky/Louisville",
+      "America/Kentucky/Monticello",
+      "America/Los_Angeles",
+      "America/Menominee",
+      "America/Metlakatla",
+      "America/New_York",
+      "America/Nome",
+      "America/North_Dakota/Beulah",
+      "America/North_Dakota/Center",
+      "America/North_Dakota/New_Salem",
+      "America/Phoenix",
+      "America/Sitka",
+      "America/Yakutat",
+      "Pacific/Honolulu"
     ]
   }
 }
