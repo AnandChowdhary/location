@@ -1,20 +1,20 @@
 {
-  "date": "2019-09-24T05:39:04.242Z",
+  "date": "2019-09-24T06:48:29.983Z",
   "coordinates": [
-    37.71,
-    -122.22
+    40.64,
+    -73.78
   ],
-  "label": "Oakland",
-  "full_label": "John Glenn Drive, Oakland, Alameda County, California, 94614, United States",
+  "label": "New York",
+  "full_label": "John F. Kennedy International Airport, JFK Access Road, Queens, Queens County, New York, 11430, United States",
   "timezone": {
-    "name": "America/Los_Angeles",
+    "name": "America/New_York",
     "countries": [
       "US"
     ],
-    "utcOffset": -480,
-    "utcOffsetStr": "-08:00",
-    "dstOffset": -420,
-    "dstOffsetStr": "-07:00",
+    "utcOffset": -300,
+    "utcOffsetStr": "-05:00",
+    "dstOffset": -240,
+    "dstOffsetStr": "-04:00",
     "aliasOf": null
   },
   "country_code": "us",
