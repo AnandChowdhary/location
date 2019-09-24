@@ -1,11 +1,11 @@
 {
-  "date": "2019-09-24T06:48:29.983Z",
+  "date": "2019-09-24T23:52:06.512Z",
   "coordinates": [
-    40.64,
-    -73.78
+    40.74,
+    -74.18
   ],
-  "label": "New York",
-  "full_label": "John F. Kennedy International Airport, JFK Access Road, Queens, Queens County, New York, 11430, United States",
+  "label": "Newark",
+  "full_label": "Essex County College, West Market Street, Teachers Village, Newark, Essex County, New Jersey, 07103, United States",
   "timezone": {
     "name": "America/New_York",
     "countries": [
