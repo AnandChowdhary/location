@@ -1,20 +1,20 @@
 {
-  "date": "2019-09-25T01:46:34.487Z",
+  "date": "2019-09-26T22:47:46.489Z",
   "coordinates": [
-    40.75,
-    -73.77
+    37.71,
+    -122.22
   ],
-  "label": "New York",
-  "full_label": "53-32, Oceania Street, Oakland Gardens, Queens, Queens County, New York, 11364, United States",
+  "label": "Oakland",
+  "full_label": "John Glenn Drive, Oakland, Alameda County, California, 94614, United States",
   "timezone": {
-    "name": "America/New_York",
+    "name": "America/Los_Angeles",
     "countries": [
       "US"
     ],
-    "utcOffset": -300,
-    "utcOffsetStr": "-05:00",
-    "dstOffset": -240,
-    "dstOffsetStr": "-04:00",
+    "utcOffset": -480,
+    "utcOffsetStr": "-08:00",
+    "dstOffset": -420,
+    "dstOffsetStr": "-07:00",
     "aliasOf": null
   },
   "country_code": "us",
