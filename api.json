@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2019-09-25T02:23:23.368Z",
+  "updatedAt": "2019-09-27T04:59:11.796Z",
   "approximateCoordinates": [
-    40.75,
-    -73.77
+    37.71,
+    -122.22
   ],
-  "label": "New York",
+  "label": "San Francisco",
   "country": {
     "code": "US",
     "name": "United States of America",
