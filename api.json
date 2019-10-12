@@ -1,11 +1,11 @@
 {
-  "date": "2019-10-12T01:44:56.596Z",
+  "date": "2019-10-12T06:03:58.832Z",
   "coordinates": [
-    37.72,
-    -121.85
+    37.73,
+    -122.2
   ],
-  "label": "Dublin",
-  "full_label": "5165, Salerno Drive, Dublin, Alameda County, California, 94568, United States",
+  "label": "Oakland",
+  "full_label": "Hegenberger Road, Oakland, Alameda County, California, 94614, United States",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
