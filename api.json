@@ -1,11 +1,11 @@
 {
-  "date": "2019-10-25T14:48:19.151Z",
+  "date": "2019-10-25T22:40:19.000Z",
   "coordinates": [
-    37.35,
-    -121.94
+    37.69,
+    -121.77
   ],
-  "label": "Santa Clara",
-  "full_label": "Santa Clara University, 500, El Camino Real, Santa Clara, Santa Clara County, California, 95053, United States",
+  "label": "Livermore",
+  "full_label": "Lawrence Elementary, Junction Avenue, The Meadows, Livermore, Alameda County, California, 94550, United States",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
