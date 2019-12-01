@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2019-11-01T00:31:48.945Z",
+  "updatedAt": "2019-12-01T02:16:17.243Z",
   "approximateCoordinates": [
-    37.76,
-    -122.42
+    37.7,
+    -121.88
   ],
-  "label": "Dublin",
+  "label": "San Francisco",
   "country": {
     "code": "US",
     "name": "United States of America",
