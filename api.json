@@ -1,11 +1,11 @@
 {
-  "date": "2019-12-03T02:44:30.074Z",
+  "date": "2019-12-04T19:04:32.426Z",
   "coordinates": [
-    37.68,
-    -121.77
+    37.35,
+    -121.94
   ],
-  "label": "Livermore",
-  "full_label": "Third Street, Livermore, Alameda County, California, 94550, United States",
+  "label": "Santa Clara",
+  "full_label": "Santa Clara University, 500, El Camino Real, Santa Clara, Santa Clara County, California, 95053, United States",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
