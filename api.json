@@ -1,11 +1,11 @@
 {
-  "date": "2019-12-09T04:48:18.563Z",
+  "date": "2019-12-10T00:40:04.054Z",
   "coordinates": [
-    37.71,
-    -121.89
+    37.37,
+    -121.95
   ],
-  "label": "Dublin",
-  "full_label": "Central Parkway, Dublin, Alameda County, California, 94588, United States",
+  "label": "Santa Clara",
+  "full_label": "Walsh Avenue, Santa Clara, Santa Clara County, California, 95015, United States",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
