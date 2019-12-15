@@ -1,20 +1,20 @@
 {
-  "date": "2019-12-15T05:18:56.592Z",
+  "date": "2019-12-15T07:41:27.771Z",
   "coordinates": [
-    37.71,
-    -122.21
+    40.65,
+    -73.78
   ],
-  "label": "Oakland",
-  "full_label": "Edward White Way, Oakland, Alameda County, California, 94614, United States",
+  "label": "New York",
+  "full_label": "2, JFK Access Road, Queens, Queens County, New York, 11430, United States",
   "timezone": {
-    "name": "America/Los_Angeles",
+    "name": "America/New_York",
     "countries": [
       "US"
     ],
-    "utcOffset": -480,
-    "utcOffsetStr": "-08:00",
-    "dstOffset": -420,
-    "dstOffsetStr": "-07:00",
+    "utcOffset": -300,
+    "utcOffsetStr": "-05:00",
+    "dstOffset": -240,
+    "dstOffsetStr": "-04:00",
     "aliasOf": null
   },
   "country_code": "us",
