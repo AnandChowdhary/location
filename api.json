@@ -1,11 +1,11 @@
 {
-  "date": "2019-12-15T07:41:27.771Z",
+  "date": "2019-12-16T15:34:30.599Z",
   "coordinates": [
-    40.65,
-    -73.78
+    40.7,
+    -74.19
   ],
-  "label": "New York",
-  "full_label": "2, JFK Access Road, Queens, Queens County, New York, 11430, United States",
+  "label": "Newark",
+  "full_label": "Bessemer Street, Newark, Essex County, New Jersey, 07114, United States",
   "timezone": {
     "name": "America/New_York",
     "countries": [
