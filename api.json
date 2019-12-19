@@ -1,11 +1,11 @@
 {
-  "date": "2019-12-16T18:08:02.565Z",
+  "date": "2019-12-19T00:02:55.969Z",
   "coordinates": [
-    42.37,
-    -71.02
+    40.67,
+    -74.18
   ],
-  "label": "Boston",
-  "full_label": "Logan Airport Terminal E, East Boston, Boston, Suffolk County, Massachusetts, 02128, United States",
+  "label": "Elizabeth",
+  "full_label": "North Avenue East, Elizabeth, Union County, New Jersey, 07201, United States",
   "timezone": {
     "name": "America/New_York",
     "countries": [
