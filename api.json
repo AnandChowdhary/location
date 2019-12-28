@@ -1,43 +1,26 @@
 {
-  "updatedAt": "2019-12-25T01:34:57.672Z",
+  "updatedAt": "2019-12-28T07:37:37.196Z",
   "approximateCoordinates": [
-    40.85,
-    -73.92
+    28.56,
+    77.1
   ],
-  "label": "New York",
+  "label": "Delhi",
+  "timezone": {
+    "name": "Asia/Kolkata",
+    "countries": [
+      "IN"
+    ],
+    "utcOffset": 330,
+    "utcOffsetStr": "+05:30",
+    "dstOffset": 330,
+    "dstOffsetStr": "+05:30",
+    "aliasOf": null
+  },
   "country": {
-    "code": "US",
-    "name": "United States of America",
+    "code": "IN",
+    "name": "India",
     "timezones": [
-      "America/Adak",
-      "America/Anchorage",
-      "America/Boise",
-      "America/Chicago",
-      "America/Denver",
-      "America/Detroit",
-      "America/Indiana/Indianapolis",
-      "America/Indiana/Knox",
-      "America/Indiana/Marengo",
-      "America/Indiana/Petersburg",
-      "America/Indiana/Tell_City",
-      "America/Indiana/Vevay",
-      "America/Indiana/Vincennes",
-      "America/Indiana/Winamac",
-      "America/Juneau",
-      "America/Kentucky/Louisville",
-      "America/Kentucky/Monticello",
-      "America/Los_Angeles",
-      "America/Menominee",
-      "America/Metlakatla",
-      "America/New_York",
-      "America/Nome",
-      "America/North_Dakota/Beulah",
-      "America/North_Dakota/Center",
-      "America/North_Dakota/New_Salem",
-      "America/Phoenix",
-      "America/Sitka",
-      "America/Yakutat",
-      "Pacific/Honolulu"
+      "Asia/Kolkata"
     ]
   }
 }
