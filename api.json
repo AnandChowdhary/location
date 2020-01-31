@@ -1,22 +1,22 @@
 {
-  "date": "2020-01-20T08:57:15.487Z",
+  "date": "2020-01-31T20:58:20.906Z",
   "coordinates": [
-    28.54,
-    77.24
+    41.26,
+    28.74
   ],
-  "label": "Delhi",
-  "full_label": "Indramohan Bhardwaj Marg, Alaknanda, Kalkaji Tehsil, South East Delhi, Delhi, 110048, India",
+  "label": "Arnavutköy",
+  "full_label": "Istanbul Airport Terminal Building, Terminal Caddesi, Tayakadın Mahallesi, Arnavutköy, Istanbul, Marmara Region, 34277, Turkey",
   "timezone": {
-    "name": "Asia/Kolkata",
+    "name": "Europe/Istanbul",
     "countries": [
-      "IN"
+      "TR"
     ],
-    "utcOffset": 330,
-    "utcOffsetStr": "+05:30",
-    "dstOffset": 330,
-    "dstOffsetStr": "+05:30",
+    "utcOffset": 180,
+    "utcOffsetStr": "+03:00",
+    "dstOffset": 180,
+    "dstOffsetStr": "+03:00",
     "aliasOf": null
   },
-  "country_code": "in",
-  "country_emoji": "🇮🇳"
+  "country_code": "tr",
+  "country_emoji": "🇹🇷"
 }
