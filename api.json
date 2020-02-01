@@ -1,22 +1,23 @@
 {
-  "date": "2020-01-31T20:58:20.906Z",
+  "date": "2020-02-01T10:41:57.957Z",
   "coordinates": [
-    41.26,
-    28.74
+    52.31,
+    4.76
   ],
-  "label": "Arnavutköy",
-  "full_label": "Istanbul Airport Terminal Building, Terminal Caddesi, Tayakadın Mahallesi, Arnavutköy, Istanbul, Marmara Region, 34277, Turkey",
+  "label": "North Holland",
+  "full_label": "Vertrekpassage, Schiphol, Haarlemmermeer, North Holland, Netherlands, 1118 AS, Netherlands",
   "timezone": {
-    "name": "Europe/Istanbul",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "TR"
+      "NL"
     ],
-    "utcOffset": 180,
-    "utcOffsetStr": "+03:00",
-    "dstOffset": 180,
-    "dstOffsetStr": "+03:00",
-    "aliasOf": null
+    "utcOffset": 60,
+    "utcOffsetStr": "+01:00",
+    "dstOffset": 120,
+    "dstOffsetStr": "+02:00",
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "tr",
-  "country_emoji": "🇹🇷"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
