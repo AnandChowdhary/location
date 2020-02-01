@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2020-01-30T15:48:08.000Z",
+  "updatedAt": "2020-02-01T08:11:05.109Z",
   "approximateCoordinates": [
-    28.55,
-    77.26
+    41.26,
+    28.74
   ],
-  "label": "Delhi",
+  "label": "Arnavutköy/İstanbul",
   "timezone": {
-    "name": "Asia/Kolkata",
+    "name": "Europe/Istanbul",
     "countries": [
-      "IN"
+      "TR"
     ],
-    "utcOffset": 330,
-    "utcOffsetStr": "+05:30",
-    "dstOffset": 330,
-    "dstOffsetStr": "+05:30",
+    "utcOffset": 180,
+    "utcOffsetStr": "+03:00",
+    "dstOffset": 180,
+    "dstOffsetStr": "+03:00",
     "aliasOf": null
   },
   "country": {
-    "code": "IN",
-    "name": "India",
+    "code": "TR",
+    "name": "Turkey",
     "timezones": [
-      "Asia/Kolkata"
+      "Europe/Istanbul"
     ]
   }
 }
