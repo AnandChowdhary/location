@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2020-03-15T09:46:50.000Z",
+  "updatedAt": "2020-03-15T11:36:11.000Z",
   "approximateCoordinates": [
-    52.31,
-    4.77
+    52.11,
+    4.28
   ],
-  "label": "Schiphol",
+  "label": "Den",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
