@@ -1,22 +1,23 @@
 {
-  "date": "2021-03-14T07:47:04.000Z",
+  "date": "2021-04-04T21:02:59.300Z",
   "coordinates": [
-    28.48,
-    77.02
+    52.31,
+    4.76
   ],
-  "label": "Gurgaon",
-  "full_label": "Sector 5, Gurgaon, Gurugram, Haryana, 120001, India",
+  "label": "North Holland",
+  "full_label": "Vertrekpassage, Schiphol, Haarlemmermeer, North Holland, Netherlands, 1118 AS, Netherlands",
   "timezone": {
-    "name": "Asia/Kolkata",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "IN"
+      "NL"
     ],
-    "utcOffset": 330,
-    "utcOffsetStr": "+05:30",
-    "dstOffset": 330,
-    "dstOffsetStr": "+05:30",
-    "aliasOf": null
+    "utcOffset": 60,
+    "utcOffsetStr": "+01:00",
+    "dstOffset": 120,
+    "dstOffsetStr": "+02:00",
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "in",
-  "country_emoji": "🇮🇳"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
