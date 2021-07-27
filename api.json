@@ -1,22 +1,23 @@
 {
-  "date": "2021-07-06T12:17:11.000Z",
+  "date": "2021-07-27T22:48:10.000Z",
   "coordinates": [
-    28.56,
-    77.08
+    52.31,
+    4.76
   ],
-  "label": "New Delhi",
-  "full_label": "Apron 32, Indira Gandhi International Airport Arrival Road, Vasant Vihar Tehsil, New Delhi, Delhi, 110077, India",
+  "label": "North Holland",
+  "full_label": "Vertrekpassage, Schiphol, Haarlemmermeer, North Holland, Netherlands, 1118 AS, Netherlands",
   "timezone": {
-    "name": "Asia/Kolkata",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "IN"
+      "NL"
     ],
-    "utcOffset": 330,
-    "utcOffsetStr": "+05:30",
-    "dstOffset": 330,
-    "dstOffsetStr": "+05:30",
-    "aliasOf": null
+    "utcOffset": 60,
+    "utcOffsetStr": "+01:00",
+    "dstOffset": 120,
+    "dstOffsetStr": "+02:00",
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "in",
-  "country_emoji": "🇮🇳"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
