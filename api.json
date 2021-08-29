@@ -1,11 +1,11 @@
 {
-  "date": "2021-08-22T17:55:03.572Z",
+  "date": "2021-08-29T06:48:36.000Z",
   "coordinates": [
-    53.21,
-    6.56
+    52.38,
+    4.9
   ],
-  "label": "Groningen",
-  "full_label": "Treindienstleiding Groningen, Zaanstraat, Rivierenbuurt, South, Groningen, Netherlands, 9725 HW, Netherlands",
+  "label": "Amsterdam",
+  "full_label": "Michiel de Ruijtertunnel, Centrum, Amsterdam, North Holland, Netherlands, 1012 AA, Netherlands",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
