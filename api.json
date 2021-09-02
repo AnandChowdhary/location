@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2021-09-02T08:56:12.971Z",
+  "updatedAt": "2021-09-02T11:05:59.432Z",
   "approximateCoordinates": [
-    52.31,
-    4.77
+    50.84,
+    4.34
   ],
-  "label": "Schiphol",
+  "label": "Bruxelles",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Europe/Brussels",
     "countries": [
-      "NL"
+      "BE"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -17,10 +17,10 @@
     "aliasOf": null
   },
   "country": {
-    "code": "NL",
-    "name": "Netherlands",
+    "code": "BE",
+    "name": "Belgium",
     "timezones": [
-      "Europe/Amsterdam"
+      "Europe/Brussels"
     ]
   }
 }
