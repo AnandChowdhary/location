@@ -1,17 +1,16 @@
 {
-  "date": "2021-09-02T09:30:19.433Z",
+  "date": "2021-09-02T11:13:22.366Z",
   "coordinates": [
-    50.84,
-    4.34
+    48.88,
+    2.35
   ],
-  "label": "Saint-Gilles - Sint-Gillis",
-  "full_label": "78, Boulevard Poincaré - Poincarélaan, Quartier Saint-Jacques - Sint-Jacobswijk, Brussels, Saint-Gilles - Sint-Gillis, Brussels-Capital, 1060, Belgium",
+  "label": "Paris",
+  "full_label": "Proman, Rue de Maubeuge, Quartier de Rochechouart, 10th Arrondissement, Paris, Ile-de-France, Metropolitan France, 75010, France",
   "timezone": {
-    "name": "Europe/Brussels",
+    "name": "Europe/Paris",
     "countries": [
-      "BE",
-      "LU",
-      "NL"
+      "FR",
+      "MC"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -19,6 +18,6 @@
     "dstOffsetStr": "+02:00",
     "aliasOf": null
   },
-  "country_code": "be",
-  "country_emoji": "🇧🇪"
+  "country_code": "fr",
+  "country_emoji": "🇫🇷"
 }
