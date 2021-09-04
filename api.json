@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2021-09-03T17:32:01.132Z",
+  "updatedAt": "2021-09-04T08:30:14.141Z",
   "approximateCoordinates": [
-    48.88,
-    2.34
+    48.8,
+    2.12
   ],
-  "label": "Paris",
+  "label": "Versailles",
   "timezone": {
     "name": "Europe/Paris",
     "countries": [
