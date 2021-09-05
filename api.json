@@ -1,16 +1,17 @@
 {
-  "date": "2021-09-03T16:34:49.011Z",
+  "date": "2021-09-05T21:18:40.151Z",
   "coordinates": [
-    48.88,
-    2.34
+    50.97,
+    3.61
   ],
-  "label": "Paris",
-  "full_label": "Au Verger Fleuri, 47, Rue des Martyrs, Quartier Saint-Georges, 9th Arrondissement, Paris, Metropolitan France, 75009, France",
+  "label": "Nazareth",
+  "full_label": "Sticheldreef, Nazareth, Nazareth-De Pinte, Gent, East Flanders, 9810, Belgium",
   "timezone": {
-    "name": "Europe/Paris",
+    "name": "Europe/Brussels",
     "countries": [
-      "FR",
-      "MC"
+      "BE",
+      "LU",
+      "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -18,6 +19,6 @@
     "dstOffsetStr": "+02:00",
     "aliasOf": null
   },
-  "country_code": "fr",
-  "country_emoji": "🇫🇷"
+  "country_code": "be",
+  "country_emoji": "🇧🇪"
 }
