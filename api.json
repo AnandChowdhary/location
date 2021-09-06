@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2021-09-06T02:23:18.254Z",
+  "updatedAt": "2021-09-06T04:24:35.083Z",
   "approximateCoordinates": [
-    51.48,
-    4.73
+    52.39,
+    4.84
   ],
-  "label": "Hoogstraten",
+  "label": "Amsterdam",
   "timezone": {
-    "name": "Europe/Brussels",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "BE"
+      "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -17,10 +17,10 @@
     "aliasOf": null
   },
   "country": {
-    "code": "BE",
-    "name": "Belgium",
+    "code": "NL",
+    "name": "Netherlands",
     "timezones": [
-      "Europe/Brussels"
+      "Europe/Amsterdam"
     ]
   }
 }
