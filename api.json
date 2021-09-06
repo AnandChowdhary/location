@@ -1,11 +1,11 @@
 {
-  "date": "2021-09-06T01:52:05.140Z",
+  "date": "2021-09-06T04:24:35.083Z",
   "coordinates": [
-    51.48,
-    4.73
+    52.39,
+    4.84
   ],
-  "label": "Hoogstraten",
-  "full_label": "4, Amsterdamstraat, Transportzone Meer, Meer, Hoogstraten, Turnhout, Antwerp, 2321, Belgium",
+  "label": "Amsterdam",
+  "full_label": "Hatostraat, Teleport, Nieuw-West, Amsterdam, North Holland, Netherlands, 1043 DL, Netherlands",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
@@ -18,6 +18,6 @@
     "aliasOf": "Europe/Brussels",
     "deprecated": true
   },
-  "country_code": "be",
-  "country_emoji": "🇧🇪"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
