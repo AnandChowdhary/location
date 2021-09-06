@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2021-09-04T16:43:53.370Z",
+  "updatedAt": "2021-09-06T00:32:44.240Z",
   "approximateCoordinates": [
-    48.86,
-    2.33
+    50.97,
+    3.61
   ],
-  "label": "Paris",
+  "label": "Nazareth",
   "timezone": {
-    "name": "Europe/Paris",
+    "name": "Europe/Brussels",
     "countries": [
-      "FR"
+      "BE"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -17,10 +17,10 @@
     "aliasOf": null
   },
   "country": {
-    "code": "FR",
-    "name": "France",
+    "code": "BE",
+    "name": "Belgium",
     "timezones": [
-      "Europe/Paris"
+      "Europe/Brussels"
     ]
   }
 }
