@@ -1,14 +1,16 @@
 {
-  "updatedAt": "2021-09-29T10:55:08.228Z",
+  "updatedAt": "2021-09-29T14:52:28.375Z",
   "approximateCoordinates": [
-    52.31,
-    4.77
+    47.46,
+    8.55
   ],
-  "label": "Schiphol",
+  "label": "Kloten",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Europe/Zurich",
     "countries": [
-      "NL"
+      "CH",
+      "DE",
+      "LI"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -17,10 +19,10 @@
     "aliasOf": null
   },
   "country": {
-    "code": "NL",
-    "name": "Netherlands",
+    "code": "CH",
+    "name": "Switzerland",
     "timezones": [
-      "Europe/Amsterdam"
+      "Europe/Zurich"
     ]
   }
 }
