@@ -1,11 +1,11 @@
 {
-  "date": "2021-09-29T13:30:39.747Z",
+  "date": "2021-10-01T08:59:23.194Z",
   "coordinates": [
-    47.45,
-    8.56
+    46.95,
+    7.44
   ],
-  "label": "Kloten",
-  "full_label": "Bravo, Arrival corridor B North, Kloten, Bezirk Bülach, Zurich, 8302, Switzerland",
+  "label": "Bern",
+  "full_label": "8a, Bollwerk, Rotes Quartier, Stadtteil I, Bern, Bern-Mittelland administrative district, Bernese Mittelland administrative region, Bern, 3011, Switzerland",
   "timezone": {
     "name": "Europe/Zurich",
     "countries": [
