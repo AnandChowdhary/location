@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2021-10-03T21:07:38.365Z",
+  "updatedAt": "2021-10-03T21:40:30.128Z",
   "approximateCoordinates": [
-    52.31,
-    4.76
+    52.39,
+    4.84
   ],
-  "label": "Schiphol",
+  "label": "Amsterdam",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
