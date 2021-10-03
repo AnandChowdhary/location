@@ -1,11 +1,11 @@
 {
-  "date": "2021-10-03T08:41:56.277Z",
+  "date": "2021-10-03T10:07:52.000Z",
   "coordinates": [
-    47.06,
-    8.31
+    46.23,
+    6.11
   ],
-  "label": "Lucerne",
-  "full_label": "13, Wesemlinrain, Hochwacht, Lucerne, 6006, Switzerland",
+  "label": "Le Grand-Saconnex",
+  "full_label": "A1, Le Grand-Saconnex, Geneva, 1215, Switzerland",
   "timezone": {
     "name": "Europe/Zurich",
     "countries": [
