@@ -1,16 +1,14 @@
 {
-  "updatedAt": "2021-10-03T11:13:13.000Z",
+  "updatedAt": "2021-10-03T21:07:38.365Z",
   "approximateCoordinates": [
-    46.24,
-    6.11
+    52.31,
+    4.76
   ],
-  "label": "Grand-Saconnex",
+  "label": "Schiphol",
   "timezone": {
-    "name": "Europe/Zurich",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "CH",
-      "DE",
-      "LI"
+      "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -19,10 +17,10 @@
     "aliasOf": null
   },
   "country": {
-    "code": "CH",
-    "name": "Switzerland",
+    "code": "NL",
+    "name": "Netherlands",
     "timezones": [
-      "Europe/Zurich"
+      "Europe/Amsterdam"
     ]
   }
 }
