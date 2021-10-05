@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2021-10-03T21:40:30.128Z",
+  "updatedAt": "2021-10-05T09:23:17.000Z",
   "approximateCoordinates": [
-    52.39,
-    4.84
+    53.22,
+    6.56
   ],
-  "label": "Amsterdam",
+  "label": "Groningen",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
