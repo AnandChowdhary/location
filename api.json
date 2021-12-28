@@ -1,23 +1,22 @@
 {
-  "date": "2021-12-28T06:17:41.402Z",
+  "date": "2021-12-28T10:50:15.414Z",
   "coordinates": [
-    52.31,
-    4.76
+    28.54,
+    77.24
   ],
-  "label": "North Holland",
-  "full_label": "Vertrekpassage, Schiphol, Haarlemmermeer, North Holland, Netherlands, 1118 AS, Netherlands",
+  "label": "Delhi",
+  "full_label": "Indramohan Bhardwaj Marg, Alaknanda, Kalkaji Tehsil, South East Delhi, Delhi, 110048, India",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Asia/Kolkata",
     "countries": [
-      "NL"
+      "IN"
     ],
-    "utcOffset": 60,
-    "utcOffsetStr": "+01:00",
-    "dstOffset": 120,
-    "dstOffsetStr": "+02:00",
-    "aliasOf": "Europe/Brussels",
-    "deprecated": true
+    "utcOffset": 330,
+    "utcOffsetStr": "+05:30",
+    "dstOffset": 330,
+    "dstOffsetStr": "+05:30",
+    "aliasOf": null
   },
-  "country_code": "nl",
-  "country_emoji": "🇳🇱"
+  "country_code": "in",
+  "country_emoji": "🇮🇳"
 }
