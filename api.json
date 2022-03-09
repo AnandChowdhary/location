@@ -1,23 +1,23 @@
 {
-  "date": "2022-03-06T16:24:08.641Z",
+  "date": "2022-03-09T11:45:09.635Z",
   "coordinates": [
-    50.09,
-    14.44
+    52.31,
+    4.76
   ],
-  "label": "Capital City of Prague",
-  "full_label": "345/4, Křižíkova, Florenc, Karlín, Prague, obvod Praha 8, Capital City of Prague, Prague, 186 00, Czechia",
+  "label": "North Holland",
+  "full_label": "Vertrekpassage, Schiphol, Haarlemmermeer, North Holland, Netherlands, 1118 AS, Netherlands",
   "timezone": {
-    "name": "Europe/Prague",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "CZ",
-      "SK"
+      "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": null
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "cz",
-  "country_emoji": "🇨🇿"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
