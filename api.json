@@ -1,16 +1,27 @@
 {
-  "updatedAt": "2022-03-05T15:42:34.258Z",
+  "updatedAt": "2022-03-09T10:23:56.999Z",
   "approximateCoordinates": [
-    52.51,
-    13.34
+    50.1,
+    14.26
   ],
-  "label": "Berlin",
+  "label": "Praha",
+  "timezone": {
+    "name": "Europe/Prague",
+    "countries": [
+      "CZ",
+      "SK"
+    ],
+    "utcOffset": 60,
+    "utcOffsetStr": "+01:00",
+    "dstOffset": 120,
+    "dstOffsetStr": "+02:00",
+    "aliasOf": null
+  },
   "country": {
-    "code": "DE",
-    "name": "Germany",
+    "code": "CZ",
+    "name": "Czechia",
     "timezones": [
-      "Europe/Berlin",
-      "Europe/Zurich"
+      "Europe/Prague"
     ]
   }
 }
