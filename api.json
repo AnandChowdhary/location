@@ -1,15 +1,14 @@
 {
-  "updatedAt": "2022-03-09T10:23:56.999Z",
+  "updatedAt": "2022-03-09T13:55:58.939Z",
   "approximateCoordinates": [
-    50.1,
-    14.26
+    52.31,
+    4.77
   ],
-  "label": "Praha",
+  "label": "Schiphol",
   "timezone": {
-    "name": "Europe/Prague",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "CZ",
-      "SK"
+      "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -18,10 +17,10 @@
     "aliasOf": null
   },
   "country": {
-    "code": "CZ",
-    "name": "Czechia",
+    "code": "NL",
+    "name": "Netherlands",
     "timezones": [
-      "Europe/Prague"
+      "Europe/Amsterdam"
     ]
   }
 }
