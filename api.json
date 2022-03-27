@@ -1,11 +1,11 @@
 {
-  "date": "2022-03-20T17:44:14.738Z",
+  "date": "2022-03-27T08:48:34.429Z",
   "coordinates": [
-    53.21,
-    6.56
+    52.31,
+    4.76
   ],
-  "label": "Groningen",
-  "full_label": "Treindienstleiding Groningen, Zaanstraat, Rivierenbuurt, South, Groningen, Netherlands, 9725 HW, Netherlands",
+  "label": "North Holland",
+  "full_label": "Vertrekpassage, Schiphol, Haarlemmermeer, North Holland, Netherlands, 1118 AS, Netherlands",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
