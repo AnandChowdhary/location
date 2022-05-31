@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2022-05-31T07:38:24.634Z",
+  "updatedAt": "2022-05-31T12:47:08.998Z",
   "approximateCoordinates": [
-    51.5,
-    4.74
+    48.84,
+    2.38
   ],
-  "label": "Breda",
+  "label": "Paris",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Europe/Paris",
     "countries": [
-      "NL"
+      "FR"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -17,10 +17,10 @@
     "aliasOf": null
   },
   "country": {
-    "code": "NL",
-    "name": "Netherlands",
+    "code": "FR",
+    "name": "France",
     "timezones": [
-      "Europe/Amsterdam"
+      "Europe/Paris"
     ]
   }
 }
