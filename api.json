@@ -1,11 +1,11 @@
 {
-  "date": "2022-05-04T11:39:58.000Z",
+  "date": "2022-05-31T02:53:51.000Z",
   "coordinates": [
-    53.21,
-    6.57
+    52.39,
+    4.84
   ],
-  "label": "Groningen",
-  "full_label": "Hovenstraat, Davidstraatbuurt, Rivierenbuurt, South, Groningen, Netherlands, 9725 BW, Netherlands",
+  "label": "Amsterdam",
+  "full_label": "Hatostraat, Teleport, Nieuw-West, Amsterdam, North Holland, Netherlands, 1043 DL, Netherlands",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
