@@ -1,16 +1,17 @@
 {
-  "date": "2022-06-01T22:05:02.024Z",
+  "date": "2022-06-01T23:54:11.000Z",
   "coordinates": [
-    49.89,
-    2.84
+    50.97,
+    3.61
   ],
-  "label": "Hauts-de-France",
-  "full_label": "Autoroute du Nord, Assevillers, Péronne, Somme, Hauts-de-France, Metropolitan France, 80200, France",
+  "label": "Nazareth",
+  "full_label": "Sticheldreef, Nazareth, Nazareth-De Pinte, Gent, East Flanders, 9810, Belgium",
   "timezone": {
-    "name": "Europe/Paris",
+    "name": "Europe/Brussels",
     "countries": [
-      "FR",
-      "MC"
+      "BE",
+      "LU",
+      "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -18,6 +19,6 @@
     "dstOffsetStr": "+02:00",
     "aliasOf": null
   },
-  "country_code": "fr",
-  "country_emoji": "🇫🇷"
+  "country_code": "be",
+  "country_emoji": "🇧🇪"
 }
