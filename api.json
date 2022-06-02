@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2022-06-02T01:26:01.000Z",
+  "updatedAt": "2022-06-02T04:32:29.469Z",
   "approximateCoordinates": [
-    50.97,
-    3.61
+    52.39,
+    4.84
   ],
-  "label": "Nazareth",
+  "label": "Amsterdam",
   "timezone": {
-    "name": "Europe/Brussels",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "BE"
+      "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -17,10 +17,10 @@
     "aliasOf": null
   },
   "country": {
-    "code": "BE",
-    "name": "Belgium",
+    "code": "NL",
+    "name": "Netherlands",
     "timezones": [
-      "Europe/Brussels"
+      "Europe/Amsterdam"
     ]
   }
 }
