@@ -1,24 +1,23 @@
 {
-  "date": "2022-06-01T23:54:11.000Z",
+  "date": "2022-06-02T02:02:45.998Z",
   "coordinates": [
-    50.97,
-    3.61
+    52.39,
+    4.84
   ],
-  "label": "Nazareth",
-  "full_label": "Sticheldreef, Nazareth, Nazareth-De Pinte, Gent, East Flanders, 9810, Belgium",
+  "label": "Amsterdam",
+  "full_label": "Hatostraat, Teleport, Nieuw-West, Amsterdam, North Holland, Netherlands, 1043 DL, Netherlands",
   "timezone": {
-    "name": "Europe/Brussels",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "BE",
-      "LU",
       "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": null
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "be",
-  "country_emoji": "🇧🇪"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
