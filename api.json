@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2022-06-01T23:34:21.401Z",
+  "updatedAt": "2022-06-02T01:26:01.000Z",
   "approximateCoordinates": [
-    49.89,
-    2.84
+    50.97,
+    3.61
   ],
-  "label": "Assevillers",
+  "label": "Nazareth",
   "timezone": {
-    "name": "Europe/Paris",
+    "name": "Europe/Brussels",
     "countries": [
-      "FR"
+      "BE"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -17,10 +17,10 @@
     "aliasOf": null
   },
   "country": {
-    "code": "FR",
-    "name": "France",
+    "code": "BE",
+    "name": "Belgium",
     "timezones": [
-      "Europe/Paris"
+      "Europe/Brussels"
     ]
   }
 }
