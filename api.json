@@ -1,23 +1,22 @@
 {
-  "date": "2022-06-06T09:57:10.999Z",
+  "date": "2022-06-06T14:37:09.000Z",
   "coordinates": [
-    52.34,
-    4.87
+    40.91,
+    29.32
   ],
-  "label": "Amsterdam",
-  "full_label": "3095, Strawinskylaan, Strawinsky, Zuidas, Zuid, Amsterdam, North Holland, Netherlands, 1077 ZX, Netherlands",
+  "label": "Pendik",
+  "full_label": "Apron 1, Havaalanı İç Yolu Caddesi, Sanayi Mahallesi, Pendik, Istanbul, Marmara Region, 34906, Turkey",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Europe/Istanbul",
     "countries": [
-      "NL"
+      "TR"
     ],
-    "utcOffset": 60,
-    "utcOffsetStr": "+01:00",
-    "dstOffset": 120,
-    "dstOffsetStr": "+02:00",
-    "aliasOf": "Europe/Brussels",
-    "deprecated": true
+    "utcOffset": 180,
+    "utcOffsetStr": "+03:00",
+    "dstOffset": 180,
+    "dstOffsetStr": "+03:00",
+    "aliasOf": null
   },
-  "country_code": "nl",
-  "country_emoji": "🇳🇱"
+  "country_code": "tr",
+  "country_emoji": "🇹🇷"
 }
