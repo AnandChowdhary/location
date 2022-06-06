@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2022-06-06T12:10:07.050Z",
+  "updatedAt": "2022-06-06T18:21:48.839Z",
   "approximateCoordinates": [
-    52.31,
-    4.77
+    40.91,
+    29.32
   ],
-  "label": "Schiphol",
+  "label": "Pendik/İstanbul",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Europe/Istanbul",
     "countries": [
-      "NL"
+      "TR"
     ],
-    "utcOffset": 60,
-    "utcOffsetStr": "+01:00",
-    "dstOffset": 120,
-    "dstOffsetStr": "+02:00",
+    "utcOffset": 180,
+    "utcOffsetStr": "+03:00",
+    "dstOffset": 180,
+    "dstOffsetStr": "+03:00",
     "aliasOf": null
   },
   "country": {
-    "code": "NL",
-    "name": "Netherlands",
+    "code": "TR",
+    "name": "Turkey",
     "timezones": [
-      "Europe/Amsterdam"
+      "Europe/Istanbul"
     ]
   }
 }
