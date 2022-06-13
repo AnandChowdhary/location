@@ -1,22 +1,23 @@
 {
-  "date": "2022-06-13T13:36:53.999Z",
+  "date": "2022-06-13T16:34:18.277Z",
   "coordinates": [
-    40.91,
-    29.31
+    52.33,
+    6.47
   ],
-  "label": "Pendik",
-  "full_label": "Sanayi Mahallesi, Pendik, Istanbul, Marmara Region, 34906, Turkey",
+  "label": "Nijverdal",
+  "full_label": "7a, Ligtenbergerweg, Hexel, Nijverdal, Hellendoorn, Overijssel, Netherlands, 7441 PE, Netherlands",
   "timezone": {
-    "name": "Europe/Istanbul",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "TR"
+      "NL"
     ],
-    "utcOffset": 180,
-    "utcOffsetStr": "+03:00",
-    "dstOffset": 180,
-    "dstOffsetStr": "+03:00",
-    "aliasOf": null
+    "utcOffset": 60,
+    "utcOffsetStr": "+01:00",
+    "dstOffset": 120,
+    "dstOffsetStr": "+02:00",
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "tr",
-  "country_emoji": "🇹🇷"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
