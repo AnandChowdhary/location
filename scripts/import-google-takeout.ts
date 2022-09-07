@@ -148,8 +148,8 @@ export const takeout = async () => {
   for (const place of places.sort(
     (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()
   )) {
-    if (new Date(place.date).getTime() > new Date(COMMIT_END_DATE).getTime())
-      continue;
+    // if (new Date(place.date).getTime() > new Date(COMMIT_END_DATE).getTime())
+    //   continue;
 
     if (previous?.label === place.label) continue;
 
