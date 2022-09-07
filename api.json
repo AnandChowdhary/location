@@ -1,11 +1,11 @@
 {
-  "date": "2022-09-07T13:58:22.000Z",
+  "date": "2022-09-07T15:03:30.000Z",
   "coordinates": [
-    52.31,
-    4.76
+    52.5,
+    6.09
   ],
-  "label": "North Holland",
-  "full_label": "Vertrekpassage, Schiphol, Haarlemmermeer, North Holland, Netherlands, 1118 AS, Netherlands",
+  "label": "Zwolle",
+  "full_label": "39, Greenshieldsstraat, Schellerbroek, Zwolle, Overijssel, Netherlands, 8017 GL, Netherlands",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
