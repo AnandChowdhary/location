@@ -1,16 +1,14 @@
 {
-  "updatedAt": "2022-09-16T10:39:10.558Z",
+  "updatedAt": "2022-09-16T11:02:24.000Z",
   "approximateCoordinates": [
-    47.55,
-    7.59
+    47.6,
+    7.53
   ],
-  "label": "Basel",
+  "label": "Saint-Louis",
   "timezone": {
-    "name": "Europe/Zurich",
+    "name": "Europe/Paris",
     "countries": [
-      "CH",
-      "DE",
-      "LI"
+      "FR"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -19,10 +17,10 @@
     "aliasOf": null
   },
   "country": {
-    "code": "CH",
-    "name": "Switzerland",
+    "code": "FR",
+    "name": "France",
     "timezones": [
-      "Europe/Zurich"
+      "Europe/Paris"
     ]
   }
 }
