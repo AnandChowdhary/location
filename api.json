@@ -1,11 +1,11 @@
 {
-  "date": "2022-09-16T07:34:34.000Z",
+  "date": "2022-09-16T09:53:32.231Z",
   "coordinates": [
-    46.95,
-    7.44
+    47.55,
+    7.59
   ],
-  "label": "Bern",
-  "full_label": "8a, Bollwerk, Rotes Quartier, Stadtteil I, Bern, Bern-Mittelland administrative district, Bernese Mittelland administrative region, Bern, 3011, Switzerland",
+  "label": "Basel",
+  "full_label": "59, Elisabethenstrasse, Vorstädte, Grossbasel, Basel, Basel-City, 4051, Switzerland",
   "timezone": {
     "name": "Europe/Zurich",
     "countries": [
