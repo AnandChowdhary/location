@@ -1,11 +1,11 @@
 {
-  "date": "2022-09-14T20:25:36.486Z",
+  "date": "2022-09-16T07:34:34.000Z",
   "coordinates": [
-    46.21,
-    6.14
+    46.95,
+    7.44
   ],
-  "label": "Geneva",
-  "full_label": "10bis/Squat, 10bis, Rue des Grottes, Grottes et Saint-Gervais, Geneva, 1201, Switzerland",
+  "label": "Bern",
+  "full_label": "8a, Bollwerk, Rotes Quartier, Stadtteil I, Bern, Bern-Mittelland administrative district, Bernese Mittelland administrative region, Bern, 3011, Switzerland",
   "timezone": {
     "name": "Europe/Zurich",
     "countries": [
