@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2022-09-16T11:02:24.000Z",
+  "updatedAt": "2022-09-16T15:09:40.000Z",
   "approximateCoordinates": [
-    47.6,
-    7.53
+    52.31,
+    4.77
   ],
-  "label": "Saint-Louis",
+  "label": "Schiphol",
   "timezone": {
-    "name": "Europe/Paris",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "FR"
+      "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -17,10 +17,10 @@
     "aliasOf": null
   },
   "country": {
-    "code": "FR",
-    "name": "France",
+    "code": "NL",
+    "name": "Netherlands",
     "timezones": [
-      "Europe/Paris"
+      "Europe/Amsterdam"
     ]
   }
 }
