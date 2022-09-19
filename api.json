@@ -1,11 +1,11 @@
 {
-  "date": "2022-09-19T12:48:21.000Z",
+  "date": "2022-09-19T14:22:18.000Z",
   "coordinates": [
-    52.5,
-    6.09
+    52.15,
+    5.37
   ],
-  "label": "Zwolle",
-  "full_label": "39, Greenshieldsstraat, Schellerbroek, Zwolle, Overijssel, Netherlands, 8017 GL, Netherlands",
+  "label": "Amersfoort",
+  "full_label": "10, Koningin Wilhelminalaan, Bergkwartier, De Berg-Noord, Amersfoort, Utrecht, Netherlands, 3818 HP, Netherlands",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
