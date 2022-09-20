@@ -1,26 +1,43 @@
 {
-  "updatedAt": "2022-09-20T04:36:50.874Z",
+  "updatedAt": "2022-09-20T20:26:30.000Z",
   "approximateCoordinates": [
-    52.31,
-    4.77
+    37.62,
+    -122.38
   ],
-  "label": "Schiphol",
-  "timezone": {
-    "name": "Europe/Amsterdam",
-    "countries": [
-      "NL"
-    ],
-    "utcOffset": 60,
-    "utcOffsetStr": "+01:00",
-    "dstOffset": 120,
-    "dstOffsetStr": "+02:00",
-    "aliasOf": null
-  },
+  "label": "San Francisco",
   "country": {
-    "code": "NL",
-    "name": "Netherlands",
+    "code": "US",
+    "name": "United States of America",
     "timezones": [
-      "Europe/Amsterdam"
+      "America/Adak",
+      "America/Anchorage",
+      "America/Boise",
+      "America/Chicago",
+      "America/Denver",
+      "America/Detroit",
+      "America/Indiana/Indianapolis",
+      "America/Indiana/Knox",
+      "America/Indiana/Marengo",
+      "America/Indiana/Petersburg",
+      "America/Indiana/Tell_City",
+      "America/Indiana/Vevay",
+      "America/Indiana/Vincennes",
+      "America/Indiana/Winamac",
+      "America/Juneau",
+      "America/Kentucky/Louisville",
+      "America/Kentucky/Monticello",
+      "America/Los_Angeles",
+      "America/Menominee",
+      "America/Metlakatla",
+      "America/New_York",
+      "America/Nome",
+      "America/North_Dakota/Beulah",
+      "America/North_Dakota/Center",
+      "America/North_Dakota/New_Salem",
+      "America/Phoenix",
+      "America/Sitka",
+      "America/Yakutat",
+      "Pacific/Honolulu"
     ]
   }
 }
