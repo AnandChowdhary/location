@@ -1,20 +1,20 @@
 {
-  "date": "2022-09-28T13:38:36.014Z",
+  "date": "2022-09-28T15:47:38.171Z",
   "coordinates": [
-    37.71,
-    -122.21
+    40.69,
+    -74.18
   ],
-  "label": "Oakland",
-  "full_label": "Edward White Way, Oakland, Alameda County, California, 94614, United States",
+  "label": "Elizabeth",
+  "full_label": "Newark Liberty International Airport, New Jersey Turnpike, Elizabeth, Union County, New Jersey, 07114, United States",
   "timezone": {
-    "name": "America/Los_Angeles",
+    "name": "America/New_York",
     "countries": [
       "US"
     ],
-    "utcOffset": -480,
-    "utcOffsetStr": "-08:00",
-    "dstOffset": -420,
-    "dstOffsetStr": "-07:00",
+    "utcOffset": -300,
+    "utcOffsetStr": "-05:00",
+    "dstOffset": -240,
+    "dstOffsetStr": "-04:00",
     "aliasOf": null
   },
   "country_code": "us",
