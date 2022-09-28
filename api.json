@@ -1,11 +1,11 @@
 {
-  "date": "2022-09-28T02:36:18.489Z",
+  "date": "2022-09-28T13:38:36.014Z",
   "coordinates": [
-    37.72,
-    -121.85
+    37.71,
+    -122.21
   ],
-  "label": "Dublin",
-  "full_label": "5165, Salerno Drive, Dublin, Alameda County, California, 94568, United States",
+  "label": "Oakland",
+  "full_label": "Edward White Way, Oakland, Alameda County, California, 94614, United States",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
