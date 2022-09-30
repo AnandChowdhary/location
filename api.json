@@ -1,0 +1,26 @@
+{
+  "updatedAt": "2022-08-22T04:09:06.049Z",
+  "approximateCoordinates": [
+    28.54,
+    77.24
+  ],
+  "label": "Delhi",
+  "timezone": {
+    "name": "Asia/Kolkata",
+    "countries": [
+      "IN"
+    ],
+    "utcOffset": 330,
+    "utcOffsetStr": "+05:30",
+    "dstOffset": 330,
+    "dstOffsetStr": "+05:30",
+    "aliasOf": null
+  },
+  "country": {
+    "code": "IN",
+    "name": "India",
+    "timezones": [
+      "Asia/Kolkata"
+    ]
+  }
+}
