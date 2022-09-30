@@ -1,12 +1,23 @@
 {
-  "updatedAt": "2022-09-28T22:36:18.592Z",
+  "updatedAt": "2022-09-30T07:55:28.963Z",
   "approximateCoordinates": [
-    40.75,
-    -73.99
+    40.64,
+    -73.78
   ],
-  "label": "New York",
+  "label": "City of New York",
+  "timezone": {
+    "name": "America/New_York",
+    "countries": [
+      "US"
+    ],
+    "utcOffset": -300,
+    "utcOffsetStr": "-05:00",
+    "dstOffset": -240,
+    "dstOffsetStr": "-04:00",
+    "aliasOf": null
+  },
   "country": {
-    "code": "US",
+    "code": "us",
     "name": "United States of America",
     "timezones": [
       "America/Adak",
