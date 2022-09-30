@@ -41,115 +41,105 @@ const getCountry = (label: string): string => {
 };
 
 export const takeout = async () => {
-  // const places: {
-  //   date: string;
-  //   latitude: number;
-  //   longitude: number;
-  //   label: string;
-  //   countryCode: string;
-  // }[] = [];
-  // for await (const { fullPath } of readdirp(
-  //   "/Users/anandchowdhary/Downloads/Takeout/Location History/Semantic Location History"
-  // )) {
-  //   if (!fullPath.endsWith(".json")) continue;
-  //   const { timelineObjects } = JSON.parse(await readFile(fullPath, "utf8"));
-  //   for (const item of timelineObjects) {
-  //     if (!("placeVisit" in item)) continue;
+  const places: {
+    date: string;
+    latitude: number;
+    longitude: number;
+    label: string;
+    countryCode: string;
+  }[] = [];
+  for await (const { fullPath } of readdirp(
+    "/Users/anandchowdhary/Downloads/Takeout/Location History/Semantic Location History"
+  )) {
+    if (!fullPath.endsWith(".json")) continue;
+    const { timelineObjects } = JSON.parse(await readFile(fullPath, "utf8"));
+    for (const item of timelineObjects) {
+      if (!("placeVisit" in item)) continue;
 
-  //     const result: {
-  //       location: {
-  //         latitudeE7: number;
-  //         longitudeE7: number;
-  //         placeId: string;
-  //         address: string;
-  //         name: string;
-  //       };
-  //       duration: {
-  //         startTimestamp: string;
-  //         endTimestamp: string;
-  //       };
-  //       otherCandidateLocations: {
-  //         latitudeE7: number;
-  //         longitudeE7: number;
-  //         placeId: string;
-  //         address: string;
-  //         name: string;
-  //       }[];
-  //     } = item.placeVisit;
-  //     if (
-  //       "location" in result &&
-  //       (typeof result.location.address === "string" ||
-  //         (result.otherCandidateLocations &&
-  //           result.otherCandidateLocations.find(
-  //             (item) => typeof item.address === "string"
-  //           )))
-  //     ) {
-  //       if (typeof result.location.address !== "string")
-  //         result.location.address =
-  //           result.otherCandidateLocations.find(
-  //             (item) => typeof item.address === "string"
-  //           )?.address ?? "";
-  //       const previous = places[places.length - 1];
-  //       let label =
-  //         result.location.address
-  //           .replace("、", ", ")
-  //           .split(", ")
-  //           .reverse()[1] ?? "";
-  //       const country = result.location.address.split(", ").reverse()[0];
-  //       if (!country) continue;
-  //       const countryCode = getCountry(country);
-  //       if (!label) continue;
-  //       label = label.replace(/[0-9]/g, "").trim();
-  //       if (label[2] === " ") label = label.split(" ")[1];
+      const result: {
+        location: {
+          latitudeE7: number;
+          longitudeE7: number;
+          placeId: string;
+          address: string;
+          name: string;
+        };
+        duration: {
+          startTimestamp: string;
+          endTimestamp: string;
+        };
+        otherCandidateLocations: {
+          latitudeE7: number;
+          longitudeE7: number;
+          placeId: string;
+          address: string;
+          name: string;
+        }[];
+      } = item.placeVisit;
+      if (
+        "location" in result &&
+        (typeof result.location.address === "string" ||
+          (result.otherCandidateLocations &&
+            result.otherCandidateLocations.find(
+              (item) => typeof item.address === "string"
+            )))
+      ) {
+        if (typeof result.location.address !== "string")
+          result.location.address =
+            result.otherCandidateLocations.find(
+              (item) => typeof item.address === "string"
+            )?.address ?? "";
+        const previous = places[places.length - 1];
+        let label =
+          result.location.address
+            .replace("、", ", ")
+            .split(", ")
+            .reverse()[1] ?? "";
+        const country = result.location.address.split(", ").reverse()[0];
+        if (!country) continue;
+        const countryCode = getCountry(country);
+        if (!label) continue;
+        label = label.replace(/[0-9]/g, "").trim();
+        if (label[2] === " ") label = label.split(" ")[1];
 
-  //       const latitude =
-  //         Math.round((result.location.latitudeE7 / 1e7) * 100) / 100;
-  //       const longitude =
-  //         Math.round((result.location.longitudeE7 / 1e7) * 100) / 100;
-  //       const date = new Date(result.duration.startTimestamp).toISOString();
+        const latitude =
+          Math.round((result.location.latitudeE7 / 1e7) * 100) / 100;
+        const longitude =
+          Math.round((result.location.longitudeE7 / 1e7) * 100) / 100;
+        const date = new Date(result.duration.startTimestamp).toISOString();
 
-  //       if (previous) {
-  //         if (
-  //           Math.round(previous.latitude * 10) / 10 ===
-  //             Math.round(latitude * 10) / 10 &&
-  //           Math.round(previous.longitude * 10) / 10 ===
-  //             Math.round(longitude * 10) / 10
-  //         )
-  //           continue;
-  //         if (previous.label === label) continue;
-  //       }
+        if (previous) {
+          if (
+            Math.round(previous.latitude * 10) / 10 ===
+              Math.round(latitude * 10) / 10 &&
+            Math.round(previous.longitude * 10) / 10 ===
+              Math.round(longitude * 10) / 10
+          )
+            continue;
+          if (previous.label === label) continue;
+        }
 
-  //       places.push({ label, latitude, longitude, date, countryCode });
-  //     }
-  //   }
-  // }
-  // writeFile(
-  //   "places.json",
-  //   JSON.stringify(
-  //     places.sort(
-  //       (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()
-  //     ),
-  //     null,
-  //     2
-  //   )
-  // );
-
-  const places = (
-    JSON.parse(await readFile("places.json", "utf8")) as {
-      date: string;
-      latitude: number;
-      longitude: number;
-      label: string;
-      countryCode: string;
-    }[]
-  ).sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+        places.push({ label, latitude, longitude, date, countryCode });
+      }
+    }
+  }
+  writeFile(
+    "places.json",
+    JSON.stringify(
+      places.sort(
+        (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()
+      ),
+      null,
+      2
+    )
+  );
 
   let previous: typeof places[0] | undefined = undefined;
   for (const place of places.sort(
     (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()
   )) {
-    // if (new Date(place.date).getTime() > new Date(COMMIT_END_DATE).getTime())
-    //   continue;
+    if (new Date(place.date).getTime() > new Date(COMMIT_END_DATE).getTime())
+      continue;
 
     if (previous?.label === place.label) continue;
 
