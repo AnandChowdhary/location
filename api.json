@@ -1,22 +1,23 @@
 {
-  "date": "2022-09-28T23:18:24.659Z",
+  "date": "2022-09-30T00:48:46.000Z",
   "coordinates": [
-    40.76,
-    -73.77
+    52.31,
+    4.77
   ],
-  "label": "New York",
-  "full_label": "Northern Boulevard, Oakland Gardens, Queens, Queens County, New York, 11361, United States",
+  "label": "North Holland",
+  "full_label": "Randweg D, Schiphol, Haarlemmermeer, North Holland, Netherlands, 1118 LV, Netherlands",
   "timezone": {
-    "name": "America/New_York",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "US"
+      "NL"
     ],
-    "utcOffset": -300,
-    "utcOffsetStr": "-05:00",
-    "dstOffset": -240,
-    "dstOffsetStr": "-04:00",
-    "aliasOf": null
+    "utcOffset": 60,
+    "utcOffsetStr": "+01:00",
+    "dstOffset": 120,
+    "dstOffsetStr": "+02:00",
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "us",
-  "country_emoji": "🇺🇸"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
