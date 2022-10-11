@@ -1,11 +1,11 @@
 {
-  "date": "2022-09-30T12:42:30.014Z",
+  "date": "2022-10-11T07:51:35.339Z",
   "coordinates": [
-    53.21,
-    6.56
+    52.39,
+    4.84
   ],
-  "label": "Groningen",
-  "full_label": "Treindienstleiding Groningen, Zaanstraat, Rivierenbuurt, South, Groningen, Netherlands, 9725 HW, Netherlands",
+  "label": "Amsterdam",
+  "full_label": "Hatostraat, Teleport, Nieuw-West, Amsterdam, North Holland, Netherlands, 1043 DL, Netherlands",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
