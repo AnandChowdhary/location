@@ -1,11 +1,11 @@
 {
-  "date": "2022-10-11T07:51:35.339Z",
+  "date": "2022-10-11T11:41:09.000Z",
   "coordinates": [
-    52.39,
-    4.84
+    52.08,
+    4.34
   ],
-  "label": "Amsterdam",
-  "full_label": "Hatostraat, Teleport, Nieuw-West, Amsterdam, North Holland, Netherlands, 1043 DL, Netherlands",
+  "label": "The Hague",
+  "full_label": "132, Schenkkade, Bezuidenhout, Haagse Hout, The Hague, South Holland, Netherlands, 2595 AS, Netherlands",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
