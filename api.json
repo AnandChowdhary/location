@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2022-11-07T21:18:30.649Z",
+  "updatedAt": "2022-11-07T22:31:20.899Z",
   "approximateCoordinates": [
-    37.7,
-    -121.9
+    37.79,
+    -122.4
   ],
-  "label": "Pleasanton",
+  "label": "San Francisco",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
