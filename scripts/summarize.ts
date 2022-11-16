@@ -6,6 +6,7 @@ const git = simpleGit({});
 type T = Omit<ApiResult, "country" | "timezone"> & {
   country: Partial<ApiResult["country"]>;
   timezone: Partial<ApiResult["timezone"]>;
+  hash: string;
 };
 
 export const summarize = async () => {
@@ -19,7 +20,7 @@ export const summarize = async () => {
     delete show.timezone?.dstOffsetStr;
     delete show.timezone?.aliasOf;
     delete show.timezone?.countries;
-    data.push(show);
+    data.push({ ...show, hash: commit.hash });
   }
   await writeFile(
     "history.json",
