@@ -53,8 +53,10 @@ export const summarize = async () => {
         const c = Math.sqrt(a * a + b * b);
         if (
           c > 2 ||
-          location.country?.code?.toLocaleLowerCase() !==
-            previous.country?.code?.toLocaleLowerCase() ||
+          (location.country?.code &&
+            previous.country?.code &&
+            location.country?.code?.toLocaleLowerCase() !==
+              previous.country?.code?.toLocaleLowerCase()) ||
           location.timezone?.name !== previous.timezone?.name
         ) {
           if (skipped.length) {
@@ -78,6 +80,7 @@ export const summarize = async () => {
           }
           skipped = [];
         } else {
+          console.log("skipping", location.updatedAt, location.label);
           skipped.push({
             ...location,
             duration: array[index + 1]
@@ -117,6 +120,10 @@ export const summarize = async () => {
     "history-unique.json",
     JSON.stringify(
       locationResult
+        .sort(
+          (a, b) =>
+            new Date(a.updatedAt).getTime() - new Date(b.updatedAt).getTime()
+        )
         .filter(
           (value, index, self) =>
             index ===
