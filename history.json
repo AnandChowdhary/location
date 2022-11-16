@@ -16,7 +16,7 @@
       "name": "Netherlands"
     },
     "hash": "8d2a0c29b87585556693f72328146ef27ff9ce06",
-    "duration": 159521153
+    "duration": 189988224
   },
   {
     "updatedAt": "2022-11-10T03:40:14.731Z",
@@ -2158,6 +2158,80 @@
       "code": "IN",
       "name": "India"
     },
-    "hash": "68e191f6df0fa4700c147833f566e30df8a24154"
+    "hash": "68e191f6df0fa4700c147833f566e30df8a24154",
+    "duration": 15715096010
+  },
+  {
+    "updatedAt": "2011-06-19",
+    "approximateCoordinates": [
+      13.73,
+      100.47
+    ],
+    "label": "Bangkok",
+    "timezone": {
+      "name": "Asia/Bangkok",
+      "utcOffset": 420,
+      "dstOffset": 420
+    },
+    "country": {
+      "code": "TH",
+      "name": "Thailand"
+    },
+    "hash": "4e0153b7cf7f9189cce297d30ee0bf82e71b814d",
+    "duration": 172800000
+  },
+  {
+    "updatedAt": "2011-06-15",
+    "approximateCoordinates": [
+      12.93,
+      100.88
+    ],
+    "label": "Pattaya",
+    "timezone": {
+      "name": "Asia/Bangkok",
+      "utcOffset": 420,
+      "dstOffset": 420
+    },
+    "country": {
+      "code": "TH",
+      "name": "Thailand"
+    },
+    "hash": "47714b6311055eddd943ced582532f7a8d3e7018"
+  },
+  {
+    "updatedAt": "2011-05-27",
+    "approximateCoordinates": [
+      14.59,
+      120.99
+    ],
+    "label": "Manila",
+    "timezone": {
+      "name": "Asia/Manila",
+      "utcOffset": 480,
+      "dstOffset": 480
+    },
+    "country": {
+      "code": "PH",
+      "name": "Philippines"
+    },
+    "hash": "48f8202c20e9535aca62b89bbbecd6ceb4230f75"
+  },
+  {
+    "updatedAt": "2011-05-26",
+    "approximateCoordinates": [
+      28.53,
+      77.24
+    ],
+    "label": "New Delhi",
+    "timezone": {
+      "name": "Asia/Kolkata",
+      "utcOffset": 330,
+      "dstOffset": 330
+    },
+    "country": {
+      "code": "IN",
+      "name": "India"
+    },
+    "hash": "caaa0d12e3fc314daa67616d577d1b3c75ce53d4"
   }
 ]
