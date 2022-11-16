@@ -13,7 +13,8 @@
   "scripts": {
     "start": "wrangler dev",
     "deploy": "wrangler publish",
-    "takeout": "node -r @swc-node/register scripts/import-google-takeout.ts"
+    "takeout": "node -r @swc-node/register scripts/import-google-takeout.ts",
+    "summarize": "node -r @swc-node/register scripts/summarize.ts"
   },
   "dependencies": {
     "@octokit/core": "^4.1.0",
@@ -21,6 +22,7 @@
     "countries-and-timezones": "^3.3.0",
     "country-emoji": "^1.5.6",
     "dayjs": "^1.11.6",
+    "simple-git": "^3.15.0",
     "tz-lookup": "^6.1.25"
   }
 }
