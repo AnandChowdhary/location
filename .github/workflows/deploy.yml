@@ -3,8 +3,6 @@ on:
   push:
     branches:
       - main
-    paths-ignore:
-      - 'api.json'
 jobs:
   deploy:
     runs-on: ubuntu-latest
