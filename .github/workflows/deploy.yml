@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - 'api.json'
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -19,10 +21,3 @@ jobs:
         uses: cloudflare/wrangler-action@2.0.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
-      - run: npm run summarize
-      - run: mkdir public && cp api.json public && cp history.json public && cp history-full.json public && cp history-unique.json public
-      - name: Deploy to Github Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: public
