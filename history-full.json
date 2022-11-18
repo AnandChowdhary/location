@@ -15,6 +15,24 @@
       "code": "nl",
       "name": "Netherlands"
     },
+    "hash": "fa7b25928d4a7639e6524d8aa2a9295a027cb2b4"
+  },
+  {
+    "updatedAt": "2022-11-14T17:04:09.447Z",
+    "approximateCoordinates": [
+      53.22,
+      6.56
+    ],
+    "label": "Groningen",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
     "hash": "8d2a0c29b87585556693f72328146ef27ff9ce06"
   },
   {
