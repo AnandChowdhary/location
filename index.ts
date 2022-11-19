@@ -39,6 +39,8 @@ export interface OwnTracksRequestBody {
   alt: number;
 }
 
+const MIN_TIME = 10800000; // 3 hours
+
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     if (!env.GITHUB_TOKEN)
@@ -64,7 +66,7 @@ export default {
       await fetch("https://anandchowdhary.github.io/location/api.json")
     ).json<ApiResult>();
     if (
-      Date.now() - new Date(previousLocation.updatedAt).getTime() < 3600000 &&
+      Date.now() - new Date(previousLocation.updatedAt).getTime() < MIN_TIME &&
       !CHECK_DISABLED
     )
       return new Response("Skipping update because was updated recently");
@@ -157,7 +159,7 @@ export default {
         );
       if (
         Date.now() - new Date(previousApiResult.updatedAt).getTime() <
-          3600000 &&
+          MIN_TIME &&
         !CHECK_DISABLED
       )
         return new Response("Skipping update because was updated recently");
