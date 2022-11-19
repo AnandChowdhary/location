@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2022-11-19T16:59:13.306Z",
+    "approximateCoordinates": [
+      52.43,
+      6.22
+    ],
+    "label": "Heino",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "668760f00a6ea9559357ed745e229a73f4a4cbdb"
+  },
+  {
     "updatedAt": "2022-11-19T15:58:37.454Z",
     "approximateCoordinates": [
       53.11,
