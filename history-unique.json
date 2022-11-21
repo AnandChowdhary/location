@@ -25,7 +25,7 @@
     ],
     "label": "Las Vegas",
     "country": {
-      "code": "US",
+      "code": "us",
       "name": "United States of America"
     },
     "hash": "bf68615ea61793642672aef79583c01c9403f74b"
@@ -43,7 +43,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "FR",
+      "code": "fr",
       "name": "France"
     },
     "hash": "68530e461f7970be60e196e0064d624041b8627a"
@@ -61,7 +61,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "CH",
+      "code": "ch",
       "name": "Switzerland"
     },
     "hash": "fe232f2acf6522ac547e5eb7be87aab783f60b55",
@@ -80,7 +80,7 @@
       "dstOffset": 180
     },
     "country": {
-      "code": "TR",
+      "code": "tr",
       "name": "Turkey"
     },
     "hash": "1afcac610166a5a744d0f020ed02d2ad3a74fec6",
@@ -99,7 +99,7 @@
       "dstOffset": 180
     },
     "country": {
-      "code": "TR",
+      "code": "tr",
       "name": "Turkey"
     },
     "hash": "1c80d9fc579dadadd0b95ff3e1335ed3a9d080ac"
@@ -117,7 +117,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "FR",
+      "code": "fr",
       "name": "France"
     },
     "hash": "ec78de515d3a4c0ff8cb01dcc5807c35e72a3c8c",
@@ -136,7 +136,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "NL",
+      "code": "nl",
       "name": "Netherlands"
     },
     "hash": "6039618a0e0f56e33afcc9e34821c04c304c4e8e",
@@ -155,7 +155,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "CZ",
+      "code": "cz",
       "name": "Czechia"
     },
     "hash": "4a0411f6f45f3f787446dda42c5ae7321175b025"
@@ -168,7 +168,7 @@
     ],
     "label": "Berlin",
     "country": {
-      "code": "DE",
+      "code": "de",
       "name": "Germany"
     },
     "hash": "88d57da7d4196f57f8edd5796fa048238bf15a05"
@@ -181,7 +181,7 @@
     ],
     "label": "Bad Bentheim",
     "country": {
-      "code": "DE",
+      "code": "de",
       "name": "Germany"
     },
     "hash": "78be355d2623a7ee1862e29dea3bf78578aa6cd9"
@@ -199,7 +199,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "CH",
+      "code": "ch",
       "name": "Switzerland"
     },
     "hash": "88d96ea8b75a0bfcc2363e9e77a7fa09bec05cc9",
@@ -218,7 +218,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "CH",
+      "code": "ch",
       "name": "Switzerland"
     },
     "hash": "3428a2b77e75bad64cef8804e724573d022f2884"
@@ -236,7 +236,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "BE",
+      "code": "be",
       "name": "Belgium"
     },
     "hash": "41b9c4a23e9f8e2e0a778006811abcdf54b2c87a",
@@ -255,7 +255,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "BE",
+      "code": "be",
       "name": "Belgium"
     },
     "hash": "683afb8a5f0338cb5f5f75197a8f809320aa7211"
@@ -273,7 +273,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "BE",
+      "code": "be",
       "name": "Belgium"
     },
     "hash": "46380c49009ccd89b85ed6f34571af9577212cca"
@@ -291,7 +291,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "NL",
+      "code": "nl",
       "name": "Netherlands"
     },
     "hash": "dacbf7bb312f85dc6e26a1f941bd54d86cd77082"
@@ -309,7 +309,7 @@
       "dstOffset": 180
     },
     "country": {
-      "code": "TR",
+      "code": "tr",
       "name": "Turkey"
     },
     "hash": "27fb9eff1dabeacacaed4f0486844deea7456ad5"
@@ -322,7 +322,7 @@
     ],
     "label": "Newark",
     "country": {
-      "code": "US",
+      "code": "us",
       "name": "United States of America"
     },
     "hash": "7bb48341c5dd8991369d7716c3bd42c1d6741ad2",
@@ -336,7 +336,7 @@
     ],
     "label": "Dublin",
     "country": {
-      "code": "US",
+      "code": "us",
       "name": "United States of America"
     },
     "hash": "45fccbdfcd7717ea79d510e7a99854d0a646c25b",
@@ -350,7 +350,7 @@
     ],
     "label": "New York",
     "country": {
-      "code": "US",
+      "code": "us",
       "name": "United States of America"
     },
     "hash": "6f1f80a52e5a82f264d721c081109efe3c6b53ea"
@@ -363,7 +363,7 @@
     ],
     "label": "San Francisco",
     "country": {
-      "code": "US",
+      "code": "us",
       "name": "United States of America"
     },
     "hash": "ddd7d180ee0bbf4b25f780f865b4331a1c17a1d0"
@@ -381,7 +381,7 @@
       "dstOffset": 330
     },
     "country": {
-      "code": "IN",
+      "code": "in",
       "name": "India"
     },
     "hash": "8590c752fa9ee30c0b2543fb03b1b8fd659fa6e7"
@@ -399,7 +399,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "NL",
+      "code": "nl",
       "name": "Netherlands"
     },
     "hash": "7c14d0fde05aba4b455ab2967b1778969dd12527"
@@ -417,7 +417,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "NL",
+      "code": "nl",
       "name": "Netherlands"
     },
     "hash": "2a9cdc84657860588a0e523c9147d579ad02c75a"
@@ -435,7 +435,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "FR",
+      "code": "fr",
       "name": "France"
     },
     "hash": "62d774bc4ec01900484a9dbb715972b9afc2973f"
@@ -453,7 +453,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "NL",
+      "code": "nl",
       "name": "Netherlands"
     },
     "hash": "61ceba734d491665921d05aa822f2ec7929eba46"
@@ -466,7 +466,7 @@
     ],
     "label": "Россия",
     "country": {
-      "code": "RU",
+      "code": "ru",
       "name": "Russia"
     },
     "hash": "f0260150276dc356d1fea0483ebb7a19f8567761"
@@ -484,7 +484,7 @@
       "dstOffset": 60
     },
     "country": {
-      "code": "GB",
+      "code": "gb",
       "name": "United Kingdom"
     },
     "hash": "de3f9ed38c82a7736486f36129a6711ab6b2cfd0"
@@ -502,7 +502,7 @@
       "dstOffset": 330
     },
     "country": {
-      "code": "IN",
+      "code": "in",
       "name": "India"
     },
     "hash": "a3f5c7ae90fbffca8d8405e873efcb289d94c0db"
@@ -520,7 +520,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "NL",
+      "code": "nl",
       "name": "Netherlands"
     },
     "hash": "bb8bf4b5736e30bfa0126243913bdb9b7f4d524e"
@@ -533,7 +533,7 @@
     ],
     "label": "Kuala Lumpur",
     "country": {
-      "code": "MY",
+      "code": "my",
       "name": "Malaysia"
     },
     "hash": "0f6e37eaa6d6c6c65cecfb2846cde8cc403dacef"
@@ -551,7 +551,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "NL",
+      "code": "nl",
       "name": "Netherlands"
     },
     "hash": "6cc233a501888fffa0530928917b8c83ebb2141f"
@@ -569,7 +569,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "IT",
+      "code": "it",
       "name": "Italy"
     },
     "hash": "3624d768488b9754be31ea79d684bbac88c69b80"
@@ -587,7 +587,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "FR",
+      "code": "fr",
       "name": "France"
     },
     "hash": "fb41324300ce574f5e12262308e7278e2e9548ea",
@@ -606,7 +606,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "FR",
+      "code": "fr",
       "name": "France"
     },
     "hash": "efb0698c77059cc4ac2955608d84a6c5ea3f3738"
@@ -619,7 +619,7 @@
     ],
     "label": "Köln",
     "country": {
-      "code": "DE",
+      "code": "de",
       "name": "Germany"
     },
     "hash": "e7c011232f0feca3fe2ef05ca812760053de71a9",
@@ -638,7 +638,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "NL",
+      "code": "nl",
       "name": "Netherlands"
     },
     "hash": "e89b2c98e143bcad50071415d418ab0f79cbbe3f"
@@ -656,7 +656,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "BE",
+      "code": "be",
       "name": "Belgium"
     },
     "hash": "3374cb7e4e1ef659807d2d06183fb8acfc08ca0c",
@@ -675,7 +675,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "BE",
+      "code": "be",
       "name": "Belgium"
     },
     "hash": "5471fc0a77fb476ae5954af77d85521149f0b422"
@@ -693,7 +693,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "NL",
+      "code": "nl",
       "name": "Netherlands"
     },
     "hash": "aac273bf4808b7c27bb49f4bc94a73af12bc91d6"
@@ -711,7 +711,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "FR",
+      "code": "fr",
       "name": "France"
     },
     "hash": "4fb0da1fe4e1d0c38532ab7a5f72025620e8612c",
@@ -730,7 +730,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "FR",
+      "code": "fr",
       "name": "France"
     },
     "hash": "706d6dfe1d8daacec0542a69ce17f7e99f973371"
@@ -743,7 +743,7 @@
     ],
     "label": "Hannover",
     "country": {
-      "code": "DE",
+      "code": "de",
       "name": "Germany"
     },
     "hash": "9c35319470ad3936d66ad8ce731940a17181200d"
@@ -761,7 +761,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "NL",
+      "code": "nl",
       "name": "Netherlands"
     },
     "hash": "228e425fe33ec2e445e60013a3e9e96f316d0657",
@@ -780,7 +780,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "IT",
+      "code": "it",
       "name": "Italy"
     },
     "hash": "c74f4fe42468cb54c88ef29ce7ff000147f0801b"
@@ -798,7 +798,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "IT",
+      "code": "it",
       "name": "Italy"
     },
     "hash": "a6161bab0a96fbee821eebc51aae0e598c89adf3"
@@ -816,7 +816,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "IT",
+      "code": "it",
       "name": "Italy"
     },
     "hash": "3972d230f1d26cd176f952baebe53866b273e1d7"
@@ -829,7 +829,7 @@
     ],
     "label": "Düsseldorf",
     "country": {
-      "code": "DE",
+      "code": "de",
       "name": "Germany"
     },
     "hash": "2c8b3d5b22d8224c34c64dea8babd494c674c8d7",
@@ -843,7 +843,7 @@
     ],
     "label": "Gronau (Westfalen)",
     "country": {
-      "code": "DE",
+      "code": "de",
       "name": "Germany"
     },
     "hash": "d20630fcda1472420e1dd626abef665580321408"
@@ -861,7 +861,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "NL",
+      "code": "nl",
       "name": "Netherlands"
     },
     "hash": "dc4a1d2e6597484da1ce8feafb6da8e5be68dd39"
@@ -879,7 +879,7 @@
       "dstOffset": 120
     },
     "country": {
-      "code": "NL",
+      "code": "nl",
       "name": "Netherlands"
     },
     "hash": "b101b1ceccdd7677b66e89d085e2d31b03f74d61"
@@ -897,7 +897,7 @@
       "dstOffset": 330
     },
     "country": {
-      "code": "IN",
+      "code": "in",
       "name": "India"
     },
     "hash": "0d44037f1025eb4c9e526edcc9e5c62a4c6a2899",
@@ -916,7 +916,7 @@
       "dstOffset": 330
     },
     "country": {
-      "code": "IN",
+      "code": "in",
       "name": "India"
     },
     "hash": "f5c83a0f3df3da5c081337f47c411c42b9c039fe"
@@ -934,7 +934,7 @@
       "dstOffset": 330
     },
     "country": {
-      "code": "IN",
+      "code": "in",
       "name": "India"
     },
     "hash": "ffd81268ecf35881d260c928001144155cd199f9",
@@ -953,7 +953,7 @@
       "dstOffset": 330
     },
     "country": {
-      "code": "IN",
+      "code": "in",
       "name": "India"
     },
     "hash": "85dda29df7b065add8b290136b8788a3e7e06dc9"
@@ -971,7 +971,7 @@
       "dstOffset": 330
     },
     "country": {
-      "code": "IN",
+      "code": "in",
       "name": "India"
     },
     "hash": "0a00a35104fa0ced95bab57fb134cf739e428451",
@@ -990,7 +990,7 @@
       "dstOffset": 540
     },
     "country": {
-      "code": "JP",
+      "code": "jp",
       "name": "Japan"
     },
     "hash": "52220368a0ec30a464bca97ddca3a1e09a9af64b"
@@ -1008,7 +1008,7 @@
       "dstOffset": 330
     },
     "country": {
-      "code": "IN",
+      "code": "in",
       "name": "India"
     },
     "hash": "68e191f6df0fa4700c147833f566e30df8a24154",
@@ -1027,7 +1027,7 @@
       "dstOffset": 420
     },
     "country": {
-      "code": "TH",
+      "code": "th",
       "name": "Thailand"
     },
     "hash": "4e0153b7cf7f9189cce297d30ee0bf82e71b814d",
@@ -1046,7 +1046,7 @@
       "dstOffset": 420
     },
     "country": {
-      "code": "TH",
+      "code": "th",
       "name": "Thailand"
     },
     "hash": "47714b6311055eddd943ced582532f7a8d3e7018"
@@ -1064,7 +1064,7 @@
       "dstOffset": 480
     },
     "country": {
-      "code": "PH",
+      "code": "ph",
       "name": "Philippines"
     },
     "hash": "48f8202c20e9535aca62b89bbbecd6ceb4230f75"
@@ -1082,7 +1082,7 @@
       "dstOffset": 330
     },
     "country": {
-      "code": "IN",
+      "code": "in",
       "name": "India"
     },
     "hash": "caaa0d12e3fc314daa67616d577d1b3c75ce53d4"
