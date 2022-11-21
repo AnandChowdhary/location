@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2022-11-21T08:58:12.248Z",
+    "approximateCoordinates": [
+      53.11,
+      6.62
+    ],
+    "label": "De Punt",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "cace83331f3996e16a01935fb05c2878c44881e0"
+  },
+  {
     "updatedAt": "2022-11-20T19:13:34.721Z",
     "approximateCoordinates": [
       53.22,
