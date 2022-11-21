@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2022-11-21T12:01:27.961Z",
+    "approximateCoordinates": [
+      52.26,
+      5.16
+    ],
+    "label": "Bussum",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "f039f207fa8a84756e4f25ff491ec69e722ebb82"
+  },
+  {
     "updatedAt": "2022-11-21T08:58:12.248Z",
     "approximateCoordinates": [
       53.11,
