@@ -1,0 +1,53 @@
+{
+  "similarLabels": {
+    "description": "Map similar location labels to deduplicate entries. Each key is a label that will be replaced by the value.",
+    "labels": {
+      "San Mateo County": "San Francisco",
+      "Noord-Holland": "Schiphol",
+      "Delhi": "New Delhi",
+      "Kloten": "Zurich",
+      "Ümraniye/İstanbul": "Istanbul",
+      "Pendik/İstanbul": "Istanbul",
+      "Arnavutköy/İstanbul": "Istanbul",
+      "Den": "The Hague",
+      "Praha": "Prague",
+      "Zürich": "Zurich",
+      "Bruxelles": "Brussels",
+      "Avignonet-Lauragais": "Toulouse",
+      "Blagnac": "Toulouse",
+      "Köln": "Cologne",
+      "Veldhoven": "Eindhoven",
+      "Brugge": "Bruges",
+      "Düsseldorf": "Dusseldorf",
+      "日本": "Tokyo"
+    }
+  },
+  "layovers": {
+    "description": "Manually ignore layovers where I don't spend much time outside the airport. Each entry is a git hash to be ignored.",
+    "hashes": [
+      "68530e461f7970be60e196e0064d624041b8627a",
+      "cbb8f5775ed48383de5b3752f1e21e2ed8153a53",
+      "78be355d2623a7ee1862e29dea3bf78578aa6cd9",
+      "683afb8a5f0338cb5f5f75197a8f809320aa7211",
+      "27fb9eff1dabeacacaed4f0486844deea7456ad5",
+      "d2d6ca5549084b23bf1f7df7f5e94905e6f2c36f",
+      "40ddc3d60ba09fb87027dd1dc3804ba781df7aec",
+      "1d85b663cb7b5738baf8b24bbf948c35a2f61f64",
+      "f0260150276dc356d1fea0483ebb7a19f8567761",
+      "d0140cf21ac98ae0ea40f4c00c847a50412e0219",
+      "644a2b55b0f7086e3efcfbd800d6d3a74913bcba",
+      "3624d768488b9754be31ea79d684bbac88c69b80",
+      "dd2cc042df2784e2d1ee4615e6a976807ce27444",
+      "706d6dfe1d8daacec0542a69ce17f7e99f973371",
+      "c74f4fe42468cb54c88ef29ce7ff000147f0801b",
+      "a6161bab0a96fbee821eebc51aae0e598c89adf3",
+      "3972d230f1d26cd176f952baebe53866b273e1d7",
+      "d20630fcda1472420e1dd626abef665580321408",
+      "bb8bf4b5736e30bfa0126243913bdb9b7f4d524e",
+      "74db397a59a47bc639632a4ba7b441fef3b0925b",
+      "a3f5c7ae90fbffca8d8405e873efcb289d94c0db",
+      "b373e402c0a72906f6c86a12a788d124666ac337",
+      "f792200cef9183305338cadd5f3a0d46b249e435"
+    ]
+  }
+}

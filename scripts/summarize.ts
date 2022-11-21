@@ -1,20 +1,26 @@
 import { simpleGit } from "simple-git";
-import { writeFile } from "fs/promises";
+import { writeFile, readFile } from "fs/promises";
 import { ApiResult } from "..";
 
 const git = simpleGit({});
-type T = Omit<ApiResult, "country" | "timezone"> & {
+type Location = Omit<ApiResult, "country" | "timezone"> & {
   country: Partial<ApiResult["country"]>;
   timezone: Partial<ApiResult["timezone"]>;
   hash: string;
 };
 
 export const summarize = async () => {
+  const overwrite = JSON.parse(await readFile("overwrite.json", "utf-8")) as {
+    similarLabels: { labels: Record<string, string> };
+    layovers: { hashes: string[] };
+  };
   const log = await git.log({ file: "api.json" });
   const commits = log.all.filter((commit) => commit.message.startsWith("📍"));
-  const data: T[] = [];
+  const data: Location[] = [];
   for (const commit of commits) {
-    const show = JSON.parse(await git.show(`${commit.hash}:api.json`)) as T;
+    const show = JSON.parse(
+      await git.show(`${commit.hash}:api.json`)
+    ) as Location;
     delete show.country.timezones;
     delete show.timezone?.utcOffsetStr;
     delete show.timezone?.dstOffsetStr;
@@ -35,8 +41,15 @@ export const summarize = async () => {
     ) + "\n"
   );
 
-  const locationResult: T[] = [];
-  let skipped: (T & { duration: number })[] = [];
+  const locationResult: Location[] = [];
+  const safePush = (item: Location) => {
+    Object.entries(overwrite.similarLabels.labels).forEach(([key, value]) => {
+      if (item.label === key) item.label = value;
+    });
+    if (!overwrite.layovers.hashes.includes(item.hash))
+      locationResult.push(item);
+  };
+  let skipped: (Location & { duration: number })[] = [];
   data
     .sort(
       (a, b) =>
@@ -52,6 +65,10 @@ export const summarize = async () => {
           previous.approximateCoordinates[1] -
           location.approximateCoordinates[1];
         const c = Math.sqrt(a * a + b * b);
+        const duration = array[index + 1]
+          ? new Date(array[index + 1].updatedAt).getTime() -
+            new Date(location.updatedAt).getTime()
+          : 0;
         if (
           c > 2 ||
           (location.country?.code &&
@@ -64,39 +81,42 @@ export const summarize = async () => {
             skipped.forEach((item) => {
               items[item.label] = (items[item.label] || 0) + item.duration;
             });
-            const skippedSelected = skipped.sort(
-              (a, b) => b.duration - a.duration
-            )[0];
+            const skippedSelected = skipped
+              .filter((i) => i.duration > 43200000) // 12 hours
+              .sort((a, b) => b.duration - a.duration)[0];
             if (
+              skippedSelected &&
               locationResult[locationResult.length - 1]?.label !==
-              skippedSelected.label
+                skippedSelected.label
             ) {
-              const item = skippedSelected;
-              locationResult.push(item);
+              const { duration: _, ...item } = skippedSelected;
+              safePush(item);
             }
-            if (skippedSelected.country.code !== location.country.code)
-              locationResult.push(location);
+            if (
+              (!skippedSelected ||
+                skippedSelected.country.code !== location.country.code) &&
+              locationResult[locationResult.length - 1]?.label !==
+                location.label
+            )
+              safePush(location);
           } else {
             if (
               locationResult[locationResult.length - 1]?.label !==
               location.label
             )
-              locationResult.push(location);
+              safePush(location);
           }
           skipped = [];
         } else {
           console.log("skipping", location.updatedAt, location.label);
           skipped.push({
             ...location,
-            duration: array[index + 1]
-              ? new Date(array[index + 1].updatedAt).getTime() -
-                new Date(location.updatedAt).getTime()
-              : 0,
+            duration,
           });
         }
       } else {
         if (locationResult[locationResult.length - 1]?.label !== location.label)
-          locationResult.push(location);
+          safePush(location);
         skipped = [];
       }
     });
@@ -108,8 +128,10 @@ export const summarize = async () => {
     skipped.forEach((item) => {
       items[item.label] = (items[item.label] || 0) + item.duration;
     });
-    const skippedSelected = skipped.sort((a, b) => b.duration - a.duration)[0];
-    locationResult.push(skippedSelected);
+    const { duration: _, ...skippedSelected } = skipped.sort(
+      (a, b) => b.duration - a.duration
+    )[0];
+    safePush(skippedSelected);
   }
   await writeFile(
     "history.json",
