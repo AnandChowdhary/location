@@ -64,13 +64,21 @@ export const summarize = async () => {
             skipped.forEach((item) => {
               items[item.label] = (items[item.label] || 0) + item.duration;
             });
+            const skippedSelected = skipped.sort(
+              (a, b) => b.duration - a.duration
+            )[0];
             if (
               locationResult[locationResult.length - 1]?.label !==
-              skipped.sort((a, b) => b.duration - a.duration)[0].label
+              skippedSelected.label
             ) {
-              const item = skipped.sort((a, b) => b.duration - a.duration)[0];
+              const item = skippedSelected;
               locationResult.push(item);
             }
+            if (
+              skippedSelected.country.code?.toLowerCase() !==
+              location.country.code?.toLowerCase()
+            )
+              locationResult.push(location);
           } else {
             if (
               locationResult[locationResult.length - 1]?.label !==
@@ -103,7 +111,8 @@ export const summarize = async () => {
     skipped.forEach((item) => {
       items[item.label] = (items[item.label] || 0) + item.duration;
     });
-    locationResult.push(skipped.sort((a, b) => b.duration - a.duration)[0]);
+    const skippedSelected = skipped.sort((a, b) => b.duration - a.duration)[0];
+    locationResult.push(skippedSelected);
   }
   await writeFile(
     "history.json",
