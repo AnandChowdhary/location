@@ -1,11 +1,11 @@
 {
-  "date": "2022-11-21T10:20:41.999Z",
+  "date": "2022-11-21T11:44:07.000Z",
   "coordinates": [
-    52.15,
-    5.37
+    52.39,
+    4.84
   ],
-  "label": "Amersfoort",
-  "full_label": "10, Koningin Wilhelminalaan, Bergkwartier, De Berg-Noord, Amersfoort, Utrecht, Netherlands, 3818 HP, Netherlands",
+  "label": "Amsterdam",
+  "full_label": "Hatostraat, Teleport, Nieuw-West, Amsterdam, North Holland, Netherlands, 1043 DL, Netherlands",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
