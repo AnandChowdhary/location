@@ -20,6 +20,7 @@ export const summarize = async () => {
     delete show.timezone?.dstOffsetStr;
     delete show.timezone?.aliasOf;
     delete show.timezone?.countries;
+    if (show.country.code) show.country.code = show.country.code.toLowerCase();
     data.push({ ...show, hash: commit.hash });
   }
   await writeFile(
@@ -55,8 +56,7 @@ export const summarize = async () => {
           c > 2 ||
           (location.country?.code &&
             previous.country?.code &&
-            location.country?.code?.toLocaleLowerCase() !==
-              previous.country?.code?.toLocaleLowerCase()) ||
+            location.country?.code !== previous.country?.code) ||
           location.timezone?.name !== previous.timezone?.name
         ) {
           if (skipped.length) {
@@ -74,10 +74,7 @@ export const summarize = async () => {
               const item = skippedSelected;
               locationResult.push(item);
             }
-            if (
-              skippedSelected.country.code?.toLowerCase() !==
-              location.country.code?.toLowerCase()
-            )
+            if (skippedSelected.country.code !== location.country.code)
               locationResult.push(location);
           } else {
             if (
@@ -139,8 +136,7 @@ export const summarize = async () => {
             self.findIndex(
               (t) =>
                 t.label === value.label &&
-                t.country?.code?.toLocaleLowerCase() ===
-                  value.country?.code?.toLocaleLowerCase()
+                t.country?.code === value.country?.code
             )
         )
         .sort(
