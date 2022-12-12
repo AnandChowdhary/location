@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2022-12-12T13:25:23.899Z",
+    "approximateCoordinates": [
+      51.44,
+      5.48
+    ],
+    "label": "Eindhoven",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "ea76742c9c8440b178840d8db465f33ddceeb316"
+  },
+  {
     "updatedAt": "2022-12-12T10:24:11.994Z",
     "approximateCoordinates": [
       53.16,
