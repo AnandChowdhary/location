@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2022-12-22T09:29:38.547Z",
+    "approximateCoordinates": [
+      52.24,
+      4.75
+    ],
+    "label": "Kudelstaart",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "f1543bfa2077623c58fe7245af0804e929fc6d5c"
+  },
+  {
     "updatedAt": "2022-12-22T00:27:35.838Z",
     "approximateCoordinates": [
       52.31,
