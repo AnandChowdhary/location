@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2022-12-22T21:32:25.878Z",
+    "approximateCoordinates": [
+      51.51,
+      -0.13
+    ],
+    "label": "London",
+    "timezone": {
+      "name": "Europe/London",
+      "utcOffset": 0,
+      "dstOffset": 60
+    },
+    "country": {
+      "code": "gb",
+      "name": "United Kingdom"
+    },
+    "hash": "5b77a385ea00a090a35643802ea97dd62399b4bc"
+  },
+  {
     "updatedAt": "2022-12-22T18:16:27.298Z",
     "approximateCoordinates": [
       51.51,
