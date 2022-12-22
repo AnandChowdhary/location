@@ -1,23 +1,25 @@
 {
-  "date": "2022-12-21T17:47:34.000Z",
+  "date": "2022-12-22T08:38:40.097Z",
   "coordinates": [
-    52.31,
-    4.76
+    51.5,
+    0.05
   ],
-  "label": "North Holland",
-  "full_label": "Vertrekpassage, Schiphol, Haarlemmermeer, North Holland, Netherlands, 1118 AS, Netherlands",
+  "label": "London",
+  "full_label": "Factory Road, Silvertown, London Borough of Newham, London, Greater London, England, E16 2DT, United Kingdom",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Europe/London",
     "countries": [
-      "NL"
+      "GB",
+      "GG",
+      "IM",
+      "JE"
     ],
-    "utcOffset": 60,
-    "utcOffsetStr": "+01:00",
-    "dstOffset": 120,
-    "dstOffsetStr": "+02:00",
-    "aliasOf": "Europe/Brussels",
-    "deprecated": true
+    "utcOffset": 0,
+    "utcOffsetStr": "+00:00",
+    "dstOffset": 60,
+    "dstOffsetStr": "+01:00",
+    "aliasOf": null
   },
-  "country_code": "nl",
-  "country_emoji": "🇳🇱"
+  "country_code": "gb",
+  "country_emoji": "🇬🇧"
 }
