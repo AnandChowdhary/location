@@ -1,23 +1,5 @@
 [
   {
-    "updatedAt": "2022-12-22T18:16:27.298Z",
-    "approximateCoordinates": [
-      51.51,
-      -0.14
-    ],
-    "label": "City of Westminster",
-    "timezone": {
-      "name": "Europe/London",
-      "utcOffset": 0,
-      "dstOffset": 60
-    },
-    "country": {
-      "code": "gb",
-      "name": "United Kingdom"
-    },
-    "hash": "ad78bc330674816e1bc7b0e977222dd2a90bc506"
-  },
-  {
     "updatedAt": "2022-09-26T20:14:24.000Z",
     "approximateCoordinates": [
       36.08,
