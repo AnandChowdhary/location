@@ -1,21 +1,21 @@
 [
   {
-    "updatedAt": "2022-12-22T21:32:25.878Z",
+    "updatedAt": "2022-12-25T21:05:59.836Z",
     "approximateCoordinates": [
-      51.51,
-      -0.13
+      52.32,
+      4.78
     ],
-    "label": "London",
+    "label": "Schiphol",
     "timezone": {
-      "name": "Europe/London",
-      "utcOffset": 0,
-      "dstOffset": 60
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120
     },
     "country": {
-      "code": "gb",
-      "name": "United Kingdom"
+      "code": "nl",
+      "name": "Netherlands"
     },
-    "hash": "5b77a385ea00a090a35643802ea97dd62399b4bc"
+    "hash": "d9a31beeea7aab866cfeebb993b58a718af9dccd"
   },
   {
     "updatedAt": "2022-12-22T12:50:55.860Z",
