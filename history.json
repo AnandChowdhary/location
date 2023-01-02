@@ -1,11 +1,11 @@
 [
   {
-    "updatedAt": "2022-12-26T16:28:15.415Z",
+    "updatedAt": "2022-12-27T20:11:44.771Z",
     "approximateCoordinates": [
-      52.26,
-      6.8
+      53.22,
+      6.56
     ],
-    "label": "Hengelo",
+    "label": "Groningen",
     "timezone": {
       "name": "Europe/Amsterdam",
       "utcOffset": 60,
@@ -15,7 +15,7 @@
       "code": "nl",
       "name": "Netherlands"
     },
-    "hash": "850dede6f60bc5b01f36c8b273c95db1f3407070"
+    "hash": "b0931ceb8f93cd91dd8ec70d72afadb830239ac4"
   },
   {
     "updatedAt": "2022-12-25T21:05:59.836Z",
