@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2023-01-03T13:54:09.553Z",
+    "approximateCoordinates": [
+      53.16,
+      6.63
+    ],
+    "label": "Haren",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "6d9c88406820e69eaf216f12b9c37a1d3874792f"
+  },
+  {
     "updatedAt": "2022-12-27T20:11:44.771Z",
     "approximateCoordinates": [
       53.22,
