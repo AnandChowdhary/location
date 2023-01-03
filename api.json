@@ -1,23 +1,26 @@
 {
-  "date": "2023-01-03T13:48:39.000Z",
+  "date": "2023-01-03T18:58:34.000Z",
   "coordinates": [
-    52.31,
-    4.76
+    24.43,
+    54.65
   ],
-  "label": "North Holland",
-  "full_label": "Vertrekpassage, Schiphol, Haarlemmermeer, North Holland, Netherlands, 1118 AS, Netherlands",
+  "label": "Abu Dhabi",
+  "full_label": "Apron 1, Ad Diyafah Street, Zayed International Airport, Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Asia/Dubai",
     "countries": [
-      "NL"
+      "AE",
+      "OM",
+      "RE",
+      "SC",
+      "TF"
     ],
-    "utcOffset": 60,
-    "utcOffsetStr": "+01:00",
-    "dstOffset": 120,
-    "dstOffsetStr": "+02:00",
-    "aliasOf": "Europe/Brussels",
-    "deprecated": true
+    "utcOffset": 240,
+    "utcOffsetStr": "+04:00",
+    "dstOffset": 240,
+    "dstOffsetStr": "+04:00",
+    "aliasOf": null
   },
-  "country_code": "nl",
-  "country_emoji": "🇳🇱"
+  "country_code": "ae",
+  "country_emoji": "🇦🇪"
 }
