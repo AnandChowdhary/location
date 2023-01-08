@@ -61,6 +61,11 @@ export default {
         return new Response("Invalid token", { status: 400 });
       }
 
+      if (!request.headers.get("user-agent")?.startsWith("OwnTracks"))
+        return new Response("User-Agent should start with OwnTracks", {
+          status: 400,
+        });
+
       const CHECK_DISABLED = searchParams.has("skip_check");
 
       let _lat = 0;
