@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2023-01-08T19:16:46.000Z",
+    "approximateCoordinates": [
+      30.71,
+      76.8
+    ],
+    "label": "Chandigarh",
+    "timezone": {
+      "name": "Asia/Kolkata",
+      "utcOffset": 330,
+      "dstOffset": 330
+    },
+    "country": {
+      "code": "in",
+      "name": "India"
+    },
+    "hash": "efed09af651a9ccf8090ad4ffc85f59ff6901336"
+  },
+  {
     "updatedAt": "2023-01-08T13:43:05.000Z",
     "approximateCoordinates": [
       30.68,
