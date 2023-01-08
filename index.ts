@@ -63,26 +63,29 @@ export default {
 
       const CHECK_DISABLED = searchParams.has("skip_check");
 
+      let _lat = 0;
+      let _lon = 0;
+      let time: Date;
+      try {
+        const result = await request.json<OwnTracksRequestBody>();
+        _lat = result.lat;
+        _lon = result.lon;
+        time = new Date(result.tst * 1000);
+      } catch (error) {
+        return new Response("Invalid request body", { status: 400 });
+      }
+
       // Ensure that the current location is not the same as the previous
       const previousLocation = await (
         await fetch("https://anandchowdhary.github.io/location/api.json")
       ).json<ApiResult>();
       if (
-        Date.now() - new Date(previousLocation.updatedAt).getTime() <
+        time.getTime() - new Date(previousLocation.updatedAt).getTime() <
           MIN_TIME &&
         !CHECK_DISABLED
       )
         return new Response("Skipping update because was updated recently");
 
-      let _lat = 0;
-      let _lon = 0;
-      try {
-        const result = await request.json<OwnTracksRequestBody>();
-        _lat = result.lat;
-        _lon = result.lon;
-      } catch (error) {
-        return new Response("Invalid request body", { status: 400 });
-      }
       // For privacy reasons, I only store the latitude and longitude up to two decimal places
       const lat = Math.round(_lat * 100) / 100;
       const lon = Math.round(_lon * 100) / 100;
@@ -117,7 +120,7 @@ export default {
       const emoji = flag(country.id);
 
       data = {
-        updatedAt: new Date().toISOString(),
+        updatedAt: time.toISOString(),
         approximateCoordinates: [lat, lon],
         label:
           geocode.address.village ??
@@ -161,7 +164,7 @@ export default {
             "Skipping update because location label is the same"
           );
         if (
-          Date.now() - new Date(previousApiResult.updatedAt).getTime() <
+          time.getTime() - new Date(previousApiResult.updatedAt).getTime() <
             MIN_TIME &&
           !CHECK_DISABLED
         )
