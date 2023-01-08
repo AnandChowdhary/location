@@ -197,7 +197,11 @@ export default {
           owner: "AnandChowdhary",
           repo: "location",
           issue_number: 1,
-          body: String(error) + "\n\n" + JSON.stringify(data, null, 2),
+          body: `Error: ${String(error)}\n\n\`\`\`${JSON.stringify(
+            data,
+            null,
+            2
+          )}\`\`\`\n`,
         }
       );
     }
