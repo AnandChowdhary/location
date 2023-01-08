@@ -205,7 +205,7 @@ export default {
           owner: "AnandChowdhary",
           repo: "location",
           issue_number: 1,
-          body: `Error: ${String(error)}\n\n\`\`\`${JSON.stringify(
+          body: `Error: ${String(error)}\n\n\`\`\`json\n${JSON.stringify(
             data,
             null,
             2
