@@ -1,10 +1,15 @@
 {
-  "updatedAt": "2023-01-05T01:27:39.946Z",
-  "approximateCoordinates": [28.56, 77.08],
-  "label": "New Delhi",
+  "updatedAt": "2023-01-08T13:43:05.000Z",
+  "approximateCoordinates": [
+    30.68,
+    76.74
+  ],
+  "label": "S.A.S. Nagar (Mohali) Tahsil",
   "timezone": {
     "name": "Asia/Kolkata",
-    "countries": ["IN"],
+    "countries": [
+      "IN"
+    ],
     "utcOffset": 330,
     "utcOffsetStr": "+05:30",
     "dstOffset": 330,
@@ -14,6 +19,8 @@
   "country": {
     "code": "in",
     "name": "India",
-    "timezones": ["Asia/Kolkata"]
+    "timezones": [
+      "Asia/Kolkata"
+    ]
   }
 }
