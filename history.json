@@ -1,11 +1,11 @@
 [
   {
-    "updatedAt": "2023-01-08T19:16:46.000Z",
+    "updatedAt": "2023-01-10T20:04:55.000Z",
     "approximateCoordinates": [
-      30.71,
-      76.8
+      28.53,
+      77.25
     ],
-    "label": "Chandigarh",
+    "label": "Mandakini Enclave",
     "timezone": {
       "name": "Asia/Kolkata",
       "utcOffset": 330,
@@ -15,7 +15,7 @@
       "code": "in",
       "name": "India"
     },
-    "hash": "efed09af651a9ccf8090ad4ffc85f59ff6901336"
+    "hash": "68020082671753dfdd798de1d44f9b0abdd312ae"
   },
   {
     "updatedAt": "2023-01-08T13:43:05.000Z",
