@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2023-01-21T06:54:10.000Z",
+    "approximateCoordinates": [
+      28.49,
+      77.28
+    ],
+    "label": "Faridabad",
+    "timezone": {
+      "name": "Asia/Kolkata",
+      "utcOffset": 330,
+      "dstOffset": 330
+    },
+    "country": {
+      "code": "in",
+      "name": "India"
+    },
+    "hash": "f6b7c5cea06d969e4c669c2d8806c7b8d35284f0"
+  },
+  {
     "updatedAt": "2023-01-20T12:32:04.000Z",
     "approximateCoordinates": [
       28.48,
