@@ -128,9 +128,9 @@ export default {
         updatedAt: time.toISOString(),
         approximateCoordinates: [lat, lon],
         label:
+          geocode.address.city ??
           geocode.address.village ??
           geocode.address.town ??
-          geocode.address.city ??
           geocode.address.suburb ??
           geocode.address.county ??
           geocode.address.state ??
