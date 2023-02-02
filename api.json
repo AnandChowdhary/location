@@ -1,22 +1,26 @@
 {
-  "date": "2023-01-10T11:55:15.000Z",
+  "date": "2023-02-02T19:05:32.143Z",
   "coordinates": [
-    28.53,
-    77.25
+    24.43,
+    54.64
   ],
-  "label": "Delhi",
-  "full_label": "Mandakini Enclave, Kalkaji Tehsil, South East Delhi, Delhi, 110019, India",
+  "label": "Abu Dhabi",
+  "full_label": "389, Ad Diyafah Street, Zayed International Airport, Abu Dhabi, Abu Dhabi Emirate, 23500, United Arab Emirates",
   "timezone": {
-    "name": "Asia/Kolkata",
+    "name": "Asia/Dubai",
     "countries": [
-      "IN"
+      "AE",
+      "OM",
+      "RE",
+      "SC",
+      "TF"
     ],
-    "utcOffset": 330,
-    "utcOffsetStr": "+05:30",
-    "dstOffset": 330,
-    "dstOffsetStr": "+05:30",
+    "utcOffset": 240,
+    "utcOffsetStr": "+04:00",
+    "dstOffset": 240,
+    "dstOffsetStr": "+04:00",
     "aliasOf": null
   },
-  "country_code": "in",
-  "country_emoji": "🇮🇳"
+  "country_code": "ae",
+  "country_emoji": "🇦🇪"
 }
