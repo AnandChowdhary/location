@@ -1,26 +1,27 @@
 {
-  "updatedAt": "2023-02-02T13:33:46.000Z",
+  "updatedAt": "2023-02-03T13:06:29.000Z",
   "approximateCoordinates": [
-    28.56,
-    77.08
+    52.31,
+    4.76
   ],
-  "label": "New Delhi",
+  "label": "Noord-Holland",
   "timezone": {
-    "name": "Asia/Kolkata",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "IN"
+      "NL"
     ],
-    "utcOffset": 330,
-    "utcOffsetStr": "+05:30",
-    "dstOffset": 330,
-    "dstOffsetStr": "+05:30",
-    "aliasOf": null
+    "utcOffset": 60,
+    "utcOffsetStr": "+01:00",
+    "dstOffset": 120,
+    "dstOffsetStr": "+02:00",
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
   "country": {
-    "code": "in",
-    "name": "India",
+    "code": "nl",
+    "name": "Netherlands",
     "timezones": [
-      "Asia/Kolkata"
+      "Europe/Brussels"
     ]
   }
 }
