@@ -57,6 +57,24 @@
     "hash": "ea22a126566c5404b7f0b7b8e5ae24ae9a4235e0"
   },
   {
+    "updatedAt": "2023-02-03",
+    "approximateCoordinates": [
+      24.43,
+      54.64
+    ],
+    "label": "Abu Dhabi",
+    "timezone": {
+      "name": "Asia/Dubai",
+      "utcOffset": 240,
+      "dstOffset": 240
+    },
+    "country": {
+      "code": "ae",
+      "name": "United Arab Emirates"
+    },
+    "hash": "7cbc82b1d597da39b4b03a400451f42a873855b7"
+  },
+  {
     "updatedAt": "2023-02-02T13:33:46.000Z",
     "approximateCoordinates": [
       28.56,
@@ -91,6 +109,24 @@
       "name": "India"
     },
     "hash": "7a88ebdce1df195ffa2ad82b9f2161a0741a892e"
+  },
+  {
+    "updatedAt": "2023-02-02",
+    "approximateCoordinates": [
+      24.43,
+      54.64
+    ],
+    "label": "Abu Dhabi",
+    "timezone": {
+      "name": "Asia/Dubai",
+      "utcOffset": 240,
+      "dstOffset": 240
+    },
+    "country": {
+      "code": "ae",
+      "name": "United Arab Emirates"
+    },
+    "hash": "bdb24e631c40cc93463632028b25e9b7c184e30a"
   },
   {
     "updatedAt": "2023-02-01T19:49:03.000Z",
@@ -1387,6 +1423,24 @@
       "name": "India"
     },
     "hash": "19878bd9e8129aec2d3e57a69d81f1dd929f860d"
+  },
+  {
+    "updatedAt": "2023-01-08",
+    "approximateCoordinates": [
+      24.43,
+      54.64
+    ],
+    "label": "Abu Dhabi",
+    "timezone": {
+      "name": "Asia/Dubai",
+      "utcOffset": 240,
+      "dstOffset": 240
+    },
+    "country": {
+      "code": "ae",
+      "name": "United Arab Emirates"
+    },
+    "hash": "09d556cf3cec18b8b33bee5885b88d5256ee1767"
   },
   {
     "updatedAt": "2023-01-03T18:51:14.798Z",

@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-02-03T20:22:00.000Z",
+    "approximateCoordinates": [
+      52.3,
+      5.05
+    ],
+    "label": "Weesp",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "b9d91c9c8f4e5c89128ec0d69fe20a6c97741cd9"
+  },
+  {
     "updatedAt": "2023-01-08T13:43:05.000Z",
     "approximateCoordinates": [
       30.68,
@@ -16,6 +35,24 @@
       "name": "India"
     },
     "hash": "d65cd2025aa87bfb5a8fcb25ddd099beb6c78560"
+  },
+  {
+    "updatedAt": "2023-01-08",
+    "approximateCoordinates": [
+      24.43,
+      54.64
+    ],
+    "label": "Abu Dhabi",
+    "timezone": {
+      "name": "Asia/Dubai",
+      "utcOffset": 240,
+      "dstOffset": 240
+    },
+    "country": {
+      "code": "ae",
+      "name": "United Arab Emirates"
+    },
+    "hash": "09d556cf3cec18b8b33bee5885b88d5256ee1767"
   },
   {
     "updatedAt": "2022-09-26T20:14:24.000Z",

@@ -1,11 +1,11 @@
 [
   {
-    "updatedAt": "2023-02-03T16:37:50.000Z",
+    "updatedAt": "2023-02-03T20:22:00.000Z",
     "approximateCoordinates": [
-      52.37,
-      4.89
+      52.3,
+      5.05
     ],
-    "label": "Amsterdam",
+    "label": "Weesp",
     "timezone": {
       "name": "Europe/Amsterdam",
       "utcOffset": 60,
@@ -16,7 +16,7 @@
       "code": "nl",
       "name": "Netherlands"
     },
-    "hash": "ba549da9251048dee55d414ee85cd1315b380657"
+    "hash": "b9d91c9c8f4e5c89128ec0d69fe20a6c97741cd9"
   },
   {
     "updatedAt": "2023-02-03T13:06:29.000Z",
@@ -38,10 +38,28 @@
     "hash": "ea22a126566c5404b7f0b7b8e5ae24ae9a4235e0"
   },
   {
-    "updatedAt": "2023-02-02T13:33:46.000Z",
+    "updatedAt": "2023-02-03",
     "approximateCoordinates": [
-      28.56,
-      77.08
+      24.43,
+      54.64
+    ],
+    "label": "Abu Dhabi",
+    "timezone": {
+      "name": "Asia/Dubai",
+      "utcOffset": 240,
+      "dstOffset": 240
+    },
+    "country": {
+      "code": "ae",
+      "name": "United Arab Emirates"
+    },
+    "hash": "7cbc82b1d597da39b4b03a400451f42a873855b7"
+  },
+  {
+    "updatedAt": "2023-02-02T09:56:54.000Z",
+    "approximateCoordinates": [
+      28.53,
+      77.24
     ],
     "label": "New Delhi",
     "timezone": {
@@ -53,7 +71,43 @@
       "code": "in",
       "name": "India"
     },
-    "hash": "d496e547a7992663a0ae8f4e1f12719103c498b5"
+    "hash": "7a88ebdce1df195ffa2ad82b9f2161a0741a892e"
+  },
+  {
+    "updatedAt": "2023-02-02",
+    "approximateCoordinates": [
+      24.43,
+      54.64
+    ],
+    "label": "Abu Dhabi",
+    "timezone": {
+      "name": "Asia/Dubai",
+      "utcOffset": 240,
+      "dstOffset": 240
+    },
+    "country": {
+      "code": "ae",
+      "name": "United Arab Emirates"
+    },
+    "hash": "bdb24e631c40cc93463632028b25e9b7c184e30a"
+  },
+  {
+    "updatedAt": "2023-01-31T17:53:42.000Z",
+    "approximateCoordinates": [
+      28.53,
+      77.25
+    ],
+    "label": "New Delhi",
+    "timezone": {
+      "name": "Asia/Kolkata",
+      "utcOffset": 330,
+      "dstOffset": 330
+    },
+    "country": {
+      "code": "in",
+      "name": "India"
+    },
+    "hash": "d3dd18b1b0d4887b2d06ba9267a80e50468faa22"
   },
   {
     "updatedAt": "2023-01-08T13:43:05.000Z",
@@ -90,6 +144,24 @@
       "name": "India"
     },
     "hash": "19878bd9e8129aec2d3e57a69d81f1dd929f860d"
+  },
+  {
+    "updatedAt": "2023-01-08",
+    "approximateCoordinates": [
+      24.43,
+      54.64
+    ],
+    "label": "Abu Dhabi",
+    "timezone": {
+      "name": "Asia/Dubai",
+      "utcOffset": 240,
+      "dstOffset": 240
+    },
+    "country": {
+      "code": "ae",
+      "name": "United Arab Emirates"
+    },
+    "hash": "09d556cf3cec18b8b33bee5885b88d5256ee1767"
   },
   {
     "updatedAt": "2022-12-27T20:11:44.771Z",
