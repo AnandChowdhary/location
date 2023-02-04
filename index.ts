@@ -209,7 +209,7 @@ export default {
             data,
             null,
             2
-          )}\`\`\`\n`,
+          )}\n\`\`\`\n`,
         }
       );
     }
