@@ -1,30 +1,27 @@
 {
-  "updatedAt": "2023-02-03",
+  "updatedAt": "2023-02-03T22:30:17.000Z",
   "approximateCoordinates": [
-    24.43,
-    54.64
+    53.22,
+    6.57
   ],
-  "label": "Abu Dhabi",
+  "label": "Groningen",
   "timezone": {
-    "name": "Asia/Dubai",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "AE",
-      "OM",
-      "RE",
-      "SC",
-      "TF"
+      "NL"
     ],
-    "utcOffset": 240,
-    "utcOffsetStr": "+04:00",
-    "dstOffset": 240,
-    "dstOffsetStr": "+04:00",
-    "aliasOf": null
+    "utcOffset": 60,
+    "utcOffsetStr": "+01:00",
+    "dstOffset": 120,
+    "dstOffsetStr": "+02:00",
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
   "country": {
-    "code": "AE",
-    "name": "United Arab Emirates",
+    "code": "nl",
+    "name": "Netherlands",
     "timezones": [
-      "Asia/Dubai"
+      "Europe/Brussels"
     ]
   }
 }

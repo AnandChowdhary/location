@@ -1,11 +1,11 @@
 [
   {
-    "updatedAt": "2023-02-03T20:22:00.000Z",
+    "updatedAt": "2023-02-03T22:30:17.000Z",
     "approximateCoordinates": [
-      52.3,
-      5.05
+      53.22,
+      6.57
     ],
-    "label": "Weesp",
+    "label": "Groningen",
     "timezone": {
       "name": "Europe/Amsterdam",
       "utcOffset": 60,
@@ -16,7 +16,7 @@
       "code": "nl",
       "name": "Netherlands"
     },
-    "hash": "b9d91c9c8f4e5c89128ec0d69fe20a6c97741cd9"
+    "hash": "a7ae8f9e2d705b05ae1ec8f55611b01bcad98947"
   },
   {
     "updatedAt": "2023-02-03T13:06:29.000Z",
