@@ -124,17 +124,23 @@ export default {
 
       const emoji = flag(country.id);
 
+      let label = country.name;
+      [
+        geocode.address.state,
+        geocode.address.county,
+        geocode.address.suburb,
+        geocode.address.town,
+        geocode.address.village,
+        geocode.address.city,
+      ].forEach((option) => {
+        // Check if label is Latin-1 for btoa
+        if (option && /[A-z\u00C0-\u00ff]+/g.test(option)) label = option;
+      });
+
       data = {
         updatedAt: time.toISOString(),
         approximateCoordinates: [lat, lon],
-        label:
-          geocode.address.city ??
-          geocode.address.village ??
-          geocode.address.town ??
-          geocode.address.suburb ??
-          geocode.address.county ??
-          geocode.address.state ??
-          country.name,
+        label,
         timezone: getTimezone(tzLookup(lat, lon)) ?? undefined,
         country: {
           code: geocode.address.country_code,
@@ -142,9 +148,9 @@ export default {
           timezones: country.timezones,
         },
       };
-      const message = `📍${emoji} ${data.label}`;
+      const message = `📍${emoji} ${label}`;
 
-      if (data.label === previousLocation.label && !CHECK_DISABLED)
+      if (label === previousLocation.label && !CHECK_DISABLED)
         return new Response(
           "Skipping update because location label is the same"
         );
@@ -164,7 +170,7 @@ export default {
         const previousApiResult = JSON.parse(
           atob(currentFileData.content)
         ) as ApiResult;
-        if (previousApiResult.label === data.label && !CHECK_DISABLED)
+        if (previousApiResult.label === label && !CHECK_DISABLED)
           return new Response(
             "Skipping update because location label is the same"
           );
