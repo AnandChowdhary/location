@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-02-14T22:47:12.000Z",
+    "approximateCoordinates": [
+      53.35,
+      6.55
+    ],
+    "label": "Tinallinge",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "294b9e42fc30cc5772bc4d5405116df8e2dea3b3"
+  },
+  {
     "updatedAt": "2023-02-14T17:12:19.000Z",
     "approximateCoordinates": [
       53.29,
