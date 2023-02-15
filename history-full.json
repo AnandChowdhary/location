@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-02-15T03:21:44.000Z",
+    "approximateCoordinates": [
+      53.31,
+      6.63
+    ],
+    "label": "Bedum",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "3c5439ef4db1edc41ce3e360dd6a1c2a5d3c4c33"
+  },
+  {
     "updatedAt": "2023-02-14T22:47:12.000Z",
     "approximateCoordinates": [
       53.35,
