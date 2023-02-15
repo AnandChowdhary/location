@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-02-15T08:36:02.000Z",
+    "approximateCoordinates": [
+      53.33,
+      6.59
+    ],
+    "label": "Onderdendam",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "2d32d5b98b3d3aed0f6f20a1c79e57f462b4783d"
+  },
+  {
     "updatedAt": "2023-02-15T03:21:44.000Z",
     "approximateCoordinates": [
       53.31,
