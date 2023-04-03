@@ -1,9 +1,9 @@
 [
   {
-    "updatedAt": "2023-02-03T22:30:17.000Z",
+    "updatedAt": "2023-02-15T17:55:46.000Z",
     "approximateCoordinates": [
       53.22,
-      6.57
+      6.56
     ],
     "label": "Groningen",
     "timezone": {
@@ -16,7 +16,7 @@
       "code": "nl",
       "name": "Netherlands"
     },
-    "hash": "a7ae8f9e2d705b05ae1ec8f55611b01bcad98947"
+    "hash": "ddfd6d0b8803e880c1a6d545c8fba1f1e60b21d9"
   },
   {
     "updatedAt": "2023-02-03T13:06:29.000Z",
