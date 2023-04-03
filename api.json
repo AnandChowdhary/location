@@ -1,11 +1,11 @@
 {
-  "date": "2023-02-03T20:11:08.000Z",
+  "date": "2023-04-03T18:48:35.000Z",
   "coordinates": [
-    53.21,
-    6.56
+    52.34,
+    4.87
   ],
-  "label": "Groningen",
-  "full_label": "Treindienstleiding Groningen, Zaanstraat, Rivierenbuurt, South, Groningen, Netherlands, 9725 HW, Netherlands",
+  "label": "Amsterdam",
+  "full_label": "3095, Strawinskylaan, Strawinsky, Zuidas, Zuid, Amsterdam, North Holland, Netherlands, 1077 ZX, Netherlands",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
