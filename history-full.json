@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-04-05T15:21:41.000Z",
+    "approximateCoordinates": [
+      52.39,
+      4.75
+    ],
+    "label": "Halfweg",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "34452b8077cf3f84535ad8580a0d3486cc6996c9"
+  },
+  {
     "updatedAt": "2023-04-03T22:02:10.000Z",
     "approximateCoordinates": [
       52.37,
