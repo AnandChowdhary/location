@@ -1,30 +1,26 @@
 {
-  "updatedAt": "2023-04-08T02:20:10.000Z",
+  "updatedAt": "2023-04-08T14:19:54.000Z",
   "approximateCoordinates": [
-    24.43,
-    54.65
+    28.56,
+    77.08
   ],
-  "label": "United Arab Emirates",
+  "label": "New Delhi",
   "timezone": {
-    "name": "Asia/Dubai",
+    "name": "Asia/Kolkata",
     "countries": [
-      "AE",
-      "OM",
-      "RE",
-      "SC",
-      "TF"
+      "IN"
     ],
-    "utcOffset": 240,
-    "utcOffsetStr": "+04:00",
-    "dstOffset": 240,
-    "dstOffsetStr": "+04:00",
+    "utcOffset": 330,
+    "utcOffsetStr": "+05:30",
+    "dstOffset": 330,
+    "dstOffsetStr": "+05:30",
     "aliasOf": null
   },
   "country": {
-    "code": "ae",
-    "name": "United Arab Emirates",
+    "code": "in",
+    "name": "India",
     "timezones": [
-      "Asia/Dubai"
+      "Asia/Kolkata"
     ]
   }
 }
