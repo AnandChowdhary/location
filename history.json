@@ -1,9 +1,9 @@
 [
   {
-    "updatedAt": "2023-04-09T08:31:51.000Z",
+    "updatedAt": "2023-04-09T12:06:01.000Z",
     "approximateCoordinates": [
-      28.54,
-      77.23
+      28.57,
+      77.22
     ],
     "label": "New Delhi",
     "timezone": {
@@ -15,7 +15,7 @@
       "code": "in",
       "name": "India"
     },
-    "hash": "0d14ecb532f8f895e8044dcb034b1fd5d68579ac"
+    "hash": "1b8f945ec4d696ff43e76a5772378a0659688e1c"
   },
   {
     "updatedAt": "2023-04-08T14:19:54.000Z",
