@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2023-04-18T06:46:13.000Z",
+    "approximateCoordinates": [
+      28.53,
+      77.25
+    ],
+    "label": "Mandakini Enclave",
+    "timezone": {
+      "name": "Asia/Kolkata",
+      "utcOffset": 330,
+      "dstOffset": 330
+    },
+    "country": {
+      "code": "in",
+      "name": "India"
+    },
+    "hash": "45e8dcffbdf74333a53990d17b6d6bc22dee73c0"
+  },
+  {
     "updatedAt": "2023-04-17T18:58:05.000Z",
     "approximateCoordinates": [
       28.55,
