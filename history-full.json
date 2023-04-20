@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2023-04-20T12:35:48.000Z",
+    "approximateCoordinates": [
+      28.48,
+      77.31
+    ],
+    "label": "Gurukul Basti",
+    "timezone": {
+      "name": "Asia/Kolkata",
+      "utcOffset": 330,
+      "dstOffset": 330
+    },
+    "country": {
+      "code": "in",
+      "name": "India"
+    },
+    "hash": "31a0fb4111bd2b6bec5101ac355c21caf7a4c72a"
+  },
+  {
     "updatedAt": "2023-04-20T09:30:59.000Z",
     "approximateCoordinates": [
       28.51,
