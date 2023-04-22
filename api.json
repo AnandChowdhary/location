@@ -1,22 +1,26 @@
 {
-  "date": "2023-04-10T12:08:29.000Z",
+  "date": "2023-04-22T22:21:38.679Z",
   "coordinates": [
-    28.48,
-    77.31
+    24.43,
+    54.65
   ],
-  "label": "Libiza town",
-  "full_label": "Sector 37, Libiza town, Faridabad, Haryana, 121003, India",
+  "label": "Abu Dhabi",
+  "full_label": "Apron 1, Ad Diyafah Street, Zayed International Airport, Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
   "timezone": {
-    "name": "Asia/Kolkata",
+    "name": "Asia/Dubai",
     "countries": [
-      "IN"
+      "AE",
+      "OM",
+      "RE",
+      "SC",
+      "TF"
     ],
-    "utcOffset": 330,
-    "utcOffsetStr": "+05:30",
-    "dstOffset": 330,
-    "dstOffsetStr": "+05:30",
+    "utcOffset": 240,
+    "utcOffsetStr": "+04:00",
+    "dstOffset": 240,
+    "dstOffsetStr": "+04:00",
     "aliasOf": null
   },
-  "country_code": "in",
-  "country_emoji": "🇮🇳"
+  "country_code": "ae",
+  "country_emoji": "🇦🇪"
 }
