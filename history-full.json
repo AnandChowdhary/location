@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2023-04-23T02:55:10.000Z",
+    "approximateCoordinates": [
+      24.43,
+      54.65
+    ],
+    "label": "United Arab Emirates",
+    "timezone": {
+      "name": "Asia/Dubai",
+      "utcOffset": 240,
+      "dstOffset": 240
+    },
+    "country": {
+      "code": "ae",
+      "name": "United Arab Emirates"
+    },
+    "hash": "369cfa6beb347a6986bf07ed1ac511e7b250b27f"
+  },
+  {
     "updatedAt": "2023-04-22T19:59:39.000Z",
     "approximateCoordinates": [
       28.56,
