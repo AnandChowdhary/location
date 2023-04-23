@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-04-23T12:36:25.000Z",
+    "approximateCoordinates": [
+      52.33,
+      4.73
+    ],
+    "label": "Lijnden",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "4a39b742816185d8e96bd4c53e86294b900a5cd6"
+  },
+  {
     "updatedAt": "2023-04-23T02:55:10.000Z",
     "approximateCoordinates": [
       24.43,
