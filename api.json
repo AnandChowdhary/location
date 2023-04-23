@@ -1,30 +1,27 @@
 {
-  "updatedAt": "2023-04-23T02:55:10.000Z",
+  "updatedAt": "2023-04-23T12:36:25.000Z",
   "approximateCoordinates": [
-    24.43,
-    54.65
+    52.33,
+    4.73
   ],
-  "label": "United Arab Emirates",
+  "label": "Lijnden",
   "timezone": {
-    "name": "Asia/Dubai",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "AE",
-      "OM",
-      "RE",
-      "SC",
-      "TF"
+      "NL"
     ],
-    "utcOffset": 240,
-    "utcOffsetStr": "+04:00",
-    "dstOffset": 240,
-    "dstOffsetStr": "+04:00",
-    "aliasOf": null
+    "utcOffset": 60,
+    "utcOffsetStr": "+01:00",
+    "dstOffset": 120,
+    "dstOffsetStr": "+02:00",
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
   "country": {
-    "code": "ae",
-    "name": "United Arab Emirates",
+    "code": "nl",
+    "name": "Netherlands",
     "timezones": [
-      "Asia/Dubai"
+      "Europe/Brussels"
     ]
   }
 }
