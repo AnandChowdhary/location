@@ -1,26 +1,23 @@
 {
-  "date": "2023-04-22T22:21:38.679Z",
+  "date": "2023-04-23T05:02:14.489Z",
   "coordinates": [
-    24.43,
-    54.65
+    52.33,
+    4.73
   ],
-  "label": "Abu Dhabi",
-  "full_label": "Apron 1, Ad Diyafah Street, Zayed International Airport, Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
+  "label": "North Holland",
+  "full_label": "322A, Hoofdweg, Hoofddorp-Omgeving, Schiphol, Lijnden, Haarlemmermeer, North Holland, Netherlands, 1175 KD, Netherlands",
   "timezone": {
-    "name": "Asia/Dubai",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "AE",
-      "OM",
-      "RE",
-      "SC",
-      "TF"
+      "NL"
     ],
-    "utcOffset": 240,
-    "utcOffsetStr": "+04:00",
-    "dstOffset": 240,
-    "dstOffsetStr": "+04:00",
-    "aliasOf": null
+    "utcOffset": 60,
+    "utcOffsetStr": "+01:00",
+    "dstOffset": 120,
+    "dstOffsetStr": "+02:00",
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "ae",
-  "country_emoji": "🇦🇪"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
