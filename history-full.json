@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-04-23T18:46:18.000Z",
+    "approximateCoordinates": [
+      52.42,
+      5.4
+    ],
+    "label": "Lelystad",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "0fda8eab8a7af7521657dea22c8940b8c74a911e"
+  },
+  {
     "updatedAt": "2023-04-23T15:44:54.000Z",
     "approximateCoordinates": [
       52.31,
