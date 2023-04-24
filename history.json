@@ -1,9 +1,28 @@
 [
   {
-    "updatedAt": "2023-04-23T15:44:54.000Z",
+    "updatedAt": "2023-04-23T18:46:18.000Z",
     "approximateCoordinates": [
-      52.31,
-      4.76
+      52.42,
+      5.4
+    ],
+    "label": "Lelystad",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "0fda8eab8a7af7521657dea22c8940b8c74a911e"
+  },
+  {
+    "updatedAt": "2023-04-23T12:36:25.000Z",
+    "approximateCoordinates": [
+      52.33,
+      4.73
     ],
     "label": "Schiphol",
     "timezone": {
@@ -16,44 +35,7 @@
       "code": "nl",
       "name": "Netherlands"
     },
-    "hash": "76f6244703a1680e22391fb8f1a0d2352a92ab1e"
-  },
-  {
-    "updatedAt": "2023-04-23T12:36:25.000Z",
-    "approximateCoordinates": [
-      52.33,
-      4.73
-    ],
-    "label": "Lijnden",
-    "timezone": {
-      "name": "Europe/Amsterdam",
-      "utcOffset": 60,
-      "dstOffset": 120,
-      "deprecated": true
-    },
-    "country": {
-      "code": "nl",
-      "name": "Netherlands"
-    },
     "hash": "4a39b742816185d8e96bd4c53e86294b900a5cd6"
-  },
-  {
-    "updatedAt": "2023-04-23T02:55:10.000Z",
-    "approximateCoordinates": [
-      24.43,
-      54.65
-    ],
-    "label": "United Arab Emirates",
-    "timezone": {
-      "name": "Asia/Dubai",
-      "utcOffset": 240,
-      "dstOffset": 240
-    },
-    "country": {
-      "code": "ae",
-      "name": "United Arab Emirates"
-    },
-    "hash": "369cfa6beb347a6986bf07ed1ac511e7b250b27f"
   },
   {
     "updatedAt": "2023-04-12T08:07:09.000Z",

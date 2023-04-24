@@ -1,11 +1,11 @@
 [
   {
-    "updatedAt": "2023-04-23T12:36:25.000Z",
+    "updatedAt": "2023-04-23T18:46:18.000Z",
     "approximateCoordinates": [
-      52.33,
-      4.73
+      52.42,
+      5.4
     ],
-    "label": "Lijnden",
+    "label": "Lelystad",
     "timezone": {
       "name": "Europe/Amsterdam",
       "utcOffset": 60,
@@ -16,7 +16,7 @@
       "code": "nl",
       "name": "Netherlands"
     },
-    "hash": "4a39b742816185d8e96bd4c53e86294b900a5cd6"
+    "hash": "0fda8eab8a7af7521657dea22c8940b8c74a911e"
   },
   {
     "updatedAt": "2023-04-08T02:20:10.000Z",
