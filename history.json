@@ -1,11 +1,11 @@
 [
   {
-    "updatedAt": "2023-04-23T18:46:18.000Z",
+    "updatedAt": "2023-04-24T05:49:10.000Z",
     "approximateCoordinates": [
-      52.42,
-      5.4
+      53.22,
+      6.56
     ],
-    "label": "Lelystad",
+    "label": "Groningen",
     "timezone": {
       "name": "Europe/Amsterdam",
       "utcOffset": 60,
@@ -16,7 +16,7 @@
       "code": "nl",
       "name": "Netherlands"
     },
-    "hash": "0fda8eab8a7af7521657dea22c8940b8c74a911e"
+    "hash": "724f23622f3f4fb9cd0f39e6afdd8c144fded33b"
   },
   {
     "updatedAt": "2023-04-23T12:36:25.000Z",
