@@ -28,7 +28,8 @@
       "Mandakini Enclave": "New Delhi",
       "Gurukul Basti": "New Delhi",
       "Adchini": "New Delhi",
-      "S.A.S. Nagar (Mohali) Tahsil": "Chandigarh"
+      "S.A.S. Nagar (Mohali) Tahsil": "Chandigarh",
+      "Lijnden": "Schiphol"
     }
   },
   "layovers": {
@@ -56,7 +57,8 @@
       "74db397a59a47bc639632a4ba7b441fef3b0925b",
       "a3f5c7ae90fbffca8d8405e873efcb289d94c0db",
       "b373e402c0a72906f6c86a12a788d124666ac337",
-      "f792200cef9183305338cadd5f3a0d46b249e435"
+      "f792200cef9183305338cadd5f3a0d46b249e435",
+      "369cfa6beb347a6986bf07ed1ac511e7b250b27f"
     ]
   }
 }
