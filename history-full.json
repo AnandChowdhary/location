@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-05-04T16:02:33.000Z",
+    "approximateCoordinates": [
+      52.19,
+      5
+    ],
+    "label": "Nieuwersluis",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "0435dd96549d19ab04a143eff8f03779db7ad189"
+  },
+  {
     "updatedAt": "2023-05-04T07:49:27.000Z",
     "approximateCoordinates": [
       52.36,
