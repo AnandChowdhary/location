@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2023-05-04T07:49:27.000Z",
+  "updatedAt": "2023-05-04T16:02:33.000Z",
   "approximateCoordinates": [
-    52.36,
-    4.91
+    52.19,
+    5
   ],
-  "label": "Amsterdam",
+  "label": "Nieuwersluis",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
