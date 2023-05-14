@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-05-14T08:25:04.000Z",
+    "approximateCoordinates": [
+      53.13,
+      6.63
+    ],
+    "label": "Glimmen",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "e3dc9f44d60848aedf7754106a04816c5f5a40ce"
+  },
+  {
     "updatedAt": "2023-05-05T12:31:53.000Z",
     "approximateCoordinates": [
       53.22,
