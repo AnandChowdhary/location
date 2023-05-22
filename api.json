@@ -1,11 +1,11 @@
 {
-  "date": "2023-05-22T07:20:08.000Z",
+  "date": "2023-05-22T20:12:13.935Z",
   "coordinates": [
-    52.15,
-    5.37
+    52.37,
+    4.9
   ],
-  "label": "Amersfoort",
-  "full_label": "10, Koningin Wilhelminalaan, Bergkwartier, De Berg-Noord, Amersfoort, Utrecht, Netherlands, 3818 HP, Netherlands",
+  "label": "Amsterdam",
+  "full_label": "35, Zuiderkerkhof, Nieuwmarkt/Lastage, Centrum, Amsterdam, North Holland, Netherlands, 1011 XA, Netherlands",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
