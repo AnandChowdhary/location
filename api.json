@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2023-05-23T15:50:50.000Z",
+  "updatedAt": "2023-05-23T20:49:28.000Z",
   "approximateCoordinates": [
-    52.1,
-    5.1
+    53.22,
+    6.57
   ],
-  "label": "Utrecht",
+  "label": "Groningen",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
