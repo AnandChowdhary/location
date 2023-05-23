@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-05-23T11:59:35.000Z",
+    "approximateCoordinates": [
+      52.24,
+      5.02
+    ],
+    "label": "Loenen aan de Vecht",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "6db670ae6be28098f3cd6ef561651e69a8ca421c"
+  },
+  {
     "updatedAt": "2023-05-23T08:03:39.000Z",
     "approximateCoordinates": [
       52.37,
