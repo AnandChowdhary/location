@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2023-05-26T11:51:31.000Z",
+  "updatedAt": "2023-05-26T18:06:07.000Z",
   "approximateCoordinates": [
-    52.34,
-    4.89
+    52.33,
+    4.92
   ],
-  "label": "Amsterdam",
+  "label": "Amsterdam-Duivendrecht",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
