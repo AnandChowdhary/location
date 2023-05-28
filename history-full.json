@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-05-28T16:20:21.000Z",
+    "approximateCoordinates": [
+      52.3,
+      5.06
+    ],
+    "label": "Weesp",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "44fc5cc58fbd8893a5648079f7f4bd9df32b1303"
+  },
+  {
     "updatedAt": "2023-05-26T21:44:04.000Z",
     "approximateCoordinates": [
       52.37,
