@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2023-05-26T21:44:04.000Z",
+  "updatedAt": "2023-05-28T16:20:21.000Z",
   "approximateCoordinates": [
-    52.37,
-    4.9
+    52.3,
+    5.06
   ],
-  "label": "Amsterdam",
+  "label": "Weesp",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
