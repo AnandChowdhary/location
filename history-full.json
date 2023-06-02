@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-06-02T23:21:33.000Z",
+    "approximateCoordinates": [
+      53.19,
+      6.38
+    ],
+    "label": "Midwolde",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "46f22f549ec2254a117cf887a2c4d8c88488bef3"
+  },
+  {
     "updatedAt": "2023-05-28T20:45:31.000Z",
     "approximateCoordinates": [
       53.22,
