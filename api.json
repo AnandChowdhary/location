@@ -1,11 +1,11 @@
 {
-  "date": "2023-05-28T18:10:51.000Z",
+  "date": "2023-06-02T23:05:58.000Z",
   "coordinates": [
-    53.22,
-    6.56
+    52.39,
+    4.84
   ],
-  "label": "Groningen",
-  "full_label": "3, Vierde Drift Noorderhaven, A-kwartier, City centre, Centrum, Groningen, Netherlands, 9712 AP, Netherlands",
+  "label": "Amsterdam",
+  "full_label": "Hatostraat, Teleport, Nieuw-West, Amsterdam, North Holland, Netherlands, 1043 DL, Netherlands",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
