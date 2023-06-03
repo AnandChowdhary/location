@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2023-06-03T05:29:36.000Z",
+    "approximateCoordinates": [
+      50.86,
+      4.36
+    ],
+    "label": "Schaerbeek - Schaarbeek",
+    "timezone": {
+      "name": "Europe/Brussels",
+      "utcOffset": 60,
+      "dstOffset": 120
+    },
+    "country": {
+      "code": "be",
+      "name": "Belgium"
+    },
+    "hash": "34fc6b9252f992987048efd515bea1c55ea68f8f"
+  },
+  {
     "updatedAt": "2023-06-03T02:24:56.000Z",
     "approximateCoordinates": [
       52.27,

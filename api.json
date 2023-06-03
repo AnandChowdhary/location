@@ -1,25 +1,26 @@
 {
-  "updatedAt": "2023-06-03T02:24:56.000Z",
+  "updatedAt": "2023-06-03T05:29:36.000Z",
   "approximateCoordinates": [
-    52.27,
-    4.71
+    50.86,
+    4.36
   ],
-  "label": "Rijsenhout",
+  "label": "Schaerbeek - Schaarbeek",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Europe/Brussels",
     "countries": [
+      "BE",
+      "LU",
       "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": "Europe/Brussels",
-    "deprecated": true
+    "aliasOf": null
   },
   "country": {
-    "code": "nl",
-    "name": "Netherlands",
+    "code": "be",
+    "name": "Belgium",
     "timezones": [
       "Europe/Brussels"
     ]
