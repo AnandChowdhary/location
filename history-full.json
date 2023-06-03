@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-06-03T02:24:56.000Z",
+    "approximateCoordinates": [
+      52.27,
+      4.71
+    ],
+    "label": "Rijsenhout",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "1d90aa623404669333189efbfe19c69ea4eaa844"
+  },
+  {
     "updatedAt": "2023-06-02T23:21:33.000Z",
     "approximateCoordinates": [
       53.19,
