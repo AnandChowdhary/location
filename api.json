@@ -1,16 +1,15 @@
 {
-  "updatedAt": "2023-06-03T05:29:36.000Z",
+  "updatedAt": "2023-06-03T08:42:52.000Z",
   "approximateCoordinates": [
-    50.86,
-    4.36
+    50.1,
+    3.05
   ],
-  "label": "Schaerbeek - Schaarbeek",
+  "label": "Hermies",
   "timezone": {
-    "name": "Europe/Brussels",
+    "name": "Europe/Paris",
     "countries": [
-      "BE",
-      "LU",
-      "NL"
+      "FR",
+      "MC"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -19,10 +18,10 @@
     "aliasOf": null
   },
   "country": {
-    "code": "be",
-    "name": "Belgium",
+    "code": "fr",
+    "name": "France",
     "timezones": [
-      "Europe/Brussels"
+      "Europe/Paris"
     ]
   }
 }
