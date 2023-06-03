@@ -1,17 +1,16 @@
 {
-  "date": "2023-06-03T02:20:11.000Z",
+  "date": "2023-06-03T06:17:01.024Z",
   "coordinates": [
-    50.86,
-    4.36
+    50.12,
+    3.09
   ],
-  "label": "Schaerbeek - Schaarbeek",
-  "full_label": "Gare du Nord - Noordstation, Rue du Progrès - Vooruitgangstraat, Northern Quarter, Schaerbeek - Schaarbeek, Brussels-Capital, 1030, Belgium",
+  "label": "Hauts-de-France",
+  "full_label": "Aire d’Havrincourt, A 2, Havrincourt, Arras, Pas-de-Calais, Hauts-de-France, Metropolitan France, 62147, France",
   "timezone": {
-    "name": "Europe/Brussels",
+    "name": "Europe/Paris",
     "countries": [
-      "BE",
-      "LU",
-      "NL"
+      "FR",
+      "MC"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -19,6 +18,6 @@
     "dstOffsetStr": "+02:00",
     "aliasOf": null
   },
-  "country_code": "be",
-  "country_emoji": "🇧🇪"
+  "country_code": "fr",
+  "country_emoji": "🇫🇷"
 }
