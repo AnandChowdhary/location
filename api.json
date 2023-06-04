@@ -1,24 +1,23 @@
 {
-  "date": "2023-06-04T15:25:06.000Z",
+  "date": "2023-06-04T16:55:26.000Z",
   "coordinates": [
-    50.83,
-    4.33
+    51.93,
+    4.47
   ],
-  "label": "Saint-Gilles - Sint-Gillis",
-  "full_label": "Avenue Fonsny - Fonsnylaan, Saint-Gilles - Sint-Gillis, Brussels-Capital, 1060, Belgium",
+  "label": "Rotterdam",
+  "full_label": "Schiekade 45, Schiekade, Provenierswijk, Noord, Rotterdam, South Holland, Netherlands, 3033 BD, Netherlands",
   "timezone": {
-    "name": "Europe/Brussels",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "BE",
-      "LU",
       "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": null
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "be",
-  "country_emoji": "🇧🇪"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
