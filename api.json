@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2023-06-04T15:31:16.000Z",
+  "updatedAt": "2023-06-04T18:33:12.000Z",
   "approximateCoordinates": [
-    48.95,
-    2.35
+    51.93,
+    4.47
   ],
-  "label": "Saint-Denis",
+  "label": "Rotterdam",
   "timezone": {
-    "name": "Europe/Paris",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "FR",
-      "MC"
+      "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": null
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
   "country": {
-    "code": "fr",
-    "name": "France",
+    "code": "nl",
+    "name": "Netherlands",
     "timezones": [
-      "Europe/Paris"
+      "Europe/Brussels"
     ]
   }
 }
