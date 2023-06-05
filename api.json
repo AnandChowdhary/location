@@ -1,11 +1,11 @@
 {
-  "date": "2023-06-05T12:19:12.118Z",
+  "date": "2023-06-05T13:21:00.000Z",
   "coordinates": [
-    52.5,
-    6.09
+    52.09,
+    5.11
   ],
-  "label": "Zwolle",
-  "full_label": "39, Greenshieldsstraat, Schellerbroek, Zwolle, Overijssel, Netherlands, 8017 GL, Netherlands",
+  "label": "Utrecht",
+  "full_label": "8, Stationspassage, Hoog Catharijne, Ns, Jaarbeurs, Binnenstad City- En Winkelgebied, Binnenstad, Utrecht, Netherlands, 3511 CB, Netherlands",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
