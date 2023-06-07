@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-06-07T09:07:31.000Z",
+    "approximateCoordinates": [
+      52.95,
+      6.56
+    ],
+    "label": "Hooghalen",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "ab6cd5ae19652983b1ba0439e5516f3a01fb07b6"
+  },
+  {
     "updatedAt": "2023-06-05T18:44:56.000Z",
     "approximateCoordinates": [
       53.22,

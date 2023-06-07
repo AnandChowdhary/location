@@ -1,11 +1,11 @@
 [
   {
-    "updatedAt": "2023-06-04T21:34:31.000Z",
+    "updatedAt": "2023-06-05T18:44:56.000Z",
     "approximateCoordinates": [
-      52.5,
-      6.09
+      53.22,
+      6.56
     ],
-    "label": "Zwolle",
+    "label": "Groningen",
     "timezone": {
       "name": "Europe/Amsterdam",
       "utcOffset": 60,
@@ -16,7 +16,7 @@
       "code": "nl",
       "name": "Netherlands"
     },
-    "hash": "c31b6d46bf298cd95a6f0349a0f1545f91c2165b"
+    "hash": "a0b75820b20a0f7daf7a3ae354bf76126376054a"
   },
   {
     "updatedAt": "2023-06-04T18:33:12.000Z",
