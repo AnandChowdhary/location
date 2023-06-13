@@ -1,5 +1,5 @@
+import { readFile, writeFile } from "fs/promises";
 import { simpleGit } from "simple-git";
-import { writeFile, readFile } from "fs/promises";
 import { ApiResult } from "..";
 
 const git = simpleGit({});
@@ -161,6 +161,31 @@ export const summarize = async () => {
                 t.country?.code === value.country?.code
             )
         )
+        .sort(
+          (a, b) =>
+            new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()
+        ),
+      null,
+      2
+    ) + "\n"
+  );
+  await writeFile(
+    "history-countries.json",
+    JSON.stringify(
+      locationResult
+        .sort(
+          (a, b) =>
+            new Date(a.updatedAt).getTime() - new Date(b.updatedAt).getTime()
+        )
+        .filter(
+          (value, index, self) =>
+            index ===
+            self.findIndex((t) => t.country?.code === value.country?.code)
+        )
+        .map((data) => ({
+          ...data,
+          label: data.country?.name ?? data.country?.code ?? data.label,
+        }))
         .sort(
           (a, b) =>
             new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()
