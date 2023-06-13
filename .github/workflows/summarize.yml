@@ -16,7 +16,7 @@ jobs:
           node-version: 16
       - run: npm ci
       - run: npm run summarize
-      - run: mkdir public && cp api.json public && cp history.json public && cp history-full.json public && cp history-unique.json public
+      - run: mkdir public && cp api.json public && cp history.json public && cp history-full.json public && cp history-unique.json public && cp history-countries.json public
       - name: Deploy to Github Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
