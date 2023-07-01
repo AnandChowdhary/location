@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2023-07-01T11:00:42.000Z",
+  "updatedAt": "2023-07-01T16:21:00.000Z",
   "approximateCoordinates": [
-    53.22,
-    6.56
+    53.2,
+    6.44
   ],
-  "label": "Groningen",
+  "label": "Oostwold",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
