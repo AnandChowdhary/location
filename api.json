@@ -1,11 +1,11 @@
 {
-  "date": "2023-07-01T16:09:02.000Z",
+  "date": "2023-07-15T12:07:55.363Z",
   "coordinates": [
-    52.08,
-    5.12
+    52.38,
+    4.9
   ],
-  "label": "Utrecht",
-  "full_label": "170, Vaartsestraat, Bleekstraat E.o., Binnenstad Woongebied, Binnenstad, Utrecht, Netherlands, 3511 TG, Netherlands",
+  "label": "Amsterdam",
+  "full_label": "Michiel de Ruijtertunnel, Centrum, Amsterdam, North Holland, Netherlands, 1012 AA, Netherlands",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
