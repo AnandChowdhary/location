@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-07-28T16:36:16.000Z",
+    "approximateCoordinates": [
+      52.16,
+      5.03
+    ],
+    "label": "Tienhoven",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "9b8f6ebd8f5e320cd3f1dd96432480eef57bd476"
+  },
+  {
     "updatedAt": "2023-07-16T11:52:18.000Z",
     "approximateCoordinates": [
       52.08,
