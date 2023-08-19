@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-08-19T20:17:01.000Z",
+    "approximateCoordinates": [
+      52.22,
+      4.58
+    ],
+    "label": "Abbenes",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "b0f882107a93d52544a4505f2fa1e8c810ba451d"
+  },
+  {
     "updatedAt": "2023-08-19T17:14:49.000Z",
     "approximateCoordinates": [
       52.11,
