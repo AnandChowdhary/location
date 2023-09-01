@@ -1,23 +1,24 @@
 {
-  "date": "2023-09-01T10:35:00.000Z",
+  "date": "2023-09-01T12:24:04.000Z",
   "coordinates": [
-    51.6,
-    4.78
+    50.84,
+    4.34
   ],
-  "label": "Breda",
-  "full_label": "16, Minckelersstraat, Doornbos-Linie, Noord, Breda, North Brabant, Netherlands, 4816 AE, Netherlands",
+  "label": "Saint-Gilles - Sint-Gillis",
+  "full_label": "78, Boulevard Poincaré - Poincarélaan, Quartier Saint-Jacques - Sint-Jacobswijk, Brussels, Saint-Gilles - Sint-Gillis, Brussels-Capital, 1060, Belgium",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Europe/Brussels",
     "countries": [
+      "BE",
+      "LU",
       "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": "Europe/Brussels",
-    "deprecated": true
+    "aliasOf": null
   },
-  "country_code": "nl",
-  "country_emoji": "🇳🇱"
+  "country_code": "be",
+  "country_emoji": "🇧🇪"
 }
