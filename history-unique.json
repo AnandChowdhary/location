@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2023-09-01T12:38:50.000Z",
+    "approximateCoordinates": [
+      50.84,
+      4.34
+    ],
+    "label": "Saint-Gilles - Sint-Gillis",
+    "timezone": {
+      "name": "Europe/Brussels",
+      "utcOffset": 60,
+      "dstOffset": 120
+    },
+    "country": {
+      "code": "be",
+      "name": "Belgium"
+    },
+    "hash": "35bd6bd28a685db704d59f4cd02da238d53fc584"
+  },
+  {
     "updatedAt": "2023-06-03T08:42:52.000Z",
     "approximateCoordinates": [
       50.1,
