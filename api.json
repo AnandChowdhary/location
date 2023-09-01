@@ -1,11 +1,11 @@
 {
-  "date": "2023-09-01T09:17:53.764Z",
+  "date": "2023-09-01T10:35:00.000Z",
   "coordinates": [
-    51.93,
-    4.47
+    51.6,
+    4.78
   ],
-  "label": "Rotterdam",
-  "full_label": "Schiekade 45, Schiekade, Provenierswijk, Noord, Rotterdam, South Holland, Netherlands, 3033 BD, Netherlands",
+  "label": "Breda",
+  "full_label": "16, Minckelersstraat, Doornbos-Linie, Noord, Breda, North Brabant, Netherlands, 4816 AE, Netherlands",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
