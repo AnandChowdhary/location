@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2023-09-02T12:11:48.000Z",
+    "approximateCoordinates": [
+      50.84,
+      4.36
+    ],
+    "label": "Ville de Bruxelles - Stad Brussel",
+    "timezone": {
+      "name": "Europe/Brussels",
+      "utcOffset": 60,
+      "dstOffset": 120
+    },
+    "country": {
+      "code": "be",
+      "name": "Belgium"
+    },
+    "hash": "e68dac04b4cafe93cf2602ce320ad0ea18a50d79"
+  },
+  {
     "updatedAt": "2023-09-02T09:11:18.000Z",
     "approximateCoordinates": [
       50.84,
