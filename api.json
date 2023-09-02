@@ -1,17 +1,16 @@
 {
-  "date": "2023-09-01T12:24:04.000Z",
+  "date": "2023-09-02T14:18:02.770Z",
   "coordinates": [
-    50.84,
-    4.34
+    50.64,
+    3.08
   ],
-  "label": "Saint-Gilles - Sint-Gillis",
-  "full_label": "78, Boulevard Poincaré - Poincarélaan, Quartier Saint-Jacques - Sint-Jacobswijk, Brussels, Saint-Gilles - Sint-Gillis, Brussels-Capital, 1060, Belgium",
+  "label": "Lille",
+  "full_label": "65, Rue du Faubourg de Roubaix, Faubourg de Roubaix, Saint-Maurice Pellevoisin, Lille, Nord, Hauts-de-France, Metropolitan France, 59777, France",
   "timezone": {
-    "name": "Europe/Brussels",
+    "name": "Europe/Paris",
     "countries": [
-      "BE",
-      "LU",
-      "NL"
+      "FR",
+      "MC"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -19,6 +18,6 @@
     "dstOffsetStr": "+02:00",
     "aliasOf": null
   },
-  "country_code": "be",
-  "country_emoji": "🇧🇪"
+  "country_code": "fr",
+  "country_emoji": "🇫🇷"
 }
