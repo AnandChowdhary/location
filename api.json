@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2023-09-02T18:32:14.000Z",
+  "updatedAt": "2023-09-02T22:13:03.000Z",
   "approximateCoordinates": [
-    49,
-    2.57
+    48.85,
+    2.28
   ],
-  "label": "Tremblay-en-France",
+  "label": "Paris",
   "timezone": {
     "name": "Europe/Paris",
     "countries": [
