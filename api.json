@@ -1,16 +1,15 @@
 {
-  "updatedAt": "2023-09-02T12:11:48.000Z",
+  "updatedAt": "2023-09-02T15:14:48.000Z",
   "approximateCoordinates": [
-    50.84,
-    4.36
+    50.39,
+    2.98
   ],
-  "label": "Ville de Bruxelles - Stad Brussel",
+  "label": "Beaumont",
   "timezone": {
-    "name": "Europe/Brussels",
+    "name": "Europe/Paris",
     "countries": [
-      "BE",
-      "LU",
-      "NL"
+      "FR",
+      "MC"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -19,10 +18,10 @@
     "aliasOf": null
   },
   "country": {
-    "code": "be",
-    "name": "Belgium",
+    "code": "fr",
+    "name": "France",
     "timezones": [
-      "Europe/Brussels"
+      "Europe/Paris"
     ]
   }
 }

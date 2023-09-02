@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2023-09-02T15:14:48.000Z",
+    "approximateCoordinates": [
+      50.39,
+      2.98
+    ],
+    "label": "Beaumont",
+    "timezone": {
+      "name": "Europe/Paris",
+      "utcOffset": 60,
+      "dstOffset": 120
+    },
+    "country": {
+      "code": "fr",
+      "name": "France"
+    },
+    "hash": "1efc9e1be4dfb8323bc68d7b3d8a8829b0eb3dbd"
+  },
+  {
     "updatedAt": "2023-09-02T12:11:48.000Z",
     "approximateCoordinates": [
       50.84,
