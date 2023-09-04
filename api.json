@@ -1,23 +1,23 @@
 {
-  "date": "2023-09-04T17:15:20.595Z",
+  "date": "2023-09-04T22:24:41.000Z",
   "coordinates": [
-    48.83,
-    2.35
+    52.09,
+    5.11
   ],
-  "label": "Paris",
-  "full_label": "Église Sainte-Rosalie, Boulevard Auguste Blanqui, Quartier de Croulebarbe, 13th Arrondissement, Paris, Metropolitan France, 75013, France",
+  "label": "Utrecht",
+  "full_label": "8, Stationspassage, Hoog Catharijne, Ns, Jaarbeurs, Binnenstad City- En Winkelgebied, Binnenstad, Utrecht, Netherlands, 3511 CB, Netherlands",
   "timezone": {
-    "name": "Europe/Paris",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "FR",
-      "MC"
+      "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": null
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "fr",
-  "country_emoji": "🇫🇷"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
