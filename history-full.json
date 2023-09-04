@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2023-09-04T13:23:34.000Z",
+    "approximateCoordinates": [
+      48.87,
+      2.78
+    ],
+    "label": "Coupvray",
+    "timezone": {
+      "name": "Europe/Paris",
+      "utcOffset": 60,
+      "dstOffset": 120
+    },
+    "country": {
+      "code": "fr",
+      "name": "France"
+    },
+    "hash": "95d054f9acb68d93320dd60f3b9c6185c51e0fa2"
+  },
+  {
     "updatedAt": "2023-09-04T07:20:34.000Z",
     "approximateCoordinates": [
       48.85,
