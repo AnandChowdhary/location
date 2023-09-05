@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2023-09-04T21:22:10.000Z",
+  "updatedAt": "2023-09-05T00:25:51.000Z",
   "approximateCoordinates": [
-    48.83,
-    2.36
+    50.09,
+    2.9
   ],
-  "label": "Paris",
+  "label": "Hauts-de-France",
   "timezone": {
     "name": "Europe/Paris",
     "countries": [
