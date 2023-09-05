@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-09-05T03:28:40.000Z",
+    "approximateCoordinates": [
+      51.69,
+      4.89
+    ],
+    "label": "Raamsdonk",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "774845697fb051bc82be3a4a47a44652a0a46286"
+  },
+  {
     "updatedAt": "2023-09-02T22:13:03.000Z",
     "approximateCoordinates": [
       48.85,
