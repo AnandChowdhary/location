@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2023-09-05T00:25:51.000Z",
+  "updatedAt": "2023-09-05T03:28:40.000Z",
   "approximateCoordinates": [
-    50.09,
-    2.9
+    51.69,
+    4.89
   ],
-  "label": "Hauts-de-France",
+  "label": "Raamsdonk",
   "timezone": {
-    "name": "Europe/Paris",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "FR",
-      "MC"
+      "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": null
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
   "country": {
-    "code": "fr",
-    "name": "France",
+    "code": "nl",
+    "name": "Netherlands",
     "timezones": [
-      "Europe/Paris"
+      "Europe/Brussels"
     ]
   }
 }
