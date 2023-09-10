@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2023-09-10T22:11:05.000Z",
+    "approximateCoordinates": [
+      41.02,
+      -72.48
+    ],
+    "label": "Cutchogue",
+    "timezone": {
+      "name": "America/New_York",
+      "utcOffset": -300,
+      "dstOffset": -240
+    },
+    "country": {
+      "code": "us",
+      "name": "United States of America"
+    },
+    "hash": "e85a2ed34cb34cf422e8727d14e997c50f381da5"
+  },
+  {
     "updatedAt": "2023-09-10T18:09:53.000Z",
     "approximateCoordinates": [
       40.78,
