@@ -1,11 +1,11 @@
 {
-  "date": "2023-09-08T15:17:06.000Z",
+  "date": "2023-09-10T17:53:17.000Z",
   "coordinates": [
-    40.64,
-    -73.78
+    41.03,
+    -72.47
   ],
-  "label": "New York",
-  "full_label": "John F. Kennedy International Airport, JFK Access Road, Queens, Queens County, New York, 11430, United States",
+  "label": "Town of Southold",
+  "full_label": "36485, Main Road, East Cutchogue, Town of Southold, Suffolk County, New York, 11935, United States",
   "timezone": {
     "name": "America/New_York",
     "countries": [
