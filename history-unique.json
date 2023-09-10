@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2023-09-10T18:09:53.000Z",
+    "approximateCoordinates": [
+      40.78,
+      -73.65
+    ],
+    "label": "Roslyn Heights",
+    "timezone": {
+      "name": "America/New_York",
+      "utcOffset": -300,
+      "dstOffset": -240
+    },
+    "country": {
+      "code": "us",
+      "name": "United States of America"
+    },
+    "hash": "27439fd937c07191d75ef47cda2471493a397ceb"
+  },
+  {
     "updatedAt": "2023-09-08T23:36:10.000Z",
     "approximateCoordinates": [
       40.64,
