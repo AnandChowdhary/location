@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2023-09-13T17:38:20.000Z",
+    "approximateCoordinates": [
+      40.77,
+      -74.04
+    ],
+    "label": "North Bergen",
+    "timezone": {
+      "name": "America/New_York",
+      "utcOffset": -300,
+      "dstOffset": -240
+    },
+    "country": {
+      "code": "us",
+      "name": "United States of America"
+    },
+    "hash": "69a7d7972386a4272f38be52dbb3a0deabd14bf4"
+  },
+  {
     "updatedAt": "2023-09-11T01:16:44.000Z",
     "approximateCoordinates": [
       40.75,
