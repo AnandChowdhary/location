@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2023-09-14T17:45:20.000Z",
+    "approximateCoordinates": [
+      40.28,
+      -74.56
+    ],
+    "label": "East Windsor Township",
+    "timezone": {
+      "name": "America/New_York",
+      "utcOffset": -300,
+      "dstOffset": -240
+    },
+    "country": {
+      "code": "us",
+      "name": "United States of America"
+    },
+    "hash": "3da914ff3ac89f8975ec9a46679b0a2f29066ec5"
+  },
+  {
     "updatedAt": "2023-09-14T01:23:05.000Z",
     "approximateCoordinates": [
       40.3,
