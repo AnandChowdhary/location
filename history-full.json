@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2023-09-15T00:15:37.000Z",
+    "approximateCoordinates": [
+      39.83,
+      -74.73
+    ],
+    "label": "Burlington County",
+    "timezone": {
+      "name": "America/New_York",
+      "utcOffset": -300,
+      "dstOffset": -240
+    },
+    "country": {
+      "code": "us",
+      "name": "United States of America"
+    },
+    "hash": "4a072abb883e7213b1ade6894c9e8f78fc4635be"
+  },
+  {
     "updatedAt": "2023-09-14T21:12:47.000Z",
     "approximateCoordinates": [
       39.36,
