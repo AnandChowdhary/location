@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2023-09-15T20:12:21.000Z",
+    "approximateCoordinates": [
+      40.3,
+      -74.59
+    ],
+    "label": "West Windsor",
+    "timezone": {
+      "name": "America/New_York",
+      "utcOffset": -300,
+      "dstOffset": -240
+    },
+    "country": {
+      "code": "us",
+      "name": "United States of America"
+    },
+    "hash": "0d5e763ccec1d67dcb0aaf4ca9f44aa3b94ac286"
+  },
+  {
     "updatedAt": "2023-09-15T16:42:39.000Z",
     "approximateCoordinates": [
       40.28,
