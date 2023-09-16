@@ -1,11 +1,11 @@
 {
-  "date": "2023-09-16T18:35:10.999Z",
+  "date": "2023-09-16T23:56:31.000Z",
   "coordinates": [
-    37.72,
-    -121.85
+    37.4,
+    -121.97
   ],
-  "label": "Dublin",
-  "full_label": "5165, Salerno Drive, Dublin, Alameda County, California, 94568, United States",
+  "label": "Santa Clara",
+  "full_label": "San Tomas Aquino Creek Trail, Santa Clara, Santa Clara County, California, 95054, United States",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
