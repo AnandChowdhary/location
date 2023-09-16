@@ -1,20 +1,20 @@
 {
-  "date": "2023-09-15T20:27:39.000Z",
+  "date": "2023-09-16T11:36:21.003Z",
   "coordinates": [
-    40.76,
-    -73.99
+    37.61,
+    -122.38
   ],
-  "label": "New York",
-  "full_label": "The Sherrie Arts, 341, West 45th Street, Hell's Kitchen, Manhattan Community Board 4, Manhattan, New York County, New York, 10036, United States",
+  "label": "Millbrae",
+  "full_label": "South McDonnell Road, Millbrae, San Mateo County, California, 94030, United States",
   "timezone": {
-    "name": "America/New_York",
+    "name": "America/Los_Angeles",
     "countries": [
       "US"
     ],
-    "utcOffset": -300,
-    "utcOffsetStr": "-05:00",
-    "dstOffset": -240,
-    "dstOffsetStr": "-04:00",
+    "utcOffset": -480,
+    "utcOffsetStr": "-08:00",
+    "dstOffset": -420,
+    "dstOffsetStr": "-07:00",
     "aliasOf": null
   },
   "country_code": "us",
