@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2023-09-17T10:38:11.000Z",
+    "approximateCoordinates": [
+      37.72,
+      -121.85
+    ],
+    "label": "Dublin",
+    "timezone": {
+      "name": "America/Los_Angeles",
+      "utcOffset": -480,
+      "dstOffset": -420
+    },
+    "country": {
+      "code": "us",
+      "name": "United States of America"
+    },
+    "hash": "58001bfe7a91b4148ab2777847fbe585c676642d"
+  },
+  {
     "updatedAt": "2023-09-17T06:22:16.000Z",
     "approximateCoordinates": [
       37.41,
