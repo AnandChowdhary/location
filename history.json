@@ -1,11 +1,11 @@
 [
   {
-    "updatedAt": "2023-09-16T23:58:26.000Z",
+    "updatedAt": "2023-09-17T03:04:12.000Z",
     "approximateCoordinates": [
-      37.71,
-      -121.86
+      37.4,
+      -121.97
     ],
-    "label": "Dublin",
+    "label": "Santa Clara",
     "timezone": {
       "name": "America/Los_Angeles",
       "utcOffset": -480,
@@ -15,7 +15,7 @@
       "code": "us",
       "name": "United States of America"
     },
-    "hash": "2dda895594781c211987fd65d3210ec13f60d72c"
+    "hash": "d9206e47ed249d429dac78474466474763927345"
   },
   {
     "updatedAt": "2023-09-08T23:36:10.000Z",

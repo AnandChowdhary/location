@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2023-09-17T03:04:12.000Z",
+  "updatedAt": "2023-09-17T06:22:16.000Z",
   "approximateCoordinates": [
-    37.4,
-    -121.97
+    37.41,
+    -121.96
   ],
-  "label": "Santa Clara",
+  "label": "San Jose",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
