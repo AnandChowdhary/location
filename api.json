@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2023-09-18T18:20:45.000Z",
+  "updatedAt": "2023-09-18T22:16:26.000Z",
   "approximateCoordinates": [
-    33.94,
-    -118.4
+    34.15,
+    -118.34
   ],
-  "label": "Los Angeles",
+  "label": "Burbank",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
