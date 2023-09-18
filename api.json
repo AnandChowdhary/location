@@ -1,11 +1,11 @@
 {
-  "date": "2023-09-18T02:26:59.000Z",
+  "date": "2023-09-18T15:14:07.755Z",
   "coordinates": [
-    37.7,
-    -121.9
+    37.71,
+    -122.21
   ],
-  "label": "Pleasanton",
-  "full_label": "Owens Drive, Hacienda, Pleasanton, Alameda County, California, 94588, United States",
+  "label": "Oakland",
+  "full_label": "Edward White Way, Oakland, Alameda County, California, 94614, United States",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
