@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2023-09-17T21:42:34.000Z",
+  "updatedAt": "2023-09-18T02:30:01.000Z",
   "approximateCoordinates": [
-    37.78,
-    -122.41
+    37.81,
+    -122.32
   ],
-  "label": "San Francisco",
+  "label": "Oakland",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
