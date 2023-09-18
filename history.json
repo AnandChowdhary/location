@@ -1,9 +1,9 @@
 [
   {
-    "updatedAt": "2023-09-17T10:38:11.000Z",
+    "updatedAt": "2023-09-18T06:12:15.000Z",
     "approximateCoordinates": [
       37.72,
-      -121.85
+      -121.87
     ],
     "label": "Dublin",
     "timezone": {
@@ -15,7 +15,7 @@
       "code": "us",
       "name": "United States of America"
     },
-    "hash": "58001bfe7a91b4148ab2777847fbe585c676642d"
+    "hash": "a4f55a72ff0cdeb3caa9688e8491590c8c8c4a05"
   },
   {
     "updatedAt": "2023-09-08T23:36:10.000Z",
