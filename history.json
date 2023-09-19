@@ -1,11 +1,11 @@
 [
   {
-    "updatedAt": "2023-09-18T22:16:26.000Z",
+    "updatedAt": "2023-09-19T01:47:47.000Z",
     "approximateCoordinates": [
-      34.15,
+      34.12,
       -118.34
     ],
-    "label": "Burbank",
+    "label": "Los Angeles",
     "timezone": {
       "name": "America/Los_Angeles",
       "utcOffset": -480,
@@ -15,7 +15,7 @@
       "code": "us",
       "name": "United States of America"
     },
-    "hash": "0246ce712e9fb43f7ebd3cf77f2fa5ed47b46ed1"
+    "hash": "e4ccaa6666fc68946c966cd552f137b9fec76583"
   },
   {
     "updatedAt": "2023-09-18T18:20:45.000Z",

@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2023-09-19T16:51:44.000Z",
+    "approximateCoordinates": [
+      34.14,
+      -118.36
+    ],
+    "label": "Los Angeles County",
+    "timezone": {
+      "name": "America/Los_Angeles",
+      "utcOffset": -480,
+      "dstOffset": -420
+    },
+    "country": {
+      "code": "us",
+      "name": "United States of America"
+    },
+    "hash": "3279310bfeb7129166e0a3e881ce43cd0a8723a9"
+  },
+  {
     "updatedAt": "2023-09-19T01:47:47.000Z",
     "approximateCoordinates": [
       34.12,
