@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2023-09-19T01:47:47.000Z",
+  "updatedAt": "2023-09-19T16:51:44.000Z",
   "approximateCoordinates": [
-    34.12,
-    -118.34
+    34.14,
+    -118.36
   ],
-  "label": "Los Angeles",
+  "label": "Los Angeles County",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
