@@ -1,11 +1,11 @@
 {
-  "date": "2023-09-18T16:52:03.683Z",
+  "date": "2023-09-20T02:26:51.457Z",
   "coordinates": [
-    33.94,
-    -118.4
+    37.72,
+    -122.23
   ],
-  "label": "Los Angeles",
-  "full_label": "World Way, Los Angeles, Los Angeles County, California, 90009, United States",
+  "label": "Alameda",
+  "full_label": "Harbor Bay Parkway, Alameda, Alameda County, California, 94502, United States",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
