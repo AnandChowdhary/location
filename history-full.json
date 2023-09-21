@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2023-09-21T20:53:30.000Z",
+    "approximateCoordinates": [
+      38.41,
+      -122.37
+    ],
+    "label": "Yountville",
+    "timezone": {
+      "name": "America/Los_Angeles",
+      "utcOffset": -480,
+      "dstOffset": -420
+    },
+    "country": {
+      "code": "us",
+      "name": "United States of America"
+    },
+    "hash": "c2e68fd4a3181ed74437f4997fa7ec77f3c93330"
+  },
+  {
     "updatedAt": "2023-09-21T17:30:36.000Z",
     "approximateCoordinates": [
       37.7,
