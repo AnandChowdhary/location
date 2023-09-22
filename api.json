@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2023-09-22T03:28:18.000Z",
+  "updatedAt": "2023-09-22T18:15:46.000Z",
   "approximateCoordinates": [
-    37.71,
-    -121.88
+    37.7,
+    -121.82
   ],
-  "label": "Dublin",
+  "label": "Livermore",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
