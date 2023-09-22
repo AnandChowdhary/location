@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2023-09-21T20:53:30.000Z",
+  "updatedAt": "2023-09-22T00:28:18.000Z",
   "approximateCoordinates": [
-    38.41,
-    -122.37
+    38.3,
+    -122.29
   ],
-  "label": "Yountville",
+  "label": "Napa",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [

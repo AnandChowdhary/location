@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2023-09-22T00:28:18.000Z",
+    "approximateCoordinates": [
+      38.3,
+      -122.29
+    ],
+    "label": "Napa",
+    "timezone": {
+      "name": "America/Los_Angeles",
+      "utcOffset": -480,
+      "dstOffset": -420
+    },
+    "country": {
+      "code": "us",
+      "name": "United States of America"
+    },
+    "hash": "8bb70c9e6cc794ce6ffe41c8746df6d928563f83"
+  },
+  {
     "updatedAt": "2023-09-21T20:53:30.000Z",
     "approximateCoordinates": [
       38.41,
