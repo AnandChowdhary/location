@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2023-09-25T15:32:47.000Z",
+  "updatedAt": "2023-09-25T22:29:02.000Z",
   "approximateCoordinates": [
-    37.7,
-    -121.9
+    37.43,
+    -122.14
   ],
-  "label": "Pleasanton",
+  "label": "Palo Alto",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [

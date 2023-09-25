@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2023-09-25T22:29:02.000Z",
+    "approximateCoordinates": [
+      37.43,
+      -122.14
+    ],
+    "label": "Palo Alto",
+    "timezone": {
+      "name": "America/Los_Angeles",
+      "utcOffset": -480,
+      "dstOffset": -420
+    },
+    "country": {
+      "code": "us",
+      "name": "United States of America"
+    },
+    "hash": "afbc70b36b00c939cbed5461debf01e5cc369d8f"
+  },
+  {
     "updatedAt": "2023-09-25T15:32:47.000Z",
     "approximateCoordinates": [
       37.7,
