@@ -1,11 +1,11 @@
 {
-  "date": "2023-09-25T15:40:07.000Z",
+  "date": "2023-09-25T17:50:29.000Z",
   "coordinates": [
-    37.79,
-    -122.4
+    37.43,
+    -122.14
   ],
-  "label": "San Francisco",
-  "full_label": "Uber, Market Street, Transbay, South of Market, San Francisco, California, 94105, United States",
+  "label": "Palo Alto",
+  "full_label": "2344, Emerson Street, Old Palo Alto, Palo Alto, Santa Clara County, California, 94301, United States",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
