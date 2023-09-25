@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2023-09-25T01:15:20.000Z",
+    "approximateCoordinates": [
+      37.81,
+      -122.31
+    ],
+    "label": "Oakland",
+    "timezone": {
+      "name": "America/Los_Angeles",
+      "utcOffset": -480,
+      "dstOffset": -420
+    },
+    "country": {
+      "code": "us",
+      "name": "United States of America"
+    },
+    "hash": "934048c9f2814ea2650c3ae6ccb046752d376c7b"
+  },
+  {
     "updatedAt": "2023-09-24T21:08:47.000Z",
     "approximateCoordinates": [
       37.79,
