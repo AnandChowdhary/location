@@ -1,22 +1,23 @@
 {
-  "date": "2023-09-26T17:44:11.000Z",
+  "date": "2023-09-26T20:35:19.000Z",
   "coordinates": [
-    37.61,
-    -122.39
+    52.31,
+    4.77
   ],
-  "label": "Millbrae",
-  "full_label": "South McDonnell Road, Millbrae, San Mateo County, California, 94030, United States",
+  "label": "North Holland",
+  "full_label": "Randweg D, Schiphol, Haarlemmermeer, North Holland, Netherlands, 1118 LV, Netherlands",
   "timezone": {
-    "name": "America/Los_Angeles",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "US"
+      "NL"
     ],
-    "utcOffset": -480,
-    "utcOffsetStr": "-08:00",
-    "dstOffset": -420,
-    "dstOffsetStr": "-07:00",
-    "aliasOf": null
+    "utcOffset": 60,
+    "utcOffsetStr": "+01:00",
+    "dstOffset": 120,
+    "dstOffsetStr": "+02:00",
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "us",
-  "country_emoji": "🇺🇸"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
