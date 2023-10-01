@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-10-01T12:03:43.000Z",
+    "approximateCoordinates": [
+      52.06,
+      5.26
+    ],
+    "label": "Driebergen-Rijsenburg",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "952318fadeb0e56a94c9307b77f7773dd0b190e4"
+  },
+  {
     "updatedAt": "2023-09-27T18:17:43.000Z",
     "approximateCoordinates": [
       52.08,
