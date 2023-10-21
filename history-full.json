@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-10-21T12:36:34.000Z",
+    "approximateCoordinates": [
+      52.05,
+      5.09
+    ],
+    "label": "Nieuwegein",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "d59f5eac2b82c0a1cee3fd354325cd535405d4f8"
+  },
+  {
     "updatedAt": "2023-10-14T22:25:24.000Z",
     "approximateCoordinates": [
       52.09,
