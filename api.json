@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2023-10-26T15:52:26.000Z",
+  "updatedAt": "2023-10-26T22:08:03.000Z",
   "approximateCoordinates": [
-    52.29,
-    4.97
+    52.27,
+    4.99
   ],
-  "label": "Amsterdam",
+  "label": "Abcoude",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
