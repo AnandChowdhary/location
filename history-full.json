@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-10-28T15:37:05.000Z",
+    "approximateCoordinates": [
+      52.3,
+      4.87
+    ],
+    "label": "Amstelveen",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "559daba6f9f6c3ec34463de68b782fc9d70c7fe6"
+  },
+  {
     "updatedAt": "2023-10-28T12:35:25.000Z",
     "approximateCoordinates": [
       52.16,
