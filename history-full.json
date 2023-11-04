@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-11-04T11:01:32.000Z",
+    "approximateCoordinates": [
+      52.33,
+      4.74
+    ],
+    "label": "Badhoevedorp",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "f77d35e0681144ce04bbc50f7860088b16d9fa70"
+  },
+  {
     "updatedAt": "2023-11-04T07:48:14.000Z",
     "approximateCoordinates": [
       52.15,
