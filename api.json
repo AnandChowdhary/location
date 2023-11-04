@@ -1,27 +1,54 @@
 {
-  "updatedAt": "2023-11-04T11:01:32.000Z",
+  "updatedAt": "2023-11-04T19:34:58.000Z",
   "approximateCoordinates": [
-    52.33,
-    4.74
+    44.88,
+    -93.21
   ],
-  "label": "Badhoevedorp",
+  "label": "Fort Snelling Unorganized Territory",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "America/Chicago",
     "countries": [
-      "NL"
+      "US"
     ],
-    "utcOffset": 60,
-    "utcOffsetStr": "+01:00",
-    "dstOffset": 120,
-    "dstOffsetStr": "+02:00",
-    "aliasOf": "Europe/Brussels",
-    "deprecated": true
+    "utcOffset": -360,
+    "utcOffsetStr": "-06:00",
+    "dstOffset": -300,
+    "dstOffsetStr": "-05:00",
+    "aliasOf": null
   },
   "country": {
-    "code": "nl",
-    "name": "Netherlands",
+    "code": "us",
+    "name": "United States of America",
     "timezones": [
-      "Europe/Brussels"
+      "America/Adak",
+      "America/Anchorage",
+      "America/Boise",
+      "America/Chicago",
+      "America/Denver",
+      "America/Detroit",
+      "America/Indiana/Indianapolis",
+      "America/Indiana/Knox",
+      "America/Indiana/Marengo",
+      "America/Indiana/Petersburg",
+      "America/Indiana/Tell_City",
+      "America/Indiana/Vevay",
+      "America/Indiana/Vincennes",
+      "America/Indiana/Winamac",
+      "America/Juneau",
+      "America/Kentucky/Louisville",
+      "America/Kentucky/Monticello",
+      "America/Los_Angeles",
+      "America/Menominee",
+      "America/Metlakatla",
+      "America/New_York",
+      "America/Nome",
+      "America/North_Dakota/Beulah",
+      "America/North_Dakota/Center",
+      "America/North_Dakota/New_Salem",
+      "America/Phoenix",
+      "America/Sitka",
+      "America/Yakutat",
+      "Pacific/Honolulu"
     ]
   }
 }
