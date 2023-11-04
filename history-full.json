@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2023-11-04T19:34:58.000Z",
+    "approximateCoordinates": [
+      44.88,
+      -93.21
+    ],
+    "label": "Fort Snelling Unorganized Territory",
+    "timezone": {
+      "name": "America/Chicago",
+      "utcOffset": -360,
+      "dstOffset": -300
+    },
+    "country": {
+      "code": "us",
+      "name": "United States of America"
+    },
+    "hash": "aae86dd09b2382ae2a3b357a12db3e765306aab0"
+  },
+  {
     "updatedAt": "2023-11-04T11:01:32.000Z",
     "approximateCoordinates": [
       52.33,
