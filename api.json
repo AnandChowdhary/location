@@ -1,20 +1,20 @@
 {
-  "date": "2023-11-04T11:01:39.000Z",
+  "date": "2023-11-04T20:53:59.000Z",
   "coordinates": [
-    44.88,
-    -93.21
+    37.61,
+    -122.38
   ],
-  "label": "Fort Snelling Unorganized Territory",
-  "full_label": "Northwest Drive, Fort Snelling Unorganized Territory, Hennepin County, Minnesota, 55111, United States",
+  "label": "Millbrae",
+  "full_label": "South McDonnell Road, Millbrae, San Mateo County, California, 94030, United States",
   "timezone": {
-    "name": "America/Chicago",
+    "name": "America/Los_Angeles",
     "countries": [
       "US"
     ],
-    "utcOffset": -360,
-    "utcOffsetStr": "-06:00",
-    "dstOffset": -300,
-    "dstOffsetStr": "-05:00",
+    "utcOffset": -480,
+    "utcOffsetStr": "-08:00",
+    "dstOffset": -420,
+    "dstOffsetStr": "-07:00",
     "aliasOf": null
   },
   "country_code": "us",
