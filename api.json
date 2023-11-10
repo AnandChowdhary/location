@@ -1,25 +1,23 @@
 {
-  "date": "2023-11-10T02:40:48.329Z",
+  "date": "2023-11-10T15:49:19.791Z",
   "coordinates": [
-    51.46,
-    -0.45
+    52.31,
+    4.76
   ],
-  "label": "London",
-  "full_label": "Salisbury Road, London Borough of Hillingdon, London, Greater London, England, TW6 3YD, United Kingdom",
+  "label": "North Holland",
+  "full_label": "Vertrekpassage, Schiphol, Haarlemmermeer, North Holland, Netherlands, 1118 AS, Netherlands",
   "timezone": {
-    "name": "Europe/London",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "GB",
-      "GG",
-      "IM",
-      "JE"
+      "NL"
     ],
-    "utcOffset": 0,
-    "utcOffsetStr": "+00:00",
-    "dstOffset": 60,
-    "dstOffsetStr": "+01:00",
-    "aliasOf": null
+    "utcOffset": 60,
+    "utcOffsetStr": "+01:00",
+    "dstOffset": 120,
+    "dstOffsetStr": "+02:00",
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "gb",
-  "country_emoji": "🇬🇧"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
