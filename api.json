@@ -1,54 +1,29 @@
 {
-  "updatedAt": "2023-11-10T02:26:32.000Z",
+  "updatedAt": "2023-11-10T13:01:01.000Z",
   "approximateCoordinates": [
-    37.59,
-    -122.37
+    51.47,
+    -0.46
   ],
-  "label": "Burlingame",
+  "label": "London",
   "timezone": {
-    "name": "America/Los_Angeles",
+    "name": "Europe/London",
     "countries": [
-      "US"
+      "GB",
+      "GG",
+      "IM",
+      "JE"
     ],
-    "utcOffset": -480,
-    "utcOffsetStr": "-08:00",
-    "dstOffset": -420,
-    "dstOffsetStr": "-07:00",
+    "utcOffset": 0,
+    "utcOffsetStr": "+00:00",
+    "dstOffset": 60,
+    "dstOffsetStr": "+01:00",
     "aliasOf": null
   },
   "country": {
-    "code": "us",
-    "name": "United States of America",
+    "code": "gb",
+    "name": "United Kingdom",
     "timezones": [
-      "America/Adak",
-      "America/Anchorage",
-      "America/Boise",
-      "America/Chicago",
-      "America/Denver",
-      "America/Detroit",
-      "America/Indiana/Indianapolis",
-      "America/Indiana/Knox",
-      "America/Indiana/Marengo",
-      "America/Indiana/Petersburg",
-      "America/Indiana/Tell_City",
-      "America/Indiana/Vevay",
-      "America/Indiana/Vincennes",
-      "America/Indiana/Winamac",
-      "America/Juneau",
-      "America/Kentucky/Louisville",
-      "America/Kentucky/Monticello",
-      "America/Los_Angeles",
-      "America/Menominee",
-      "America/Metlakatla",
-      "America/New_York",
-      "America/Nome",
-      "America/North_Dakota/Beulah",
-      "America/North_Dakota/Center",
-      "America/North_Dakota/New_Salem",
-      "America/Phoenix",
-      "America/Sitka",
-      "America/Yakutat",
-      "Pacific/Honolulu"
+      "Europe/London"
     ]
   }
 }
