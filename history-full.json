@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2023-11-10T02:26:32.000Z",
+    "approximateCoordinates": [
+      37.59,
+      -122.37
+    ],
+    "label": "Burlingame",
+    "timezone": {
+      "name": "America/Los_Angeles",
+      "utcOffset": -480,
+      "dstOffset": -420
+    },
+    "country": {
+      "code": "us",
+      "name": "United States of America"
+    },
+    "hash": "5fef09a38c8112f28887781a0d62bf94622e266d"
+  },
+  {
     "updatedAt": "2023-11-09T22:53:03.000Z",
     "approximateCoordinates": [
       37.77,
