@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-11-18T17:12:22.000Z",
+    "approximateCoordinates": [
+      52.35,
+      4.92
+    ],
+    "label": "Amsterdam",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "f6af55dda4d0c2cd7426b9298bc9112cc983443d"
+  },
+  {
     "updatedAt": "2023-11-18T13:35:04.000Z",
     "approximateCoordinates": [
       52.15,
