@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-11-18T22:12:08.000Z",
+    "approximateCoordinates": [
+      52.26,
+      4.98
+    ],
+    "label": "Abcoude",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "37a2d5ddb1c313db5561ea5420e0244d8ce1e7da"
+  },
+  {
     "updatedAt": "2023-11-18T17:12:22.000Z",
     "approximateCoordinates": [
       52.35,
