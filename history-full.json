@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-12-03T17:42:49.000Z",
+    "approximateCoordinates": [
+      50.96,
+      5.81
+    ],
+    "label": "Geleen",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "77c61e786de70b2a2f131cf505b9e46cd86e4e22"
+  },
+  {
     "updatedAt": "2023-12-03T13:55:34.000Z",
     "approximateCoordinates": [
       50.85,
