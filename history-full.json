@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-12-09T09:32:47.000Z",
+    "approximateCoordinates": [
+      52.14,
+      5.24
+    ],
+    "label": "Den Dolder",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "5847b96d926c7bdc1c2487d5a8b7890da3de6450"
+  },
+  {
     "updatedAt": "2023-12-03T21:15:29.000Z",
     "approximateCoordinates": [
       52.08,
