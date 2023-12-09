@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-12-09T12:35:17.000Z",
+    "approximateCoordinates": [
+      52.22,
+      5.49
+    ],
+    "label": "Nijkerk",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "e063b99da575cd010ec7d6c85db5a55875193e89"
+  },
+  {
     "updatedAt": "2023-12-09T09:32:47.000Z",
     "approximateCoordinates": [
       52.14,
