@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-12-12T13:04:23.000Z",
+    "approximateCoordinates": [
+      52.08,
+      5.16
+    ],
+    "label": "Bunnik",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "64a777cabde45f70ede0265b54ac15790b7e75f6"
+  },
+  {
     "updatedAt": "2023-12-09T15:39:08.000Z",
     "approximateCoordinates": [
       52.08,
