@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-12-17T19:57:36.000Z",
+    "approximateCoordinates": [
+      50.87,
+      5.83
+    ],
+    "label": "Valkenburg",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "e3e4696adb268e4fb685b1f75e401340d5159adf"
+  },
+  {
     "updatedAt": "2023-12-17T15:50:46.000Z",
     "approximateCoordinates": [
       50.86,
