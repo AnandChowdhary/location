@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-12-17T15:50:46.000Z",
+    "approximateCoordinates": [
+      50.86,
+      5.83
+    ],
+    "label": "Berg en Terblijt",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "ebdf7b6606fb8f2c7e0e4f50c6ac12b946be12b8"
+  },
+  {
     "updatedAt": "2023-12-17T12:47:16.000Z",
     "approximateCoordinates": [
       52,
