@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-12-17T12:47:16.000Z",
+    "approximateCoordinates": [
+      52,
+      5.19
+    ],
+    "label": "Schalkwijk",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "352886052fd082e43b7e515924f3a69dc4ce7224"
+  },
+  {
     "updatedAt": "2023-12-13T14:44:50.000Z",
     "approximateCoordinates": [
       52.08,

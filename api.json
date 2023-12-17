@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2023-12-13T14:44:50.000Z",
+  "updatedAt": "2023-12-17T12:47:16.000Z",
   "approximateCoordinates": [
-    52.08,
-    5.12
+    52,
+    5.19
   ],
-  "label": "Utrecht",
+  "label": "Schalkwijk",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
