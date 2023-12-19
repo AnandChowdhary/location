@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-12-19T18:46:59.000Z",
+    "approximateCoordinates": [
+      52.15,
+      5
+    ],
+    "label": "Breukelen",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "047a1047b781aacfcdcc81a2bcb05f5a77492c91"
+  },
+  {
     "updatedAt": "2023-12-18T11:00:49.000Z",
     "approximateCoordinates": [
       52.08,
