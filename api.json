@@ -1,23 +1,22 @@
 {
-  "date": "2023-12-20T15:22:58.000Z",
+  "date": "2023-12-20T18:56:32.000Z",
   "coordinates": [
-    52.31,
-    4.95
+    28.56,
+    77.08
   ],
-  "label": "Amsterdam",
-  "full_label": "22, Foppingadreef, H-Buurt, Zuidoost, Amsterdam, North Holland, Netherlands, 1102 BS, Netherlands",
+  "label": "New Delhi",
+  "full_label": "Apron 32, Indira Gandhi International Airport Arrival Road, Vasant Vihar Tehsil, New Delhi, Delhi, 110077, India",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Asia/Kolkata",
     "countries": [
-      "NL"
+      "IN"
     ],
-    "utcOffset": 60,
-    "utcOffsetStr": "+01:00",
-    "dstOffset": 120,
-    "dstOffsetStr": "+02:00",
-    "aliasOf": "Europe/Brussels",
-    "deprecated": true
+    "utcOffset": 330,
+    "utcOffsetStr": "+05:30",
+    "dstOffset": 330,
+    "dstOffsetStr": "+05:30",
+    "aliasOf": null
   },
-  "country_code": "nl",
-  "country_emoji": "🇳🇱"
+  "country_code": "in",
+  "country_emoji": "🇮🇳"
 }
