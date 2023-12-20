@@ -1,11 +1,11 @@
 {
-  "date": "2023-12-19T21:10:36.999Z",
+  "date": "2023-12-20T15:22:58.000Z",
   "coordinates": [
-    52.09,
-    5.11
+    52.31,
+    4.95
   ],
-  "label": "Utrecht",
-  "full_label": "8, Stationspassage, Hoog Catharijne, Ns, Jaarbeurs, Binnenstad City- En Winkelgebied, Binnenstad, Utrecht, Netherlands, 3511 CB, Netherlands",
+  "label": "Amsterdam",
+  "full_label": "22, Foppingadreef, H-Buurt, Zuidoost, Amsterdam, North Holland, Netherlands, 1102 BS, Netherlands",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
