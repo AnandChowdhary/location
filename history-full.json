@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2023-12-21T01:24:19.000Z",
+    "approximateCoordinates": [
+      52.29,
+      4.69
+    ],
+    "label": "Hoofddorp",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "7d3a83c7c784b69713994b886be9e50e820c8bd1"
+  },
+  {
     "updatedAt": "2023-12-20T18:56:26.000Z",
     "approximateCoordinates": [
       52.33,
