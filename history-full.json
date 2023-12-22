@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2023-12-22T10:57:19.000Z",
+    "approximateCoordinates": [
+      28.56,
+      77.21
+    ],
+    "label": "Hauz Khas",
+    "timezone": {
+      "name": "Asia/Kolkata",
+      "utcOffset": 330,
+      "dstOffset": 330
+    },
+    "country": {
+      "code": "in",
+      "name": "India"
+    },
+    "hash": "7e4c4b1fdd09e150c7513c04c3800a8f4d27e13c"
+  },
+  {
     "updatedAt": "2023-12-22T05:11:30.000Z",
     "approximateCoordinates": [
       28.55,
