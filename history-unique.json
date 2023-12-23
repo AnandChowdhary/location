@@ -1,11 +1,11 @@
 [
   {
-    "updatedAt": "2023-12-21T10:27:43.000Z",
+    "updatedAt": "2023-12-22T15:30:12.000Z",
     "approximateCoordinates": [
-      28.54,
-      77.24
+      28.55,
+      77.2
     ],
-    "label": "Alaknanda",
+    "label": "Safdarjung Development Area",
     "timezone": {
       "name": "Asia/Kolkata",
       "utcOffset": 330,
@@ -15,7 +15,7 @@
       "code": "in",
       "name": "India"
     },
-    "hash": "8af443f39ab27bdf379a9312229eb70d9a5b1b01"
+    "hash": "16b74a9725f7cdaec8b8d1ef00e3e4da92505d6f"
   },
   {
     "updatedAt": "2023-12-21T04:24:33.000Z",
