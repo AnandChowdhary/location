@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2023-12-27T17:32:46.000Z",
+    "approximateCoordinates": [
+      28.62,
+      77.29
+    ],
+    "label": "Patparganj Industrial Area",
+    "timezone": {
+      "name": "Asia/Kolkata",
+      "utcOffset": 330,
+      "dstOffset": 330
+    },
+    "country": {
+      "code": "in",
+      "name": "India"
+    },
+    "hash": "37c70ac3cc5daf68bd0d57f2f63a1aacf54b5c3a"
+  },
+  {
     "updatedAt": "2023-12-27T14:16:25.000Z",
     "approximateCoordinates": [
       28.54,
