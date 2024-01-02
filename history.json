@@ -1,11 +1,11 @@
 [
   {
-    "updatedAt": "2023-12-24T15:49:42.000Z",
+    "updatedAt": "2024-01-01T19:42:50.000Z",
     "approximateCoordinates": [
-      28.55,
-      77.13
+      28.53,
+      77.24
     ],
-    "label": "New Delhi District",
+    "label": "Alaknanda",
     "timezone": {
       "name": "Asia/Kolkata",
       "utcOffset": 330,
@@ -15,7 +15,7 @@
       "code": "in",
       "name": "India"
     },
-    "hash": "14ede71e4897a35fe6c26d79a7ffa900da0414d6"
+    "hash": "1a72c3255fcc887a2cd5f7c181f73dee53ba6cfe"
   },
   {
     "updatedAt": "2023-12-21T04:24:33.000Z",
