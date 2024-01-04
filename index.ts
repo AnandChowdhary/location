@@ -39,6 +39,15 @@ export interface OwnTracksRequestBody {
   alt: number;
 }
 
+export interface OpenStreetMapGeocodeResponse {
+  name: string;
+  display_name: string;
+  address: Record<string, string> & {
+    country: string;
+    country_code: string;
+  };
+}
+
 const MIN_TIME = 10800000; // 3 hours
 
 export default {
@@ -81,9 +90,9 @@ export default {
       }
 
       // Ensure that the current location is not the same as the previous
-      const previousLocation = await (
+      const previousLocation = (await (
         await fetch("https://anandchowdhary.github.io/location/api.json")
-      ).json<ApiResult>();
+      ).json()) as ApiResult;
       if (
         time.getTime() - new Date(previousLocation.updatedAt).getTime() <
           MIN_TIME &&
@@ -103,19 +112,12 @@ export default {
         return new Response("Skipping update because coordinates is similar");
 
       // Use OpenStreetMap's reverse geocoding API to get the location name
-      const geocode = await (
+      const geocode = (await (
         await fetch(
           `https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${lat}&lon=${lon}`,
           { headers: { "User-Agent": "github@anandchowdhary.com" } }
         )
-      ).json<{
-        name: string;
-        display_name: string;
-        address: Record<string, string> & {
-          country: string;
-          country_code: string;
-        };
-      }>();
+      ).json()) as OpenStreetMapGeocodeResponse;
       const country = getCountry(geocode.address.country_code.toUpperCase());
       if (!country)
         return new Response("Skipping update because country not found", {
@@ -127,10 +129,7 @@ export default {
       let label = country.name;
       [
         geocode.address.state,
-        geocode.address.county,
-        geocode.address.suburb,
         geocode.address.town,
-        geocode.address.village,
         geocode.address.city,
       ].forEach((option) => {
         // Check if label is Latin-1 for btoa
@@ -194,15 +193,6 @@ export default {
         content: btoa(JSON.stringify(data, null, 2) + "\n"),
         sha: currentFileData.sha,
       });
-
-      await fetch(
-        `https://maker.ifttt.com/trigger/location_changed/with/key/${env.IFTTT_WEBHOOK_LOCATION_KEY}`,
-        {
-          method: "POST",
-          body: JSON.stringify({ value1: message }),
-          headers: { "Content-Type": "application/json" },
-        }
-      );
     } catch (error) {
       // Create a comment on issue #1
       await octokit.request(
