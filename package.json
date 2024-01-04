@@ -9,20 +9,20 @@
     "summarize": "node -r @swc-node/register scripts/summarize.ts"
   },
   "dependencies": {
-    "@octokit/core": "^4.2.0",
-    "@tsndr/cloudflare-worker-jwt": "^2.2.1",
-    "countries-and-timezones": "^3.4.1",
+    "@octokit/core": "^5.0.2",
+    "@tsndr/cloudflare-worker-jwt": "^2.3.2",
+    "countries-and-timezones": "^3.6.0",
     "country-emoji": "^1.5.6",
-    "dayjs": "^1.11.7",
-    "simple-git": "^3.16.0",
+    "dayjs": "^1.11.10",
+    "simple-git": "^3.22.0",
     "tz-lookup": "^6.1.25"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20230115.0",
-    "@swc-node/register": "^1.5.5",
-    "@types/tz-lookup": "^6.1.0",
+    "@cloudflare/workers-types": "^4.20231218.0",
+    "@swc-node/register": "^1.6.8",
+    "@types/tz-lookup": "^6.1.2",
     "readdirp": "^3.6.0",
-    "typescript": "^4.9.5",
-    "wrangler": "2.9.0"
+    "typescript": "^5.3.3",
+    "wrangler": "^3.22.2"
   }
 }
