@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-01-16T15:51:22.000Z",
+    "approximateCoordinates": [
+      28.53,
+      77.25
+    ],
+    "label": "Delhi",
+    "timezone": {
+      "name": "Asia/Kolkata",
+      "utcOffset": 330,
+      "dstOffset": 330
+    },
+    "country": {
+      "code": "in",
+      "name": "India"
+    },
+    "hash": "2e4e927a44cce6bfa6af21a2ab74ed339079ab43"
+  },
+  {
     "updatedAt": "2024-01-16T11:30:28.000Z",
     "approximateCoordinates": [
       28.5,
