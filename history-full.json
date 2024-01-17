@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2024-01-17T20:19:33.000Z",
+    "approximateCoordinates": [
+      52.08,
+      5.12
+    ],
+    "label": "Utrecht",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "33e04bfb9b1e41d8894f3426a024e2534fdc3b3e"
+  },
+  {
     "updatedAt": "2024-01-17T17:09:46.000Z",
     "approximateCoordinates": [
       52.31,
