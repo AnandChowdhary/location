@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2024-01-17T17:09:46.000Z",
+    "approximateCoordinates": [
+      52.31,
+      4.76
+    ],
+    "label": "Schiphol",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "1f0814758e7660a42fe02c48e82c3f525608a1e4"
+  },
+  {
     "updatedAt": "2024-01-07T15:06:05.000Z",
     "approximateCoordinates": [
       28.53,

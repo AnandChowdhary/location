@@ -1,26 +1,27 @@
 {
-  "updatedAt": "2024-01-17T04:39:59.000Z",
+  "updatedAt": "2024-01-17T17:09:46.000Z",
   "approximateCoordinates": [
-    28.57,
-    77.17
+    52.31,
+    4.76
   ],
-  "label": "New Delhi District",
+  "label": "Noord-Holland",
   "timezone": {
-    "name": "Asia/Kolkata",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "IN"
+      "NL"
     ],
-    "utcOffset": 330,
-    "utcOffsetStr": "+05:30",
-    "dstOffset": 330,
-    "dstOffsetStr": "+05:30",
-    "aliasOf": null
+    "utcOffset": 60,
+    "utcOffsetStr": "+01:00",
+    "dstOffset": 120,
+    "dstOffsetStr": "+02:00",
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
   "country": {
-    "code": "in",
-    "name": "India",
+    "code": "nl",
+    "name": "Netherlands",
     "timezones": [
-      "Asia/Kolkata"
+      "Europe/Brussels"
     ]
   }
 }
