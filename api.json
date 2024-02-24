@@ -1,11 +1,11 @@
 {
-  "date": "2024-01-17T18:09:38.000Z",
+  "date": "2024-02-24T16:21:17.998Z",
   "coordinates": [
-    52.1,
-    5.1
+    52.08,
+    4.32
   ],
-  "label": "Utrecht",
-  "full_label": "15, Dahliastraat, 2e Daalsebuurt e.o., Ondiep, 2e Daalsebuurt, Noordwest, Utrecht, Netherlands, 3551 ST, Netherlands",
+  "label": "The Hague",
+  "full_label": "92, Muzenplein, Museumkwartier, Centrum, The Hague, South Holland, Netherlands, 2511 GJ, Netherlands",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
