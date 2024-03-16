@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2024-02-25T13:32:04.000Z",
+  "updatedAt": "2024-03-16T15:31:21.000Z",
   "approximateCoordinates": [
-    52.08,
-    5.06
+    52.29,
+    4.98
   ],
-  "label": "Utrecht",
+  "label": "Amsterdam",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
