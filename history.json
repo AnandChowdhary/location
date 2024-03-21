@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-03-21T10:48:53.000Z",
+    "approximateCoordinates": [
+      47.44,
+      8.56
+    ],
+    "label": "Glattbrugg",
+    "timezone": {
+      "name": "Europe/Zurich",
+      "utcOffset": 60,
+      "dstOffset": 120
+    },
+    "country": {
+      "code": "ch",
+      "name": "Switzerland"
+    },
+    "hash": "cddf94f621a8f6a53b4acfce7c1767d45033bcdb"
+  },
+  {
     "updatedAt": "2024-01-18T17:35:22.000Z",
     "approximateCoordinates": [
       52.08,
