@@ -1,27 +1,28 @@
 {
-  "updatedAt": "2024-03-21T06:13:13.000Z",
+  "updatedAt": "2024-03-21T10:48:53.000Z",
   "approximateCoordinates": [
-    52.31,
-    4.95
+    47.44,
+    8.56
   ],
-  "label": "Amsterdam",
+  "label": "Glattbrugg",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Europe/Zurich",
     "countries": [
-      "NL"
+      "CH",
+      "DE",
+      "LI"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": "Europe/Brussels",
-    "deprecated": true
+    "aliasOf": null
   },
   "country": {
-    "code": "nl",
-    "name": "Netherlands",
+    "code": "ch",
+    "name": "Switzerland",
     "timezones": [
-      "Europe/Brussels"
+      "Europe/Zurich"
     ]
   }
 }
