@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-03-21T13:50:29.000Z",
+    "approximateCoordinates": [
+      46.56,
+      7.66
+    ],
+    "label": "Bern/Berne",
+    "timezone": {
+      "name": "Europe/Zurich",
+      "utcOffset": 60,
+      "dstOffset": 120
+    },
+    "country": {
+      "code": "ch",
+      "name": "Switzerland"
+    },
+    "hash": "047b909bce2cc91b8e8278b295c78f5da5980173"
+  },
+  {
     "updatedAt": "2024-03-21T10:48:53.000Z",
     "approximateCoordinates": [
       47.44,
