@@ -1,11 +1,11 @@
 [
   {
-    "updatedAt": "2024-03-21T13:50:29.000Z",
+    "updatedAt": "2024-03-21T22:37:05.000Z",
     "approximateCoordinates": [
-      46.56,
-      7.66
+      46.53,
+      8.35
     ],
-    "label": "Bern/Berne",
+    "label": "Obergoms",
     "timezone": {
       "name": "Europe/Zurich",
       "utcOffset": 60,
@@ -15,7 +15,7 @@
       "code": "ch",
       "name": "Switzerland"
     },
-    "hash": "047b909bce2cc91b8e8278b295c78f5da5980173"
+    "hash": "d9a20a6b0d485d879bbb79ad290e2dc6d17b07d3"
   },
   {
     "updatedAt": "2024-03-21T10:48:53.000Z",
