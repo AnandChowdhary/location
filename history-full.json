@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-03-23T23:43:33.000Z",
+    "approximateCoordinates": [
+      46.53,
+      8.34
+    ],
+    "label": "Obergoms",
+    "timezone": {
+      "name": "Europe/Zurich",
+      "utcOffset": 60,
+      "dstOffset": 120
+    },
+    "country": {
+      "code": "ch",
+      "name": "Switzerland"
+    },
+    "hash": "213a868a9b5cd754ea87a7f089a7a808f2f73686"
+  },
+  {
     "updatedAt": "2024-03-23T20:35:30.000Z",
     "approximateCoordinates": [
       46.5,
