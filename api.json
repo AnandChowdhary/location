@@ -1,24 +1,23 @@
 {
-  "date": "2024-03-24T11:03:16.769Z",
+  "date": "2024-03-24T15:56:22.999Z",
   "coordinates": [
-    47.45,
-    8.56
+    52.3,
+    4.76
   ],
-  "label": "Kloten",
-  "full_label": "Bravo, Arrival corridor B North, Kloten, Bezirk Bülach, Zurich, 8302, Switzerland",
+  "label": "North Holland",
+  "full_label": "Ceintuurbaan, Schiphol, Haarlemmermeer, North Holland, Netherlands, 1118 LV, Netherlands",
   "timezone": {
-    "name": "Europe/Zurich",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "CH",
-      "DE",
-      "LI"
+      "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": null
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "ch",
-  "country_emoji": "🇨🇭"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
