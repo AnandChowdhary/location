@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-03-24T11:15:14.000Z",
+    "approximateCoordinates": [
+      47.06,
+      7.61
+    ],
+    "label": "Burgdorf",
+    "timezone": {
+      "name": "Europe/Zurich",
+      "utcOffset": 60,
+      "dstOffset": 120
+    },
+    "country": {
+      "code": "ch",
+      "name": "Switzerland"
+    },
+    "hash": "1699887a180ab031a688727725e05a36a78b3589"
+  },
+  {
     "updatedAt": "2024-03-24T08:11:51.000Z",
     "approximateCoordinates": [
       46.5,
