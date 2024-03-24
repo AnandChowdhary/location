@@ -1,28 +1,27 @@
 {
-  "updatedAt": "2024-03-24T15:05:45.000Z",
+  "updatedAt": "2024-03-24T18:05:59.000Z",
   "approximateCoordinates": [
-    47.45,
-    8.56
+    52.25,
+    5
   ],
-  "label": "Kloten",
+  "label": "Utrecht",
   "timezone": {
-    "name": "Europe/Zurich",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "CH",
-      "DE",
-      "LI"
+      "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": null
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
   "country": {
-    "code": "ch",
-    "name": "Switzerland",
+    "code": "nl",
+    "name": "Netherlands",
     "timezones": [
-      "Europe/Zurich"
+      "Europe/Brussels"
     ]
   }
 }
