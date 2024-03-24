@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-03-24T08:11:51.000Z",
+    "approximateCoordinates": [
+      46.5,
+      8.29
+    ],
+    "label": "Goms",
+    "timezone": {
+      "name": "Europe/Zurich",
+      "utcOffset": 60,
+      "dstOffset": 120
+    },
+    "country": {
+      "code": "ch",
+      "name": "Switzerland"
+    },
+    "hash": "bf649a5af2606089b902a22458b5287923921fb7"
+  },
+  {
     "updatedAt": "2024-03-23T23:43:33.000Z",
     "approximateCoordinates": [
       46.53,
