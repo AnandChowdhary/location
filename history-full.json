@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-03-24T15:05:45.000Z",
+    "approximateCoordinates": [
+      47.45,
+      8.56
+    ],
+    "label": "Kloten",
+    "timezone": {
+      "name": "Europe/Zurich",
+      "utcOffset": 60,
+      "dstOffset": 120
+    },
+    "country": {
+      "code": "ch",
+      "name": "Switzerland"
+    },
+    "hash": "6c46e07bf0912eda03421dc6e1948bee21418c99"
+  },
+  {
     "updatedAt": "2024-03-24T11:15:14.000Z",
     "approximateCoordinates": [
       47.06,
