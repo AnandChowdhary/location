@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-03-29T12:36:28.000Z",
+    "approximateCoordinates": [
+      51.31,
+      4.56
+    ],
+    "label": "Brecht",
+    "timezone": {
+      "name": "Europe/Brussels",
+      "utcOffset": 60,
+      "dstOffset": 120
+    },
+    "country": {
+      "code": "be",
+      "name": "Belgium"
+    },
+    "hash": "023c310f49e073c39b97b84def45757964d2775d"
+  },
+  {
     "updatedAt": "2024-03-28T05:29:38.000Z",
     "approximateCoordinates": [
       52.13,

@@ -1,25 +1,26 @@
 {
-  "updatedAt": "2024-03-29T09:32:57.000Z",
+  "updatedAt": "2024-03-29T12:36:28.000Z",
   "approximateCoordinates": [
-    52.09,
-    5.06
+    51.31,
+    4.56
   ],
-  "label": "Utrecht",
+  "label": "Brecht",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Europe/Brussels",
     "countries": [
+      "BE",
+      "LU",
       "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": "Europe/Brussels",
-    "deprecated": true
+    "aliasOf": null
   },
   "country": {
-    "code": "nl",
-    "name": "Netherlands",
+    "code": "be",
+    "name": "Belgium",
     "timezones": [
       "Europe/Brussels"
     ]
