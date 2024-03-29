@@ -1,23 +1,24 @@
 {
-  "date": "2024-03-28T06:47:36.816Z",
+  "date": "2024-03-29T10:48:44.000Z",
   "coordinates": [
-    52.09,
-    5.11
+    51.23,
+    4.4
   ],
-  "label": "Utrecht",
-  "full_label": "8, Stationspassage, Hoog Catharijne, Ns, Jaarbeurs, Binnenstad City- En Winkelgebied, Binnenstad, Utrecht, Netherlands, 3511 CB, Netherlands",
+  "label": "Antwerp",
+  "full_label": "Tavernierkaai, Nieuwstad-Cadix, Eilandje, Antwerp, Flanders, 2000, Belgium",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Europe/Brussels",
     "countries": [
+      "BE",
+      "LU",
       "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": "Europe/Brussels",
-    "deprecated": true
+    "aliasOf": null
   },
-  "country_code": "nl",
-  "country_emoji": "🇳🇱"
+  "country_code": "be",
+  "country_emoji": "🇧🇪"
 }
