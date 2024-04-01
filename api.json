@@ -1,26 +1,25 @@
 {
-  "updatedAt": "2024-04-01T10:55:24.000Z",
+  "updatedAt": "2024-04-01T14:11:15.000Z",
   "approximateCoordinates": [
-    51.27,
-    4.5
+    52.09,
+    5.11
   ],
-  "label": "Schoten",
+  "label": "Utrecht",
   "timezone": {
-    "name": "Europe/Brussels",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "BE",
-      "LU",
       "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": null
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
   "country": {
-    "code": "be",
-    "name": "Belgium",
+    "code": "nl",
+    "name": "Netherlands",
     "timezones": [
       "Europe/Brussels"
     ]
