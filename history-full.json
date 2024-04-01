@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-04-01T10:55:24.000Z",
+    "approximateCoordinates": [
+      51.27,
+      4.5
+    ],
+    "label": "Schoten",
+    "timezone": {
+      "name": "Europe/Brussels",
+      "utcOffset": 60,
+      "dstOffset": 120
+    },
+    "country": {
+      "code": "be",
+      "name": "Belgium"
+    },
+    "hash": "dce0a3b1babdaf6d4f3a69de3554e3bc89843ac6"
+  },
+  {
     "updatedAt": "2024-03-29T15:57:16.000Z",
     "approximateCoordinates": [
       51.22,
