@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2024-04-13T22:21:53.000Z",
+    "approximateCoordinates": [
+      52.22,
+      6.89
+    ],
+    "label": "Enschede",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "7ec9ed00517ffbeb378d8ecb22f05937c5859f37"
+  },
+  {
     "updatedAt": "2024-04-13T17:44:07.000Z",
     "approximateCoordinates": [
       52.14,
