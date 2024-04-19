@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2024-04-19T17:41:59.000Z",
+    "approximateCoordinates": [
+      52.13,
+      4.66
+    ],
+    "label": "Alphen aan den Rijn",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "e86c133fa72635972cba0ac8bd968d13814bf487"
+  },
+  {
     "updatedAt": "2024-04-19T13:28:04.000Z",
     "approximateCoordinates": [
       52.11,
