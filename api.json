@@ -1,11 +1,11 @@
 {
-  "date": "2024-05-03T18:09:10.547Z",
+  "date": "2024-05-03T23:05:42.000Z",
   "coordinates": [
-    52.34,
-    4.87
+    52.09,
+    5.11
   ],
-  "label": "Amsterdam",
-  "full_label": "3095, Strawinskylaan, Strawinsky, Zuidas, Zuid, Amsterdam, North Holland, Netherlands, 1077 ZX, Netherlands",
+  "label": "Utrecht",
+  "full_label": "8, Stationspassage, Hoog Catharijne, Ns, Jaarbeurs, Binnenstad City- En Winkelgebied, Binnenstad, Utrecht, Netherlands, 3511 CB, Netherlands",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
