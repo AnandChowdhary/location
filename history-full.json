@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2024-05-04T15:38:46.000Z",
+    "approximateCoordinates": [
+      52.05,
+      4.53
+    ],
+    "label": "Zoetermeer",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "78386c1614cbb040a9a288ea3ac908a428b8f605"
+  },
+  {
     "updatedAt": "2024-05-04T12:37:06.000Z",
     "approximateCoordinates": [
       52.08,
