@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2024-05-16T10:14:05.000Z",
+    "approximateCoordinates": [
+      52.14,
+      5.23
+    ],
+    "label": "Zeist",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "fc95239d1a7bb86e800db643f17dbe879f848ada"
+  },
+  {
     "updatedAt": "2024-05-13T13:18:40.000Z",
     "approximateCoordinates": [
       52.09,
