@@ -1,16 +1,15 @@
 {
-  "updatedAt": "2024-05-31T06:23:48.000Z",
+  "updatedAt": "2024-05-31T09:24:12.000Z",
   "approximateCoordinates": [
-    50.84,
-    4.35
+    48.84,
+    2.38
   ],
-  "label": "Bruxelles - Brussel",
+  "label": "Paris",
   "timezone": {
-    "name": "Europe/Brussels",
+    "name": "Europe/Paris",
     "countries": [
-      "BE",
-      "LU",
-      "NL"
+      "FR",
+      "MC"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
@@ -19,10 +18,10 @@
     "aliasOf": null
   },
   "country": {
-    "code": "be",
-    "name": "Belgium",
+    "code": "fr",
+    "name": "France",
     "timezones": [
-      "Europe/Brussels"
+      "Europe/Paris"
     ]
   }
 }
