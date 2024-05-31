@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-05-31T06:23:48.000Z",
+    "approximateCoordinates": [
+      50.84,
+      4.35
+    ],
+    "label": "Bruxelles - Brussel",
+    "timezone": {
+      "name": "Europe/Brussels",
+      "utcOffset": 60,
+      "dstOffset": 120
+    },
+    "country": {
+      "code": "be",
+      "name": "Belgium"
+    },
+    "hash": "6c33084ba11e1540a356c15037cec9428529a2e5"
+  },
+  {
     "updatedAt": "2024-05-31T03:20:44.000Z",
     "approximateCoordinates": [
       52.22,

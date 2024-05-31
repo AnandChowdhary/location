@@ -1,25 +1,26 @@
 {
-  "updatedAt": "2024-05-31T03:20:44.000Z",
+  "updatedAt": "2024-05-31T06:23:48.000Z",
   "approximateCoordinates": [
-    52.22,
-    5.19
+    50.84,
+    4.35
   ],
-  "label": "Hilversum",
+  "label": "Bruxelles - Brussel",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Europe/Brussels",
     "countries": [
+      "BE",
+      "LU",
       "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": "Europe/Brussels",
-    "deprecated": true
+    "aliasOf": null
   },
   "country": {
-    "code": "nl",
-    "name": "Netherlands",
+    "code": "be",
+    "name": "Belgium",
     "timezones": [
       "Europe/Brussels"
     ]

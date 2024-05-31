@@ -1,22 +1,21 @@
 [
   {
-    "updatedAt": "2024-04-21T17:10:30.000Z",
+    "updatedAt": "2024-05-31T06:23:48.000Z",
     "approximateCoordinates": [
-      52.22,
-      5.02
+      50.84,
+      4.35
     ],
-    "label": "Utrecht",
+    "label": "Bruxelles - Brussel",
     "timezone": {
-      "name": "Europe/Amsterdam",
+      "name": "Europe/Brussels",
       "utcOffset": 60,
-      "dstOffset": 120,
-      "deprecated": true
+      "dstOffset": 120
     },
     "country": {
-      "code": "nl",
-      "name": "Netherlands"
+      "code": "be",
+      "name": "Belgium"
     },
-    "hash": "ad582363600cddbbd1f19b80c5c4d0aacddea865"
+    "hash": "6c33084ba11e1540a356c15037cec9428529a2e5"
   },
   {
     "updatedAt": "2024-04-01T14:11:15.000Z",
