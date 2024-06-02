@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2024-06-02T10:54:53.000Z",
+  "updatedAt": "2024-06-02T13:58:28.000Z",
   "approximateCoordinates": [
-    43.71,
-    7.32
+    43.74,
+    7.42
   ],
-  "label": "Provence-Alpes-Côte d'Azur",
+  "label": "Beausoleil",
   "timezone": {
-    "name": "Europe/Paris",
+    "name": "Europe/Monaco",
     "countries": [
-      "FR",
       "MC"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": null
+    "aliasOf": "Europe/Paris",
+    "deprecated": true
   },
   "country": {
     "code": "fr",
