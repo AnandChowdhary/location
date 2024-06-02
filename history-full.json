@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2024-06-02T13:58:28.000Z",
+    "approximateCoordinates": [
+      43.74,
+      7.42
+    ],
+    "label": "Beausoleil",
+    "timezone": {
+      "name": "Europe/Monaco",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "fr",
+      "name": "France"
+    },
+    "hash": "c4fcb54be50ec8dd04e4b4937a4aef7d54b10b8f"
+  },
+  {
     "updatedAt": "2024-06-02T10:54:53.000Z",
     "approximateCoordinates": [
       43.71,
