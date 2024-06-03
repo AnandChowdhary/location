@@ -1,11 +1,11 @@
 {
-  "date": "2024-05-31T13:15:35.022Z",
+  "date": "2024-06-03T14:57:48.000Z",
   "coordinates": [
-    43.7,
-    7.26
+    43.13,
+    5.93
   ],
-  "label": "Nice",
-  "full_label": "Petite Avenue René Bouteilly, Thiers, La Buffa, Nice, Maritime Alps, Provence-Alpes-Côte d'Azur, Metropolitan France, 06000, France",
+  "label": "Toulon",
+  "full_label": "Boulevard Louvois, Haute Ville, Toulon, Var, Provence-Alpes-Côte d'Azur, Metropolitan France, 12345, France",
   "timezone": {
     "name": "Europe/Paris",
     "countries": [
