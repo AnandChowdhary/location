@@ -1,11 +1,11 @@
 [
   {
-    "updatedAt": "2024-06-03T15:08:34.000Z",
+    "updatedAt": "2024-06-03T18:12:43.000Z",
     "approximateCoordinates": [
-      43.65,
-      7.14
+      43.06,
+      6.15
     ],
-    "label": "Cagnes-sur-Mer",
+    "label": "Hy�res",
     "timezone": {
       "name": "Europe/Paris",
       "utcOffset": 60,
@@ -15,7 +15,7 @@
       "code": "fr",
       "name": "France"
     },
-    "hash": "3130c8a387b21b026dcbf828eae56c347ca6bfeb"
+    "hash": "dea4284d67c81ca314acd6f3c423cf5e85f2ea3e"
   },
   {
     "updatedAt": "2024-05-31T15:40:28.000Z",
