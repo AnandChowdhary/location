@@ -1,11 +1,11 @@
 {
-  "date": "2024-06-04T10:38:52.024Z",
+  "date": "2024-06-05T15:59:08.411Z",
   "coordinates": [
-    43,
-    6.2
+    43.23,
+    5.55
   ],
-  "label": "Hyères",
-  "full_label": "Chemin du Langoustier, Porquerolles, Hyères, Toulon, Var, Provence-Alpes-Côte d'Azur, Metropolitan France, 83400, France",
+  "label": "Provence-Alpes-Côte d'Azur",
+  "full_label": "Albizzi, Avenue des Albizzi, Cassis, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, Metropolitan France, 13260, France",
   "timezone": {
     "name": "Europe/Paris",
     "countries": [
