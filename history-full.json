@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-06-05T15:24:01.000Z",
+    "approximateCoordinates": [
+      43.06,
+      6.15
+    ],
+    "label": "Hy�res",
+    "timezone": {
+      "name": "Europe/Paris",
+      "utcOffset": 60,
+      "dstOffset": 120
+    },
+    "country": {
+      "code": "fr",
+      "name": "France"
+    },
+    "hash": "b5fca7c20cf5d87cd2e4bd613c94c6614c9110a3"
+  },
+  {
     "updatedAt": "2024-06-04T16:22:32.000Z",
     "approximateCoordinates": [
       43.03,

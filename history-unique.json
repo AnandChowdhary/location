@@ -1,8 +1,8 @@
 [
   {
-    "updatedAt": "2024-06-03T18:12:43.000Z",
+    "updatedAt": "2024-06-04T16:22:32.000Z",
     "approximateCoordinates": [
-      43.06,
+      43.03,
       6.15
     ],
     "label": "Hy�res",
@@ -15,7 +15,7 @@
       "code": "fr",
       "name": "France"
     },
-    "hash": "dea4284d67c81ca314acd6f3c423cf5e85f2ea3e"
+    "hash": "78c88ab79e32843f07b11e18cbf9c50d86b5179c"
   },
   {
     "updatedAt": "2024-05-31T15:40:28.000Z",
