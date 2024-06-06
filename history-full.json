@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-06-06T10:40:59.000Z",
+    "approximateCoordinates": [
+      43.21,
+      5.53
+    ],
+    "label": "Provence-Alpes-C�te d'Azur",
+    "timezone": {
+      "name": "Europe/Paris",
+      "utcOffset": 60,
+      "dstOffset": 120
+    },
+    "country": {
+      "code": "fr",
+      "name": "France"
+    },
+    "hash": "ac4dd88ca4f3ff3b11303348e766cb01bf167f96"
+  },
+  {
     "updatedAt": "2024-06-05T15:24:01.000Z",
     "approximateCoordinates": [
       43.06,
