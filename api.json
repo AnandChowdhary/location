@@ -1,24 +1,23 @@
 {
-  "date": "2024-06-07T15:29:12.999Z",
+  "date": "2024-06-07T16:59:59.722Z",
   "coordinates": [
-    50.84,
-    4.34
+    52.09,
+    5.11
   ],
-  "label": "Saint-Gilles - Sint-Gillis",
-  "full_label": "78, Boulevard Poincaré - Poincarélaan, Quartier Saint-Jacques - Sint-Jacobswijk, Brussels, Saint-Gilles - Sint-Gillis, Brussels-Capital, 1060, Belgium",
+  "label": "Utrecht",
+  "full_label": "8, Stationspassage, Hoog Catharijne, Ns, Jaarbeurs, Binnenstad City- En Winkelgebied, Binnenstad, Utrecht, Netherlands, 3511 CB, Netherlands",
   "timezone": {
-    "name": "Europe/Brussels",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "BE",
-      "LU",
       "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": null
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "be",
-  "country_emoji": "🇧🇪"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
