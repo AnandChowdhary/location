@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2024-06-07T18:17:14.000Z",
+    "approximateCoordinates": [
+      51.96,
+      4.61
+    ],
+    "label": "Nieuwerkerk aan den IJssel",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "5fe270e8fc199109b635ca6035a8a7dcfd6647bc"
+  },
+  {
     "updatedAt": "2024-06-04T16:22:32.000Z",
     "approximateCoordinates": [
       43.03,
