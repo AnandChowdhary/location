@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-06-07T11:48:01.000Z",
+    "approximateCoordinates": [
+      45.31,
+      4.91
+    ],
+    "label": "Auvergne-Rh�ne-Alpes",
+    "timezone": {
+      "name": "Europe/Paris",
+      "utcOffset": 60,
+      "dstOffset": 120
+    },
+    "country": {
+      "code": "fr",
+      "name": "France"
+    },
+    "hash": "1d43fea8896fcd3558dc3b213b7325ad18dcba05"
+  },
+  {
     "updatedAt": "2024-06-07T08:40:15.000Z",
     "approximateCoordinates": [
       43.22,
