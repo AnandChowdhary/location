@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2024-07-14T19:24:52.000Z",
+    "approximateCoordinates": [
+      52.33,
+      4.93
+    ],
+    "label": "Amsterdam-Duivendrecht",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "a7f8fed1d8de4db951b283d3cf1ecb31f0d013d2"
+  },
+  {
     "updatedAt": "2024-07-14T15:41:45.000Z",
     "approximateCoordinates": [
       52.34,
