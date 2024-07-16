@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2024-07-16T15:27:56.000Z",
+    "approximateCoordinates": [
+      52.09,
+      4.93
+    ],
+    "label": "Woerden",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "bb0d05ccc7d4656ee551676b81589a9d2cde7f4c"
+  },
+  {
     "updatedAt": "2024-07-15T09:46:54.000Z",
     "approximateCoordinates": [
       52.09,
