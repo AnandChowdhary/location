@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2024-07-20T13:37:05.000Z",
+    "approximateCoordinates": [
+      52,
+      4.35
+    ],
+    "label": "Delft",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "ff8ba84dcca8720d65db027026571ec4d1a37c86"
+  },
+  {
     "updatedAt": "2024-07-20T10:06:37.000Z",
     "approximateCoordinates": [
       52.02,

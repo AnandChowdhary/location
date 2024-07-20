@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2024-07-20T10:06:37.000Z",
+  "updatedAt": "2024-07-20T13:37:05.000Z",
   "approximateCoordinates": [
-    52.02,
-    4.72
+    52,
+    4.35
   ],
-  "label": "Gouda",
+  "label": "Delft",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
