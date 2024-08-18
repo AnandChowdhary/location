@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2024-08-18T22:53:10.000Z",
+    "approximateCoordinates": [
+      52.17,
+      5.45
+    ],
+    "label": "Hoevelaken",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "4f55362bc069fad8308382e1e9d64f1e6780c1c2"
+  },
+  {
     "updatedAt": "2024-08-18T19:52:25.000Z",
     "approximateCoordinates": [
       52.26,
