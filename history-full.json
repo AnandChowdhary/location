@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2024-08-18T19:52:25.000Z",
+    "approximateCoordinates": [
+      52.26,
+      6.8
+    ],
+    "label": "Hengelo",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "6cfb107c858422397fad7bc6952f5cace6436cf4"
+  },
+  {
     "updatedAt": "2024-08-18T16:15:45.000Z",
     "approximateCoordinates": [
       52.23,
