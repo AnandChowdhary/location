@@ -1,11 +1,11 @@
 {
-  "date": "2024-08-24T09:46:14.000Z",
+  "date": "2024-08-24T11:07:09.575Z",
   "coordinates": [
-    51.22,
-    4.42
+    51.2,
+    3.22
   ],
-  "label": "Antwerp",
-  "full_label": "20-22, Van Arteveldestraat, Atheneum, Amandus-Atheneum, Antwerpen-Noord, Antwerp, Flanders, 2060, Belgium",
+  "label": "Bruges",
+  "full_label": "Breughelhof, Oostmeers, Onze-Lieve-Vrouwekwartier, Brugge-Centrum, Brugge, Bruges, Brugge, West Flanders, 8000, Belgium",
   "timezone": {
     "name": "Europe/Brussels",
     "countries": [
