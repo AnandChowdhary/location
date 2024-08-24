@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2024-08-24T09:25:58.000Z",
+    "approximateCoordinates": [
+      51.5,
+      4.74
+    ],
+    "label": "Breda",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "8c0a9386e083b2a26ec96798a9591e07177d72cf"
+  },
+  {
     "updatedAt": "2024-08-24T06:25:41.000Z",
     "approximateCoordinates": [
       52.1,
