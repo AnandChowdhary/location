@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-08-24T15:29:24.000Z",
+    "approximateCoordinates": [
+      51.2,
+      3.22
+    ],
+    "label": "Brugge",
+    "timezone": {
+      "name": "Europe/Brussels",
+      "utcOffset": 60,
+      "dstOffset": 120
+    },
+    "country": {
+      "code": "be",
+      "name": "Belgium"
+    },
+    "hash": "4d965dcd01dcf1427a831710de94accc486b0be7"
+  },
+  {
     "updatedAt": "2024-08-24T12:26:55.000Z",
     "approximateCoordinates": [
       51.08,
