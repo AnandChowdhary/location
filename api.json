@@ -1,11 +1,11 @@
 {
-  "date": "2024-08-24T11:07:09.575Z",
+  "date": "2024-08-24T15:50:12.873Z",
   "coordinates": [
-    51.2,
-    3.22
+    51.04,
+    3.71
   ],
-  "label": "Bruges",
-  "full_label": "Breughelhof, Oostmeers, Onze-Lieve-Vrouwekwartier, Brugge-Centrum, Brugge, Bruges, Brugge, West Flanders, 8000, Belgium",
+  "label": "Ghent",
+  "full_label": "91, Koning Albertlaan, Rijsenbergwijk, Ghent, Gent, East Flanders, 9000, Belgium",
   "timezone": {
     "name": "Europe/Brussels",
     "countries": [
