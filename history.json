@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-08-24T12:26:55.000Z",
+    "approximateCoordinates": [
+      51.08,
+      3.5
+    ],
+    "label": "Aalter",
+    "timezone": {
+      "name": "Europe/Brussels",
+      "utcOffset": 60,
+      "dstOffset": 120
+    },
+    "country": {
+      "code": "be",
+      "name": "Belgium"
+    },
+    "hash": "ee19c98c5956bed0924861bdb4e54f01e379c7de"
+  },
+  {
     "updatedAt": "2024-06-09T15:30:22.000Z",
     "approximateCoordinates": [
       52.08,
