@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-08-25T09:44:22.000Z",
+    "approximateCoordinates": [
+      51.06,
+      3.72
+    ],
+    "label": "Gent",
+    "timezone": {
+      "name": "Europe/Brussels",
+      "utcOffset": 60,
+      "dstOffset": 120
+    },
+    "country": {
+      "code": "be",
+      "name": "Belgium"
+    },
+    "hash": "8d64c93b8c45c467d24e9b12c2643f3b8c25f65b"
+  },
+  {
     "updatedAt": "2024-08-24T15:29:24.000Z",
     "approximateCoordinates": [
       51.2,
