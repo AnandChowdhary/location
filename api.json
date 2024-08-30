@@ -1,23 +1,22 @@
 {
-  "date": "2024-08-30T13:25:30.970Z",
+  "date": "2024-08-30T16:11:53.661Z",
   "coordinates": [
-    52.31,
-    4.76
+    38.76,
+    -9.14
   ],
-  "label": "North Holland",
-  "full_label": "Vertrekpassage, Schiphol, Haarlemmermeer, North Holland, Netherlands, 1118 AS, Netherlands",
+  "label": "Lisbon",
+  "full_label": "National Civil Engineering Laboratory, Avenida do Brasil, São João de Brito, Campo Grande, Alvalade, Lisbon, 1700-066, Portugal",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Europe/Lisbon",
     "countries": [
-      "NL"
+      "PT"
     ],
-    "utcOffset": 60,
-    "utcOffsetStr": "+01:00",
-    "dstOffset": 120,
-    "dstOffsetStr": "+02:00",
-    "aliasOf": "Europe/Brussels",
-    "deprecated": true
+    "utcOffset": 0,
+    "utcOffsetStr": "+00:00",
+    "dstOffset": 60,
+    "dstOffsetStr": "+01:00",
+    "aliasOf": null
   },
-  "country_code": "nl",
-  "country_emoji": "🇳🇱"
+  "country_code": "pt",
+  "country_emoji": "🇵🇹"
 }
