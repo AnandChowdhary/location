@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-08-31T22:24:40.000Z",
+    "approximateCoordinates": [
+      38.74,
+      -9.16
+    ],
+    "label": "Lisboa",
+    "timezone": {
+      "name": "Europe/Lisbon",
+      "utcOffset": 0,
+      "dstOffset": 60
+    },
+    "country": {
+      "code": "pt",
+      "name": "Portugal"
+    },
+    "hash": "354bf58842f1a9feb5c306a4e0d85c8799ed00ce"
+  },
+  {
     "updatedAt": "2024-08-31T18:41:15.000Z",
     "approximateCoordinates": [
       38.7,
