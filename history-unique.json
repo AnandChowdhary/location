@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-08-31T15:25:20.000Z",
+    "approximateCoordinates": [
+      38.79,
+      -9.39
+    ],
+    "label": "Sintra",
+    "timezone": {
+      "name": "Europe/Lisbon",
+      "utcOffset": 0,
+      "dstOffset": 60
+    },
+    "country": {
+      "code": "pt",
+      "name": "Portugal"
+    },
+    "hash": "d361e08ebda519c57dbd2b115030af3505474f0a"
+  },
+  {
     "updatedAt": "2024-08-31T11:19:08.000Z",
     "approximateCoordinates": [
       38.74,
