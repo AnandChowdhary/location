@@ -1,22 +1,21 @@
 [
   {
-    "updatedAt": "2024-08-28T20:08:37.000Z",
+    "updatedAt": "2024-08-31T11:19:08.000Z",
     "approximateCoordinates": [
-      52.09,
-      5.06
+      38.74,
+      -9.17
     ],
-    "label": "Utrecht",
+    "label": "Lisboa",
     "timezone": {
-      "name": "Europe/Amsterdam",
-      "utcOffset": 60,
-      "dstOffset": 120,
-      "deprecated": true
+      "name": "Europe/Lisbon",
+      "utcOffset": 0,
+      "dstOffset": 60
     },
     "country": {
-      "code": "nl",
-      "name": "Netherlands"
+      "code": "pt",
+      "name": "Portugal"
     },
-    "hash": "afd5dc08d96c1f8ed7e48799a63ea8733cda6acf"
+    "hash": "10ab1a2b3016a75b1aa9b641cfcde74f0fd11e26"
   },
   {
     "updatedAt": "2024-08-25T21:17:33.000Z",
