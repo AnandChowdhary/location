@@ -1,11 +1,11 @@
 [
   {
-    "updatedAt": "2024-08-31T18:41:15.000Z",
+    "updatedAt": "2024-08-31T22:24:40.000Z",
     "approximateCoordinates": [
-      38.7,
-      -9.42
+      38.74,
+      -9.16
     ],
-    "label": "Cascais",
+    "label": "Lisboa",
     "timezone": {
       "name": "Europe/Lisbon",
       "utcOffset": 0,
@@ -15,7 +15,7 @@
       "code": "pt",
       "name": "Portugal"
     },
-    "hash": "0846e2c4658827a84acc64ab792945efdbc102d1"
+    "hash": "354bf58842f1a9feb5c306a4e0d85c8799ed00ce"
   },
   {
     "updatedAt": "2024-08-31T11:19:08.000Z",
