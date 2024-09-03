@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-09-03T11:58:23.000Z",
+    "approximateCoordinates": [
+      37.09,
+      -8.34
+    ],
+    "label": "Alcantarilha e P�ra",
+    "timezone": {
+      "name": "Europe/Lisbon",
+      "utcOffset": 0,
+      "dstOffset": 60
+    },
+    "country": {
+      "code": "pt",
+      "name": "Portugal"
+    },
+    "hash": "0f98a4daccf72cefac263d09ab519156ea12b886"
+  },
+  {
     "updatedAt": "2024-09-02T12:56:21.000Z",
     "approximateCoordinates": [
       37.09,
