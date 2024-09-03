@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-09-03T19:19:41.000Z",
+    "approximateCoordinates": [
+      37.09,
+      -8.25
+    ],
+    "label": "Albufeira",
+    "timezone": {
+      "name": "Europe/Lisbon",
+      "utcOffset": 0,
+      "dstOffset": 60
+    },
+    "country": {
+      "code": "pt",
+      "name": "Portugal"
+    },
+    "hash": "c184404e602f7193d18e1d96bbf7886fe20afdbd"
+  },
+  {
     "updatedAt": "2024-09-03T11:58:23.000Z",
     "approximateCoordinates": [
       37.09,
