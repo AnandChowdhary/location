@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-09-04T14:40:43.000Z",
+    "approximateCoordinates": [
+      37.12,
+      -8.09
+    ],
+    "label": "Loul�",
+    "timezone": {
+      "name": "Europe/Lisbon",
+      "utcOffset": 0,
+      "dstOffset": 60
+    },
+    "country": {
+      "code": "pt",
+      "name": "Portugal"
+    },
+    "hash": "4414659554d05130e8d8c3e7be0945bb93f50b14"
+  },
+  {
     "updatedAt": "2024-09-03T19:19:41.000Z",
     "approximateCoordinates": [
       37.09,
