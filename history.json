@@ -1,21 +1,22 @@
 [
   {
-    "updatedAt": "2024-08-31T22:24:40.000Z",
+    "updatedAt": "2024-09-04T19:20:57.000Z",
     "approximateCoordinates": [
-      38.74,
-      -9.16
+      51.45,
+      5.39
     ],
-    "label": "Lisboa",
+    "label": "Eindhoven",
     "timezone": {
-      "name": "Europe/Lisbon",
-      "utcOffset": 0,
-      "dstOffset": 60
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
     },
     "country": {
-      "code": "pt",
-      "name": "Portugal"
+      "code": "nl",
+      "name": "Netherlands"
     },
-    "hash": "354bf58842f1a9feb5c306a4e0d85c8799ed00ce"
+    "hash": "8de3135e63ae11687647b5bc58c2d6ddf0a35f4d"
   },
   {
     "updatedAt": "2024-08-31T11:19:08.000Z",
