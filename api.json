@@ -1,22 +1,23 @@
 {
-  "date": "2024-09-04T14:20:59.000Z",
+  "date": "2024-09-04T16:41:46.388Z",
   "coordinates": [
-    37.02,
-    -7.97
+    51.46,
+    5.39
   ],
-  "label": "Faro",
-  "full_label": "Faro Airport, Avenida Nelson Mandela, Vale das Almas, Montenegro, Faro, 8005-175, Portugal",
+  "label": "Eindhoven",
+  "full_label": "Bronze Parking P5, Luchthavenweg, Strijp, Eindhoven, North Brabant, Netherlands, 5657 EL, Netherlands",
   "timezone": {
-    "name": "Europe/Lisbon",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "PT"
+      "NL"
     ],
-    "utcOffset": 0,
-    "utcOffsetStr": "+00:00",
-    "dstOffset": 60,
-    "dstOffsetStr": "+01:00",
-    "aliasOf": null
+    "utcOffset": 60,
+    "utcOffsetStr": "+01:00",
+    "dstOffset": 120,
+    "dstOffsetStr": "+02:00",
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "pt",
-  "country_emoji": "🇵🇹"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
