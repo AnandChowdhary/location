@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2024-09-11T17:03:50.000Z",
+    "approximateCoordinates": [
+      52.14,
+      5.02
+    ],
+    "label": "Maarssen",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "45906e87d1e95aed63e4aeb46e73c630cc031994"
+  },
+  {
     "updatedAt": "2024-09-11T10:54:34.000Z",
     "approximateCoordinates": [
       52.07,
