@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2024-09-13T09:57:13.000Z",
+    "approximateCoordinates": [
+      53.22,
+      6.56
+    ],
+    "label": "Groningen",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "aec7a46e0eae4aacc2c8aee06dd48a1d56210a71"
+  },
+  {
     "updatedAt": "2024-09-12T15:07:56.000Z",
     "approximateCoordinates": [
       52.13,
