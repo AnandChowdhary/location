@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2024-09-13T13:41:10.000Z",
+    "approximateCoordinates": [
+      52.94,
+      6.57
+    ],
+    "label": "Drenthe",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "fd37cc565f9e55a53eb132b02b47e2349c4f58aa"
+  },
+  {
     "updatedAt": "2024-09-13T09:57:13.000Z",
     "approximateCoordinates": [
       53.22,
