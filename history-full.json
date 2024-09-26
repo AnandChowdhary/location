@@ -1,5 +1,24 @@
 [
   {
+    "updatedAt": "2024-09-26T14:05:35.000Z",
+    "approximateCoordinates": [
+      52.02,
+      4.73
+    ],
+    "label": "Gouda",
+    "timezone": {
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
+    },
+    "country": {
+      "code": "nl",
+      "name": "Netherlands"
+    },
+    "hash": "ecce584f1ff6c95e8c9ea548ceb0d83da88ba6b9"
+  },
+  {
     "updatedAt": "2024-09-15T17:32:04.000Z",
     "approximateCoordinates": [
       52.08,
