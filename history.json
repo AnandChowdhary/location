@@ -1,11 +1,11 @@
 [
   {
-    "updatedAt": "2024-09-29T00:01:50.000Z",
+    "updatedAt": "2024-09-29T18:58:32.000Z",
     "approximateCoordinates": [
-      40.74,
-      -73.61
+      40.75,
+      -73.77
     ],
-    "label": "Uniondale",
+    "label": "City of New York",
     "timezone": {
       "name": "America/New_York",
       "utcOffset": -300,
@@ -15,7 +15,7 @@
       "code": "us",
       "name": "United States of America"
     },
-    "hash": "885109e09d38d7eb5eb1befd7f5c1f86b6957b50"
+    "hash": "5e0f4d0514d58f400feebac5e6e49b6164a9c5a5"
   },
   {
     "updatedAt": "2024-09-27T17:26:25.000Z",

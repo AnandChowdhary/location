@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-10-01T19:09:44.000Z",
+    "approximateCoordinates": [
+      40.68,
+      -74.04
+    ],
+    "label": "Jersey City",
+    "timezone": {
+      "name": "America/New_York",
+      "utcOffset": -300,
+      "dstOffset": -240
+    },
+    "country": {
+      "code": "us",
+      "name": "United States of America"
+    },
+    "hash": "d8cb13c4b23c0bb7da49ded6a239b6204f8f5484"
+  },
+  {
     "updatedAt": "2024-09-29T18:58:32.000Z",
     "approximateCoordinates": [
       40.75,
