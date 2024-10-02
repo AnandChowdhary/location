@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-10-02T01:33:04.000Z",
+    "approximateCoordinates": [
+      40.78,
+      -73.66
+    ],
+    "label": "New York",
+    "timezone": {
+      "name": "America/New_York",
+      "utcOffset": -300,
+      "dstOffset": -240
+    },
+    "country": {
+      "code": "us",
+      "name": "United States of America"
+    },
+    "hash": "72138ec21a20aac3d8b12a16b3a33f12799f27da"
+  },
+  {
     "updatedAt": "2024-10-01T22:14:54.000Z",
     "approximateCoordinates": [
       40.75,
