@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2024-10-01T22:14:54.000Z",
+  "updatedAt": "2024-10-02T01:33:04.000Z",
   "approximateCoordinates": [
-    40.75,
-    -73.93
+    40.78,
+    -73.66
   ],
-  "label": "City of New York",
+  "label": "New York",
   "timezone": {
     "name": "America/New_York",
     "countries": [
