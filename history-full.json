@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-10-04T17:33:17.000Z",
+    "approximateCoordinates": [
+      40.29,
+      -74.68
+    ],
+    "label": "Lawrence Township",
+    "timezone": {
+      "name": "America/New_York",
+      "utcOffset": -300,
+      "dstOffset": -240
+    },
+    "country": {
+      "code": "us",
+      "name": "United States of America"
+    },
+    "hash": "34022960cfb83fc1a710ce774257651710d4123c"
+  },
+  {
     "updatedAt": "2024-10-03T17:56:01.000Z",
     "approximateCoordinates": [
       40.29,
