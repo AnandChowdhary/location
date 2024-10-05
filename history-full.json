@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-10-05T16:30:14.000Z",
+    "approximateCoordinates": [
+      37.6,
+      -122.38
+    ],
+    "label": "Millbrae",
+    "timezone": {
+      "name": "America/Los_Angeles",
+      "utcOffset": -480,
+      "dstOffset": -420
+    },
+    "country": {
+      "code": "us",
+      "name": "United States of America"
+    },
+    "hash": "e1f7139e03a8e0cf84a0e323a4fedcefc69e2fcf"
+  },
+  {
     "updatedAt": "2024-10-05T08:05:58.000Z",
     "approximateCoordinates": [
       40.71,
