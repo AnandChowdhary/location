@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2024-10-05T08:05:58.000Z",
+  "updatedAt": "2024-10-05T16:30:14.000Z",
   "approximateCoordinates": [
-    40.71,
-    -73.73
+    37.6,
+    -122.38
   ],
-  "label": "City of New York",
+  "label": "Millbrae",
   "timezone": {
-    "name": "America/New_York",
+    "name": "America/Los_Angeles",
     "countries": [
       "US"
     ],
-    "utcOffset": -300,
-    "utcOffsetStr": "-05:00",
-    "dstOffset": -240,
-    "dstOffsetStr": "-04:00",
+    "utcOffset": -480,
+    "utcOffsetStr": "-08:00",
+    "dstOffset": -420,
+    "dstOffsetStr": "-07:00",
     "aliasOf": null
   },
   "country": {
