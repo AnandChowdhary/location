@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-10-06T01:52:52.000Z",
+    "approximateCoordinates": [
+      37.77,
+      -122.4
+    ],
+    "label": "San Francisco",
+    "timezone": {
+      "name": "America/Los_Angeles",
+      "utcOffset": -480,
+      "dstOffset": -420
+    },
+    "country": {
+      "code": "us",
+      "name": "United States of America"
+    },
+    "hash": "5b394e54da9beda78d4d6b1814eef2fecdc094a1"
+  },
+  {
     "updatedAt": "2024-09-27T17:26:25.000Z",
     "approximateCoordinates": [
       40.64,
