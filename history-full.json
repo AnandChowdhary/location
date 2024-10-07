@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-10-07T14:51:23.000Z",
+    "approximateCoordinates": [
+      37.7,
+      -121.85
+    ],
+    "label": "Pleasanton",
+    "timezone": {
+      "name": "America/Los_Angeles",
+      "utcOffset": -480,
+      "dstOffset": -420
+    },
+    "country": {
+      "code": "us",
+      "name": "United States of America"
+    },
+    "hash": "43d4809002a3ab2ba4daeffec5e28ae677f918ed"
+  },
+  {
     "updatedAt": "2024-10-07T02:39:17.000Z",
     "approximateCoordinates": [
       37.72,
