@@ -1,11 +1,11 @@
 [
   {
-    "updatedAt": "2024-10-09T03:31:33.000Z",
+    "updatedAt": "2024-10-10T04:42:25.000Z",
     "approximateCoordinates": [
-      37.81,
-      -122.32
+      37.76,
+      -122.49
     ],
-    "label": "Oakland",
+    "label": "San Francisco",
     "timezone": {
       "name": "America/Los_Angeles",
       "utcOffset": -480,
@@ -15,7 +15,7 @@
       "code": "us",
       "name": "United States of America"
     },
-    "hash": "e24c64256e84287be0ffd500ecdc802852fab4fc"
+    "hash": "01f4bca52ddda8b47bcafa4672d443d271c06f04"
   },
   {
     "updatedAt": "2024-09-27T17:26:25.000Z",
