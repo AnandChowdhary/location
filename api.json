@@ -1,20 +1,21 @@
 {
-  "date": "2024-10-11T20:43:01.308Z",
+  "date": "2024-10-11T23:50:01.543Z",
   "coordinates": [
-    37.22,
-    -112.97
+    36.92,
+    -111.47
   ],
-  "label": "Utah",
-  "full_label": "Zion Canyon Scenic Drive, Zion Lodge, Washington County, Utah, United States",
+  "label": "Page",
+  "full_label": "Lake Powell National Golf Course, 400, Clubhouse Drive, Page, Coconino County, Arizona, 86040, United States",
   "timezone": {
-    "name": "America/Denver",
+    "name": "America/Phoenix",
     "countries": [
-      "US"
+      "US",
+      "CA"
     ],
     "utcOffset": -420,
     "utcOffsetStr": "-07:00",
-    "dstOffset": -360,
-    "dstOffsetStr": "-06:00",
+    "dstOffset": -420,
+    "dstOffsetStr": "-07:00",
     "aliasOf": null
   },
   "country_code": "us",
