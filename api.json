@@ -1,20 +1,20 @@
 {
-  "date": "2024-10-11T16:58:50.735Z",
+  "date": "2024-10-11T20:43:01.308Z",
   "coordinates": [
-    36.09,
-    -115.15
+    37.22,
+    -112.97
   ],
-  "label": "Paradise",
-  "full_label": "Terminal 1 Departures, Paradise, Clark County, Nevada, 89119, United States",
+  "label": "Utah",
+  "full_label": "Zion Canyon Scenic Drive, Zion Lodge, Washington County, Utah, United States",
   "timezone": {
-    "name": "America/Los_Angeles",
+    "name": "America/Denver",
     "countries": [
       "US"
     ],
-    "utcOffset": -480,
-    "utcOffsetStr": "-08:00",
-    "dstOffset": -420,
-    "dstOffsetStr": "-07:00",
+    "utcOffset": -420,
+    "utcOffsetStr": "-07:00",
+    "dstOffset": -360,
+    "dstOffsetStr": "-06:00",
     "aliasOf": null
   },
   "country_code": "us",
