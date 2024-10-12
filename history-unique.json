@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-10-12T21:21:27.000Z",
+    "approximateCoordinates": [
+      36.77,
+      -111.56
+    ],
+    "label": "Arizona",
+    "timezone": {
+      "name": "America/Denver",
+      "utcOffset": -420,
+      "dstOffset": -360
+    },
+    "country": {
+      "code": "us",
+      "name": "United States of America"
+    },
+    "hash": "a4a9007d906fa4e80f357248873574ce42589b9a"
+  },
+  {
     "updatedAt": "2024-10-12T05:06:10.000Z",
     "approximateCoordinates": [
       36.92,
