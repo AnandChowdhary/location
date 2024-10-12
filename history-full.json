@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-10-12T00:42:17.000Z",
+    "approximateCoordinates": [
+      37.03,
+      -112.48
+    ],
+    "label": "Kanab",
+    "timezone": {
+      "name": "America/Denver",
+      "utcOffset": -420,
+      "dstOffset": -360
+    },
+    "country": {
+      "code": "us",
+      "name": "United States of America"
+    },
+    "hash": "cfba056769f0840128c94dbcee0136bdcf63a6ba"
+  },
+  {
     "updatedAt": "2024-10-11T21:38:54.000Z",
     "approximateCoordinates": [
       36.65,
