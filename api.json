@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2024-10-11T21:38:54.000Z",
+  "updatedAt": "2024-10-12T00:42:17.000Z",
   "approximateCoordinates": [
-    36.65,
-    -114.58
+    37.03,
+    -112.48
   ],
-  "label": "Nevada",
+  "label": "Kanab",
   "timezone": {
-    "name": "America/Los_Angeles",
+    "name": "America/Denver",
     "countries": [
       "US"
     ],
-    "utcOffset": -480,
-    "utcOffsetStr": "-08:00",
-    "dstOffset": -420,
-    "dstOffsetStr": "-07:00",
+    "utcOffset": -420,
+    "utcOffsetStr": "-07:00",
+    "dstOffset": -360,
+    "dstOffsetStr": "-06:00",
     "aliasOf": null
   },
   "country": {
