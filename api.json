@@ -1,19 +1,20 @@
 {
-  "updatedAt": "2024-10-12T00:42:17.000Z",
+  "updatedAt": "2024-10-12T05:06:10.000Z",
   "approximateCoordinates": [
-    37.03,
-    -112.48
+    36.92,
+    -111.47
   ],
-  "label": "Kanab",
+  "label": "Page",
   "timezone": {
-    "name": "America/Denver",
+    "name": "America/Phoenix",
     "countries": [
-      "US"
+      "US",
+      "CA"
     ],
     "utcOffset": -420,
     "utcOffsetStr": "-07:00",
-    "dstOffset": -360,
-    "dstOffsetStr": "-06:00",
+    "dstOffset": -420,
+    "dstOffsetStr": "-07:00",
     "aliasOf": null
   },
   "country": {
