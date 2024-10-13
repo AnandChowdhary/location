@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-10-13T19:08:17.000Z",
+    "approximateCoordinates": [
+      36.76,
+      -114.38
+    ],
+    "label": "Nevada",
+    "timezone": {
+      "name": "America/Los_Angeles",
+      "utcOffset": -480,
+      "dstOffset": -420
+    },
+    "country": {
+      "code": "us",
+      "name": "United States of America"
+    },
+    "hash": "051402e844a8d6a363e9bd9d3d3cf71ca351f29e"
+  },
+  {
     "updatedAt": "2024-10-13T16:07:04.000Z",
     "approximateCoordinates": [
       37.04,
