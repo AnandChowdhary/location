@@ -1,20 +1,19 @@
 {
-  "updatedAt": "2024-10-13T02:59:52.000Z",
+  "updatedAt": "2024-10-13T16:07:04.000Z",
   "approximateCoordinates": [
-    36.92,
-    -111.46
+    37.04,
+    -111.62
   ],
-  "label": "Page",
+  "label": "Utah",
   "timezone": {
-    "name": "America/Phoenix",
+    "name": "America/Denver",
     "countries": [
-      "US",
-      "CA"
+      "US"
     ],
     "utcOffset": -420,
     "utcOffsetStr": "-07:00",
-    "dstOffset": -420,
-    "dstOffsetStr": "-07:00",
+    "dstOffset": -360,
+    "dstOffsetStr": "-06:00",
     "aliasOf": null
   },
   "country": {
