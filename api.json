@@ -1,19 +1,18 @@
 {
-  "date": "2024-10-13T00:39:59.067Z",
+  "date": "2024-10-13T15:43:24.942Z",
   "coordinates": [
-    36.92,
-    -111.46
+    36.2,
+    -115.08
   ],
-  "label": "Page",
-  "full_label": "North 7th Avenue, Page, Coconino County, Arizona, United States",
+  "label": "Nevada",
+  "full_label": "North Lamb Boulevard, Clark County, Nevada, 89156, United States",
   "timezone": {
-    "name": "America/Phoenix",
+    "name": "America/Los_Angeles",
     "countries": [
-      "US",
-      "CA"
+      "US"
     ],
-    "utcOffset": -420,
-    "utcOffsetStr": "-07:00",
+    "utcOffset": -480,
+    "utcOffsetStr": "-08:00",
     "dstOffset": -420,
     "dstOffsetStr": "-07:00",
     "aliasOf": null
