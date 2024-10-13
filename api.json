@@ -1,19 +1,20 @@
 {
-  "updatedAt": "2024-10-12T21:21:27.000Z",
+  "updatedAt": "2024-10-13T02:59:52.000Z",
   "approximateCoordinates": [
-    36.77,
-    -111.56
+    36.92,
+    -111.46
   ],
-  "label": "Arizona",
+  "label": "Page",
   "timezone": {
-    "name": "America/Denver",
+    "name": "America/Phoenix",
     "countries": [
-      "US"
+      "US",
+      "CA"
     ],
     "utcOffset": -420,
     "utcOffsetStr": "-07:00",
-    "dstOffset": -360,
-    "dstOffsetStr": "-06:00",
+    "dstOffset": -420,
+    "dstOffsetStr": "-07:00",
     "aliasOf": null
   },
   "country": {

@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-10-13T02:59:52.000Z",
+    "approximateCoordinates": [
+      36.92,
+      -111.46
+    ],
+    "label": "Page",
+    "timezone": {
+      "name": "America/Phoenix",
+      "utcOffset": -420,
+      "dstOffset": -420
+    },
+    "country": {
+      "code": "us",
+      "name": "United States of America"
+    },
+    "hash": "ed8d5031532ad3ac4f8e6643af1fab37299dd95c"
+  },
+  {
     "updatedAt": "2024-10-12T21:21:27.000Z",
     "approximateCoordinates": [
       36.77,
