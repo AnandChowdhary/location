@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2024-10-13T16:07:04.000Z",
+  "updatedAt": "2024-10-13T19:08:17.000Z",
   "approximateCoordinates": [
-    37.04,
-    -111.62
+    36.76,
+    -114.38
   ],
-  "label": "Utah",
+  "label": "Nevada",
   "timezone": {
-    "name": "America/Denver",
+    "name": "America/Los_Angeles",
     "countries": [
       "US"
     ],
-    "utcOffset": -420,
-    "utcOffsetStr": "-07:00",
-    "dstOffset": -360,
-    "dstOffsetStr": "-06:00",
+    "utcOffset": -480,
+    "utcOffsetStr": "-08:00",
+    "dstOffset": -420,
+    "dstOffsetStr": "-07:00",
     "aliasOf": null
   },
   "country": {
