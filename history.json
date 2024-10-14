@@ -1,11 +1,11 @@
 [
   {
-    "updatedAt": "2024-10-13T22:36:55.000Z",
+    "updatedAt": "2024-10-14T01:39:56.000Z",
     "approximateCoordinates": [
-      36.13,
+      36.1,
       -115.17
     ],
-    "label": "Paradise",
+    "label": "Las Vegas",
     "timezone": {
       "name": "America/Los_Angeles",
       "utcOffset": -480,
@@ -15,7 +15,7 @@
       "code": "us",
       "name": "United States of America"
     },
-    "hash": "8cca6b2cc6d9eb598f46ea4570b956fc2748a24e"
+    "hash": "da6769fa5bea8664d5a56262d52d42940bdc9e12"
   },
   {
     "updatedAt": "2024-10-13T19:08:17.000Z",
