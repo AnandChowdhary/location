@@ -1,11 +1,11 @@
 [
   {
-    "updatedAt": "2024-10-14T01:39:56.000Z",
+    "updatedAt": "2024-10-14T08:37:50.000Z",
     "approximateCoordinates": [
-      36.1,
-      -115.17
+      37.71,
+      -122.21
     ],
-    "label": "Las Vegas",
+    "label": "Oakland",
     "timezone": {
       "name": "America/Los_Angeles",
       "utcOffset": -480,
@@ -15,7 +15,7 @@
       "code": "us",
       "name": "United States of America"
     },
-    "hash": "da6769fa5bea8664d5a56262d52d42940bdc9e12"
+    "hash": "852bad755bed5a4a7aad997558311702df840f68"
   },
   {
     "updatedAt": "2024-10-13T19:08:17.000Z",
