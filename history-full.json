@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-10-15T21:21:43.000Z",
+    "approximateCoordinates": [
+      37.7,
+      -121.84
+    ],
+    "label": "Livermore",
+    "timezone": {
+      "name": "America/Los_Angeles",
+      "utcOffset": -480,
+      "dstOffset": -420
+    },
+    "country": {
+      "code": "us",
+      "name": "United States of America"
+    },
+    "hash": "3479e68e8e11eea2fe739a167812591f5271bc3d"
+  },
+  {
     "updatedAt": "2024-10-14T23:32:08.000Z",
     "approximateCoordinates": [
       37.7,
