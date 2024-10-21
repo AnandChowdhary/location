@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2024-10-21T15:49:18.000Z",
+  "updatedAt": "2024-10-21T19:30:20.000Z",
   "approximateCoordinates": [
-    37.71,
-    -121.85
+    37.79,
+    -122.39
   ],
-  "label": "Dublin",
+  "label": "San Francisco",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
