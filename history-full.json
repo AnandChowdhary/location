@@ -1,5 +1,23 @@
 [
   {
+    "updatedAt": "2024-10-22T05:30:42.000Z",
+    "approximateCoordinates": [
+      37.69,
+      -122.12
+    ],
+    "label": "California",
+    "timezone": {
+      "name": "America/Los_Angeles",
+      "utcOffset": -480,
+      "dstOffset": -420
+    },
+    "country": {
+      "code": "us",
+      "name": "United States of America"
+    },
+    "hash": "c9b287cae218046d42c47ce291e6ec94c44d9e75"
+  },
+  {
     "updatedAt": "2024-10-22T02:11:54.000Z",
     "approximateCoordinates": [
       37.81,
