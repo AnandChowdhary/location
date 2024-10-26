@@ -1,11 +1,11 @@
 {
-  "date": "2024-10-25T23:26:23.507Z",
+  "date": "2024-10-26T00:40:16.999Z",
   "coordinates": [
-    37.7,
-    -121.9
+    37.33,
+    -122
   ],
-  "label": "Pleasanton",
-  "full_label": "Owens Drive, Hacienda, Pleasanton, Alameda County, California, 94588, United States",
+  "label": "Santa Clara",
+  "full_label": "474, La Herran Drive, Santa Clara, Santa Clara County, California, 95051, United States",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
