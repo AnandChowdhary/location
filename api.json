@@ -1,26 +1,23 @@
 {
-  "date": "2024-12-22T10:40:08.365Z",
+  "date": "2024-12-22T18:55:29.782Z",
   "coordinates": [
-    51.96,
-    7.63
+    52.23,
+    6.89
   ],
-  "label": "Münster",
-  "full_label": "Stubengasse, Loerstraße, Dom, Altstadt, Münster-Mitte, Münster, North Rhine-Westphalia, 48143, Germany",
+  "label": "Enschede",
+  "full_label": "10, Het Roombeekhofje, Roombeek, Enschede, Overijssel, Netherlands, 7523 JL, Netherlands",
   "timezone": {
-    "name": "Europe/Berlin",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "DE",
-      "DK",
-      "NO",
-      "SE",
-      "SJ"
+      "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": null
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "de",
-  "country_emoji": "🇩🇪"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
