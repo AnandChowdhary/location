@@ -1,11 +1,11 @@
 {
-  "date": "2025-03-03T07:09:12.555Z",
+  "date": "2025-03-07T11:11:40.995Z",
   "coordinates": [
-    28.55,
-    77.09
+    28.57,
+    77.35
   ],
-  "label": "New Delhi",
-  "full_label": "Apron 35, Indira Gandhi International Airport Departure Road, Vasant Vihar Tehsil, New Delhi, Delhi, 110077, India",
+  "label": "Noida",
+  "full_label": "Shaheed Captain Shashikant Sharma Marg, Noida City Centre, Noida, Dadri, Gautam Buddha Nagar, Uttar Pradesh, 201301, India",
   "timezone": {
     "name": "Asia/Kolkata",
     "countries": [
