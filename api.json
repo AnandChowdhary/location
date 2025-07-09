@@ -1,23 +1,24 @@
 {
-  "date": "2025-07-09T04:03:20.110Z",
+  "date": "2025-07-09T06:10:22.340Z",
   "coordinates": [
-    52.31,
-    4.76
+    45.46,
+    9.28
   ],
-  "label": "North Holland",
-  "full_label": "Vertrekpassage, Schiphol, Haarlemmermeer, North Holland, Netherlands, 1118 AS, Netherlands",
+  "label": "Segrate",
+  "full_label": "Milano-Linate, Via Forlanini, Segrate, Milan, Lombardy, 20054, Italy",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Europe/Rome",
     "countries": [
-      "NL"
+      "IT",
+      "SM",
+      "VA"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": "Europe/Brussels",
-    "deprecated": true
+    "aliasOf": null
   },
-  "country_code": "nl",
-  "country_emoji": "🇳🇱"
+  "country_code": "it",
+  "country_emoji": "🇮🇹"
 }
