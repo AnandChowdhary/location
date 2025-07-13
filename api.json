@@ -1,24 +1,23 @@
 {
-  "date": "2025-07-13T04:27:04.466Z",
+  "date": "2025-07-13T08:46:30.324Z",
   "coordinates": [
-    45.46,
-    9.28
+    52.32,
+    4.75
   ],
-  "label": "Segrate",
-  "full_label": "Milano-Linate, Via Forlanini, Segrate, Milan, Lombardy, 20054, Italy",
+  "label": "North Holland",
+  "full_label": "Sneeuwvlootweg, Schiphol, Haarlemmermeer, North Holland, Netherlands, 1171 CC, Netherlands",
   "timezone": {
-    "name": "Europe/Rome",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "IT",
-      "SM",
-      "VA"
+      "NL"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": null
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "it",
-  "country_emoji": "🇮🇹"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
