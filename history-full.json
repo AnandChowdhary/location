@@ -10899,5 +10899,27 @@
     "hash": "2e8ef2bd609e6501223f20961896993abf8de6c0",
     "country_code": "in",
     "timezone_name": "Asia/Kolkata"
+  },
+  {
+    "label": "Bangkok",
+    "coordinates": [
+      13.75,
+      100.5
+    ],
+    "date": "2011-05-30T00:00:00.000Z",
+    "hash": "a0a73fc409841b3bf089b1d6d8112dc21d7805c0",
+    "country_code": "th",
+    "timezone_name": "Asia/Bangkok"
+  },
+  {
+    "label": "Manila",
+    "coordinates": [
+      14.59,
+      120.98
+    ],
+    "date": "2011-05-30T00:00:00.000Z",
+    "hash": "54586ae8d7a05c66a59d9783d53f336f01f19822",
+    "country_code": "ph",
+    "timezone_name": "Asia/Manila"
   }
 ]
