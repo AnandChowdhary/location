@@ -1,54 +1,27 @@
 {
-  "updatedAt": "2024-10-25T23:36:35.000Z",
+  "updatedAt": "2025-07-31T12:21:34.000Z",
   "approximateCoordinates": [
-    37.81,
-    -122.3
+    52.11,
+    5.09
   ],
-  "label": "Oakland",
+  "label": "Utrecht",
   "timezone": {
-    "name": "America/Los_Angeles",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "US"
+      "NL"
     ],
-    "utcOffset": -480,
-    "utcOffsetStr": "-08:00",
-    "dstOffset": -420,
-    "dstOffsetStr": "-07:00",
-    "aliasOf": null
+    "utcOffset": 60,
+    "utcOffsetStr": "+01:00",
+    "dstOffset": 120,
+    "dstOffsetStr": "+02:00",
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
   "country": {
-    "code": "us",
-    "name": "United States of America",
+    "code": "nl",
+    "name": "Netherlands",
     "timezones": [
-      "America/Adak",
-      "America/Anchorage",
-      "America/Boise",
-      "America/Chicago",
-      "America/Denver",
-      "America/Detroit",
-      "America/Indiana/Indianapolis",
-      "America/Indiana/Knox",
-      "America/Indiana/Marengo",
-      "America/Indiana/Petersburg",
-      "America/Indiana/Tell_City",
-      "America/Indiana/Vevay",
-      "America/Indiana/Vincennes",
-      "America/Indiana/Winamac",
-      "America/Juneau",
-      "America/Kentucky/Louisville",
-      "America/Kentucky/Monticello",
-      "America/Los_Angeles",
-      "America/Menominee",
-      "America/Metlakatla",
-      "America/New_York",
-      "America/Nome",
-      "America/North_Dakota/Beulah",
-      "America/North_Dakota/Center",
-      "America/North_Dakota/New_Salem",
-      "America/Phoenix",
-      "America/Sitka",
-      "America/Yakutat",
-      "Pacific/Honolulu"
+      "Europe/Brussels"
     ]
   }
 }

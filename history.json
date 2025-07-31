@@ -1,21 +1,22 @@
 [
   {
-    "updatedAt": "2024-10-18T23:14:16.000Z",
+    "updatedAt": "2025-07-31T12:21:34.000Z",
     "approximateCoordinates": [
-      37.8,
-      -122.28
+      52.11,
+      5.09
     ],
-    "label": "Oakland",
+    "label": "Utrecht",
     "timezone": {
-      "name": "America/Los_Angeles",
-      "utcOffset": -480,
-      "dstOffset": -420
+      "name": "Europe/Amsterdam",
+      "utcOffset": 60,
+      "dstOffset": 120,
+      "deprecated": true
     },
     "country": {
-      "code": "us",
-      "name": "United States of America"
+      "code": "nl",
+      "name": "Netherlands"
     },
-    "hash": "6708e317ba5f6078d73672cccea1103121cee7f4"
+    "hash": "707a432ad77b189e4e64ff1b5f8168f115c88c2c"
   },
   {
     "updatedAt": "2024-10-14T08:37:50.000Z",
