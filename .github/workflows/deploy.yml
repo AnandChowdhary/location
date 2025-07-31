@@ -4,7 +4,7 @@ on:
     branches:
       - main
     paths-ignore:
-      - 'api.json'
+      - "api.json"
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -14,8 +14,6 @@ jobs:
         with:
           fetch-depth: 0
       - uses: actions/setup-node@v4
-        with:
-          node-version: lts
       - run: npm ci
       - name: Publish
         uses: cloudflare/wrangler-action@2.0.0
