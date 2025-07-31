@@ -79,12 +79,12 @@ export default {
 
       let _lat = 0;
       let _lon = 0;
-      let time: Date;
+      let time: Date = new Date();
       try {
         const result = await request.json<OwnTracksRequestBody>();
         _lat = result.lat;
         _lon = result.lon;
-        time = new Date(result.tst * 1000);
+        if (result.tst) time = new Date(result.tst * 1000);
       } catch (error) {
         return new Response("Invalid request body", { status: 400 });
       }
