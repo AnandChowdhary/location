@@ -6,7 +6,8 @@
     "deploy": "wrangler publish",
     "takeout": "node -r @swc-node/register scripts/import-google-takeout.ts",
     "manual": "node -r @swc-node/register scripts/import-manual-data.ts",
-    "summarize": "node -r @swc-node/register scripts/summarize.ts"
+    "summarize": "node -r @swc-node/register scripts/summarize.ts",
+    "commits": "node -r @swc-node/register scripts/create-commits.ts"
   },
   "dependencies": {
     "@octokit/core": "^7.0.3",
