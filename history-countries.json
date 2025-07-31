@@ -1,275 +1,189 @@
 [
   {
-    "updatedAt": "2024-08-31T11:19:08.000Z",
-    "approximateCoordinates": [
-      38.74,
-      -9.17
+    "label": "pt",
+    "coordinates": [
+      38.76,
+      -9.14
     ],
-    "label": "Portugal",
-    "timezone": {
-      "name": "Europe/Lisbon",
-      "utcOffset": 0,
-      "dstOffset": 60
-    },
-    "country": {
-      "code": "pt",
-      "name": "Portugal"
-    },
-    "hash": "10ab1a2b3016a75b1aa9b641cfcde74f0fd11e26"
+    "date": "2024-08-30T16:11:53.661Z",
+    "hash": "3e8a78ca587759049e8fb8a80968c5d049ab54b0",
+    "country_code": "pt",
+    "timezone_name": "Europe/Lisbon"
   },
   {
-    "updatedAt": "2023-01-08",
-    "approximateCoordinates": [
-      24.43,
-      54.64
+    "label": "cz",
+    "coordinates": [
+      50.09,
+      14.44
     ],
-    "label": "United Arab Emirates",
-    "timezone": {
-      "name": "Asia/Dubai",
-      "utcOffset": 240,
-      "dstOffset": 240
-    },
-    "country": {
-      "code": "ae",
-      "name": "United Arab Emirates"
-    },
-    "hash": "09d556cf3cec18b8b33bee5885b88d5256ee1767"
+    "date": "2022-03-06T16:24:08.641Z",
+    "hash": "9b1fe42714ad522f138b17eb2260e6d174df3ff3",
+    "country_code": "cz",
+    "timezone_name": "Europe/Prague"
   },
   {
-    "updatedAt": "2022-06-06T18:21:48.839Z",
-    "approximateCoordinates": [
-      40.91,
-      29.32
+    "label": "ch",
+    "coordinates": [
+      47.45,
+      8.56
     ],
-    "label": "Turkey",
-    "timezone": {
-      "name": "Europe/Istanbul",
-      "utcOffset": 180,
-      "dstOffset": 180
-    },
-    "country": {
-      "code": "tr",
-      "name": "Turkey"
-    },
-    "hash": "1c80d9fc579dadadd0b95ff3e1335ed3a9d080ac"
+    "date": "2021-09-29T13:30:39.747Z",
+    "hash": "b1ba6f1eecd0019e8ffd4aa2d562d41fb67e9617",
+    "country_code": "ch",
+    "timezone_name": "Europe/Zurich"
   },
   {
-    "updatedAt": "2022-03-09T10:23:56.999Z",
-    "approximateCoordinates": [
-      50.1,
-      14.26
+    "label": "tr",
+    "coordinates": [
+      41.26,
+      28.74
     ],
-    "label": "Czechia",
-    "timezone": {
-      "name": "Europe/Prague",
-      "utcOffset": 60,
-      "dstOffset": 120
-    },
-    "country": {
-      "code": "cz",
-      "name": "Czechia"
-    },
-    "hash": "4a0411f6f45f3f787446dda42c5ae7321175b025"
+    "date": "2020-01-31T20:58:20.906Z",
+    "hash": "45f6753ba0c82a634e8e83d46f8c7d4fe613e952",
+    "country_code": "tr",
+    "timezone_name": "Europe/Istanbul"
   },
   {
-    "updatedAt": "2021-09-29T14:52:28.375Z",
-    "approximateCoordinates": [
-      47.46,
-      8.55
-    ],
-    "label": "Switzerland",
-    "timezone": {
-      "name": "Europe/Zurich",
-      "utcOffset": 60,
-      "dstOffset": 120
-    },
-    "country": {
-      "code": "ch",
-      "name": "Switzerland"
-    },
-    "hash": "3428a2b77e75bad64cef8804e724573d022f2884"
-  },
-  {
-    "updatedAt": "2019-09-16T05:49:15.179Z",
-    "approximateCoordinates": [
+    "label": "us",
+    "coordinates": [
       37.72,
       -121.85
     ],
-    "label": "United States of America",
-    "country": {
-      "code": "us",
-      "name": "United States of America"
-    },
-    "hash": "ddd7d180ee0bbf4b25f780f865b4331a1c17a1d0"
+    "date": "2019-09-15T14:48:56.459Z",
+    "hash": "f4a6045fdaac4b973d503b343bc9073c535b7512",
+    "country_code": "us",
+    "timezone_name": "America/Los_Angeles"
   },
   {
-    "updatedAt": "2018-11-14T23:00:17.996Z",
-    "approximateCoordinates": [
-      51.52,
-      -0.12
+    "label": "tw",
+    "coordinates": [
+      25.08,
+      121.23
     ],
-    "label": "United Kingdom",
-    "timezone": {
-      "name": "Europe/London",
-      "utcOffset": 0,
-      "dstOffset": 60
-    },
-    "country": {
-      "code": "gb",
-      "name": "United Kingdom"
-    },
-    "hash": "de3f9ed38c82a7736486f36129a6711ab6b2cfd0"
+    "date": "2019-09-15T04:05:27.050Z",
+    "hash": "a6e439912eb3696805aa1972242b46d3de815fb7",
+    "country_code": "tw",
+    "timezone_name": "Asia/Taipei"
   },
   {
-    "updatedAt": "2018-10-23T03:38:17.213Z",
-    "approximateCoordinates": [
+    "label": "ru",
+    "coordinates": [
+      55.97,
+      37.41
+    ],
+    "date": "2018-12-23T21:38:00.870Z",
+    "hash": "a12d1b3d8132ff265811723db9465059ac4d0849",
+    "country_code": "ru",
+    "timezone_name": "Europe/Moscow"
+  },
+  {
+    "label": "gb",
+    "coordinates": [
+      51.89,
+      0.25
+    ],
+    "date": "2018-11-14T12:30:07.370Z",
+    "hash": "a12f0366c67e076682f704f30c255272e3bbf7d9",
+    "country_code": "gb",
+    "timezone_name": "Europe/London"
+  },
+  {
+    "label": "my",
+    "coordinates": [
       3.17,
       101.69
     ],
-    "label": "Malaysia",
-    "country": {
-      "code": "my",
-      "name": "Malaysia"
-    },
-    "hash": "0f6e37eaa6d6c6c65cecfb2846cde8cc403dacef"
+    "date": "2018-10-22T15:02:53.309Z",
+    "hash": "a77db8caaa5fe57a0e6bcc8a8cfb4bde59331a2d",
+    "country_code": "my",
+    "timezone_name": "Asia/Kuala_Lumpur"
   },
   {
-    "updatedAt": "2018-07-04T07:20:43.283Z",
-    "approximateCoordinates": [
-      43.63,
-      1.37
-    ],
-    "label": "France",
-    "timezone": {
-      "name": "Europe/Paris",
-      "utcOffset": 60,
-      "dstOffset": 120
-    },
-    "country": {
-      "code": "fr",
-      "name": "France"
-    },
-    "hash": "efb0698c77059cc4ac2955608d84a6c5ea3f3738"
-  },
-  {
-    "updatedAt": "2018-06-22T20:45:52.000Z",
-    "approximateCoordinates": [
+    "label": "be",
+    "coordinates": [
       51.2,
       3.23
     ],
-    "label": "Belgium",
-    "timezone": {
-      "name": "Europe/Brussels",
-      "utcOffset": 60,
-      "dstOffset": 120
-    },
-    "country": {
-      "code": "be",
-      "name": "Belgium"
-    },
-    "hash": "5471fc0a77fb476ae5954af77d85521149f0b422"
+    "date": "2018-06-22T16:26:30.604Z",
+    "hash": "6a9a79c0e696addbce9fc0eacbd01f5dbf8652f0",
+    "country_code": "be",
+    "timezone_name": "Europe/Brussels"
   },
   {
-    "updatedAt": "2017-11-18T09:11:15.990Z",
-    "approximateCoordinates": [
+    "label": "fr",
+    "coordinates": [
+      50.64,
+      3.08
+    ],
+    "date": "2018-06-13T22:27:00.501Z",
+    "hash": "c27ad8f02211bb9b385783a63d91eab647bd2e8a",
+    "country_code": "fr",
+    "timezone_name": "Europe/Paris"
+  },
+  {
+    "label": "it",
+    "coordinates": [
+      45.45,
+      9.28
+    ],
+    "date": "2017-12-23T06:11:18.916Z",
+    "hash": "681dcc9a39c74e3e5d45bc7c82b571aedf8a9473",
+    "country_code": "it",
+    "timezone_name": "Europe/Rome"
+  },
+  {
+    "label": "de",
+    "coordinates": [
       51.22,
       6.79
     ],
-    "label": "Germany",
-    "country": {
-      "code": "de",
-      "name": "Germany"
-    },
-    "hash": "2c8b3d5b22d8224c34c64dea8babd494c674c8d7"
+    "date": "2017-11-18T06:19:01.100Z",
+    "hash": "c0f2fe829abddb01e5bebfedab9db2b4744d5921",
+    "country_code": "de",
+    "timezone_name": "Europe/Berlin"
   },
   {
-    "updatedAt": "2017-08-22T18:04:29.765Z",
-    "approximateCoordinates": [
+    "label": "nl",
+    "coordinates": [
       52.31,
       4.77
     ],
-    "label": "Netherlands",
-    "timezone": {
-      "name": "Europe/Amsterdam",
-      "utcOffset": 60,
-      "dstOffset": 120
-    },
-    "country": {
-      "code": "nl",
-      "name": "Netherlands"
-    },
-    "hash": "b101b1ceccdd7677b66e89d085e2d31b03f74d61"
+    "date": "2017-08-22T10:34:19.660Z",
+    "hash": "f54f433776c2eef8d64d00d1826065fdef4fa30e",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
   },
   {
-    "updatedAt": "2014-11-24T23:00:04.680Z",
-    "approximateCoordinates": [
+    "label": "ae",
+    "coordinates": [
+      25.25,
+      55.37
+    ],
+    "date": "2017-08-22T05:23:29.871Z",
+    "hash": "3e91ac1db2b47d77aa5f169f228e357ba1cae3c3",
+    "country_code": "ae",
+    "timezone_name": "Asia/Dubai"
+  },
+  {
+    "label": "jp",
+    "coordinates": [
       35.77,
       140.39
     ],
-    "label": "Japan",
-    "timezone": {
-      "name": "Asia/Tokyo",
-      "utcOffset": 540,
-      "dstOffset": 540
-    },
-    "country": {
-      "code": "jp",
-      "name": "Japan"
-    },
-    "hash": "52220368a0ec30a464bca97ddca3a1e09a9af64b"
+    "date": "2014-11-24T06:29:59.700Z",
+    "hash": "da447ddac2236a1f5a24c1359c4282a06e5b9cc5",
+    "country_code": "jp",
+    "timezone_name": "Asia/Tokyo"
   },
   {
-    "updatedAt": "2011-06-15",
-    "approximateCoordinates": [
-      12.93,
-      100.88
-    ],
-    "label": "Thailand",
-    "timezone": {
-      "name": "Asia/Bangkok",
-      "utcOffset": 420,
-      "dstOffset": 420
-    },
-    "country": {
-      "code": "th",
-      "name": "Thailand"
-    },
-    "hash": "47714b6311055eddd943ced582532f7a8d3e7018"
-  },
-  {
-    "updatedAt": "2011-05-27",
-    "approximateCoordinates": [
-      14.59,
-      120.99
-    ],
-    "label": "Philippines",
-    "timezone": {
-      "name": "Asia/Manila",
-      "utcOffset": 480,
-      "dstOffset": 480
-    },
-    "country": {
-      "code": "ph",
-      "name": "Philippines"
-    },
-    "hash": "48f8202c20e9535aca62b89bbbecd6ceb4230f75"
-  },
-  {
-    "updatedAt": "2011-05-26",
-    "approximateCoordinates": [
-      28.53,
+    "label": "in",
+    "coordinates": [
+      28.54,
       77.24
     ],
-    "label": "India",
-    "timezone": {
-      "name": "Asia/Kolkata",
-      "utcOffset": 330,
-      "dstOffset": 330
-    },
-    "country": {
-      "code": "in",
-      "name": "India"
-    },
-    "hash": "caaa0d12e3fc314daa67616d577d1b3c75ce53d4"
+    "date": "2013-10-08T09:12:29.736Z",
+    "hash": "2e8ef2bd609e6501223f20961896993abf8de6c0",
+    "country_code": "in",
+    "timezone_name": "Asia/Kolkata"
   }
 ]

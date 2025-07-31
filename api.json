@@ -1,10 +1,11 @@
 {
-  "updatedAt": "2025-07-31T12:21:34.000Z",
-  "approximateCoordinates": [
-    52.11,
-    5.09
+  "date": "2025-07-13T11:15:42.576Z",
+  "coordinates": [
+    52.09,
+    5.11
   ],
   "label": "Utrecht",
+  "full_label": "8, Stationspassage, Hoog Catharijne, Ns, Jaarbeurs, Binnenstad City- En Winkelgebied, Binnenstad, Utrecht, Netherlands, 3511 CB, Netherlands",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
@@ -17,11 +18,6 @@
     "aliasOf": "Europe/Brussels",
     "deprecated": true
   },
-  "country": {
-    "code": "nl",
-    "name": "Netherlands",
-    "timezones": [
-      "Europe/Brussels"
-    ]
-  }
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
