@@ -12,15 +12,13 @@ export interface Env {
 }
 
 export interface ApiResult {
-  updatedAt: string;
-  approximateCoordinates: [number, number];
+  date: string;
+  coordinates: [number, number];
   label: string;
-  timezone?: Timezone;
-  country: {
-    code: string;
-    name: string;
-    timezones: string[];
-  };
+  full_label: string;
+  timezone: Timezone;
+  country_code: string;
+  country_emoji: string;
 }
 
 export interface OwnTracksRequestBody {
@@ -94,8 +92,7 @@ export default {
         await fetch("https://anandchowdhary.github.io/location/api.json")
       ).json()) as ApiResult;
       if (
-        time.getTime() - new Date(previousLocation.updatedAt).getTime() <
-          MIN_TIME &&
+        time.getTime() - new Date(previousLocation.date).getTime() < MIN_TIME &&
         !CHECK_DISABLED
       )
         return new Response("Skipping update because was updated recently");
@@ -105,8 +102,8 @@ export default {
       const lon = Math.round(_lon * 100) / 100;
 
       if (
-        previousLocation.approximateCoordinates[0] === lat &&
-        previousLocation.approximateCoordinates[1] === lon &&
+        previousLocation.coordinates[0] === lat &&
+        previousLocation.coordinates[1] === lon &&
         !CHECK_DISABLED
       )
         return new Response("Skipping update because coordinates is similar");
@@ -136,16 +133,20 @@ export default {
         if (option && /[A-z\u00C0-\u00ff]+/g.test(option)) label = option;
       });
 
+      const timezone = getTimezone(tzLookup(lat, lon));
+      if (!timezone)
+        return new Response("Skipping update because timezone not found", {
+          status: 500,
+        });
+
       data = {
-        updatedAt: time.toISOString(),
-        approximateCoordinates: [lat, lon],
+        date: time.toISOString(),
+        coordinates: [lat, lon],
         label,
-        timezone: getTimezone(tzLookup(lat, lon)) ?? undefined,
-        country: {
-          code: geocode.address.country_code,
-          name: country.name,
-          timezones: country.timezones,
-        },
+        full_label: geocode.display_name,
+        timezone,
+        country_code: geocode.address.country_code,
+        country_emoji: emoji ?? "🌍",
       };
       const message = `📍${emoji} ${label}`;
 
@@ -174,7 +175,7 @@ export default {
             "Skipping update because location label is the same"
           );
         if (
-          time.getTime() - new Date(previousApiResult.updatedAt).getTime() <
+          time.getTime() - new Date(previousApiResult.date).getTime() <
             MIN_TIME &&
           !CHECK_DISABLED
         )
