@@ -176,17 +176,6 @@
     "timezone_name": "Asia/Tokyo"
   },
   {
-    "label": "in",
-    "coordinates": [
-      28.54,
-      77.24
-    ],
-    "date": "2013-10-08T09:12:29.736Z",
-    "hash": "2e8ef2bd609e6501223f20961896993abf8de6c0",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
-  },
-  {
     "label": "th",
     "coordinates": [
       13.75,
@@ -207,5 +196,16 @@
     "hash": "54586ae8d7a05c66a59d9783d53f336f01f19822",
     "country_code": "ph",
     "timezone_name": "Asia/Manila"
+  },
+  {
+    "label": "in",
+    "coordinates": [
+      28.61,
+      77.21
+    ],
+    "date": "1997-12-29T12:00:00.000Z",
+    "hash": "7dfe75d2d19cc5fdf2f76e7322f263a101f42a75",
+    "country_code": "in",
+    "timezone_name": "Asia/Kolkata"
   }
 ]
