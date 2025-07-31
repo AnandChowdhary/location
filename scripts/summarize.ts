@@ -1,12 +1,17 @@
-import { readFile, writeFile } from "fs/promises";
 import { simpleGit } from "simple-git";
 import { ApiResult } from "..";
 
+// @ts-ignore
+import { readFile, writeFile } from "fs/promises";
+
 const git = simpleGit({});
-type Location = Omit<ApiResult, "country" | "timezone"> & {
-  country: Partial<ApiResult["country"]>;
-  timezone: Partial<ApiResult["timezone"]>;
+type Location = {
+  label: string;
+  coordinates: [number, number];
+  date: string;
   hash: string;
+  country_code: string;
+  timezone_name: string;
 };
 
 export const summarize = async () => {
@@ -20,21 +25,22 @@ export const summarize = async () => {
   for (const commit of commits) {
     const show = JSON.parse(
       await git.show(`${commit.hash}:api.json`)
-    ) as Location;
-    delete show.country.timezones;
-    delete show.timezone?.utcOffsetStr;
-    delete show.timezone?.dstOffsetStr;
-    delete show.timezone?.aliasOf;
-    delete show.timezone?.countries;
-    if (show.country.code) show.country.code = show.country.code.toLowerCase();
-    data.push({ ...show, hash: commit.hash });
+    ) as ApiResult;
+    const item: Location = {
+      label: show.label,
+      coordinates: [show.coordinates[0], show.coordinates[1]],
+      date: show.date,
+      hash: commit.hash,
+      country_code: show.country_code,
+      timezone_name: show.timezone.name,
+    };
+    data.push(item);
   }
   await writeFile(
     "history-full.json",
     JSON.stringify(
       data.sort(
-        (a, b) =>
-          new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()
+        (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
       ),
       null,
       2
@@ -51,30 +57,23 @@ export const summarize = async () => {
   };
   let skipped: (Location & { duration: number })[] = [];
   data
-    .sort(
-      (a, b) =>
-        new Date(a.updatedAt).getTime() - new Date(b.updatedAt).getTime()
-    )
+    .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
     .forEach((location, index, array) => {
       const previous = array[index - 1];
       if (previous) {
-        const a =
-          previous.approximateCoordinates[0] -
-          location.approximateCoordinates[0];
-        const b =
-          previous.approximateCoordinates[1] -
-          location.approximateCoordinates[1];
+        const a = previous.coordinates[0] - location.coordinates[0];
+        const b = previous.coordinates[1] - location.coordinates[1];
         const c = Math.sqrt(a * a + b * b);
         const duration = array[index + 1]
-          ? new Date(array[index + 1].updatedAt).getTime() -
-            new Date(location.updatedAt).getTime()
+          ? new Date(array[index + 1].date).getTime() -
+            new Date(location.date).getTime()
           : 0;
         if (
           c > 2 ||
-          (location.country?.code &&
-            previous.country?.code &&
-            location.country?.code !== previous.country?.code) ||
-          location.timezone?.name !== previous.timezone?.name
+          (location.country_code &&
+            previous.country_code &&
+            location.country_code !== previous.country_code) ||
+          location.timezone_name !== previous.timezone_name
         ) {
           if (skipped.length) {
             const items: Record<string, number> = {};
@@ -94,7 +93,7 @@ export const summarize = async () => {
             }
             if (
               (!skippedSelected ||
-                skippedSelected.country.code !== location.country.code) &&
+                skippedSelected.country_code !== location.country_code) &&
               locationResult[locationResult.length - 1]?.label !==
                 location.label
             )
@@ -108,7 +107,7 @@ export const summarize = async () => {
           }
           skipped = [];
         } else {
-          console.log("skipping", location.updatedAt, location.label);
+          console.log("skipping", location.date, location.label);
           skipped.push({
             ...location,
             duration,
@@ -124,7 +123,7 @@ export const summarize = async () => {
     const items: Record<string, number> = {};
     skipped[skipped.length - 1].duration =
       new Date().getTime() -
-      new Date(skipped[skipped.length - 1].updatedAt).getTime();
+      new Date(skipped[skipped.length - 1].date).getTime();
     skipped.forEach((item) => {
       items[item.label] = (items[item.label] || 0) + item.duration;
     });
@@ -137,8 +136,7 @@ export const summarize = async () => {
     "history.json",
     JSON.stringify(
       locationResult.sort(
-        (a, b) =>
-          new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()
+        (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
       ),
       null,
       2
@@ -148,22 +146,17 @@ export const summarize = async () => {
     "history-unique.json",
     JSON.stringify(
       locationResult
-        .sort(
-          (a, b) =>
-            new Date(a.updatedAt).getTime() - new Date(b.updatedAt).getTime()
-        )
+        .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
         .filter(
           (value, index, self) =>
             index ===
             self.findIndex(
               (t) =>
-                t.label === value.label &&
-                t.country?.code === value.country?.code
+                t.label === value.label && t.country_code === value.country_code
             )
         )
         .sort(
-          (a, b) =>
-            new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()
+          (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
         ),
       null,
       2
@@ -173,22 +166,18 @@ export const summarize = async () => {
     "history-countries.json",
     JSON.stringify(
       locationResult
-        .sort(
-          (a, b) =>
-            new Date(a.updatedAt).getTime() - new Date(b.updatedAt).getTime()
-        )
+        .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
         .filter(
           (value, index, self) =>
             index ===
-            self.findIndex((t) => t.country?.code === value.country?.code)
+            self.findIndex((t) => t.country_code === value.country_code)
         )
         .map((data) => ({
           ...data,
-          label: data.country?.name ?? data.country?.code ?? data.label,
+          label: data.country_code ?? data.label,
         }))
         .sort(
-          (a, b) =>
-            new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()
+          (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
         ),
       null,
       2
