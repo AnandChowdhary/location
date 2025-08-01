@@ -6,6 +6,17 @@
       5.11
     ],
     "date": "2025-07-13T11:15:42.576Z",
+    "hash": "d8f8e4db6d449b5cbd2b38a635ffb97b646fa4a9",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
+    "label": "Utrecht",
+    "coordinates": [
+      52.09,
+      5.11
+    ],
+    "date": "2025-07-13T11:15:42.576Z",
     "hash": "871f5b566c15adb82f3572f149dca7c3d8c0627e",
     "country_code": "nl",
     "timezone_name": "Europe/Amsterdam"
