@@ -7,13 +7,14 @@ This repository is used to track my (approximate) location in real time using Ow
 
 **Location history on git:** https://github.com/AnandChowdhary/location/commits/main/api.json
 
-| API                         | Endpoint                                                         |
-| --------------------------- | ---------------------------------------------------------------- |
-| Current location            | https://anandchowdhary.github.io/location/api.json               |
-| Full (raw) location history | https://anandchowdhary.github.io/location/history-full.json      |
-| Normalized location history | https://anandchowdhary.github.io/location/history.json           |
-| Unique locations            | https://anandchowdhary.github.io/location/history-unique.json    |
-| Unique countries            | https://anandchowdhary.github.io/location/history-countries.json |
+| API                         | Endpoint                                                              |
+| --------------------------- | --------------------------------------------------------------------- |
+| Current location            | https://anandchowdhary.github.io/location/api.json                    |
+| Full (raw) location history | https://anandchowdhary.github.io/location/history-full.json           |
+| Normalized location history | https://anandchowdhary.github.io/location/history.json                |
+| Unique locations            | https://anandchowdhary.github.io/location/history-unique.json         |
+| Unique countries            | https://anandchowdhary.github.io/location/history-countries.json      |
+| Full country history        | https://anandchowdhary.github.io/location/history-countries-full.json |
 
 ## 📄 License
 

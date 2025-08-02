@@ -107,7 +107,6 @@ export const summarize = async () => {
           }
           skipped = [];
         } else {
-          console.log("skipping", location.date, location.label);
           skipped.push({
             ...location,
             duration,
@@ -176,6 +175,30 @@ export const summarize = async () => {
           ...data,
           label: data.country_code ?? data.label,
         }))
+        .sort(
+          (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+        ),
+      null,
+      2
+    ) + "\n"
+  );
+
+  // Create a new file showing all country visits (including repeated visits)
+  await writeFile(
+    "history-countries-full.json",
+    JSON.stringify(
+      locationResult
+        .map((data) => ({
+          ...data,
+          label: data.country_code ?? data.label,
+        }))
+        .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
+        .filter((value, index, array) => {
+          // Keep the first entry
+          if (index === 0) return true;
+          // Keep if the previous entry was a different country
+          return array[index - 1].country_code !== value.country_code;
+        })
         .sort(
           (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
         ),
