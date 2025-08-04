@@ -572,17 +572,6 @@
     "timezone_name": "America/Los_Angeles"
   },
   {
-    "label": "Taoyuan City",
-    "coordinates": [
-      25.08,
-      121.23
-    ],
-    "date": "2019-09-15T04:05:27.050Z",
-    "hash": "a6e439912eb3696805aa1972242b46d3de815fb7",
-    "country_code": "tw",
-    "timezone_name": "Asia/Taipei"
-  },
-  {
     "label": "Rotterdam",
     "coordinates": [
       51.92,
@@ -603,17 +592,6 @@
     "hash": "ee63f7cbe00c2e03c6be12debd8bc4c9f82e024d",
     "country_code": "nl",
     "timezone_name": "Europe/Amsterdam"
-  },
-  {
-    "label": "Khimki",
-    "coordinates": [
-      55.97,
-      37.41
-    ],
-    "date": "2018-12-23T21:38:00.870Z",
-    "hash": "a12d1b3d8132ff265811723db9465059ac4d0849",
-    "country_code": "ru",
-    "timezone_name": "Europe/Moscow"
   },
   {
     "label": "London",
@@ -658,6 +636,17 @@
     "hash": "a77db8caaa5fe57a0e6bcc8a8cfb4bde59331a2d",
     "country_code": "my",
     "timezone_name": "Asia/Kuala_Lumpur"
+  },
+  {
+    "label": "Peschiera Borromeo",
+    "coordinates": [
+      45.45,
+      9.28
+    ],
+    "date": "2018-07-07T05:15:09.973Z",
+    "hash": "8f7131832ace26dcc1290eb64223b5619dbc6d07",
+    "country_code": "it",
+    "timezone_name": "Europe/Rome"
   },
   {
     "label": "Toulouse",
@@ -773,21 +762,10 @@
     "label": "Fiumicino",
     "coordinates": [
       41.8,
-      12.26
+      12.25
     ],
-    "date": "2017-12-23T10:25:25.497Z",
-    "hash": "1c738f5edd1f4b7e0cff095b5ca625d338620bd6",
-    "country_code": "it",
-    "timezone_name": "Europe/Rome"
-  },
-  {
-    "label": "Peschiera Borromeo",
-    "coordinates": [
-      45.45,
-      9.28
-    ],
-    "date": "2017-12-23T06:11:18.916Z",
-    "hash": "681dcc9a39c74e3e5d45bc7c82b571aedf8a9473",
+    "date": "2018-01-12T22:34:33.892Z",
+    "hash": "8079abbfd22d0341718ae1fef4e275d885994b0c",
     "country_code": "it",
     "timezone_name": "Europe/Rome"
   },
@@ -823,17 +801,6 @@
     "hash": "f54f433776c2eef8d64d00d1826065fdef4fa30e",
     "country_code": "nl",
     "timezone_name": "Europe/Amsterdam"
-  },
-  {
-    "label": "Dubai",
-    "coordinates": [
-      25.25,
-      55.37
-    ],
-    "date": "2017-08-22T05:23:29.871Z",
-    "hash": "3e91ac1db2b47d77aa5f169f228e357ba1cae3c3",
-    "country_code": "ae",
-    "timezone_name": "Asia/Dubai"
   },
   {
     "label": "Bengaluru",
