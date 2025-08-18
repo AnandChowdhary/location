@@ -3,6 +3,7 @@ import { verify } from "@tsndr/cloudflare-worker-jwt";
 import type { Timezone } from "countries-and-timezones";
 import { getCountry, getTimezone } from "countries-and-timezones";
 import { flag } from "country-emoji";
+import { Buffer } from "node:buffer";
 import tzLookup from "tz-lookup";
 
 export interface Env {
@@ -191,7 +192,9 @@ export default {
           name: "Finding Anand",
           email: "bot@anandchowdhary.com",
         },
-        content: btoa(JSON.stringify(data, null, 2) + "\n"),
+        content: Buffer.from(JSON.stringify(data, null, 2) + "\n").toString(
+          "base64"
+        ),
         sha: currentFileData.sha,
       });
     } catch (error) {
