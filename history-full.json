@@ -1,5 +1,16 @@
 [
   {
+    "label": "Bilthoven",
+    "coordinates": [
+      52.13,
+      5.19
+    ],
+    "date": "2025-08-18T08:35:55.000Z",
+    "hash": "50a8d3e41cc564ddb1143b5573d1e59d08b64615",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
     "label": "Utrecht",
     "coordinates": [
       52.09,
