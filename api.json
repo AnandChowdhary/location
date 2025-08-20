@@ -1,11 +1,11 @@
 {
-  "date": "2025-08-18T18:09:53.000Z",
+  "date": "2025-08-20T15:30:26.000Z",
   "coordinates": [
-    52.11,
-    5.09
+    52.3,
+    4.96
   ],
-  "label": "Utrecht",
-  "full_label": "48, Sint-Winfridusstraat, Elinkwijk E.o., Zuilen West, Noordwest, Utrecht, Nederland, 3553 SG, Nederland",
+  "label": "Amsterdam",
+  "full_label": "188, Nieuwlandhof, Zuidoost, Amsterdam, Noord-Holland, Nederland, 1106 RT, Nederland",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
