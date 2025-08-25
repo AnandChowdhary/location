@@ -1,6 +1,6 @@
 [
   {
-    "label": "pt",
+    "label": "Portugal",
     "coordinates": [
       38.76,
       -9.14
@@ -11,7 +11,7 @@
     "timezone_name": "Europe/Lisbon"
   },
   {
-    "label": "ae",
+    "label": "United Arab Emirates",
     "coordinates": [
       24.43,
       54.65
@@ -22,7 +22,7 @@
     "timezone_name": "Asia/Dubai"
   },
   {
-    "label": "cz",
+    "label": "Czechia",
     "coordinates": [
       50.09,
       14.44
@@ -33,7 +33,7 @@
     "timezone_name": "Europe/Prague"
   },
   {
-    "label": "ch",
+    "label": "Switzerland",
     "coordinates": [
       47.45,
       8.56
@@ -44,7 +44,7 @@
     "timezone_name": "Europe/Zurich"
   },
   {
-    "label": "tr",
+    "label": "Türkiye",
     "coordinates": [
       41.26,
       28.74
@@ -55,7 +55,7 @@
     "timezone_name": "Europe/Istanbul"
   },
   {
-    "label": "us",
+    "label": "United States of America",
     "coordinates": [
       37.72,
       -121.85
@@ -66,7 +66,7 @@
     "timezone_name": "America/Los_Angeles"
   },
   {
-    "label": "gb",
+    "label": "United Kingdom",
     "coordinates": [
       51.89,
       0.25
@@ -77,7 +77,7 @@
     "timezone_name": "Europe/London"
   },
   {
-    "label": "my",
+    "label": "Malaysia",
     "coordinates": [
       3.17,
       101.69
@@ -88,7 +88,7 @@
     "timezone_name": "Asia/Kuala_Lumpur"
   },
   {
-    "label": "be",
+    "label": "Belgium",
     "coordinates": [
       51.2,
       3.23
@@ -99,7 +99,7 @@
     "timezone_name": "Europe/Brussels"
   },
   {
-    "label": "fr",
+    "label": "France",
     "coordinates": [
       50.64,
       3.08
@@ -110,7 +110,7 @@
     "timezone_name": "Europe/Paris"
   },
   {
-    "label": "it",
+    "label": "Italy",
     "coordinates": [
       41.8,
       12.25
@@ -121,7 +121,7 @@
     "timezone_name": "Europe/Rome"
   },
   {
-    "label": "de",
+    "label": "Germany",
     "coordinates": [
       51.22,
       6.79
@@ -132,7 +132,7 @@
     "timezone_name": "Europe/Berlin"
   },
   {
-    "label": "nl",
+    "label": "Netherlands",
     "coordinates": [
       52.31,
       4.77
@@ -143,7 +143,7 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "jp",
+    "label": "Japan",
     "coordinates": [
       35.77,
       140.39
@@ -154,7 +154,7 @@
     "timezone_name": "Asia/Tokyo"
   },
   {
-    "label": "th",
+    "label": "Thailand",
     "coordinates": [
       13.75,
       100.5
@@ -165,7 +165,7 @@
     "timezone_name": "Asia/Bangkok"
   },
   {
-    "label": "ph",
+    "label": "Philippines",
     "coordinates": [
       14.59,
       120.98
@@ -176,7 +176,7 @@
     "timezone_name": "Asia/Manila"
   },
   {
-    "label": "in",
+    "label": "India",
     "coordinates": [
       28.61,
       77.21
