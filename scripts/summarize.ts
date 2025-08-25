@@ -173,7 +173,7 @@ export const summarize = async () => {
             self.findIndex((t) => t.country_code === value.country_code)
         )
         .map((data) => {
-          const country = getCountry(data.country_code);
+          const country = getCountry(data.country_code.toUpperCase());
           return {
             ...data,
             label: country?.name ?? data.country_code ?? data.label,
@@ -193,7 +193,7 @@ export const summarize = async () => {
     JSON.stringify(
       locationResult
         .map((data) => {
-          const country = getCountry(data.country_code);
+          const country = getCountry(data.country_code.toUpperCase());
           return {
             ...data,
             label: country?.name ?? data.country_code ?? data.label,
