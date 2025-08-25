@@ -1,3 +1,4 @@
+import { getCountry } from "countries-and-timezones";
 import { simpleGit } from "simple-git";
 import { ApiResult } from "..";
 
@@ -171,10 +172,13 @@ export const summarize = async () => {
             index ===
             self.findIndex((t) => t.country_code === value.country_code)
         )
-        .map((data) => ({
-          ...data,
-          label: data.country_code ?? data.label,
-        }))
+        .map((data) => {
+          const country = getCountry(data.country_code);
+          return {
+            ...data,
+            label: country?.name ?? data.country_code ?? data.label,
+          };
+        })
         .sort(
           (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
         ),
@@ -188,10 +192,13 @@ export const summarize = async () => {
     "history-countries-full.json",
     JSON.stringify(
       locationResult
-        .map((data) => ({
-          ...data,
-          label: data.country_code ?? data.label,
-        }))
+        .map((data) => {
+          const country = getCountry(data.country_code);
+          return {
+            ...data,
+            label: country?.name ?? data.country_code ?? data.label,
+          };
+        })
         .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
         .filter((value, index, array) => {
           // Keep the first entry
