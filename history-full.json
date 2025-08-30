@@ -1,5 +1,16 @@
 [
   {
+    "label": "Enschede",
+    "coordinates": [
+      52.23,
+      6.89
+    ],
+    "date": "2025-08-30T14:40:08.000Z",
+    "hash": "203be4400d80b747cd6aadd8c91b7e90256a312c",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
     "label": "Amersfoort",
     "coordinates": [
       52.16,
