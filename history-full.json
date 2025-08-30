@@ -1,5 +1,16 @@
 [
   {
+    "label": "Oldenzaal",
+    "coordinates": [
+      52.3,
+      6.9
+    ],
+    "date": "2025-08-30T22:27:19.000Z",
+    "hash": "fc5666104a751671920ee249788ba21bd8b46c6f",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
     "label": "Enschede",
     "coordinates": [
       52.23,
