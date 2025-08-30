@@ -1,5 +1,16 @@
 [
   {
+    "label": "Amersfoort",
+    "coordinates": [
+      52.16,
+      5.38
+    ],
+    "date": "2025-08-30T11:24:45.000Z",
+    "hash": "d0675d5d190cde0c9ffe2f1297c3a4168d674494",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
     "label": "Utrecht",
     "coordinates": [
       52.11,
