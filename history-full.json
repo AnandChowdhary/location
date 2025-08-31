@@ -1,5 +1,16 @@
 [
   {
+    "label": "Deventer",
+    "coordinates": [
+      52.26,
+      6.17
+    ],
+    "date": "2025-08-31T19:29:41.000Z",
+    "hash": "ca720b576ca0d153720d6a9c7f092a6fb8b22fbc",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
     "label": "Enschede",
     "coordinates": [
       52.23,
