@@ -1,11 +1,11 @@
 {
-  "date": "2025-09-02T09:22:36.000Z",
+  "date": "2025-09-02T20:38:43.000Z",
   "coordinates": [
-    52.37,
-    4.9
+    52.1,
+    5.12
   ],
-  "label": "Amsterdam",
-  "full_label": "35, Zuiderkerkhof, Nieuwmarkt/Lastage, Centrum, Amsterdam, Noord-Holland, Nederland, 1011 XA, Nederland",
+  "label": "Utrecht",
+  "full_label": "23, Abraham Bloemaertstraat, Vogelenbuurt, Votulast, Noordoost, Utrecht, Nederland, 3514 VN, Nederland",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
