@@ -1,5 +1,16 @@
 [
   {
+    "label": "Almere",
+    "coordinates": [
+      52.36,
+      5.26
+    ],
+    "date": "2025-09-06T15:22:43.000Z",
+    "hash": "b489030349414262ffc5bd48855f93b95ff4a5ed",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
     "label": "Amsterdam",
     "coordinates": [
       52.4,
