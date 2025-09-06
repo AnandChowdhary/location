@@ -1,5 +1,16 @@
 [
   {
+    "label": "Lelystad",
+    "coordinates": [
+      52.42,
+      5.39
+    ],
+    "date": "2025-09-06T18:24:00.000Z",
+    "hash": "cd698a527bc626314edc08ba15c3f68b445408fd",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
     "label": "Almere",
     "coordinates": [
       52.36,
