@@ -1,23 +1,24 @@
 {
-  "date": "2025-09-09T04:28:35.000Z",
+  "date": "2025-09-09T08:43:04.000Z",
   "coordinates": [
-    52.11,
-    5.09
+    43.82,
+    11.18
   ],
-  "label": "Utrecht",
-  "full_label": "48, Sint-Winfridusstraat, Elinkwijk E.o., Zuilen West, Noordwest, Utrecht, Nederland, 3553 SG, Nederland",
+  "label": "Sesto Fiorentino",
+  "full_label": "Via dell'Osmannoro, Val di Rose, Sesto Fiorentino, Firenze, Toscana, 50015, Italia",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Europe/Rome",
     "countries": [
-      "NL"
+      "IT",
+      "SM",
+      "VA"
     ],
     "utcOffset": 60,
     "utcOffsetStr": "+01:00",
     "dstOffset": 120,
     "dstOffsetStr": "+02:00",
-    "aliasOf": "Europe/Brussels",
-    "deprecated": true
+    "aliasOf": null
   },
-  "country_code": "nl",
-  "country_emoji": "🇳🇱"
+  "country_code": "it",
+  "country_emoji": "🇮🇹"
 }

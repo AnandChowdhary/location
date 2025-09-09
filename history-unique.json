@@ -1,5 +1,16 @@
 [
   {
+    "label": "Sesto Fiorentino",
+    "coordinates": [
+      43.82,
+      11.18
+    ],
+    "date": "2025-09-09T08:43:04.000Z",
+    "hash": "3fa73a742cc77964cf43973db98720e933e2e292",
+    "country_code": "it",
+    "timezone_name": "Europe/Rome"
+  },
+  {
     "label": "Alghero",
     "coordinates": [
       40.63,
