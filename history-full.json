@@ -1,5 +1,16 @@
 [
   {
+    "label": "Agliana",
+    "coordinates": [
+      43.9,
+      11.01
+    ],
+    "date": "2025-09-11T15:43:20.000Z",
+    "hash": "2a245e32122400892b7b614f92c5102e11c1caa3",
+    "country_code": "it",
+    "timezone_name": "Europe/Rome"
+  },
+  {
     "label": "Lucca",
     "coordinates": [
       43.85,
