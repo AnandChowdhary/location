@@ -1,5 +1,16 @@
 [
   {
+    "label": "Lucca",
+    "coordinates": [
+      43.85,
+      10.51
+    ],
+    "date": "2025-09-11T12:21:07.000Z",
+    "hash": "59f8a8f5c4571335d847e0bcffe27e9d562cb509",
+    "country_code": "it",
+    "timezone_name": "Europe/Rome"
+  },
+  {
     "label": "Cascina",
     "coordinates": [
       43.65,
