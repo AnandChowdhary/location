@@ -1,5 +1,16 @@
 [
   {
+    "label": "Cascina",
+    "coordinates": [
+      43.65,
+      10.56
+    ],
+    "date": "2025-09-11T08:57:01.000Z",
+    "hash": "cb5ede1cad78a6dcc001fa49ef9f47f18a9e4e21",
+    "country_code": "it",
+    "timezone_name": "Europe/Rome"
+  },
+  {
     "label": "Firenze",
     "coordinates": [
       43.77,
