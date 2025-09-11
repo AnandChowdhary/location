@@ -1,5 +1,16 @@
 [
   {
+    "label": "Firenze",
+    "coordinates": [
+      43.77,
+      11.26
+    ],
+    "date": "2025-09-11T20:48:19.000Z",
+    "hash": "eb1d70f26fb71b3eb73376796a4ee4377b46b865",
+    "country_code": "it",
+    "timezone_name": "Europe/Rome"
+  },
+  {
     "label": "Agliana",
     "coordinates": [
       43.9,
