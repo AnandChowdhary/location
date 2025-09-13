@@ -1,5 +1,16 @@
 [
   {
+    "label": "Roma",
+    "coordinates": [
+      41.89,
+      12.5
+    ],
+    "date": "2025-09-13T08:48:07.000Z",
+    "hash": "51b415732215575b8171450d33d897606dd50af2",
+    "country_code": "it",
+    "timezone_name": "Europe/Rome"
+  },
+  {
     "label": "Fiesole",
     "coordinates": [
       43.77,
