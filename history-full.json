@@ -1,5 +1,16 @@
 [
   {
+    "label": "Campania",
+    "coordinates": [
+      40.77,
+      14.44
+    ],
+    "date": "2025-09-14T17:14:06.000Z",
+    "hash": "38e44fd85f27bc437de82c6ad360301c5967bc01",
+    "country_code": "it",
+    "timezone_name": "Europe/Rome"
+  },
+  {
     "label": "Boscoreale",
     "coordinates": [
       40.78,
