@@ -1,5 +1,16 @@
 [
   {
+    "label": "Lazio",
+    "coordinates": [
+      41.79,
+      12.85
+    ],
+    "date": "2025-09-14T08:45:03.000Z",
+    "hash": "9764624090d9b46c9309637c41aa95ae04f1acaa",
+    "country_code": "it",
+    "timezone_name": "Europe/Rome"
+  },
+  {
     "label": "Roma",
     "coordinates": [
       41.89,

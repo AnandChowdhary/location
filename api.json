@@ -1,11 +1,11 @@
 {
-  "date": "2025-09-13T08:48:07.000Z",
+  "date": "2025-09-14T08:45:03.000Z",
   "coordinates": [
-    41.89,
-    12.5
+    41.79,
+    12.85
   ],
-  "label": "Roma",
-  "full_label": "8, Via Francesco Giambullari, Monti, Municipio Roma I, Roma, Roma Capitale, Lazio, 00184, Italia",
+  "label": "Lazio",
+  "full_label": "Via di Fontana Chiusa, Casale Colle Mezzo, Colle Spina, Labico, Roma Capitale, Lazio, Italia",
   "timezone": {
     "name": "Europe/Rome",
     "countries": [
