@@ -1,5 +1,16 @@
 [
   {
+    "label": "Boscoreale",
+    "coordinates": [
+      40.78,
+      14.48
+    ],
+    "date": "2025-09-14T12:00:06.000Z",
+    "hash": "b24b99f03f598e262c24ea6fec1ea27ded4a7be6",
+    "country_code": "it",
+    "timezone_name": "Europe/Rome"
+  },
+  {
     "label": "Lazio",
     "coordinates": [
       41.79,
