@@ -1,5 +1,16 @@
 [
   {
+    "label": "Roma",
+    "coordinates": [
+      41.89,
+      12.5
+    ],
+    "date": "2025-09-15T09:46:07.000Z",
+    "hash": "2153e2c26b066253ab792d208fb871d76b50c50d",
+    "country_code": "it",
+    "timezone_name": "Europe/Rome"
+  },
+  {
     "label": "Campania",
     "coordinates": [
       40.77,
