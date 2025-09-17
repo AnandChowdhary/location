@@ -1,5 +1,16 @@
 [
   {
+    "label": "Fiumicino",
+    "coordinates": [
+      41.81,
+      12.22
+    ],
+    "date": "2025-09-17T16:03:12.000Z",
+    "hash": "1462004036261caf7b86009844e5dc4603043494",
+    "country_code": "it",
+    "timezone_name": "Europe/Rome"
+  },
+  {
     "label": "Roma",
     "coordinates": [
       41.89,

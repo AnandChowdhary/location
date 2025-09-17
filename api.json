@@ -1,11 +1,11 @@
 {
-  "date": "2025-09-15T09:46:07.000Z",
+  "date": "2025-09-17T16:03:12.000Z",
   "coordinates": [
-    41.89,
-    12.5
+    41.81,
+    12.22
   ],
-  "label": "Roma",
-  "full_label": "8, Via Francesco Giambullari, Monti, Municipio Roma I, Roma, Roma Capitale, Lazio, 00184, Italia",
+  "label": "Fiumicino",
+  "full_label": "Via dei Dentali, Focene, Fiumicino, Roma Capitale, Lazio, 00054, Italia",
   "timezone": {
     "name": "Europe/Rome",
     "countries": [
