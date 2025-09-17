@@ -1,5 +1,16 @@
 [
   {
+    "label": "Aalsmeer",
+    "coordinates": [
+      52.27,
+      4.76
+    ],
+    "date": "2025-09-17T20:55:01.000Z",
+    "hash": "c8368f5f0db5a696dec34feb6a886d822b814f92",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
     "label": "Campania",
     "coordinates": [
       40.77,
