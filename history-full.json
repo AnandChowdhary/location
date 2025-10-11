@@ -1,5 +1,16 @@
 [
   {
+    "label": "Kaatsheuvel",
+    "coordinates": [
+      51.66,
+      5.04
+    ],
+    "date": "2025-10-11T10:46:02.000Z",
+    "hash": "09c0e38c89f362f71a57a68e4736a8ae30cad6eb",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
     "label": "Nieuwegein",
     "coordinates": [
       52.04,
