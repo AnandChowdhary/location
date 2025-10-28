@@ -1,5 +1,16 @@
 [
   {
+    "label": "San Francisco",
+    "coordinates": [
+      37.77,
+      -122.41
+    ],
+    "date": "2025-10-28T00:52:23.000Z",
+    "hash": "f198d2c54c97f7e7d68ecbd52cae54f5ab579fc6",
+    "country_code": "us",
+    "timezone_name": "America/Los_Angeles"
+  },
+  {
     "label": "Castro Valley",
     "coordinates": [
       37.71,
