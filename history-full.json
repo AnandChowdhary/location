@@ -1,5 +1,16 @@
 [
   {
+    "label": "Castro Valley",
+    "coordinates": [
+      37.7,
+      -122.09
+    ],
+    "date": "2025-10-28T16:12:08.000Z",
+    "hash": "3574e880783c84334d0eb94af730a4bd98101096",
+    "country_code": "us",
+    "timezone_name": "America/Los_Angeles"
+  },
+  {
     "label": "Dublin",
     "coordinates": [
       37.71,
