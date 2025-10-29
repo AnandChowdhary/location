@@ -1,11 +1,11 @@
 {
-  "date": "2025-10-29T03:00:02.000Z",
+  "date": "2025-10-29T14:29:50.000Z",
   "coordinates": [
-    37.7,
-    -122.14
+    37.71,
+    -121.87
   ],
-  "label": "San Leandro",
-  "full_label": "Caliente Drive, San Leandro, Alameda County, California, 94579, United States of America",
+  "label": "Dublin",
+  "full_label": "Central Parkway, Dublin, Alameda County, California, 94568, United States of America",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
