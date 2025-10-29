@@ -1,5 +1,16 @@
 [
   {
+    "label": "San Leandro",
+    "coordinates": [
+      37.7,
+      -122.14
+    ],
+    "date": "2025-10-29T03:00:02.000Z",
+    "hash": "42e9dae6ba5a22d6ba423f559a65612d35794ff7",
+    "country_code": "us",
+    "timezone_name": "America/Los_Angeles"
+  },
+  {
     "label": "San Francisco",
     "coordinates": [
       37.8,
