@@ -1,5 +1,16 @@
 [
   {
+    "label": "San Francisco",
+    "coordinates": [
+      37.8,
+      -122.41
+    ],
+    "date": "2025-11-02T05:46:40.000Z",
+    "hash": "53d381c32590c171397a2c1df228aba71812a423",
+    "country_code": "us",
+    "timezone_name": "America/Los_Angeles"
+  },
+  {
     "label": "Oakland",
     "coordinates": [
       37.8,
