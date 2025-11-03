@@ -1,22 +1,23 @@
 {
-  "date": "2025-11-02T18:38:43.000Z",
+  "date": "2025-11-03T07:52:18.000Z",
   "coordinates": [
-    37.71,
-    -121.87
+    52.27,
+    4.76
   ],
-  "label": "Dublin",
-  "full_label": "Central Parkway, Dublin, Alameda County, California, 94568, United States of America",
+  "label": "Aalsmeer",
+  "full_label": "54, Stommeerkade, Stommeerhof, Aalsmeer, Noord-Holland, Nederland, 1431 EK, Nederland",
   "timezone": {
-    "name": "America/Los_Angeles",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "US"
+      "NL"
     ],
-    "utcOffset": -480,
-    "utcOffsetStr": "-08:00",
-    "dstOffset": -420,
-    "dstOffsetStr": "-07:00",
-    "aliasOf": null
+    "utcOffset": 60,
+    "utcOffsetStr": "+01:00",
+    "dstOffset": 120,
+    "dstOffsetStr": "+02:00",
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "us",
-  "country_emoji": "🇺🇸"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
