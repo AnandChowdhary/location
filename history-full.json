@@ -1,5 +1,16 @@
 [
   {
+    "label": "Nieuwegein",
+    "coordinates": [
+      52.05,
+      5.09
+    ],
+    "date": "2025-11-05T10:38:35.000Z",
+    "hash": "aad28b808f21717e94d2219df87d8c7ab0fe074c",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
     "label": "Utrecht",
     "coordinates": [
       52.11,
