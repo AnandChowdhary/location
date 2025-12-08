@@ -11,17 +11,6 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.27,
-      4.76
-    ],
-    "date": "2025-11-03T07:52:18.000Z",
-    "hash": "fdce296a080c385e8f9db12c093340f79b0ad268",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
     "label": "San Francisco",
     "coordinates": [
       37.6,
@@ -40,17 +29,6 @@
     ],
     "date": "2025-09-20T10:47:39.000Z",
     "hash": "7d930c862497d2fa367f6f79370ba760e65bb3f2",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.27,
-      4.76
-    ],
-    "date": "2025-09-17T20:55:01.000Z",
-    "hash": "c8368f5f0db5a696dec34feb6a886d822b814f92",
     "country_code": "nl",
     "timezone_name": "Europe/Amsterdam"
   },
