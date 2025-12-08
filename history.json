@@ -132,28 +132,6 @@
     "timezone_name": "America/New_York"
   },
   {
-    "label": "Washington",
-    "coordinates": [
-      33.64,
-      -84.44
-    ],
-    "date": "2025-06-10T19:03:15.992Z",
-    "hash": "c49ecab864e9703db67b8ab793e3844afc07afab",
-    "country_code": "us",
-    "timezone_name": "America/New_York"
-  },
-  {
-    "label": "Boston",
-    "coordinates": [
-      42.37,
-      -71.02
-    ],
-    "date": "2025-06-10T08:40:00.165Z",
-    "hash": "fdb6f0bd924199dd3fa9d47e8c02b7f39a4dc8dc",
-    "country_code": "us",
-    "timezone_name": "America/New_York"
-  },
-  {
     "label": "Utrecht",
     "coordinates": [
       52.09,
