@@ -33,7 +33,7 @@ export const summarize = async () => {
       date: show.date,
       hash: commit.hash,
       country_code: show.country_code,
-      timezone_name: show.timezone.name,
+      timezone_name: show.timezone?.name ?? "",
     };
     data.push(item);
   }
@@ -82,7 +82,9 @@ export const summarize = async () => {
           if (skipped.length) {
             const items: Record<string, number> = {};
             skipped.forEach((item) => {
-              items[item.label] = (items[item.label] || 0) + item.duration;
+              const overwrittenLabel = getOverwrittenLabel(item.label);
+              items[overwrittenLabel] =
+                (items[overwrittenLabel] || 0) + item.duration;
             });
             const skippedSelected = skipped
               .filter((i) => i.duration > 43200000) // 12 hours
@@ -131,12 +133,17 @@ export const summarize = async () => {
       new Date().getTime() -
       new Date(skipped[skipped.length - 1].date).getTime();
     skipped.forEach((item) => {
-      items[item.label] = (items[item.label] || 0) + item.duration;
+      const overwrittenLabel = getOverwrittenLabel(item.label);
+      items[overwrittenLabel] = (items[overwrittenLabel] || 0) + item.duration;
     });
     const { duration: _, ...skippedSelected } = skipped.sort(
       (a, b) => b.duration - a.duration
     )[0];
-    safePush(skippedSelected);
+    if (
+      locationResult[locationResult.length - 1]?.label !==
+      getOverwrittenLabel(skippedSelected.label)
+    )
+      safePush(skippedSelected);
   }
   await writeFile(
     "history.json",
