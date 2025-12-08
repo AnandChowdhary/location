@@ -1,5 +1,16 @@
 [
   {
+    "label": "De Bilt",
+    "coordinates": [
+      52.11,
+      5.18
+    ],
+    "date": "2025-12-08T15:50:58.000Z",
+    "hash": "dd8d08b18a8f02843bfe134de0d3fc65f0095023",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
     "label": "Utrecht",
     "coordinates": [
       52.11,
