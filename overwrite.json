@@ -33,6 +33,7 @@
       "Dublin": "San Francisco",
       "Millbrae": "San Francisco",
       "Aalsmeer": "Schiphol",
+      "Firenze": "Florence",
       "Sesto Fiorentino": "Florence",
       "Segrate": "Milan",
       "College Park": "Washington",
@@ -56,7 +57,15 @@
       "Gujarat": "Ahmedabad",
       "Saint-Gilles - Sint-Gillis": "Brussels",
       "Schaerbeek - Schaarbeek": "Brussels",
-      "Morges": "Geneva"
+      "Morges": "Geneva",
+      "Pendik": "Istanbul",
+      "Arnavutköy": "Istanbul",
+      "Santa Clara": "San Francisco",
+      "Oakland": "San Francisco",
+      "Gurugram": "New Delhi",
+      "Noida": "New Delhi",
+      "Faridabad": "New Delhi",
+      "Libiza town": "New Delhi"
     }
   },
   "ignore": {
