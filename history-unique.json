@@ -22,6 +22,17 @@
     "timezone_name": "Europe/Rome"
   },
   {
+    "label": "Milan",
+    "coordinates": [
+      45.46,
+      9.28
+    ],
+    "date": "2025-07-09T06:10:22.340Z",
+    "hash": "2878ca5c126061475e1cf1ca18f4ee08aa88a049",
+    "country_code": "it",
+    "timezone_name": "Europe/Rome"
+  },
+  {
     "label": "Page",
     "coordinates": [
       36.92,
@@ -383,17 +394,6 @@
     "hash": "a77db8caaa5fe57a0e6bcc8a8cfb4bde59331a2d",
     "country_code": "my",
     "timezone_name": "Asia/Kuala_Lumpur"
-  },
-  {
-    "label": "Milan",
-    "coordinates": [
-      45.45,
-      9.28
-    ],
-    "date": "2018-07-07T05:15:09.973Z",
-    "hash": "8f7131832ace26dcc1290eb64223b5619dbc6d07",
-    "country_code": "it",
-    "timezone_name": "Europe/Rome"
   },
   {
     "label": "Toulouse",
