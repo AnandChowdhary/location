@@ -33,17 +33,6 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Firenze",
-    "coordinates": [
-      43.77,
-      11.26
-    ],
-    "date": "2025-09-09T14:27:32.000Z",
-    "hash": "d54aa75300fcc3a1a825eba7e2403c3e7cf442df",
-    "country_code": "it",
-    "timezone_name": "Europe/Rome"
-  },
-  {
     "label": "Florence",
     "coordinates": [
       43.82,
@@ -187,7 +176,7 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Gurugram",
+    "label": "New Delhi",
     "coordinates": [
       28.43,
       77.11
@@ -264,18 +253,7 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Santa Clara",
-    "coordinates": [
-      37.33,
-      -122
-    ],
-    "date": "2024-10-26T00:40:16.999Z",
-    "hash": "9dda521ebfddd3dd3b0c1a44cc3b4fccfcd5cdbf",
-    "country_code": "us",
-    "timezone_name": "America/Los_Angeles"
-  },
-  {
-    "label": "Oakland",
+    "label": "San Francisco",
     "coordinates": [
       37.71,
       -122.21
@@ -539,17 +517,6 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Noida",
-    "coordinates": [
-      28.58,
-      77.34
-    ],
-    "date": "2024-01-01T19:40:15.000Z",
-    "hash": "453ed2069a6babc6bf88c2205c60f4a76837b01d",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
-  },
-  {
     "label": "New Delhi",
     "coordinates": [
       28.56,
@@ -801,17 +768,6 @@
     "hash": "0e880c61ea8914dfbab80420ade77619b1cb14b5",
     "country_code": "ae",
     "timezone_name": "Asia/Dubai"
-  },
-  {
-    "label": "Libiza town",
-    "coordinates": [
-      28.48,
-      77.31
-    ],
-    "date": "2023-04-10T12:08:29.000Z",
-    "hash": "1abcd495438a8b8ff57aced4142d3b33b1f53d74",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
   },
   {
     "label": "New Delhi",
@@ -1101,17 +1057,6 @@
   },
   {
     "label": "Istanbul",
-    "coordinates": [
-      41.02,
-      28.97
-    ],
-    "date": "2022-06-10T16:25:56.000Z",
-    "hash": "d41c3a04dc6f59f1424265d19ce488d7caa9208d",
-    "country_code": "tr",
-    "timezone_name": "Europe/Istanbul"
-  },
-  {
-    "label": "Pendik",
     "coordinates": [
       40.91,
       29.32
@@ -1441,7 +1386,7 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Faridabad",
+    "label": "New Delhi",
     "coordinates": [
       28.43,
       77.31
@@ -1459,17 +1404,6 @@
     ],
     "date": "2020-12-21T08:22:40.426Z",
     "hash": "8417e7a30cd6538f340b81049b5fa7d5acdf4b3e",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
-  },
-  {
-    "label": "Faridabad",
-    "coordinates": [
-      28.42,
-      77.31
-    ],
-    "date": "2020-08-08T08:13:47.000Z",
-    "hash": "efd97270b5fc01053a008d193c237de2f88cdb78",
     "country_code": "in",
     "timezone_name": "Asia/Kolkata"
   },
@@ -1518,7 +1452,7 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Arnavutköy",
+    "label": "Istanbul",
     "coordinates": [
       41.26,
       28.74
@@ -1683,17 +1617,6 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Noida",
-    "coordinates": [
-      28.57,
-      77.32
-    ],
-    "date": "2019-04-25T11:25:21.995Z",
-    "hash": "f5dc680ada1f8524b343f0fbd4f1c81c4179419c",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
-  },
-  {
     "label": "New Delhi",
     "coordinates": [
       28.56,
@@ -1837,7 +1760,7 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Noida",
+    "label": "New Delhi",
     "coordinates": [
       28.57,
       77.32
@@ -1859,7 +1782,7 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Noida",
+    "label": "New Delhi",
     "coordinates": [
       28.54,
       77.33
@@ -2418,17 +2341,6 @@
     "hash": "da447ddac2236a1f5a24c1359c4282a06e5b9cc5",
     "country_code": "jp",
     "timezone_name": "Asia/Tokyo"
-  },
-  {
-    "label": "Libiza town",
-    "coordinates": [
-      28.48,
-      77.32
-    ],
-    "date": "2014-06-27T12:22:45.802Z",
-    "hash": "c207c057f222a942a5e0f9eac5fd882129b0c481",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
   },
   {
     "label": "New Delhi",

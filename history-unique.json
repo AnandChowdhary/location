@@ -1,16 +1,5 @@
 [
   {
-    "label": "Firenze",
-    "coordinates": [
-      43.77,
-      11.26
-    ],
-    "date": "2025-09-09T14:27:32.000Z",
-    "hash": "d54aa75300fcc3a1a825eba7e2403c3e7cf442df",
-    "country_code": "it",
-    "timezone_name": "Europe/Rome"
-  },
-  {
     "label": "Florence",
     "coordinates": [
       43.82,
@@ -31,39 +20,6 @@
     "hash": "647fa2946d9990412a9e28eaf50fe07758126dcf",
     "country_code": "it",
     "timezone_name": "Europe/Rome"
-  },
-  {
-    "label": "Gurugram",
-    "coordinates": [
-      28.43,
-      77.11
-    ],
-    "date": "2025-03-09T06:52:37.101Z",
-    "hash": "e299024d62f60ed7ced27ba1cf94a6a61ef91d58",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
-  },
-  {
-    "label": "Santa Clara",
-    "coordinates": [
-      37.33,
-      -122
-    ],
-    "date": "2024-10-26T00:40:16.999Z",
-    "hash": "9dda521ebfddd3dd3b0c1a44cc3b4fccfcd5cdbf",
-    "country_code": "us",
-    "timezone_name": "America/Los_Angeles"
-  },
-  {
-    "label": "Oakland",
-    "coordinates": [
-      37.71,
-      -122.21
-    ],
-    "date": "2024-10-14T06:21:46.435Z",
-    "hash": "33bce86e27c0b19e45cfcd6fac1ccf21d9c90359",
-    "country_code": "us",
-    "timezone_name": "America/Los_Angeles"
   },
   {
     "label": "Page",
@@ -209,28 +165,6 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Istanbul",
-    "coordinates": [
-      41.02,
-      28.97
-    ],
-    "date": "2022-06-10T16:25:56.000Z",
-    "hash": "d41c3a04dc6f59f1424265d19ce488d7caa9208d",
-    "country_code": "tr",
-    "timezone_name": "Europe/Istanbul"
-  },
-  {
-    "label": "Pendik",
-    "coordinates": [
-      40.91,
-      29.32
-    ],
-    "date": "2022-06-06T14:37:09.000Z",
-    "hash": "f2aa632d560be45d2fe8a0abf7104d04f860ef7a",
-    "country_code": "tr",
-    "timezone_name": "Europe/Istanbul"
-  },
-  {
     "label": "The Hague",
     "coordinates": [
       52.08,
@@ -352,18 +286,7 @@
     "timezone_name": "Asia/Kolkata"
   },
   {
-    "label": "Faridabad",
-    "coordinates": [
-      28.42,
-      77.31
-    ],
-    "date": "2020-08-08T08:13:47.000Z",
-    "hash": "efd97270b5fc01053a008d193c237de2f88cdb78",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
-  },
-  {
-    "label": "Arnavutköy",
+    "label": "Istanbul",
     "coordinates": [
       41.26,
       28.74
@@ -449,17 +372,6 @@
     "hash": "a12f0366c67e076682f704f30c255272e3bbf7d9",
     "country_code": "gb",
     "timezone_name": "Europe/London"
-  },
-  {
-    "label": "Noida",
-    "coordinates": [
-      28.54,
-      77.33
-    ],
-    "date": "2018-10-24T16:01:29.032Z",
-    "hash": "570ee80b23767dcdff1878394608006c18938714",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
   },
   {
     "label": "Kuala Lumpur",
@@ -713,17 +625,6 @@
     "hash": "da447ddac2236a1f5a24c1359c4282a06e5b9cc5",
     "country_code": "jp",
     "timezone_name": "Asia/Tokyo"
-  },
-  {
-    "label": "Libiza town",
-    "coordinates": [
-      28.48,
-      77.32
-    ],
-    "date": "2014-06-27T12:22:45.802Z",
-    "hash": "c207c057f222a942a5e0f9eac5fd882129b0c481",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
   },
   {
     "label": "Bangkok",
