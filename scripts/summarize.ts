@@ -49,6 +49,9 @@ export const summarize = async () => {
   );
 
   const locationResult: Location[] = [];
+  const getOverwrittenLabel = (label: string): string => {
+    return overwrite.similarLabels.labels[label] ?? label;
+  };
   const safePush = (item: Location) => {
     Object.entries(overwrite.similarLabels.labels).forEach(([key, value]) => {
       if (item.label === key) item.label = value;
@@ -87,7 +90,7 @@ export const summarize = async () => {
             if (
               skippedSelected &&
               locationResult[locationResult.length - 1]?.label !==
-                skippedSelected.label
+                getOverwrittenLabel(skippedSelected.label)
             ) {
               const { duration: _, ...item } = skippedSelected;
               safePush(item);
@@ -96,13 +99,13 @@ export const summarize = async () => {
               (!skippedSelected ||
                 skippedSelected.country_code !== location.country_code) &&
               locationResult[locationResult.length - 1]?.label !==
-                location.label
+                getOverwrittenLabel(location.label)
             )
               safePush(location);
           } else {
             if (
               locationResult[locationResult.length - 1]?.label !==
-              location.label
+              getOverwrittenLabel(location.label)
             )
               safePush(location);
           }
@@ -114,7 +117,10 @@ export const summarize = async () => {
           });
         }
       } else {
-        if (locationResult[locationResult.length - 1]?.label !== location.label)
+        if (
+          locationResult[locationResult.length - 1]?.label !==
+          getOverwrittenLabel(location.label)
+        )
           safePush(location);
         skipped = [];
       }
