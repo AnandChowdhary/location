@@ -1,27 +1,5 @@
 [
   {
-    "label": "Aalsmeer",
-    "coordinates": [
-      52.27,
-      4.76
-    ],
-    "date": "2025-09-17T20:55:01.000Z",
-    "hash": "c8368f5f0db5a696dec34feb6a886d822b814f92",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
-    "label": "Campania",
-    "coordinates": [
-      40.77,
-      14.44
-    ],
-    "date": "2025-09-14T17:14:06.000Z",
-    "hash": "38e44fd85f27bc437de82c6ad360301c5967bc01",
-    "country_code": "it",
-    "timezone_name": "Europe/Rome"
-  },
-  {
     "label": "Firenze",
     "coordinates": [
       43.77,
@@ -33,7 +11,7 @@
     "timezone_name": "Europe/Rome"
   },
   {
-    "label": "Sesto Fiorentino",
+    "label": "Florence",
     "coordinates": [
       43.82,
       11.18
@@ -55,28 +33,6 @@
     "timezone_name": "Europe/Rome"
   },
   {
-    "label": "Segrate",
-    "coordinates": [
-      45.46,
-      9.28
-    ],
-    "date": "2025-07-09T06:10:22.340Z",
-    "hash": "2878ca5c126061475e1cf1ca18f4ee08aa88a049",
-    "country_code": "it",
-    "timezone_name": "Europe/Rome"
-  },
-  {
-    "label": "College Park",
-    "coordinates": [
-      33.64,
-      -84.44
-    ],
-    "date": "2025-06-10T19:03:15.992Z",
-    "hash": "c49ecab864e9703db67b8ab793e3844afc07afab",
-    "country_code": "us",
-    "timezone_name": "America/New_York"
-  },
-  {
     "label": "Gurugram",
     "coordinates": [
       28.43,
@@ -84,17 +40,6 @@
     ],
     "date": "2025-03-09T06:52:37.101Z",
     "hash": "e299024d62f60ed7ced27ba1cf94a6a61ef91d58",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
-  },
-  {
-    "label": "Karnataka",
-    "coordinates": [
-      13.2,
-      77.72
-    ],
-    "date": "2025-02-27T06:34:27.330Z",
-    "hash": "76cf87ddd32714d5b2e96920ca1084b24a7dc833",
     "country_code": "in",
     "timezone_name": "Asia/Kolkata"
   },
@@ -130,28 +75,6 @@
     "hash": "adcc1336b130f0b010aee4280aeb8c89499b1722",
     "country_code": "us",
     "timezone_name": "America/Phoenix"
-  },
-  {
-    "label": "Utah",
-    "coordinates": [
-      37.22,
-      -112.97
-    ],
-    "date": "2024-10-11T20:43:01.308Z",
-    "hash": "503ad5ecc9fa31b21c37004a93762eca3e7f92f0",
-    "country_code": "us",
-    "timezone_name": "America/Denver"
-  },
-  {
-    "label": "West Windsor",
-    "coordinates": [
-      40.32,
-      -74.62
-    ],
-    "date": "2024-10-02T21:59:02.429Z",
-    "hash": "1a805f7e9d5363e831bedc6ccf6ed67e5c1b0b2f",
-    "country_code": "us",
-    "timezone_name": "America/New_York"
   },
   {
     "label": "Albufeira",
@@ -231,7 +154,7 @@
     "timezone_name": "Europe/Zurich"
   },
   {
-    "label": "Fort Snelling Unorganized Territory",
+    "label": "Minneapolis",
     "coordinates": [
       44.88,
       -93.21
@@ -240,28 +163,6 @@
     "hash": "f8e6e06b8b11e99a908313e3e6b4b0f6be874de3",
     "country_code": "us",
     "timezone_name": "America/Chicago"
-  },
-  {
-    "label": "Danville",
-    "coordinates": [
-      37.83,
-      -122
-    ],
-    "date": "2023-09-22T00:27:35.158Z",
-    "hash": "27b133c7bcec676b94661201cfcabae4f9299d3b",
-    "country_code": "us",
-    "timezone_name": "America/Los_Angeles"
-  },
-  {
-    "label": "Alameda",
-    "coordinates": [
-      37.72,
-      -122.23
-    ],
-    "date": "2023-09-20T02:26:51.457Z",
-    "hash": "e0baede6b36888b295c5fd0c98c94c58eb685cbd",
-    "country_code": "us",
-    "timezone_name": "America/Los_Angeles"
   },
   {
     "label": "Utrecht",
@@ -275,28 +176,6 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Hauts-de-France",
-    "coordinates": [
-      50.12,
-      3.09
-    ],
-    "date": "2023-06-03T06:17:01.024Z",
-    "hash": "5056b0a0b9a94d05c69f31ecfc0574cde49ef4a8",
-    "country_code": "fr",
-    "timezone_name": "Europe/Paris"
-  },
-  {
-    "label": "Schaerbeek - Schaarbeek",
-    "coordinates": [
-      50.86,
-      4.36
-    ],
-    "date": "2023-06-03T02:20:11.000Z",
-    "hash": "b1710ce0ef45c522f05216b5284910dcff238323",
-    "country_code": "be",
-    "timezone_name": "Europe/Brussels"
-  },
-  {
     "label": "Abu Dhabi",
     "coordinates": [
       24.43,
@@ -308,40 +187,7 @@
     "timezone_name": "Asia/Dubai"
   },
   {
-    "label": "Millbrae",
-    "coordinates": [
-      37.61,
-      -122.39
-    ],
-    "date": "2022-09-27T21:28:07.000Z",
-    "hash": "64297d18491d19fc9d20919e184d8dc269dd0bab",
-    "country_code": "us",
-    "timezone_name": "America/Los_Angeles"
-  },
-  {
-    "label": "San Francisco",
-    "coordinates": [
-      37.62,
-      -122.38
-    ],
-    "date": "2022-09-20T20:26:30.000Z",
-    "hash": "e2610ddb6473623df975e84aa0dd5df29e1abbb6",
-    "country_code": "us",
-    "timezone_name": "America/Los_Angeles"
-  },
-  {
     "label": "Geneva",
-    "coordinates": [
-      46.21,
-      6.14
-    ],
-    "date": "2022-09-14T20:25:36.486Z",
-    "hash": "f305fbe7d849cbc0732e2c894b821cc94d7b25c5",
-    "country_code": "ch",
-    "timezone_name": "Europe/Zurich"
-  },
-  {
-    "label": "Morges",
     "coordinates": [
       46.51,
       6.49
@@ -396,7 +242,7 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Capital City of Prague",
+    "label": "Prague",
     "coordinates": [
       50.09,
       14.44
@@ -451,17 +297,6 @@
     "timezone_name": "Europe/Zurich"
   },
   {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.39,
-      4.84
-    ],
-    "date": "2021-09-06T04:24:35.083Z",
-    "hash": "bb76cc45f4a56429b492085a47e6d06c7612fa31",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
     "label": "Hoogstraten",
     "coordinates": [
       51.48,
@@ -484,7 +319,7 @@
     "timezone_name": "Europe/Brussels"
   },
   {
-    "label": "Saint-Gilles - Sint-Gillis",
+    "label": "Brussels",
     "coordinates": [
       50.84,
       4.34
@@ -550,17 +385,6 @@
     "timezone_name": "America/New_York"
   },
   {
-    "label": "Elizabeth",
-    "coordinates": [
-      40.67,
-      -74.18
-    ],
-    "date": "2019-12-19T00:02:55.969Z",
-    "hash": "0c864d345343bf691aeaa1a3586dcda3dfaa69af",
-    "country_code": "us",
-    "timezone_name": "America/New_York"
-  },
-  {
     "label": "Boston",
     "coordinates": [
       42.37,
@@ -570,17 +394,6 @@
     "hash": "783edcfb048facb722ca2600fa6d1392ced61ff4",
     "country_code": "us",
     "timezone_name": "America/New_York"
-  },
-  {
-    "label": "Livermore",
-    "coordinates": [
-      37.7,
-      -121.72
-    ],
-    "date": "2019-11-22T23:42:26.284Z",
-    "hash": "acec187a3aa2b86d7e47073f46dbb0f83eca396f",
-    "country_code": "us",
-    "timezone_name": "America/Los_Angeles"
   },
   {
     "label": "New York",
@@ -594,18 +407,7 @@
     "timezone_name": "America/New_York"
   },
   {
-    "label": "Pleasanton",
-    "coordinates": [
-      37.7,
-      -121.85
-    ],
-    "date": "2019-09-22T01:16:28.798Z",
-    "hash": "deea5ba31d000e5d3d407d5772f9c2f7f9f5f395",
-    "country_code": "us",
-    "timezone_name": "America/Los_Angeles"
-  },
-  {
-    "label": "Dublin",
+    "label": "San Francisco",
     "coordinates": [
       37.72,
       -121.85
@@ -640,17 +442,6 @@
   {
     "label": "London",
     "coordinates": [
-      51.52,
-      -0.12
-    ],
-    "date": "2018-11-14T21:45:29.845Z",
-    "hash": "849ce31e2e8fe232ed0f3dbe8966a631ba9373f4",
-    "country_code": "gb",
-    "timezone_name": "Europe/London"
-  },
-  {
-    "label": "Uttlesford",
-    "coordinates": [
       51.89,
       0.25
     ],
@@ -682,7 +473,7 @@
     "timezone_name": "Asia/Kuala_Lumpur"
   },
   {
-    "label": "Peschiera Borromeo",
+    "label": "Milan",
     "coordinates": [
       45.45,
       9.28
@@ -803,7 +594,7 @@
     "timezone_name": "Europe/Berlin"
   },
   {
-    "label": "Fiumicino",
+    "label": "Rome",
     "coordinates": [
       41.8,
       12.25
@@ -836,7 +627,7 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "North Holland",
+    "label": "Amsterdam",
     "coordinates": [
       52.31,
       4.77
@@ -869,7 +660,7 @@
     "timezone_name": "Asia/Kolkata"
   },
   {
-    "label": "Gujarat",
+    "label": "Ahmedabad",
     "coordinates": [
       23.03,
       72.53
@@ -902,17 +693,6 @@
     "timezone_name": "Asia/Kolkata"
   },
   {
-    "label": "Boisar",
-    "coordinates": [
-      19.8,
-      72.76
-    ],
-    "date": "2015-06-20T02:15:21.660Z",
-    "hash": "56356a0989ee63461add4b736347d75b21bf15b2",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
-  },
-  {
     "label": "Mumbai",
     "coordinates": [
       18.94,
@@ -924,18 +704,7 @@
     "timezone_name": "Asia/Kolkata"
   },
   {
-    "label": "Higashimurayama",
-    "coordinates": [
-      35.76,
-      139.46
-    ],
-    "date": "2014-11-27T23:09:24.887Z",
-    "hash": "b75dfd9025dd4c929224d9bffef9cc7b57a0fcf7",
-    "country_code": "jp",
-    "timezone_name": "Asia/Tokyo"
-  },
-  {
-    "label": "Narita",
+    "label": "Tokyo",
     "coordinates": [
       35.77,
       140.39
