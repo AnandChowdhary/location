@@ -18,6 +18,7 @@ type Location = {
 export const summarize = async () => {
   const overwrite = JSON.parse(await readFile("overwrite.json", "utf-8")) as {
     similarLabels: { labels: Record<string, string> };
+    ignore: { labels: string[] };
     layovers: { hashes: string[] };
   };
   const log = await git.log({ file: "api.json" });
@@ -56,6 +57,7 @@ export const summarize = async () => {
     Object.entries(overwrite.similarLabels.labels).forEach(([key, value]) => {
       if (item.label === key) item.label = value;
     });
+    if (overwrite.ignore.labels.includes(item.label)) return;
     if (!overwrite.layovers.hashes.includes(item.hash))
       locationResult.push(item);
   };
