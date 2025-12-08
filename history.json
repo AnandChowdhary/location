@@ -984,17 +984,6 @@
       28.53,
       77.25
     ],
-    "date": "2023-01-10T11:55:15.000Z",
-    "hash": "9a85094676b30714d6f8ad632f5f89b222f0c5de",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
-  },
-  {
-    "label": "New Delhi",
-    "coordinates": [
-      28.53,
-      77.25
-    ],
     "date": "2023-01-06T08:38:12.000Z",
     "hash": "0944b4bf36e26d1b9f8c0d32e9c4c95b2d17a9e2",
     "country_code": "in",
@@ -1246,17 +1235,6 @@
     "label": "New Delhi",
     "coordinates": [
       28.56,
-      77.2
-    ],
-    "date": "2022-08-06T06:15:16.073Z",
-    "hash": "40f9e41da137f7afdc812bd987f5ffa0f5d9d75f",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
-  },
-  {
-    "label": "New Delhi",
-    "coordinates": [
-      28.56,
       77.08
     ],
     "date": "2022-07-08T11:58:01.000Z",
@@ -1450,17 +1428,6 @@
     "hash": "184cb88e9680d9418061f48edbb77a11b05353db",
     "country_code": "nl",
     "timezone_name": "Europe/Amsterdam"
-  },
-  {
-    "label": "New Delhi",
-    "coordinates": [
-      28.56,
-      77.2
-    ],
-    "date": "2022-01-29T12:54:14.616Z",
-    "hash": "0a2e5a29ce1a642ff85189eee29ecfcca9799ba8",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
   },
   {
     "label": "New Delhi",
@@ -1730,17 +1697,6 @@
     "label": "New Delhi",
     "coordinates": [
       28.54,
-      77.24
-    ],
-    "date": "2020-01-20T08:57:15.487Z",
-    "hash": "ba44598127b4462f32628ad3bd99cb986215f720",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
-  },
-  {
-    "label": "New Delhi",
-    "coordinates": [
-      28.54,
       77.08
     ],
     "date": "2019-12-27T16:58:14.267Z",
@@ -1835,17 +1791,6 @@
     "hash": "f4a6045fdaac4b973d503b343bc9073c535b7512",
     "country_code": "us",
     "timezone_name": "America/Los_Angeles"
-  },
-  {
-    "label": "New Delhi",
-    "coordinates": [
-      28.54,
-      77.24
-    ],
-    "date": "2019-09-11T12:32:09.713Z",
-    "hash": "765ad6c59a06d8ffafbcb7421ab84d6996120baf",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
   },
   {
     "label": "New Delhi",
@@ -2180,17 +2125,6 @@
   {
     "label": "New Delhi",
     "coordinates": [
-      28.54,
-      77.24
-    ],
-    "date": "2018-08-10T14:00:14.000Z",
-    "hash": "36a83be1ab8352b1109644f7718d862872978707",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
-  },
-  {
-    "label": "New Delhi",
-    "coordinates": [
       28.56,
       77.1
     ],
@@ -2510,50 +2444,6 @@
   {
     "label": "New Delhi",
     "coordinates": [
-      28.54,
-      77.24
-    ],
-    "date": "2017-03-27T17:31:53.859Z",
-    "hash": "6c625a393fa9f0b53e36989eb6172c2ae17dba8c",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
-  },
-  {
-    "label": "New Delhi",
-    "coordinates": [
-      28.59,
-      77.26
-    ],
-    "date": "2017-02-06T20:07:03.751Z",
-    "hash": "43027f379e90d17194949a5700939b8be271990f",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
-  },
-  {
-    "label": "New Delhi",
-    "coordinates": [
-      28.63,
-      77.17
-    ],
-    "date": "2016-12-03T10:01:08.878Z",
-    "hash": "537e2050db1ec4a394dbe31280f1f883c3df0b8b",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
-  },
-  {
-    "label": "New Delhi",
-    "coordinates": [
-      28.54,
-      77.24
-    ],
-    "date": "2016-10-07T07:53:09.000Z",
-    "hash": "2413302d2e39d24e97614fb5366e0a0952a9c974",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
-  },
-  {
-    "label": "New Delhi",
-    "coordinates": [
       28.56,
       77.1
     ],
@@ -2614,28 +2504,6 @@
     ],
     "date": "2016-07-20T00:47:32.000Z",
     "hash": "885ef36223d266ad3f107bc7e25f3a6760e2c7ba",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
-  },
-  {
-    "label": "New Delhi",
-    "coordinates": [
-      28.53,
-      77.23
-    ],
-    "date": "2016-07-08T13:36:41.665Z",
-    "hash": "d075ded648f6d1ed945b517a09170dfdf14a0108",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
-  },
-  {
-    "label": "New Delhi",
-    "coordinates": [
-      28.54,
-      77.24
-    ],
-    "date": "2016-05-22T06:57:34.725Z",
-    "hash": "80a65c2f4d63e055ea2e5a0a640a12185306cf56",
     "country_code": "in",
     "timezone_name": "Asia/Kolkata"
   },
@@ -2735,17 +2603,6 @@
     ],
     "date": "2015-06-17T06:45:04.615Z",
     "hash": "daca49ab066d556ba383ea235c48e213276fe576",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
-  },
-  {
-    "label": "New Delhi",
-    "coordinates": [
-      28.54,
-      77.24
-    ],
-    "date": "2015-01-06T11:38:01.178Z",
-    "hash": "63f9f8107498a4930036a23a15faca74c3025db3",
     "country_code": "in",
     "timezone_name": "Asia/Kolkata"
   },
