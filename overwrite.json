@@ -65,7 +65,8 @@
       "Gurugram": "New Delhi",
       "Noida": "New Delhi",
       "Faridabad": "New Delhi",
-      "Libiza town": "New Delhi"
+      "Libiza town": "New Delhi",
+      "Alpharetta": "Atlanta"
     }
   },
   "ignore": {
@@ -109,7 +110,9 @@
       "a6e439912eb3696805aa1972242b46d3de815fb7",
       "b92953bbfbcc4378afb63051ff7848de8c204737",
       "06e76ac79b9436b8e0c69cb8cc3c5f08ca670386",
-      "8f7131832ace26dcc1290eb64223b5619dbc6d07"
+      "8f7131832ace26dcc1290eb64223b5619dbc6d07",
+      "fdb6f0bd924199dd3fa9d47e8c02b7f39a4dc8dc",
+      "c49ecab864e9703db67b8ab793e3844afc07afab"
     ]
   }
 }
