@@ -1,5 +1,16 @@
 [
   {
+    "label": "Amsterdam",
+    "coordinates": [
+      52.37,
+      4.9
+    ],
+    "date": "2025-12-16T16:46:51.000Z",
+    "hash": "f8aa1a66df7af5ad1f07ad5b22d12a7cbc4bd349",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
     "label": "Nieuwegein",
     "coordinates": [
       52.05,
