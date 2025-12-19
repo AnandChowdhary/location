@@ -1,5 +1,16 @@
 [
   {
+    "label": "Drenthe",
+    "coordinates": [
+      52.67,
+      6.37
+    ],
+    "date": "2025-12-19T18:59:23.000Z",
+    "hash": "dc267eb3b75f5ab6b0f19a65398ca70820637b2e",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
     "label": "Nieuwegein",
     "coordinates": [
       52.05,
