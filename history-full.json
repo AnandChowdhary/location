@@ -1,5 +1,16 @@
 [
   {
+    "label": "Groningen",
+    "coordinates": [
+      53.21,
+      6.56
+    ],
+    "date": "2025-12-20T15:34:35.000Z",
+    "hash": "bae9175f3c00f57619de9f2d39058a899de3f61b",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
     "label": "Drenthe",
     "coordinates": [
       52.67,
