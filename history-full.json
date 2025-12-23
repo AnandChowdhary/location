@@ -1,5 +1,16 @@
 [
   {
+    "label": "Haarlem",
+    "coordinates": [
+      52.38,
+      4.64
+    ],
+    "date": "2025-12-23T09:38:49.000Z",
+    "hash": "d861d2cf22ec4f9b4afd6f2d3e2a85ca7edfed8b",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
     "label": "Maarssen",
     "coordinates": [
       52.13,
