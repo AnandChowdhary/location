@@ -1,5 +1,16 @@
 [
   {
+    "label": "California",
+    "coordinates": [
+      37.83,
+      -121.65
+    ],
+    "date": "2025-12-25T21:22:28.000Z",
+    "hash": "38c4567ecd48c14898c190cf54acf3b0ac7c073b",
+    "country_code": "us",
+    "timezone_name": "America/Los_Angeles"
+  },
+  {
     "label": "Dublin",
     "coordinates": [
       37.71,
