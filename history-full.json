@@ -1,5 +1,16 @@
 [
   {
+    "label": "Discovery Bay",
+    "coordinates": [
+      37.91,
+      -121.62
+    ],
+    "date": "2025-12-26T00:33:36.000Z",
+    "hash": "d05e82f202c3813e84d81bb26fb722b0a07a7a75",
+    "country_code": "us",
+    "timezone_name": "America/Los_Angeles"
+  },
+  {
     "label": "California",
     "coordinates": [
       37.83,
