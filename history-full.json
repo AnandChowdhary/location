@@ -1,5 +1,16 @@
 [
   {
+    "label": "San Rafael",
+    "coordinates": [
+      37.98,
+      -122.49
+    ],
+    "date": "2025-12-27T20:59:51.000Z",
+    "hash": "e823944ba95d3573f6e8bda8dd21bb6e850a2e63",
+    "country_code": "us",
+    "timezone_name": "America/Los_Angeles"
+  },
+  {
     "label": "Dublin",
     "coordinates": [
       37.71,
