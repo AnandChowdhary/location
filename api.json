@@ -1,11 +1,11 @@
 {
-  "date": "2025-12-27T20:59:51.000Z",
+  "date": "2025-12-28T00:00:00.000Z",
   "coordinates": [
-    37.98,
-    -122.49
+    37.95,
+    -122.54
   ],
-  "label": "San Rafael",
-  "full_label": "22, Dorian Way, San Rafael, Marin County, California, 94901, United States",
+  "label": "California",
+  "full_label": "75, McAllister Avenue, Kentfield, Marin County, California, 94904, United States",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [

@@ -1,5 +1,16 @@
 [
   {
+    "label": "California",
+    "coordinates": [
+      37.95,
+      -122.54
+    ],
+    "date": "2025-12-28T00:00:00.000Z",
+    "hash": "5336b831c889b390b1767199cb3449addc71c6f4",
+    "country_code": "us",
+    "timezone_name": "America/Los_Angeles"
+  },
+  {
     "label": "San Rafael",
     "coordinates": [
       37.98,
