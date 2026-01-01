@@ -1,5 +1,16 @@
 [
   {
+    "label": "San Leandro",
+    "coordinates": [
+      37.73,
+      -122.15
+    ],
+    "date": "2026-01-01T06:09:27.000Z",
+    "hash": "6c0644bc75090681087141360028097897a7504b",
+    "country_code": "us",
+    "timezone_name": "America/Los_Angeles"
+  },
+  {
     "label": "Dublin",
     "coordinates": [
       37.71,
