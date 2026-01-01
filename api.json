@@ -1,11 +1,11 @@
 {
-  "date": "2026-01-01T06:09:27.000Z",
+  "date": "2026-01-01T09:12:45.000Z",
   "coordinates": [
-    37.73,
-    -122.15
+    37.77,
+    -122.45
   ],
-  "label": "San Leandro",
-  "full_label": "552, Pala Avenue, Broadmoor, San Leandro, Alameda County, California, 94577, United States",
+  "label": "San Francisco",
+  "full_label": "540, Cole Street, Haight-Ashbury, San Francisco, California, 94117, United States",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
