@@ -1,5 +1,16 @@
 [
   {
+    "label": "Palo Alto",
+    "coordinates": [
+      37.42,
+      -122.15
+    ],
+    "date": "2026-01-02T21:07:22.000Z",
+    "hash": "f6fc5c8ebcc9f2a4c89d1f7abfa7afb8fb93cbd2",
+    "country_code": "us",
+    "timezone_name": "America/Los_Angeles"
+  },
+  {
     "label": "California",
     "coordinates": [
       37.57,
