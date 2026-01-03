@@ -1,11 +1,11 @@
 {
-  "date": "2026-01-03T07:20:53.000Z",
+  "date": "2026-01-03T20:02:30.000Z",
   "coordinates": [
-    37.67,
-    -121.79
+    37.71,
+    -121.87
   ],
-  "label": "Livermore",
-  "full_label": "710, Del Mar Avenue, Livermore, Alameda County, California, 94605, United States",
+  "label": "Dublin",
+  "full_label": "Central Parkway, Dublin, Alameda County, California, 94568, United States",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
