@@ -1,5 +1,16 @@
 [
   {
+    "label": "Livermore",
+    "coordinates": [
+      37.67,
+      -121.79
+    ],
+    "date": "2026-01-03T07:20:53.000Z",
+    "hash": "691f9d6c66e550458da28cb707db3621e6f9722a",
+    "country_code": "us",
+    "timezone_name": "America/Los_Angeles"
+  },
+  {
     "label": "Danville",
     "coordinates": [
       37.84,
