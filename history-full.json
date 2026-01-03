@@ -1,5 +1,16 @@
 [
   {
+    "label": "Livermore",
+    "coordinates": [
+      37.68,
+      -121.78
+    ],
+    "date": "2026-01-03T00:22:03.000Z",
+    "hash": "2a2924b1c7ec0eb3e7776fe85391083f8ae8bf6e",
+    "country_code": "us",
+    "timezone_name": "America/Los_Angeles"
+  },
+  {
     "label": "Palo Alto",
     "coordinates": [
       37.42,
