@@ -1,11 +1,11 @@
 {
-  "date": "2026-01-02T21:07:22.000Z",
+  "date": "2026-01-03T00:22:03.000Z",
   "coordinates": [
-    37.42,
-    -122.15
+    37.68,
+    -121.78
   ],
-  "label": "Palo Alto",
-  "full_label": "1160, California Avenue, Palo Alto, Santa Clara County, California, 94036, United States",
+  "label": "Livermore",
+  "full_label": "Railroad Avenue, Livermore, Alameda County, California, 94550, United States",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
