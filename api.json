@@ -1,11 +1,11 @@
 {
-  "date": "2026-01-03T20:02:30.000Z",
+  "date": "2026-01-04T20:45:34.000Z",
   "coordinates": [
-    37.71,
-    -121.87
+    37.88,
+    -122.06
   ],
-  "label": "Dublin",
-  "full_label": "Central Parkway, Dublin, Alameda County, California, 94568, United States",
+  "label": "California",
+  "full_label": "204, Alamo View Place, Castle Hill, Contra Costa County, California, 94595, United States",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
