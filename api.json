@@ -1,11 +1,11 @@
 {
-  "date": "2026-01-05T03:38:55.000Z",
+  "date": "2026-01-05T16:46:34.000Z",
   "coordinates": [
-    37.63,
-    -121.84
+    37.71,
+    -121.87
   ],
-  "label": "California",
-  "full_label": "Alameda County, California, United States",
+  "label": "Dublin",
+  "full_label": "Central Parkway, Dublin, Alameda County, California, 94568, United States",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
