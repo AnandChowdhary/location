@@ -1,5 +1,16 @@
 [
   {
+    "label": "Dublin",
+    "coordinates": [
+      37.71,
+      -121.87
+    ],
+    "date": "2026-01-06T15:29:33.000Z",
+    "hash": "85a03071efa1ee08a2cf44c464ded643bf46627b",
+    "country_code": "us",
+    "timezone_name": "America/Los_Angeles"
+  },
+  {
     "label": "Oakland",
     "coordinates": [
       37.8,
