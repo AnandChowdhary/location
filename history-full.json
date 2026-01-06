@@ -1,5 +1,16 @@
 [
   {
+    "label": "Palo Alto",
+    "coordinates": [
+      37.42,
+      -122.15
+    ],
+    "date": "2026-01-06T20:26:20.000Z",
+    "hash": "ba0a05059ec956c074ab5b833ed8102e33ea3e08",
+    "country_code": "us",
+    "timezone_name": "America/Los_Angeles"
+  },
+  {
     "label": "Dublin",
     "coordinates": [
       37.71,
