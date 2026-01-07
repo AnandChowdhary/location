@@ -1,11 +1,11 @@
 {
-  "date": "2026-01-07T20:15:59.000Z",
+  "date": "2026-01-07T23:36:13.000Z",
   "coordinates": [
-    37.42,
-    -122.15
+    37.63,
+    -122.41
   ],
-  "label": "Palo Alto",
-  "full_label": "1160, California Avenue, Palo Alto, Santa Clara County, California, 94036, United States",
+  "label": "San Bruno",
+  "full_label": "766, 2nd Avenue, San Bruno, San Mateo County, California, 94066, United States",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [

@@ -1,5 +1,16 @@
 [
   {
+    "label": "San Bruno",
+    "coordinates": [
+      37.63,
+      -122.41
+    ],
+    "date": "2026-01-07T23:36:13.000Z",
+    "hash": "996818e6ecd3d5c1e402fac5775f5f1b3ef18ca6",
+    "country_code": "us",
+    "timezone_name": "America/Los_Angeles"
+  },
+  {
     "label": "Palo Alto",
     "coordinates": [
       37.42,
