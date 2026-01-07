@@ -1,5 +1,16 @@
 [
   {
+    "label": "Fremont",
+    "coordinates": [
+      37.54,
+      -122.07
+    ],
+    "date": "2026-01-07T04:29:16.000Z",
+    "hash": "6b495597f35b911207108932000b1a9532275744",
+    "country_code": "us",
+    "timezone_name": "America/Los_Angeles"
+  },
+  {
     "label": "Palo Alto",
     "coordinates": [
       37.42,
