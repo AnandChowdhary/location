@@ -1,11 +1,11 @@
 {
-  "date": "2026-01-06T20:26:20.000Z",
+  "date": "2026-01-07T04:29:16.000Z",
   "coordinates": [
-    37.42,
-    -122.15
+    37.54,
+    -122.07
   ],
-  "label": "Palo Alto",
-  "full_label": "1160, California Avenue, Palo Alto, Santa Clara County, California, 94036, United States",
+  "label": "Fremont",
+  "full_label": "9646, Quarry Road, Fremont, Alameda County, California, 94555, United States",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
