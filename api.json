@@ -1,11 +1,11 @@
 {
-  "date": "2026-01-07T15:28:05.000Z",
+  "date": "2026-01-07T20:15:59.000Z",
   "coordinates": [
-    37.71,
-    -121.87
+    37.42,
+    -122.15
   ],
-  "label": "Dublin",
-  "full_label": "Central Parkway, Dublin, Alameda County, California, 94568, United States",
+  "label": "Palo Alto",
+  "full_label": "1160, California Avenue, Palo Alto, Santa Clara County, California, 94036, United States",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
