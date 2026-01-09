@@ -1,11 +1,11 @@
 {
-  "date": "2026-01-09T19:01:41.000Z",
+  "date": "2026-01-09T22:22:35.000Z",
   "coordinates": [
-    37.71,
-    -121.87
+    37.8,
+    -122.44
   ],
-  "label": "Dublin",
-  "full_label": "Central Parkway, Dublin, Alameda County, California, 94568, United States",
+  "label": "San Francisco",
+  "full_label": "Tipsy Pig, 2231, Chestnut Street, Marina District, San Francisco, California, 94123, United States",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
