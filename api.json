@@ -1,11 +1,11 @@
 {
-  "date": "2026-01-09T22:22:35.000Z",
+  "date": "2026-01-10T02:44:34.000Z",
   "coordinates": [
-    37.8,
-    -122.44
+    37.84,
+    -122.28
   ],
-  "label": "San Francisco",
-  "full_label": "Tipsy Pig, 2231, Chestnut Street, Marina District, San Francisco, California, 94123, United States",
+  "label": "Oakland",
+  "full_label": "1045, Aileen Street, Golden Gate, North Oakland, Oakland, Alameda County, California, 94608, United States",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
