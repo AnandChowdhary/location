@@ -1,11 +1,11 @@
 {
-  "date": "2026-01-14T13:03:10.000Z",
+  "date": "2026-01-16T08:31:25.000Z",
   "coordinates": [
-    52.11,
-    5.09
+    52.37,
+    4.94
   ],
-  "label": "Utrecht",
-  "full_label": "48, Sint-Winfridusstraat, Elinkwijk E.o., Zuilen West, Noordwest, Utrecht, Nederland, 3553 SG, Nederland",
+  "label": "Amsterdam",
+  "full_label": "18A, Borneokade, Borneo-eiland, Oostelijk Havengebied, Oost, Amsterdam, Noord-Holland, Nederland, 1019 AV, Nederland",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [

@@ -1,5 +1,16 @@
 [
   {
+    "label": "Amsterdam",
+    "coordinates": [
+      52.37,
+      4.94
+    ],
+    "date": "2026-01-16T08:31:25.000Z",
+    "hash": "ae1a5d27cf7cfb1a5eb2a64cd95b6ef779307b7d",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
     "label": "Utrecht",
     "coordinates": [
       52.11,
