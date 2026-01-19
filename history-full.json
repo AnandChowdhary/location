@@ -1,5 +1,16 @@
 [
   {
+    "label": "Maarssen",
+    "coordinates": [
+      52.13,
+      5.02
+    ],
+    "date": "2026-01-19T11:19:59.000Z",
+    "hash": "66977d91c63f03321589a6ec1b40edb18ebef4e7",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
     "label": "Utrecht",
     "coordinates": [
       52.11,
