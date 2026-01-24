@@ -1,5 +1,16 @@
 [
   {
+    "label": "Nieuwegein",
+    "coordinates": [
+      52.05,
+      5.11
+    ],
+    "date": "2026-01-21T22:23:21.000Z",
+    "hash": "660439b921d6ab5704a987cefa423cc03c74c5b4",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
     "label": "Florence",
     "coordinates": [
       43.82,
