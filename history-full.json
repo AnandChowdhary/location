@@ -1,5 +1,16 @@
 [
   {
+    "label": "Soest",
+    "coordinates": [
+      52.16,
+      5.3
+    ],
+    "date": "2026-01-31T20:29:00.000Z",
+    "hash": "9695fd4db9fb702efa96b2f7054a0e10349009b7",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
     "label": "Nieuwegein",
     "coordinates": [
       52.04,
