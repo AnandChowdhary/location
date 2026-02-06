@@ -1,11 +1,11 @@
 {
-  "date": "2026-02-06T12:44:43.000Z",
+  "date": "2026-02-06T16:44:59.000Z",
   "coordinates": [
-    52.34,
-    4.91
+    52.1,
+    5.12
   ],
-  "label": "Amsterdam",
-  "full_label": "Amsteldijk, Zuid, Amsterdam, Noord-Holland, Nederland, 1096 AD, Nederland",
+  "label": "Utrecht",
+  "full_label": "23, Abraham Bloemaertstraat, Vogelenbuurt, Votulast, Noordoost, Utrecht, Nederland, 3514 VN, Nederland",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
