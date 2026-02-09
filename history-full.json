@@ -1,5 +1,16 @@
 [
   {
+    "label": "Jammu and Kashmir",
+    "coordinates": [
+      32.86,
+      74.73
+    ],
+    "date": "2026-02-09T18:29:16.000Z",
+    "hash": "2af4b5f95874bbdf8f418f3cf9d08fe35252771a",
+    "country_code": "in",
+    "timezone_name": "Asia/Kolkata"
+  },
+  {
     "label": "Aalsmeer",
     "coordinates": [
       52.27,
