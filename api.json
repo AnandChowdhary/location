@@ -1,23 +1,22 @@
 {
-  "date": "2026-02-09T08:45:44.000Z",
+  "date": "2026-02-09T18:29:16.000Z",
   "coordinates": [
-    52.27,
-    4.76
+    32.86,
+    74.73
   ],
-  "label": "Aalsmeer",
-  "full_label": "54, Stommeerkade, Stommeerhof, Aalsmeer, Noord-Holland, Nederland, 1431 EK, Nederland",
+  "label": "Jammu and Kashmir",
+  "full_label": "Jammu, Jammu district, Jammu and Kashmir, India",
   "timezone": {
-    "name": "Europe/Amsterdam",
+    "name": "Asia/Kolkata",
     "countries": [
-      "NL"
+      "IN"
     ],
-    "utcOffset": 60,
-    "utcOffsetStr": "+01:00",
-    "dstOffset": 120,
-    "dstOffsetStr": "+02:00",
-    "aliasOf": "Europe/Brussels",
-    "deprecated": true
+    "utcOffset": 330,
+    "utcOffsetStr": "+05:30",
+    "dstOffset": 330,
+    "dstOffsetStr": "+05:30",
+    "aliasOf": null
   },
-  "country_code": "nl",
-  "country_emoji": "🇳🇱"
+  "country_code": "in",
+  "country_emoji": "🇮🇳"
 }
