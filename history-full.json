@@ -1,5 +1,16 @@
 [
   {
+    "label": "Aalsmeer",
+    "coordinates": [
+      52.27,
+      4.76
+    ],
+    "date": "2026-02-09T08:45:44.000Z",
+    "hash": "8033b74d814a6b99a1312188db6633034b6b990d",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
     "label": "Utrecht",
     "coordinates": [
       52.1,
