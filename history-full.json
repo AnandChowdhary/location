@@ -1,5 +1,16 @@
 [
   {
+    "label": "Gurugram",
+    "coordinates": [
+      28.44,
+      77.1
+    ],
+    "date": "2026-02-12T13:38:03.000Z",
+    "hash": "91a84cde2912b509f2401ca9e9b3c7a14498583a",
+    "country_code": "in",
+    "timezone_name": "Asia/Kolkata"
+  },
+  {
     "label": "New Delhi",
     "coordinates": [
       28.55,
