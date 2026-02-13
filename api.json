@@ -1,11 +1,11 @@
 {
-  "date": "2026-02-13T08:49:30.000Z",
+  "date": "2026-02-13T15:15:59.000Z",
   "coordinates": [
-    28.44,
-    77.1
+    28.52,
+    77.11
   ],
-  "label": "Gurugram",
-  "full_label": "Sector 53, Gurgaon, Gurugram, Haryana, 122011, India",
+  "label": "New Delhi",
+  "full_label": "Vasant Vihar Tehsil, New Delhi, Delhi, 110038, India",
   "timezone": {
     "name": "Asia/Kolkata",
     "countries": [
