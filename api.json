@@ -1,11 +1,11 @@
 {
-  "date": "2026-02-13T15:15:59.000Z",
+  "date": "2026-02-13T18:30:59.000Z",
   "coordinates": [
     28.52,
-    77.11
+    77.22
   ],
-  "label": "New Delhi",
-  "full_label": "Vasant Vihar Tehsil, New Delhi, Delhi, 110038, India",
+  "label": "Delhi",
+  "full_label": "Sector 1, Hauz Khas Tehsil, South Delhi, Delhi, 110062, India",
   "timezone": {
     "name": "Asia/Kolkata",
     "countries": [
