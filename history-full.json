@@ -1,5 +1,16 @@
 [
   {
+    "label": "New Delhi",
+    "coordinates": [
+      28.59,
+      77.19
+    ],
+    "date": "2026-02-14T14:59:22.000Z",
+    "hash": "a15c3547bc50455a4b167a698660659c03e68b38",
+    "country_code": "in",
+    "timezone_name": "Asia/Kolkata"
+  },
+  {
     "label": "Delhi",
     "coordinates": [
       28.52,
