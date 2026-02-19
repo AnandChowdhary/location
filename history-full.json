@@ -1,5 +1,16 @@
 [
   {
+    "label": "Madhya Pradesh",
+    "coordinates": [
+      22.66,
+      77.28
+    ],
+    "date": "2026-02-19T05:51:12.000Z",
+    "hash": "ee1c25be92951e253efe85fa831732317ba96c7f",
+    "country_code": "in",
+    "timezone_name": "Asia/Kolkata"
+  },
+  {
     "label": "New Delhi",
     "coordinates": [
       28.59,
