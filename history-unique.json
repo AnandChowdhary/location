@@ -1,5 +1,16 @@
 [
   {
+    "label": "Alappuzha",
+    "coordinates": [
+      9.51,
+      76.35
+    ],
+    "date": "2026-02-19T12:05:17.000Z",
+    "hash": "e7d8367a98e1a04aecd26eff10d2465b5083e66b",
+    "country_code": "in",
+    "timezone_name": "Asia/Kolkata"
+  },
+  {
     "label": "Kalamassery",
     "coordinates": [
       10.04,
