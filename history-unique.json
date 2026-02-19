@@ -1,5 +1,16 @@
 [
   {
+    "label": "Kalamassery",
+    "coordinates": [
+      10.04,
+      76.32
+    ],
+    "date": "2026-02-19T09:04:08.000Z",
+    "hash": "5bfb3d90a21f57b6e03d15a90f440e3fbe7d89bb",
+    "country_code": "in",
+    "timezone_name": "Asia/Kolkata"
+  },
+  {
     "label": "Jammu and Kashmir",
     "coordinates": [
       32.86,
