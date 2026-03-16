@@ -1,11 +1,11 @@
 {
-  "date": "2026-03-16T02:05:06.998Z",
+  "date": "2026-03-16T14:24:24.534Z",
   "coordinates": [
-    37.72,
-    -121.85
+    37.41,
+    -122.16
   ],
-  "label": "Dublin",
-  "full_label": "5165, Salerno Drive, Dublin, Alameda County, California, 94568, United States",
+  "label": "Santa Clara County",
+  "full_label": "919, Junipero Serra Boulevard, Santa Clara County, California, 94305, United States",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
