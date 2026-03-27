@@ -1,11 +1,11 @@
 {
-  "date": "2026-03-26T00:43:00.634Z",
+  "date": "2026-03-27T02:14:00.000Z",
   "coordinates": [
-    37.76,
-    -122.39
+    37.41,
+    -122.16
   ],
-  "label": "San Francisco",
-  "full_label": "825, Minnesota Street, Dogpatch, Potrero Hill, San Francisco, California, 94158, United States",
+  "label": "Santa Clara County",
+  "full_label": "919, Junipero Serra Boulevard, Santa Clara County, California, 94305, United States",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
