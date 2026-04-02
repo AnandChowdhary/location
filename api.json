@@ -1,11 +1,11 @@
 {
-  "date": "2026-04-02T03:25:02.637Z",
+  "date": "2026-04-02T15:00:00.000Z",
   "coordinates": [
-    37.72,
-    -121.86
+    37.43,
+    -121.9
   ],
-  "label": "Dublin",
-  "full_label": "3280, Cranbrook Place, Dublin, Alameda County, California, 94568, United States",
+  "label": "Milpitas",
+  "full_label": "Cobblestone Loop, Milpitas, Santa Clara County, California, 95035, United States",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
