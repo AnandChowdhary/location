@@ -1,11 +1,11 @@
 {
-  "date": "2026-04-03T14:27:26.639Z",
+  "date": "2026-04-04T03:00:00.000Z",
   "coordinates": [
-    37.41,
-    -122.15
+    37.7,
+    -121.86
   ],
-  "label": "Palo Alto",
-  "full_label": "Stanford Blood Center - Porter Lab, 3155, Porter Drive, Palo Alto, Santa Clara County, California, 94304, United States",
+  "label": "Pleasanton",
+  "full_label": "3170, Kirkcaldy Street, Pleasanton, Alameda County, California, 94568, United States",
   "timezone": {
     "name": "America/Los_Angeles",
     "countries": [
