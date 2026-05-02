@@ -1,11 +1,11 @@
 {
-  "date": "2026-04-27T14:55:41.986Z",
+  "date": "2026-05-02T13:43:36.812Z",
   "coordinates": [
-    52.09,
-    5.11
+    52.37,
+    4.9
   ],
-  "label": "Utrecht",
-  "full_label": "8, Stationshal, Hoog Catharijne, Ns, Jaarbeurs, Binnenstad City- En Winkelgebied, Binnenstad, Utrecht, Netherlands, 3511 CE, Netherlands",
+  "label": "Amsterdam",
+  "full_label": "35, Zuiderkerkhof, Valkenburg, Nieuwmarkt/Lastage, Centrum, Amsterdam, North Holland, Netherlands, 1011 XA, Netherlands",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
