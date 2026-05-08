@@ -9,21 +9,9 @@ import type { ApiResult, OpenStreetMapGeocodeResponse } from "..";
 const tzLookup = require("tz-lookup") as (lat: number, lon: number) => string;
 
 const MIN_TIME = 3 * 60 * 60 * 1000; // 3 hours, matching the Worker
-const MAX_ACCURACY_METERS = Number(
-  process.env.MAX_LOCATION_ACCURACY_METERS ?? 5000
-);
-
 interface IncomingPayload {
-  lat?: number | string;
-  latitude?: number | string;
-  lon?: number | string;
-  lng?: number | string;
-  longitude?: number | string;
-  timestamp?: string | number;
-  date?: string | number;
-  time?: string | number;
-  accuracy?: number | string;
-  source?: string;
+  lat?: unknown;
+  lon?: unknown;
 }
 
 const round2 = (value: number) => Math.round(value * 100) / 100;
@@ -59,34 +47,15 @@ const readPayload = async (): Promise<IncomingPayload> => {
   return parsed;
 };
 
-const numberFrom = (
-  payload: IncomingPayload,
-  keys: Array<keyof IncomingPayload>,
-  label: string
-) => {
-  const raw = keys.map((key) => payload[key]).find((value) => value !== undefined);
-  const value = typeof raw === "string" ? Number(raw) : raw;
+const numberFrom = (payload: IncomingPayload, key: keyof IncomingPayload) => {
+  const value = payload[key];
   if (typeof value !== "number" || Number.isNaN(value)) {
-    throw new Error(`Location payload must include numeric ${label}`);
+    throw new Error(`Location payload must include numeric ${key}`);
   }
   return value;
 };
 
-const dateFrom = (payload: IncomingPayload) => {
-  const raw = payload.timestamp ?? payload.date ?? payload.time;
-  if (raw === undefined) {
-    throw new Error("Location payload must include timestamp/date/time");
-  }
-
-  const date =
-    typeof raw === "number"
-      ? new Date(raw < 10_000_000_000 ? raw * 1000 : raw)
-      : new Date(raw);
-  if (Number.isNaN(date.getTime())) {
-    throw new Error("Location payload timestamp/date/time is invalid");
-  }
-  return date;
-};
+const dateFrom = () => new Date();
 
 const getLabel = (
   address: OpenStreetMapGeocodeResponse["address"],
@@ -132,26 +101,12 @@ const reverseGeocode = async (lat: number, lon: number) => {
 
 const main = async () => {
   const payload = await readPayload();
-  const latRaw = numberFrom(payload, ["lat", "latitude"], "lat/latitude");
-  const lonRaw = numberFrom(payload, ["lon", "lng", "longitude"], "lon/lng/longitude");
-  const timestamp = dateFrom(payload);
-  const accuracyRaw = payload.accuracy;
-  const accuracy =
-    accuracyRaw === undefined
-      ? undefined
-      : typeof accuracyRaw === "string"
-        ? Number(accuracyRaw)
-        : accuracyRaw;
+  const latRaw = numberFrom(payload, "lat");
+  const lonRaw = numberFrom(payload, "lon");
+  const timestamp = dateFrom();
 
   if (latRaw < -90 || latRaw > 90) throw new Error("Latitude is out of range");
   if (lonRaw < -180 || lonRaw > 180) throw new Error("Longitude is out of range");
-  if (accuracy !== undefined && Number.isNaN(accuracy)) {
-    throw new Error("Location payload accuracy must be numeric when provided");
-  }
-  if (accuracy !== undefined && accuracy > MAX_ACCURACY_METERS) {
-    skip(`accuracy ${Math.round(accuracy)}m is worse than ${MAX_ACCURACY_METERS}m`);
-    return;
-  }
 
   const previous = JSON.parse(await readFile("api.json", "utf-8")) as ApiResult;
   const lat = round2(latRaw);

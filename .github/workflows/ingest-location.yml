@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       payload:
-        description: 'JSON payload: {"lat":52.08,"lon":5.06,"timestamp":"2026-05-08T19:42:00+02:00","accuracy":35}'
+        description: 'JSON payload: {"lat":52.08,"lon":5.06}'
         required: true
         type: string
   repository_dispatch:

@@ -19,17 +19,14 @@ This repository is used to track my (approximate) location in real time using Ow
 
 ## 📲 Apple Shortcuts ingest
 
-The `Ingest Location` workflow accepts location updates from Apple Shortcuts via GitHub's API. Send already-rounded coordinates if possible: GitHub stores workflow inputs/dispatch payloads, so the workflow rounds again before committing but cannot remove precision from the dispatch metadata.
+The `Ingest Location` workflow accepts location updates from Apple Shortcuts via GitHub's API. The payload is intentionally tiny: just rounded latitude and longitude. GitHub stores workflow inputs/dispatch payloads, so round before sending if you don't want raw precise coordinates in the dispatch metadata.
 
 Payload shape:
 
 ```json
 {
   "lat": 52.08,
-  "lon": 5.06,
-  "timestamp": "2026-05-08T19:42:00+02:00",
-  "accuracy": 35,
-  "source": "apple-shortcuts"
+  "lon": 5.06
 }
 ```
 
@@ -44,10 +41,7 @@ curl -X POST https://api.github.com/repos/AnandChowdhary/location/dispatches \
     "event_type": "location-update",
     "client_payload": {
       "lat": 52.08,
-      "lon": 5.06,
-      "timestamp": "2026-05-08T19:42:00+02:00",
-      "accuracy": 35,
-      "source": "apple-shortcuts"
+      "lon": 5.06
     }
   }'
 ```
@@ -62,7 +56,7 @@ curl -X POST https://api.github.com/repos/AnandChowdhary/location/actions/workfl
   -d '{
     "ref": "main",
     "inputs": {
-      "payload": "{\"lat\":52.08,\"lon\":5.06,\"timestamp\":\"2026-05-08T19:42:00+02:00\",\"accuracy\":35,\"source\":\"apple-shortcuts\"}"
+      "payload": "{\"lat\":52.08,\"lon\":5.06}"
     }
   }'
 ```
