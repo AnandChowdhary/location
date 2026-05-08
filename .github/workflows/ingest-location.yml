@@ -1,0 +1,91 @@
+name: Ingest Location
+
+on:
+  workflow_dispatch:
+    inputs:
+      payload:
+        description: 'JSON payload: {"lat":52.08,"lon":5.06,"timestamp":"2026-05-08T19:42:00+02:00","accuracy":35}'
+        required: true
+        type: string
+  repository_dispatch:
+    types:
+      - location-update
+
+permissions:
+  contents: write
+
+concurrency:
+  group: location-ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Write location payload
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          WORKFLOW_PAYLOAD: ${{ github.event.inputs.payload }}
+          REPOSITORY_PAYLOAD: ${{ toJson(github.event.client_payload) }}
+        run: |
+          if [ "$EVENT_NAME" = "repository_dispatch" ]; then
+            printf '%s' "$REPOSITORY_PAYLOAD" > "$RUNNER_TEMP/location-payload.json"
+          else
+            printf '%s' "$WORKFLOW_PAYLOAD" > "$RUNNER_TEMP/location-payload.json"
+          fi
+          test -s "$RUNNER_TEMP/location-payload.json"
+
+      - name: Ingest location
+        id: ingest
+        run: npm run ingest -- "$RUNNER_TEMP/location-payload.json"
+
+      - name: Commit api.json
+        if: steps.ingest.outputs.changed == 'true'
+        env:
+          COMMIT_DATE: ${{ steps.ingest.outputs.date }}
+          COMMIT_MESSAGE: ${{ steps.ingest.outputs.message }}
+        run: |
+          git config user.name "Finding Anand"
+          git config user.email "bot@anandchowdhary.com"
+          git add api.json
+          GIT_AUTHOR_NAME="Finding Anand" \
+          GIT_AUTHOR_EMAIL="bot@anandchowdhary.com" \
+          GIT_COMMITTER_NAME="Finding Anand" \
+          GIT_COMMITTER_EMAIL="bot@anandchowdhary.com" \
+          GIT_AUTHOR_DATE="$COMMIT_DATE" \
+          GIT_COMMITTER_DATE="$COMMIT_DATE" \
+            git commit -m "$COMMIT_MESSAGE"
+          git push
+
+      - name: Summarize history
+        if: steps.ingest.outputs.changed == 'true'
+        run: npm run summarize
+
+      - name: Prepare Pages files
+        if: steps.ingest.outputs.changed == 'true'
+        run: |
+          mkdir -p public
+          cp api.json history*.json public/
+
+      - name: Deploy to GitHub Pages
+        if: steps.ingest.outputs.changed == 'true'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: public
+
+      - name: Report skipped update
+        if: steps.ingest.outputs.changed != 'true'
+        run: |
+          echo "Location update skipped: ${{ steps.ingest.outputs.reason }}"

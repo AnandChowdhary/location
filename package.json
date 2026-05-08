@@ -6,6 +6,7 @@
     "deploy": "wrangler publish",
     "takeout": "node -r @swc-node/register scripts/import-google-takeout.ts",
     "manual": "node -r @swc-node/register scripts/import-manual-data.ts",
+    "ingest": "node -r @swc-node/register scripts/ingest-location.ts",
     "summarize": "node -r @swc-node/register scripts/summarize.ts",
     "commits": "node -r @swc-node/register scripts/create-commits.ts"
   },
@@ -21,6 +22,7 @@
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250803.0",
     "@swc-node/register": "^1.10.10",
+    "@types/node": "^25.6.2",
     "@types/tz-lookup": "^6.1.2",
     "readdirp": "^4.1.2",
     "typescript": "^5.9.2",

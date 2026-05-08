@@ -17,6 +17,58 @@ This repository is used to track my (approximate) location in real time using Ow
 | Unique countries            | https://anandchowdhary.github.io/location/history-countries.json      |
 | Full country history        | https://anandchowdhary.github.io/location/history-countries-full.json |
 
+## 📲 Apple Shortcuts ingest
+
+The `Ingest Location` workflow accepts location updates from Apple Shortcuts via GitHub's API. Send already-rounded coordinates if possible: GitHub stores workflow inputs/dispatch payloads, so the workflow rounds again before committing but cannot remove precision from the dispatch metadata.
+
+Payload shape:
+
+```json
+{
+  "lat": 52.08,
+  "lon": 5.06,
+  "timestamp": "2026-05-08T19:42:00+02:00",
+  "accuracy": 35,
+  "source": "apple-shortcuts"
+}
+```
+
+Preferred endpoint for Shortcuts:
+
+```bash
+curl -X POST https://api.github.com/repos/AnandChowdhary/location/dispatches \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer <TOKEN>" \
+  -H "X-GitHub-Api-Version: 2022-11-28" \
+  -d '{
+    "event_type": "location-update",
+    "client_payload": {
+      "lat": 52.08,
+      "lon": 5.06,
+      "timestamp": "2026-05-08T19:42:00+02:00",
+      "accuracy": 35,
+      "source": "apple-shortcuts"
+    }
+  }'
+```
+
+Manual debug endpoint:
+
+```bash
+curl -X POST https://api.github.com/repos/AnandChowdhary/location/actions/workflows/ingest-location.yml/dispatches \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer <TOKEN>" \
+  -H "X-GitHub-Api-Version: 2022-11-28" \
+  -d '{
+    "ref": "main",
+    "inputs": {
+      "payload": "{\"lat\":52.08,\"lon\":5.06,\"timestamp\":\"2026-05-08T19:42:00+02:00\",\"accuracy\":35,\"source\":\"apple-shortcuts\"}"
+    }
+  }'
+```
+
+Use a fine-grained token scoped only to this repository. For `repository_dispatch`, grant Contents read/write. For `workflow_dispatch`, grant Actions write.
+
 ## 📄 License
 
 [MIT](./LICENSE) © [Anand Chowdhary](https://anandchowdhary.com)

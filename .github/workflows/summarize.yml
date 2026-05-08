@@ -5,6 +5,9 @@ on:
       - main
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   summarize:
     runs-on: ubuntu-latest
@@ -16,7 +19,7 @@ jobs:
       - uses: actions/setup-node@v4
       - run: npm ci
       - run: npm run summarize
-      - run: mkdir public && cp api.json public && cp history.json public && cp history-full.json public && cp history-unique.json public && cp history-countries.json public
+      - run: mkdir -p public && cp api.json history*.json public/
       - name: Deploy to Github Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
