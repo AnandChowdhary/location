@@ -1,22 +1,23 @@
 {
-  "date": "2026-02-19T12:05:17.000Z",
+  "date": "2026-05-07T14:41:03.000Z",
   "coordinates": [
-    9.51,
-    76.35
+    52.23,
+    6.89
   ],
-  "label": "Alappuzha",
-  "full_label": "Thathampally, Cheramankulangara, Alappuzha, Ambalappuzha, Alappuzha, Kerala, 688001, India",
+  "label": "Enschede",
+  "full_label": "10, Het Roombeekhofje, Roombeek, Enschede, Overijssel, Netherlands, 7523 JL, Netherlands",
   "timezone": {
-    "name": "Asia/Kolkata",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "IN"
+      "NL"
     ],
-    "utcOffset": 330,
-    "utcOffsetStr": "+05:30",
-    "dstOffset": 330,
-    "dstOffsetStr": "+05:30",
-    "aliasOf": null
+    "utcOffset": 60,
+    "utcOffsetStr": "+01:00",
+    "dstOffset": 120,
+    "dstOffsetStr": "+02:00",
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "in",
-  "country_emoji": "🇮🇳"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
