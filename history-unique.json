@@ -1,16 +1,5 @@
 [
   {
-    "label": "De Meern",
-    "coordinates": [
-      52.08,
-      5.06
-    ],
-    "date": "2026-05-10T08:00:25.822Z",
-    "hash": "6621b778164cd13bb0750d0475b1a92ed34cf373",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
     "label": "Alappuzha",
     "coordinates": [
       9.51,
