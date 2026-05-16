@@ -1,11 +1,11 @@
 {
-  "date": "2026-05-15T08:00:24.975Z",
+  "date": "2026-05-16T08:00:17.805Z",
   "coordinates": [
-    52.11,
-    5.05
+    52.08,
+    5.06
   ],
-  "label": "Utrecht",
-  "full_label": "25B, Proostwetering, De Wetering-zuid, Terwijde. De Wetering, Leidsche Rijn, Utrecht, Netherlands, 3543 AB, Netherlands",
+  "label": "De Meern",
+  "full_label": "46E, Strijkviertel, Oudenrijn, De Meern, Vleuten - De Meern, Utrecht, Netherlands, 3454 PN, Netherlands",
   "timezone": {
     "name": "Europe/Amsterdam",
     "countries": [
