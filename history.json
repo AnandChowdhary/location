@@ -1,5 +1,16 @@
 [
   {
+    "label": "Wengen",
+    "coordinates": [
+      46.6,
+      7.92
+    ],
+    "date": "2026-06-06T08:00:35.288Z",
+    "hash": "6a7bbf5deafd4aa42b91c1e5915a257907e9ed30",
+    "country_code": "ch",
+    "timezone_name": "Europe/Zurich"
+  },
+  {
     "label": "De Meern",
     "coordinates": [
       52.08,
