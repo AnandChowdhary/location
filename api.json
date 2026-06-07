@@ -1,11 +1,11 @@
 {
-  "date": "2026-06-06T08:00:35.288Z",
+  "date": "2026-06-07T08:00:23.446Z",
   "coordinates": [
-    46.6,
-    7.92
+    46.58,
+    7.96
   ],
-  "label": "Wengen",
-  "full_label": "1380, Mejetili, Gauchegg, Wengen, Lauterbrunnen, Interlaken-Oberhasli administrative district, Oberland administrative region, Bern, 3823, Switzerland",
+  "label": "Kleine Scheidegg",
+  "full_label": "Mendelssohnweg, Kleine Scheidegg, Lauterbrunnen, Interlaken-Oberhasli administrative district, Oberland administrative region, Bern, 3823, Switzerland",
   "timezone": {
     "name": "Europe/Zurich",
     "countries": [
