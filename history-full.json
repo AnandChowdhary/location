@@ -1,5 +1,16 @@
 [
   {
+    "label": "Wengen",
+    "coordinates": [
+      46.6,
+      7.92
+    ],
+    "date": "2026-06-08T08:00:28.449Z",
+    "hash": "301ba72ce610610c131f95d758ee7a200bce5f3c",
+    "country_code": "ch",
+    "timezone_name": "Europe/Zurich"
+  },
+  {
     "label": "Kleine Scheidegg",
     "coordinates": [
       46.58,
