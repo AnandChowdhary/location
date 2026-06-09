@@ -1,11 +1,11 @@
 {
-  "date": "2026-06-08T08:00:28.449Z",
+  "date": "2026-06-09T08:00:25.090Z",
   "coordinates": [
-    46.6,
-    7.92
+    46.69,
+    7.87
   ],
-  "label": "Wengen",
-  "full_label": "1380, Mejetili, Gauchegg, Wengen, Lauterbrunnen, Interlaken-Oberhasli administrative district, Oberland administrative region, Bern, 3823, Switzerland",
+  "label": "Interlaken",
+  "full_label": "12, Untere Bönigstrasse, Interlaken, Interlaken-Oberhasli administrative district, Oberland administrative region, Bern, 3800, Switzerland",
   "timezone": {
     "name": "Europe/Zurich",
     "countries": [
