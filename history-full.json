@@ -1,5 +1,16 @@
 [
   {
+    "label": "Wengen",
+    "coordinates": [
+      46.6,
+      7.92
+    ],
+    "date": "2026-06-10T08:00:38.777Z",
+    "hash": "dedc73fbecf286487188a6c7680015b4254604be",
+    "country_code": "ch",
+    "timezone_name": "Europe/Zurich"
+  },
+  {
     "label": "Interlaken",
     "coordinates": [
       46.69,

@@ -1,12 +1,12 @@
 [
   {
-    "label": "Kleine Scheidegg",
+    "label": "Interlaken",
     "coordinates": [
-      46.58,
-      7.96
+      46.69,
+      7.87
     ],
-    "date": "2026-06-07T08:00:23.446Z",
-    "hash": "636ad8caf408e0b4097521e8c14e65e1b02cb894",
+    "date": "2026-06-09T08:00:25.090Z",
+    "hash": "b239768a75d07538eb1a1c6d98ed38d428bc5ff9",
     "country_code": "ch",
     "timezone_name": "Europe/Zurich"
   },
