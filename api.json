@@ -1,11 +1,11 @@
 {
-  "date": "2026-06-10T08:00:38.777Z",
+  "date": "2026-06-11T08:00:47.365Z",
   "coordinates": [
-    46.6,
-    7.92
+    46.95,
+    7.44
   ],
-  "label": "Wengen",
-  "full_label": "1380, Mejetili, Gauchegg, Wengen, Lauterbrunnen, Interlaken-Oberhasli administrative district, Oberland administrative region, Bern, 3823, Switzerland",
+  "label": "Bern",
+  "full_label": "8a, Bollwerk, Rotes Quartier, Stadtteil I, Bern, Bern-Mittelland administrative district, Bernese Mittelland administrative region, Bern, 3011, Switzerland",
   "timezone": {
     "name": "Europe/Zurich",
     "countries": [

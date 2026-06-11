@@ -1,5 +1,16 @@
 [
   {
+    "label": "Bern",
+    "coordinates": [
+      46.95,
+      7.44
+    ],
+    "date": "2026-06-11T08:00:47.365Z",
+    "hash": "5f5d3295577ae618b33af729ee7a6ce4be0805d0",
+    "country_code": "ch",
+    "timezone_name": "Europe/Zurich"
+  },
+  {
     "label": "Wengen",
     "coordinates": [
       46.6,
