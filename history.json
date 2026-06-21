@@ -1,16 +1,5 @@
 [
   {
-    "label": "Utrecht",
-    "coordinates": [
-      52.09,
-      5.11
-    ],
-    "date": "2026-06-15T08:00:42.818Z",
-    "hash": "c0cc47d66478d76de8f49c06eb8192716df9721f",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
     "label": "De Meern",
     "coordinates": [
       52.08,

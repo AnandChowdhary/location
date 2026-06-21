@@ -1,5 +1,16 @@
 [
   {
+    "label": "Schiphol",
+    "coordinates": [
+      52.31,
+      4.76
+    ],
+    "date": "2026-06-21T08:00:36.392Z",
+    "hash": "d3e0278021d370ca88504df2a5f226144658830d",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
     "label": "De Meern",
     "coordinates": [
       52.08,
