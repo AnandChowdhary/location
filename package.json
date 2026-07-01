@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "start": "wrangler dev",
-    "deploy": "wrangler publish",
+    "deploy": "wrangler deploy",
     "takeout": "node -r @swc-node/register scripts/import-google-takeout.ts",
     "manual": "node -r @swc-node/register scripts/import-manual-data.ts",
     "ingest": "node -r @swc-node/register scripts/ingest-location.ts",
@@ -16,7 +16,7 @@
     "countries-and-timezones": "^3.8.0",
     "country-emoji": "^1.5.6",
     "dayjs": "^1.11.13",
-    "simple-git": "^3.28.0",
+    "simple-git": "^3.36.0",
     "tz-lookup": "^6.1.25"
   },
   "devDependencies": {
@@ -26,6 +26,6 @@
     "@types/tz-lookup": "^6.1.2",
     "readdirp": "^4.1.2",
     "typescript": "^5.9.2",
-    "wrangler": "^4.27.0"
+    "wrangler": "^4.106.0"
   }
 }
