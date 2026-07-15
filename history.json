@@ -110,7 +110,7 @@
     "timezone_name": "Asia/Kolkata"
   },
   {
-    "label": "Jammu and Kashmir",
+    "label": "Jammu",
     "coordinates": [
       32.86,
       74.73
@@ -198,17 +198,6 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.32,
-      4.75
-    ],
-    "date": "2025-07-13T08:46:30.324Z",
-    "hash": "0e8991857cfca4b4f55f5968b3bf8114c217aff5",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
     "label": "Milan",
     "coordinates": [
       45.46,
@@ -253,17 +242,6 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.31,
-      4.77
-    ],
-    "date": "2025-06-14T21:37:55.364Z",
-    "hash": "29bdf5065766a40556ec3f9221900a333f8e94ac",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
     "label": "New York",
     "coordinates": [
       40.65,
@@ -282,17 +260,6 @@
     ],
     "date": "2025-05-07T14:27:37.939Z",
     "hash": "c0b86b2c98ea14359eb952ea0536a3b4119e98e1",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.31,
-      4.76
-    ],
-    "date": "2025-03-15T07:52:48.695Z",
-    "hash": "2fc1eb0f82b753d674ef0f783c019df0e12519c3",
     "country_code": "nl",
     "timezone_name": "Europe/Amsterdam"
   },
@@ -583,17 +550,6 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.3,
-      4.76
-    ],
-    "date": "2024-03-24T15:56:22.999Z",
-    "hash": "397c95e778bf231a5702f58adcd9a7b1366fc0d0",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
     "label": "Obergoms",
     "coordinates": [
       46.53,
@@ -627,17 +583,6 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.31,
-      4.76
-    ],
-    "date": "2024-01-17T07:11:23.870Z",
-    "hash": "eead37b7e3c6c6c5186b1250d23cdc4328934089",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
     "label": "New Delhi",
     "coordinates": [
       28.56,
@@ -656,17 +601,6 @@
     ],
     "date": "2023-11-18T21:55:40.028Z",
     "hash": "1a73217f689ddd1eda585457d202ab48edfd8995",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.31,
-      4.76
-    ],
-    "date": "2023-11-10T15:49:19.791Z",
-    "hash": "fdfcbe8c40dfe8c27ae9c2d158a3e992204415e9",
     "country_code": "nl",
     "timezone_name": "Europe/Amsterdam"
   },
@@ -711,17 +645,6 @@
     ],
     "date": "2023-10-14T20:46:45.999Z",
     "hash": "d7ae7e43c68edfb06c183a1bc95689642a98c6b7",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.31,
-      4.77
-    ],
-    "date": "2023-09-26T20:35:19.000Z",
-    "hash": "ecb39cd60e3bdad8b614cba8f5c9fd53dccf447d",
     "country_code": "nl",
     "timezone_name": "Europe/Amsterdam"
   },
@@ -869,17 +792,6 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.33,
-      4.73
-    ],
-    "date": "2023-04-23T05:02:14.489Z",
-    "hash": "34e1ffd32791df509cf2ea3e6516b1e4d5e489fd",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
     "label": "Abu Dhabi",
     "coordinates": [
       24.43,
@@ -920,17 +832,6 @@
     ],
     "date": "2023-02-03T20:11:08.000Z",
     "hash": "e5c08d416a67199b61723072f8db9f23a246fb42",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.31,
-      4.76
-    ],
-    "date": "2023-02-03T03:55:13.754Z",
-    "hash": "854ab1d30597806d5e565b0023189ffe985e4834",
     "country_code": "nl",
     "timezone_name": "Europe/Amsterdam"
   },
@@ -979,17 +880,6 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.31,
-      4.76
-    ],
-    "date": "2022-12-25T18:00:57.603Z",
-    "hash": "a08b50ee67d10ef275323950b03a9d4ebc32b1aa",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
     "label": "London",
     "coordinates": [
       51.5,
@@ -1012,17 +902,6 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.31,
-      4.77
-    ],
-    "date": "2022-11-13T02:32:32.000Z",
-    "hash": "b5fd2975826c8275cf3e08a473ffad726c0431a2",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
     "label": "San Francisco",
     "coordinates": [
       37.62,
@@ -1041,17 +920,6 @@
     ],
     "date": "2022-10-11T22:22:31.999Z",
     "hash": "2b51e57fe6a805fb9d42117b2fa7f79f0fa4171f",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.31,
-      4.77
-    ],
-    "date": "2022-09-30T00:48:46.000Z",
-    "hash": "c17727faa4c6355048f03f0961b0836e74c85093",
     "country_code": "nl",
     "timezone_name": "Europe/Amsterdam"
   },
@@ -1089,17 +957,6 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.31,
-      4.76
-    ],
-    "date": "2022-09-16T14:59:07.200Z",
-    "hash": "4821cbb8de620bf6a7ecf22708b8a2fb4342836a",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
     "label": "Geneva",
     "coordinates": [
       46.51,
@@ -1129,17 +986,6 @@
     ],
     "date": "2022-09-07T16:41:17.583Z",
     "hash": "b1512977cc33bd73eca9ba2db933a7c379d2e3b6",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.31,
-      4.76
-    ],
-    "date": "2022-09-07T13:58:22.000Z",
-    "hash": "d557ec54147c9b096c75445945fee9bff104b921",
     "country_code": "nl",
     "timezone_name": "Europe/Amsterdam"
   },
@@ -1265,17 +1111,6 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.31,
-      4.76
-    ],
-    "date": "2022-03-09T11:45:09.635Z",
-    "hash": "b0a6dc8fcd0effedb4fcb5250bf72b02097a28c1",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
     "label": "Prague",
     "coordinates": [
       50.09,
@@ -1320,17 +1155,6 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.31,
-      4.76
-    ],
-    "date": "2022-02-08T21:05:56.999Z",
-    "hash": "184cb88e9680d9418061f48edbb77a11b05353db",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
     "label": "New Delhi",
     "coordinates": [
       28.54,
@@ -1349,17 +1173,6 @@
     ],
     "date": "2021-10-03T21:56:19.485Z",
     "hash": "cdc825a3cb0aed7d43b3d28f0c9b5f79c51ce3c6",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.31,
-      4.75
-    ],
-    "date": "2021-10-03T18:40:27.000Z",
-    "hash": "4b263db52a1e699522dbb59b50467f1deb9c8dd1",
     "country_code": "nl",
     "timezone_name": "Europe/Amsterdam"
   },
@@ -1463,17 +1276,6 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.31,
-      4.76
-    ],
-    "date": "2021-07-27T22:48:10.000Z",
-    "hash": "cb7d736e39707fa4c8b5c89eedcdfff8686601a2",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
     "label": "New Delhi",
     "coordinates": [
       28.56,
@@ -1492,17 +1294,6 @@
     ],
     "date": "2021-04-05T07:49:23.129Z",
     "hash": "e89b185bb7512458e89e47fd9f5b709c02d76c0d",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.31,
-      4.76
-    ],
-    "date": "2021-04-04T21:02:59.300Z",
-    "hash": "e20d2d028063bc0298d9ffda9f3b6586dc123c85",
     "country_code": "nl",
     "timezone_name": "Europe/Amsterdam"
   },
@@ -1540,17 +1331,6 @@
     "timezone_name": "Asia/Kolkata"
   },
   {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.31,
-      4.76
-    ],
-    "date": "2020-03-15T07:15:25.604Z",
-    "hash": "43323b314cafba25ede7d779b87ec49f05503627",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
     "label": "Enschede",
     "coordinates": [
       52.22,
@@ -1558,17 +1338,6 @@
     ],
     "date": "2020-02-01T16:38:16.025Z",
     "hash": "afb52e55c7eae4ba7c5540184cdea5f2068be6b5",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.31,
-      4.76
-    ],
-    "date": "2020-02-01T10:41:57.957Z",
-    "hash": "e683735240ff67466992fd535576869b79ebb1fe",
     "country_code": "nl",
     "timezone_name": "Europe/Amsterdam"
   },
@@ -1727,17 +1496,6 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.31,
-      4.77
-    ],
-    "date": "2019-04-28T06:04:01.042Z",
-    "hash": "210bdf9ccf281094847ff7f51a4bb98a7ab96854",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
     "label": "New Delhi",
     "coordinates": [
       28.56,
@@ -1756,17 +1514,6 @@
     ],
     "date": "2019-01-10T21:45:36.405Z",
     "hash": "9c9767c3725c23369145d932fcb50bbd46dc8651",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.31,
-      4.77
-    ],
-    "date": "2019-01-10T11:14:03.361Z",
-    "hash": "f07d2f8526969f0681c05bf3198a299b1d0dddef",
     "country_code": "nl",
     "timezone_name": "Europe/Amsterdam"
   },
@@ -1947,17 +1694,6 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.31,
-      4.77
-    ],
-    "date": "2018-09-01T12:42:21.209Z",
-    "hash": "35c052b26308c201c1bbb498ceff765599f296c7",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
     "label": "New Delhi",
     "coordinates": [
       28.56,
@@ -1967,17 +1703,6 @@
     "hash": "f02f3e7245d5fc2e0385ac0a7e26b4b3977698a5",
     "country_code": "in",
     "timezone_name": "Asia/Kolkata"
-  },
-  {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.31,
-      4.76
-    ],
-    "date": "2018-07-06T19:51:04.014Z",
-    "hash": "592a12ced3f58c753d2207059f85c3af209a10c2",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
   },
   {
     "label": "Enschede",
@@ -1991,17 +1716,6 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.31,
-      4.77
-    ],
-    "date": "2018-07-06T07:14:58.582Z",
-    "hash": "aee22bec699d4cd84d2dd83f66aed5c0704fca86",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
     "label": "Toulouse",
     "coordinates": [
       43.63,
@@ -2011,17 +1725,6 @@
     "hash": "a06888bc181457993bb295e5095bbf38cbf8f7b8",
     "country_code": "fr",
     "timezone_name": "Europe/Paris"
-  },
-  {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.31,
-      4.76
-    ],
-    "date": "2018-07-03T20:13:01.088Z",
-    "hash": "741ff5c439fc8f157726051cf6f041e3179b6178",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
   },
   {
     "label": "Enschede",
@@ -2167,17 +1870,6 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.31,
-      4.77
-    ],
-    "date": "2018-01-13T13:37:14.847Z",
-    "hash": "68e1e747fea10a068da15de53547ab7bd0cba362",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
     "label": "Rome",
     "coordinates": [
       41.8,
@@ -2229,17 +1921,6 @@
     ],
     "date": "2017-08-22T19:23:15.796Z",
     "hash": "365eed40f41252f2a30fa4c6300e1079c7d792d6",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.31,
-      4.77
-    ],
-    "date": "2017-08-22T10:34:19.660Z",
-    "hash": "f54f433776c2eef8d64d00d1826065fdef4fa30e",
     "country_code": "nl",
     "timezone_name": "Europe/Amsterdam"
   },

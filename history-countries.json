@@ -134,11 +134,11 @@
   {
     "label": "Netherlands",
     "coordinates": [
-      52.31,
-      4.77
+      52.22,
+      6.89
     ],
-    "date": "2017-08-22T10:34:19.660Z",
-    "hash": "f54f433776c2eef8d64d00d1826065fdef4fa30e",
+    "date": "2017-08-22T19:23:15.796Z",
+    "hash": "365eed40f41252f2a30fa4c6300e1079c7d792d6",
     "country_code": "nl",
     "timezone_name": "Europe/Amsterdam"
   },

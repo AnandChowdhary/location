@@ -44,17 +44,6 @@
     "timezone_name": "Asia/Kolkata"
   },
   {
-    "label": "Jammu and Kashmir",
-    "coordinates": [
-      32.86,
-      74.73
-    ],
-    "date": "2026-02-09T18:29:16.000Z",
-    "hash": "2af4b5f95874bbdf8f418f3cf9d08fe35252771a",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
-  },
-  {
     "label": "Florence",
     "coordinates": [
       43.82,
@@ -295,6 +284,17 @@
     "hash": "b1ba6f1eecd0019e8ffd4aa2d562d41fb67e9617",
     "country_code": "ch",
     "timezone_name": "Europe/Zurich"
+  },
+  {
+    "label": "Amsterdam",
+    "coordinates": [
+      52.39,
+      4.84
+    ],
+    "date": "2021-09-06T04:24:35.083Z",
+    "hash": "bb76cc45f4a56429b492085a47e6d06c7612fa31",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
   },
   {
     "label": "Hoogstraten",
@@ -590,17 +590,6 @@
     ],
     "date": "2017-08-22T19:23:15.796Z",
     "hash": "365eed40f41252f2a30fa4c6300e1079c7d792d6",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
-    "label": "Amsterdam",
-    "coordinates": [
-      52.31,
-      4.77
-    ],
-    "date": "2017-08-22T10:34:19.660Z",
-    "hash": "f54f433776c2eef8d64d00d1826065fdef4fa30e",
     "country_code": "nl",
     "timezone_name": "Europe/Amsterdam"
   },
