@@ -1,5 +1,16 @@
 [
   {
+    "label": "San Francisco",
+    "coordinates": [
+      37.79,
+      -122.41
+    ],
+    "date": "2026-08-01T08:00:33.235Z",
+    "hash": "6719c4ee60706a4cfaf131cc69ddaf72df235bb6",
+    "country_code": "us",
+    "timezone_name": "America/Los_Angeles"
+  },
+  {
     "label": "Dublin",
     "coordinates": [
       37.72,
