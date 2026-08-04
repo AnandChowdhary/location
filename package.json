@@ -26,6 +26,6 @@
     "@types/tz-lookup": "^6.1.2",
     "readdirp": "^4.1.2",
     "typescript": "^5.9.2",
-    "wrangler": "^4.106.0"
+    "wrangler": "^4.118.0"
   }
 }
