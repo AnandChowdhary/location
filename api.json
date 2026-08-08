@@ -1,22 +1,23 @@
 {
-  "date": "2026-08-02T08:00:24.855Z",
+  "date": "2026-08-08T08:00:23.971Z",
   "coordinates": [
-    37.72,
-    -121.85
+    52.18,
+    4.99
   ],
-  "label": "Dublin",
-  "full_label": "5165, Salerno Drive, Dublin, Alameda County, California, 94568, United States",
+  "label": "Breukelen",
+  "full_label": "De Corridor, Breukelerwaard, Breukelen, Stichtse Vecht, Utrecht, Netherlands, 3621 ZB, Netherlands",
   "timezone": {
-    "name": "America/Los_Angeles",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "US"
+      "NL"
     ],
-    "utcOffset": -480,
-    "utcOffsetStr": "-08:00",
-    "dstOffset": -420,
-    "dstOffsetStr": "-07:00",
-    "aliasOf": null
+    "utcOffset": 60,
+    "utcOffsetStr": "+01:00",
+    "dstOffset": 120,
+    "dstOffsetStr": "+02:00",
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "us",
-  "country_emoji": "🇺🇸"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
