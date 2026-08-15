@@ -1,5 +1,16 @@
 [
   {
+    "label": "France",
+    "coordinates": [
+      43.7,
+      7.26
+    ],
+    "date": "2026-08-15T08:00:37.060Z",
+    "hash": "e38d525f85ccf9cbde971a82ba0e8ed6a32f24fd",
+    "country_code": "fr",
+    "timezone_name": "Europe/Paris"
+  },
+  {
     "label": "Netherlands",
     "coordinates": [
       52.18,
