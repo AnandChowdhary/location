@@ -20,12 +20,12 @@
     "tz-lookup": "^6.1.25"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20250803.0",
+    "@cloudflare/workers-types": "5.20260816.1",
     "@swc-node/register": "^1.10.10",
     "@types/node": "^25.6.2",
     "@types/tz-lookup": "^6.1.2",
     "readdirp": "^4.1.2",
     "typescript": "^5.9.2",
-    "wrangler": "^4.106.0"
+    "wrangler": "4.123.0"
   }
 }
