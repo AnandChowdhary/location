@@ -1,11 +1,11 @@
 {
-  "date": "2026-08-15T08:00:37.060Z",
+  "date": "2026-08-18T08:00:33.824Z",
   "coordinates": [
-    43.7,
-    7.26
+    48.87,
+    2.29
   ],
-  "label": "Nice",
-  "full_label": "2, Petite Avenue René Bouteilly, Thiers, La Buffa, Nice, Maritime Alps, Provence-Alpes-Côte d'Azur, Metropolitan France, 06000, France",
+  "label": "Paris",
+  "full_label": "15, Rue Paul Valéry, Chaillot, 16th Arrondissement, Paris, Ile-de-France, Metropolitan France, 75116, France",
   "timezone": {
     "name": "Europe/Paris",
     "countries": [

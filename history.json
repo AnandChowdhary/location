@@ -1,5 +1,16 @@
 [
   {
+    "label": "Paris",
+    "coordinates": [
+      48.87,
+      2.29
+    ],
+    "date": "2026-08-18T08:00:33.824Z",
+    "hash": "8cf496e8f35946e2c6702eb28512ccab8f7b9562",
+    "country_code": "fr",
+    "timezone_name": "Europe/Paris"
+  },
+  {
     "label": "Nice",
     "coordinates": [
       43.7,
