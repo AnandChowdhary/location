@@ -1,5 +1,16 @@
 [
   {
+    "label": "De Meern",
+    "coordinates": [
+      52.08,
+      5.06
+    ],
+    "date": "2026-08-19T08:00:19.832Z",
+    "hash": "6de1dab81dde34868692c8bbed613408e1cc2ad6",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
     "label": "Paris",
     "coordinates": [
       48.87,
