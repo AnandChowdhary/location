@@ -1,5 +1,16 @@
 [
   {
+    "label": "Athens",
+    "coordinates": [
+      37.99,
+      23.77
+    ],
+    "date": "2026-09-12T11:23:23.254Z",
+    "hash": "23ecb225ce700f9ccf1b9c70036577c139bd7b10",
+    "country_code": "gr",
+    "timezone_name": "Europe/Athens"
+  },
+  {
     "label": "Breukelen",
     "coordinates": [
       52.18,
