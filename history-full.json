@@ -1,5 +1,16 @@
 [
   {
+    "label": "Naxos",
+    "coordinates": [
+      37.08,
+      25.34
+    ],
+    "date": "2026-09-17T08:00:20.696Z",
+    "hash": "4962f7777aaefa1326c4c27f00927af80dd25451",
+    "country_code": "gr",
+    "timezone_name": "Europe/Athens"
+  },
+  {
     "label": "Plintri",
     "coordinates": [
       37.42,
