@@ -1,22 +1,23 @@
 {
-  "date": "2026-09-20T08:00:30.156Z",
+  "date": "2026-09-21T08:00:59.828Z",
   "coordinates": [
-    37.46,
-    25.32
+    52.08,
+    5.06
   ],
-  "label": "Tourlos",
-  "full_label": "New Port of Mykonos, Μυκόνου - Αγίου Στεφάνου, Mykonos Community, Tourlos, Municipality of Mykonos, Mykonos Regional Unit, South Aegean, Aegean, 846 00, Greece",
+  "label": "De Meern",
+  "full_label": "46E, Strijkviertel, Oudenrijn, De Meern, Vleuten - De Meern, Utrecht, Netherlands, 3454 PN, Netherlands",
   "timezone": {
-    "name": "Europe/Athens",
+    "name": "Europe/Amsterdam",
     "countries": [
-      "GR"
+      "NL"
     ],
-    "utcOffset": 120,
-    "utcOffsetStr": "+02:00",
-    "dstOffset": 180,
-    "dstOffsetStr": "+03:00",
-    "aliasOf": null
+    "utcOffset": 60,
+    "utcOffsetStr": "+01:00",
+    "dstOffset": 120,
+    "dstOffsetStr": "+02:00",
+    "aliasOf": "Europe/Brussels",
+    "deprecated": true
   },
-  "country_code": "gr",
-  "country_emoji": "🇬🇷"
+  "country_code": "nl",
+  "country_emoji": "🇳🇱"
 }
