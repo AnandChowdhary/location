@@ -1,5 +1,16 @@
 [
   {
+    "label": "Pleasanton",
+    "coordinates": [
+      37.7,
+      -121.89
+    ],
+    "date": "2026-10-17T08:00:37.775Z",
+    "hash": "71bf9a062a04777a5f42186441595058956a54c5",
+    "country_code": "us",
+    "timezone_name": "America/Los_Angeles"
+  },
+  {
     "label": "Dublin",
     "coordinates": [
       37.72,
