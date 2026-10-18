@@ -1,5 +1,16 @@
 [
   {
+    "label": "De Meern",
+    "coordinates": [
+      52.08,
+      5.06
+    ],
+    "date": "2026-10-18T08:00:39.936Z",
+    "hash": "e47b3796999d3b465dc836ac222a3dba03123b88",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
     "label": "Pleasanton",
     "coordinates": [
       37.7,
