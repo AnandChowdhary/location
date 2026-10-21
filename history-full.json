@@ -1,5 +1,16 @@
 [
   {
+    "label": "Baambrugge",
+    "coordinates": [
+      52.23,
+      4.98
+    ],
+    "date": "2026-10-21T08:00:23.497Z",
+    "hash": "0f9e22829014d4564cbf18ed3107c4b6bd002d9e",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
     "label": "De Meern",
     "coordinates": [
       52.08,
