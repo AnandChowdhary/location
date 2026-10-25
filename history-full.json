@@ -1,5 +1,16 @@
 [
   {
+    "label": "Delhi",
+    "coordinates": [
+      28.53,
+      77.25
+    ],
+    "date": "2026-10-25T08:00:25.165Z",
+    "hash": "b7603a464c1c95392aefa52463f2b83dddc56470",
+    "country_code": "in",
+    "timezone_name": "Asia/Kolkata"
+  },
+  {
     "label": "De Meern",
     "coordinates": [
       52.08,

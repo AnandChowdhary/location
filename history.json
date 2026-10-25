@@ -1,14 +1,14 @@
 [
   {
-    "label": "Baambrugge",
+    "label": "New Delhi",
     "coordinates": [
-      52.23,
-      4.98
+      28.53,
+      77.25
     ],
-    "date": "2026-10-21T08:00:23.497Z",
-    "hash": "0f9e22829014d4564cbf18ed3107c4b6bd002d9e",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
+    "date": "2026-10-25T08:00:25.165Z",
+    "hash": "b7603a464c1c95392aefa52463f2b83dddc56470",
+    "country_code": "in",
+    "timezone_name": "Asia/Kolkata"
   },
   {
     "label": "Utrecht",
