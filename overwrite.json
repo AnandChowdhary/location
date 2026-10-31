@@ -3,6 +3,7 @@
     "description": "Map similar location labels to deduplicate entries. Each key is a label that will be replaced by the value.",
     "labels": {
       "San Mateo County": "San Francisco",
+      "San Jose": "San Francisco",
       "Noord-Holland": "Schiphol",
       "Delhi": "New Delhi",
       "Kloten": "Zurich",
