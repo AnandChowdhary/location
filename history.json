@@ -1,5 +1,16 @@
 [
   {
+    "label": "Mauregard",
+    "coordinates": [
+      49.02,
+      2.57
+    ],
+    "date": "2026-11-05T09:00:48.559Z",
+    "hash": "41366c2343a3d6de4e19ccad8f3024d127e95766",
+    "country_code": "fr",
+    "timezone_name": "Europe/Paris"
+  },
+  {
     "label": "New Delhi",
     "coordinates": [
       28.53,
