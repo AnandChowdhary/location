@@ -1,5 +1,16 @@
 [
   {
+    "label": "Issy-les-Moulineaux",
+    "coordinates": [
+      48.82,
+      2.26
+    ],
+    "date": "2026-11-06T09:00:23.321Z",
+    "hash": "80ffca17b83ac710ad5d42dc3b0db82bf44517af",
+    "country_code": "fr",
+    "timezone_name": "Europe/Paris"
+  },
+  {
     "label": "Mauregard",
     "coordinates": [
       49.02,
