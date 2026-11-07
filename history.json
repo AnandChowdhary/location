@@ -1,5 +1,16 @@
 [
   {
+    "label": "New Delhi",
+    "coordinates": [
+      28.53,
+      77.25
+    ],
+    "date": "2026-11-07T08:00:34.900Z",
+    "hash": "77fdc5bd0804990896987dabd950e6762f738f28",
+    "country_code": "in",
+    "timezone_name": "Asia/Kolkata"
+  },
+  {
     "label": "Issy-les-Moulineaux",
     "coordinates": [
       48.82,
