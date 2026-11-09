@@ -76,6 +76,14 @@ const getLabel = (
   return label;
 };
 
+// Use the same label aliases as summarize.ts so api.json says "Paris", not a suburb.
+const applySimilarLabel = async (label: string) => {
+  const overwrite = JSON.parse(await readFile("overwrite.json", "utf-8")) as {
+    similarLabels: { labels: Record<string, string> };
+  };
+  return overwrite.similarLabels.labels[label] ?? label;
+};
+
 const reverseGeocode = async (lat: number, lon: number) => {
   const url = `https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${lat}&lon=${lon}`;
   let lastError: unknown;
@@ -138,7 +146,7 @@ const main = async () => {
   if (!timezone) throw new Error(`Timezone not found for ${lat}, ${lon}`);
 
   const countryEmoji = flag(country.id) ?? "🌍";
-  const label = getLabel(geocode.address, country.name);
+  const label = await applySimilarLabel(getLabel(geocode.address, country.name));
 
   if (previous.label === label && previous.country_code === countryCode) {
     skip("location label is unchanged");
