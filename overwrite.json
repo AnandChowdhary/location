@@ -88,6 +88,8 @@
       "Ile-de-France": "Paris",
       "Issy-les-Moulineaux": "Paris",
       "Mauregard": "Paris",
+      "Breukelen": "Utrecht",
+      "Nazareth": "Ghent",
       "Occitania": "Toulouse",
       "Lazio": "Rome",
       "Paradise": "Las Vegas",
@@ -103,6 +105,10 @@
   "layovers": {
     "description": "Manually ignore layovers where I don't spend much time outside the airport. Each entry is a git hash to be ignored.",
     "hashes": [
+      "c3099d8a5244114c10463792996278a7128c07a5",
+      "9af34d9158c5829583800bede1a2bdafe1f1ac19",
+      "2af4b5f95874bbdf8f418f3cf9d08fe35252771a",
+      "5bfb3d90a21f57b6e03d15a90f440e3fbe7d89bb",
       "68530e461f7970be60e196e0064d624041b8627a",
       "cbb8f5775ed48383de5b3752f1e21e2ed8153a53",
       "78be355d2623a7ee1862e29dea3bf78578aa6cd9",
