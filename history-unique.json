@@ -22,17 +22,6 @@
     "timezone_name": "Europe/Athens"
   },
   {
-    "label": "Breukelen",
-    "coordinates": [
-      52.18,
-      4.99
-    ],
-    "date": "2026-08-08T08:00:23.971Z",
-    "hash": "860e2ec63e032b7c6211361fc35b6b19a66398cd",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
     "label": "Interlaken",
     "coordinates": [
       46.69,
@@ -62,17 +51,6 @@
     ],
     "date": "2026-02-19T12:05:17.000Z",
     "hash": "e7d8367a98e1a04aecd26eff10d2465b5083e66b",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
-  },
-  {
-    "label": "Kalamassery",
-    "coordinates": [
-      10.04,
-      76.32
-    ],
-    "date": "2026-02-19T09:04:08.000Z",
-    "hash": "5bfb3d90a21f57b6e03d15a90f440e3fbe7d89bb",
     "country_code": "in",
     "timezone_name": "Asia/Kolkata"
   },
@@ -141,17 +119,6 @@
     "hash": "3e8a78ca587759049e8fb8a80968c5d049ab54b0",
     "country_code": "pt",
     "timezone_name": "Europe/Lisbon"
-  },
-  {
-    "label": "Ghent",
-    "coordinates": [
-      51.04,
-      3.71
-    ],
-    "date": "2024-08-24T15:50:12.873Z",
-    "hash": "eedf52e6e74e6b34b28f0c377ba015d97cd9b36d",
-    "country_code": "be",
-    "timezone_name": "Europe/Brussels"
   },
   {
     "label": "Nice",
@@ -286,17 +253,6 @@
     "timezone_name": "Europe/Berlin"
   },
   {
-    "label": "Bad Bentheim",
-    "coordinates": [
-      52.31,
-      7.15
-    ],
-    "date": "2022-02-28T07:46:50.918Z",
-    "hash": "9af34d9158c5829583800bede1a2bdafe1f1ac19",
-    "country_code": "de",
-    "timezone_name": "Europe/Berlin"
-  },
-  {
     "label": "Bern",
     "coordinates": [
       46.95,
@@ -330,18 +286,7 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Hoogstraten",
-    "coordinates": [
-      51.48,
-      4.73
-    ],
-    "date": "2021-09-06T01:52:05.140Z",
-    "hash": "c3099d8a5244114c10463792996278a7128c07a5",
-    "country_code": "be",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
-    "label": "Nazareth",
+    "label": "Ghent",
     "coordinates": [
       50.97,
       3.61

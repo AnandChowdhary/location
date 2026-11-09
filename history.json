@@ -123,17 +123,6 @@
   {
     "label": "Utrecht",
     "coordinates": [
-      52.08,
-      5.06
-    ],
-    "date": "2026-08-09T08:00:33.552Z",
-    "hash": "d6c7e9f9ad4e977313c6bdaa534b9e1f59ab73ba",
-    "country_code": "nl",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
-    "label": "Breukelen",
-    "coordinates": [
       52.18,
       4.99
     ],
@@ -231,17 +220,6 @@
     "timezone_name": "Asia/Kolkata"
   },
   {
-    "label": "Kalamassery",
-    "coordinates": [
-      10.04,
-      76.32
-    ],
-    "date": "2026-02-19T09:04:08.000Z",
-    "hash": "5bfb3d90a21f57b6e03d15a90f440e3fbe7d89bb",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
-  },
-  {
     "label": "New Delhi",
     "coordinates": [
       28.55,
@@ -249,17 +227,6 @@
     ],
     "date": "2026-02-09T21:38:01.000Z",
     "hash": "b88918154fb25dbe9626b360ffeb586235aad085",
-    "country_code": "in",
-    "timezone_name": "Asia/Kolkata"
-  },
-  {
-    "label": "Jammu",
-    "coordinates": [
-      32.86,
-      74.73
-    ],
-    "date": "2026-02-09T18:29:16.000Z",
-    "hash": "2af4b5f95874bbdf8f418f3cf9d08fe35252771a",
     "country_code": "in",
     "timezone_name": "Asia/Kolkata"
   },
@@ -1199,7 +1166,7 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Nazareth",
+    "label": "Ghent",
     "coordinates": [
       50.97,
       3.61
@@ -1272,17 +1239,6 @@
     ],
     "date": "2022-02-28T12:18:46.638Z",
     "hash": "34167d10a3fdd1b9bc98297bf37c5d2686572918",
-    "country_code": "de",
-    "timezone_name": "Europe/Berlin"
-  },
-  {
-    "label": "Bad Bentheim",
-    "coordinates": [
-      52.31,
-      7.15
-    ],
-    "date": "2022-02-28T07:46:50.918Z",
-    "hash": "9af34d9158c5829583800bede1a2bdafe1f1ac19",
     "country_code": "de",
     "timezone_name": "Europe/Berlin"
   },
@@ -1364,18 +1320,7 @@
     "timezone_name": "Europe/Amsterdam"
   },
   {
-    "label": "Hoogstraten",
-    "coordinates": [
-      51.48,
-      4.73
-    ],
-    "date": "2021-09-06T01:52:05.140Z",
-    "hash": "c3099d8a5244114c10463792996278a7128c07a5",
-    "country_code": "be",
-    "timezone_name": "Europe/Amsterdam"
-  },
-  {
-    "label": "Nazareth",
+    "label": "Ghent",
     "coordinates": [
       50.97,
       3.61
