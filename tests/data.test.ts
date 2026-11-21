@@ -5,7 +5,7 @@ import { join } from "node:path";
 import { describe, it } from "node:test";
 import { getCountry } from "countries-and-timezones";
 import { flag } from "country-emoji";
-import { listLocationCommits } from "../src/git";
+import { loadHistoryEntries } from "../src/git";
 import type { ApiResult, Overwrite } from "../src/types";
 
 const root = join(__dirname, "..");
@@ -45,19 +45,22 @@ describe("overwrite.json", () => {
 
   it("has no duplicate ignores or layovers", () => {
     assert.equal(new Set(overwrite.ignore.labels).size, overwrite.ignore.labels.length);
-    assert.equal(new Set(overwrite.layovers.hashes).size, overwrite.layovers.hashes.length);
+    const keys = overwrite.layovers.entries.map((l) => `${l.date} ${l.label}`);
+    assert.equal(new Set(keys).size, keys.length);
   });
 
-  it("only lists layovers that are 📍 commits in this repo", {
-    todo: "24 hashes point at commits lost when history was rewritten",
-  }, (t) => {
+  it("matches every layover to exactly one 📍 snapshot", (t) => {
     const shallow = execFileSync("git", ["rev-parse", "--is-shallow-repository"], {
       cwd: root,
       encoding: "utf-8",
     }).trim();
     if (shallow === "true") return t.skip("needs full git history (fetch-depth: 0)");
-    const known = new Set(listLocationCommits(root).map((commit) => commit.hash));
-    const missing = overwrite.layovers.hashes.filter((hash) => !known.has(hash));
-    assert.deepEqual(missing, [], "layover hashes not found among 📍 commits");
+    const snapshots = loadHistoryEntries(root);
+    const unmatched = overwrite.layovers.entries.filter(
+      (layover) =>
+        snapshots.filter((s) => s.date === layover.date && s.label === layover.label)
+          .length !== 1
+    );
+    assert.deepEqual(unmatched, [], "layovers must name one snapshot's date and raw label");
   });
 });
