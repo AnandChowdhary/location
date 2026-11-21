@@ -1,22 +1,7 @@
 import { appendFileSync } from "fs";
 import { readFile, writeFile } from "fs/promises";
-import { getCountry, getTimezone } from "countries-and-timezones";
-import { flag } from "country-emoji";
-import type { ApiResult, OpenStreetMapGeocodeResponse } from "..";
-
-// tz-lookup is CommonJS; require keeps swc-node from looking for a non-existent default export.
-// @ts-ignore
-const tzLookup = require("tz-lookup") as (lat: number, lon: number) => string;
-
-const MIN_TIME = 3 * 60 * 60 * 1000; // 3 hours, matching the Worker
-const MAX_CLOCK_SKEW = 5 * 60 * 1000;
-interface IncomingPayload {
-  lat?: unknown;
-  lon?: unknown;
-  date?: unknown;
-}
-
-const round2 = (value: number) => Math.round(value * 100) / 100;
+import { ingest } from "../src/ingest";
+import type { ApiResult, OpenStreetMapGeocodeResponse, Overwrite } from "../src/types";
 
 const setOutput = (name: string, value: string | number | boolean) => {
   const output = String(value);
@@ -24,85 +9,22 @@ const setOutput = (name: string, value: string | number | boolean) => {
     console.log(`${name}=${output}`);
     return;
   }
-
   appendFileSync(
     process.env.GITHUB_OUTPUT,
     `${name}<<__LOCATION_OUTPUT__\n${output}\n__LOCATION_OUTPUT__\n`
   );
 };
 
-const skip = (reason: string) => {
-  console.log(`Skipping location update: ${reason}`);
-  setOutput("changed", "false");
-  setOutput("reason", reason);
-};
-
-const readPayload = async (): Promise<IncomingPayload> => {
+const readPayload = async (): Promise<unknown> => {
   const file = process.argv[2];
   const raw = file ? await readFile(file, "utf-8") : process.env.LOCATION_PAYLOAD;
   if (!raw?.trim()) throw new Error("Missing location payload JSON");
-
-  const parsed = JSON.parse(raw) as IncomingPayload;
-  if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) {
-    throw new Error("Location payload must be a JSON object");
-  }
-  return parsed;
-};
-
-const numberFrom = (payload: IncomingPayload, key: "lat" | "lon") => {
-  const value = payload[key];
-  if (typeof value !== "number" || Number.isNaN(value)) {
-    throw new Error(`Location payload must include numeric ${key}`);
-  }
-  return value;
-};
-
-// Optional ISO 8601 `date` says when you arrived, so a missed update can be
-// backfilled. Without it, the update is dated now.
-const dateFrom = (payload: IncomingPayload) => {
-  if (payload.date === undefined || payload.date === null || payload.date === "")
-    return new Date();
-  if (typeof payload.date !== "string")
-    throw new Error("Location payload date must be an ISO 8601 string");
-  const date = new Date(payload.date);
-  if (Number.isNaN(date.getTime()))
-    throw new Error(`Location payload date is not a valid date: ${payload.date}`);
-  if (date.getTime() > Date.now() + MAX_CLOCK_SKEW)
-    throw new Error("Location payload date is in the future");
-  return date;
-};
-
-const getLabel = (
-  address: OpenStreetMapGeocodeResponse["address"],
-  countryName: string
-) => {
-  let label = countryName;
-  [
-    address.state,
-    address.county,
-    address.municipality,
-    address.city,
-    address.town,
-    address.village,
-    address.hamlet,
-  ].forEach((option) => {
-    if (option && /[A-z\u00C0-\u00ff]+/g.test(option)) label = option;
-  });
-  return label;
-};
-
-// Use the same label aliases as summarize.ts so api.json says "Paris", not a suburb.
-const applySimilarLabel = async (label: string) => {
-  const overwrite = JSON.parse(await readFile("overwrite.json", "utf-8")) as {
-    similarLabels: { labels: Record<string, string> };
-  };
-  return overwrite.similarLabels.labels[label] ?? label;
+  return JSON.parse(raw);
 };
 
 const reverseGeocode = async (lat: number, lon: number) => {
   const url = `https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${lat}&lon=${lon}`;
   let lastError: unknown;
-
   for (let attempt = 1; attempt <= 3; attempt++) {
     try {
       const response = await fetch(url, {
@@ -118,73 +40,31 @@ const reverseGeocode = async (lat: number, lon: number) => {
       await new Promise((resolve) => setTimeout(resolve, attempt * 1500));
     }
   }
-
   throw lastError;
 };
 
 const main = async () => {
-  const payload = await readPayload();
-  const latRaw = numberFrom(payload, "lat");
-  const lonRaw = numberFrom(payload, "lon");
-  const timestamp = dateFrom(payload);
+  const result = await ingest({
+    payload: await readPayload(),
+    previous: JSON.parse(await readFile("api.json", "utf-8")) as ApiResult,
+    overwrite: JSON.parse(await readFile("overwrite.json", "utf-8")) as Overwrite,
+    now: new Date(),
+    reverseGeocode,
+  });
 
-  if (latRaw < -90 || latRaw > 90) throw new Error("Latitude is out of range");
-  if (lonRaw < -180 || lonRaw > 180) throw new Error("Longitude is out of range");
-
-  const previous = JSON.parse(await readFile("api.json", "utf-8")) as ApiResult;
-  const lat = round2(latRaw);
-  const lon = round2(lonRaw);
-
-  if (timestamp.getTime() <= new Date(previous.date).getTime()) {
-    skip("timestamp is not newer than api.json");
+  if (!result.changed) {
+    console.log(`Skipping location update: ${result.reason}`);
+    setOutput("changed", "false");
+    setOutput("reason", result.reason);
     return;
   }
 
-  if (timestamp.getTime() - new Date(previous.date).getTime() < MIN_TIME) {
-    skip("previous update is less than 3 hours old");
-    return;
-  }
-
-  if (previous.coordinates[0] === lat && previous.coordinates[1] === lon) {
-    skip("rounded coordinates are unchanged");
-    return;
-  }
-
-  const geocode = await reverseGeocode(lat, lon);
-  const countryCode = geocode.address.country_code?.toLowerCase();
-  if (!countryCode) throw new Error("Reverse geocode did not return a country code");
-
-  const country = getCountry(countryCode.toUpperCase());
-  if (!country) throw new Error(`Country not found for ${countryCode}`);
-
-  const timezone = getTimezone(tzLookup(lat, lon));
-  if (!timezone) throw new Error(`Timezone not found for ${lat}, ${lon}`);
-
-  const countryEmoji = flag(country.id) ?? "🌍";
-  const label = await applySimilarLabel(getLabel(geocode.address, country.name));
-
-  if (previous.label === label && previous.country_code === countryCode) {
-    skip("location label is unchanged");
-    return;
-  }
-
-  const data: ApiResult = {
-    date: timestamp.toISOString(),
-    coordinates: [lat, lon],
-    label,
-    full_label: geocode.display_name,
-    timezone,
-    country_code: countryCode,
-    country_emoji: countryEmoji,
-  };
-
-  await writeFile("api.json", `${JSON.stringify(data, null, 2)}\n`);
-
+  await writeFile("api.json", `${JSON.stringify(result.data, null, 2)}\n`);
   setOutput("changed", "true");
-  setOutput("date", data.date);
-  setOutput("label", data.label);
-  setOutput("message", `📍${data.country_emoji} ${data.label}`);
-  console.log(`Prepared ${data.country_emoji} ${data.label} at ${data.date}`);
+  setOutput("date", result.data.date);
+  setOutput("label", result.data.label);
+  setOutput("message", result.message);
+  console.log(`Prepared ${result.data.country_emoji} ${result.data.label} at ${result.data.date}`);
 };
 
 main().catch((error) => {
