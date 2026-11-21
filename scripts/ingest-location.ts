@@ -9,9 +9,11 @@ import type { ApiResult, OpenStreetMapGeocodeResponse } from "..";
 const tzLookup = require("tz-lookup") as (lat: number, lon: number) => string;
 
 const MIN_TIME = 3 * 60 * 60 * 1000; // 3 hours, matching the Worker
+const MAX_CLOCK_SKEW = 5 * 60 * 1000;
 interface IncomingPayload {
   lat?: unknown;
   lon?: unknown;
+  date?: unknown;
 }
 
 const round2 = (value: number) => Math.round(value * 100) / 100;
@@ -47,7 +49,7 @@ const readPayload = async (): Promise<IncomingPayload> => {
   return parsed;
 };
 
-const numberFrom = (payload: IncomingPayload, key: keyof IncomingPayload) => {
+const numberFrom = (payload: IncomingPayload, key: "lat" | "lon") => {
   const value = payload[key];
   if (typeof value !== "number" || Number.isNaN(value)) {
     throw new Error(`Location payload must include numeric ${key}`);
@@ -55,7 +57,20 @@ const numberFrom = (payload: IncomingPayload, key: keyof IncomingPayload) => {
   return value;
 };
 
-const dateFrom = () => new Date();
+// Optional ISO 8601 `date` says when you arrived, so a missed update can be
+// backfilled. Without it, the update is dated now.
+const dateFrom = (payload: IncomingPayload) => {
+  if (payload.date === undefined || payload.date === null || payload.date === "")
+    return new Date();
+  if (typeof payload.date !== "string")
+    throw new Error("Location payload date must be an ISO 8601 string");
+  const date = new Date(payload.date);
+  if (Number.isNaN(date.getTime()))
+    throw new Error(`Location payload date is not a valid date: ${payload.date}`);
+  if (date.getTime() > Date.now() + MAX_CLOCK_SKEW)
+    throw new Error("Location payload date is in the future");
+  return date;
+};
 
 const getLabel = (
   address: OpenStreetMapGeocodeResponse["address"],
@@ -111,7 +126,7 @@ const main = async () => {
   const payload = await readPayload();
   const latRaw = numberFrom(payload, "lat");
   const lonRaw = numberFrom(payload, "lon");
-  const timestamp = dateFrom();
+  const timestamp = dateFrom(payload);
 
   if (latRaw < -90 || latRaw > 90) throw new Error("Latitude is out of range");
   if (lonRaw < -180 || lonRaw > 180) throw new Error("Longitude is out of range");

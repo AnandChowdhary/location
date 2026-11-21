@@ -16,7 +16,6 @@
     "countries-and-timezones": "^3.8.0",
     "country-emoji": "^1.5.6",
     "dayjs": "^1.11.13",
-    "simple-git": "^3.36.0",
     "tz-lookup": "^6.1.25"
   },
   "devDependencies": {
