@@ -1,0 +1,684 @@
+[
+  {
+    "label": "Naxos",
+    "coordinates": [
+      37.08,
+      25.34
+    ],
+    "date": "2026-09-17T08:00:20.696Z",
+    "hash": "4962f7777aaefa1326c4c27f00927af80dd25451",
+    "country_code": "gr",
+    "timezone_name": "Europe/Athens"
+  },
+  {
+    "label": "Athens",
+    "coordinates": [
+      37.99,
+      23.77
+    ],
+    "date": "2026-09-12T11:23:23.254Z",
+    "hash": "23ecb225ce700f9ccf1b9c70036577c139bd7b10",
+    "country_code": "gr",
+    "timezone_name": "Europe/Athens"
+  },
+  {
+    "label": "Interlaken",
+    "coordinates": [
+      46.69,
+      7.87
+    ],
+    "date": "2026-06-09T08:00:25.090Z",
+    "hash": "b239768a75d07538eb1a1c6d98ed38d428bc5ff9",
+    "country_code": "ch",
+    "timezone_name": "Europe/Zurich"
+  },
+  {
+    "label": "Wengen",
+    "coordinates": [
+      46.6,
+      7.92
+    ],
+    "date": "2026-06-06T08:00:35.288Z",
+    "hash": "6a7bbf5deafd4aa42b91c1e5915a257907e9ed30",
+    "country_code": "ch",
+    "timezone_name": "Europe/Zurich"
+  },
+  {
+    "label": "Alappuzha",
+    "coordinates": [
+      9.51,
+      76.35
+    ],
+    "date": "2026-02-19T12:05:17.000Z",
+    "hash": "e7d8367a98e1a04aecd26eff10d2465b5083e66b",
+    "country_code": "in",
+    "timezone_name": "Asia/Kolkata"
+  },
+  {
+    "label": "Florence",
+    "coordinates": [
+      43.82,
+      11.18
+    ],
+    "date": "2025-09-09T08:43:04.000Z",
+    "hash": "3fa73a742cc77964cf43973db98720e933e2e292",
+    "country_code": "it",
+    "timezone_name": "Europe/Rome"
+  },
+  {
+    "label": "Alghero",
+    "coordinates": [
+      40.63,
+      8.29
+    ],
+    "date": "2025-07-09T15:07:18.588Z",
+    "hash": "647fa2946d9990412a9e28eaf50fe07758126dcf",
+    "country_code": "it",
+    "timezone_name": "Europe/Rome"
+  },
+  {
+    "label": "Milan",
+    "coordinates": [
+      45.46,
+      9.28
+    ],
+    "date": "2025-07-09T06:10:22.340Z",
+    "hash": "2878ca5c126061475e1cf1ca18f4ee08aa88a049",
+    "country_code": "it",
+    "timezone_name": "Europe/Rome"
+  },
+  {
+    "label": "Page",
+    "coordinates": [
+      36.92,
+      -111.47
+    ],
+    "date": "2024-10-11T23:50:01.543Z",
+    "hash": "adcc1336b130f0b010aee4280aeb8c89499b1722",
+    "country_code": "us",
+    "timezone_name": "America/Phoenix"
+  },
+  {
+    "label": "Albufeira",
+    "coordinates": [
+      37.09,
+      -8.25
+    ],
+    "date": "2024-09-02T11:31:58.061Z",
+    "hash": "82872a4858abd27e222d838beeb3fd84d0f56542",
+    "country_code": "pt",
+    "timezone_name": "Europe/Lisbon"
+  },
+  {
+    "label": "Lisbon",
+    "coordinates": [
+      38.76,
+      -9.14
+    ],
+    "date": "2024-08-30T16:11:53.661Z",
+    "hash": "3e8a78ca587759049e8fb8a80968c5d049ab54b0",
+    "country_code": "pt",
+    "timezone_name": "Europe/Lisbon"
+  },
+  {
+    "label": "Nice",
+    "coordinates": [
+      43.7,
+      7.26
+    ],
+    "date": "2024-05-31T13:15:35.022Z",
+    "hash": "e5b17fb231328bd938352ec8c2a525aa7c55494c",
+    "country_code": "fr",
+    "timezone_name": "Europe/Paris"
+  },
+  {
+    "label": "Toulon",
+    "coordinates": [
+      43.13,
+      5.93
+    ],
+    "date": "2024-05-31T09:22:07.657Z",
+    "hash": "41b8c88d6b95b97fc79cc732e43785c0924f9d24",
+    "country_code": "fr",
+    "timezone_name": "Europe/Paris"
+  },
+  {
+    "label": "Antwerp",
+    "coordinates": [
+      51.23,
+      4.4
+    ],
+    "date": "2024-03-29T10:48:44.000Z",
+    "hash": "401efacd97f91c9877c902e560ede610779a58f6",
+    "country_code": "be",
+    "timezone_name": "Europe/Brussels"
+  },
+  {
+    "label": "Obergoms",
+    "coordinates": [
+      46.53,
+      8.35
+    ],
+    "date": "2024-03-21T14:12:14.000Z",
+    "hash": "b35caa41824ec962cbea7d2523bb7f071b2cbcaf",
+    "country_code": "ch",
+    "timezone_name": "Europe/Zurich"
+  },
+  {
+    "label": "Minneapolis",
+    "coordinates": [
+      44.88,
+      -93.21
+    ],
+    "date": "2023-11-04T11:01:39.000Z",
+    "hash": "f8e6e06b8b11e99a908313e3e6b4b0f6be874de3",
+    "country_code": "us",
+    "timezone_name": "America/Chicago"
+  },
+  {
+    "label": "Utrecht",
+    "coordinates": [
+      52.09,
+      5.11
+    ],
+    "date": "2023-09-04T22:24:41.000Z",
+    "hash": "6bbebfc1dc658f03c7f14cdfac8a04f6c8d922db",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
+    "label": "Abu Dhabi",
+    "coordinates": [
+      24.43,
+      54.65
+    ],
+    "date": "2023-01-03T18:58:34.000Z",
+    "hash": "98a741638fe5f56b93452fd8f27460def87cc49e",
+    "country_code": "ae",
+    "timezone_name": "Asia/Dubai"
+  },
+  {
+    "label": "Geneva",
+    "coordinates": [
+      46.51,
+      6.49
+    ],
+    "date": "2022-09-14T18:00:15.174Z",
+    "hash": "b42848fba212ef95d3d8f98ea9ad33a4e6aa0fda",
+    "country_code": "ch",
+    "timezone_name": "Europe/Zurich"
+  },
+  {
+    "label": "Nijverdal",
+    "coordinates": [
+      52.33,
+      6.47
+    ],
+    "date": "2022-06-13T16:34:18.277Z",
+    "hash": "95db8064dddfddfda5b2580c222edd6f8abc8002",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
+    "label": "The Hague",
+    "coordinates": [
+      52.08,
+      4.33
+    ],
+    "date": "2022-04-02T11:48:43.999Z",
+    "hash": "5d6c6bae69c5a09977d7ac5476203eb67d46e068",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
+    "label": "Prague",
+    "coordinates": [
+      50.09,
+      14.44
+    ],
+    "date": "2022-03-06T16:24:08.641Z",
+    "hash": "9b1fe42714ad522f138b17eb2260e6d174df3ff3",
+    "country_code": "cz",
+    "timezone_name": "Europe/Prague"
+  },
+  {
+    "label": "Berlin",
+    "coordinates": [
+      52.53,
+      13.37
+    ],
+    "date": "2022-02-28T12:18:46.638Z",
+    "hash": "34167d10a3fdd1b9bc98297bf37c5d2686572918",
+    "country_code": "de",
+    "timezone_name": "Europe/Berlin"
+  },
+  {
+    "label": "Bern",
+    "coordinates": [
+      46.95,
+      7.44
+    ],
+    "date": "2021-10-01T08:59:23.194Z",
+    "hash": "05d6d92865d99e47631563226cb14aad77094d3c",
+    "country_code": "ch",
+    "timezone_name": "Europe/Zurich"
+  },
+  {
+    "label": "Zurich",
+    "coordinates": [
+      47.45,
+      8.56
+    ],
+    "date": "2021-09-29T13:30:39.747Z",
+    "hash": "b1ba6f1eecd0019e8ffd4aa2d562d41fb67e9617",
+    "country_code": "ch",
+    "timezone_name": "Europe/Zurich"
+  },
+  {
+    "label": "Amsterdam",
+    "coordinates": [
+      52.39,
+      4.84
+    ],
+    "date": "2021-09-06T04:24:35.083Z",
+    "hash": "bb76cc45f4a56429b492085a47e6d06c7612fa31",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
+    "label": "Ghent",
+    "coordinates": [
+      50.97,
+      3.61
+    ],
+    "date": "2021-09-05T21:18:40.151Z",
+    "hash": "5ccc29a0fc5af8be99c9fecd90efbd22ab47fc4d",
+    "country_code": "be",
+    "timezone_name": "Europe/Brussels"
+  },
+  {
+    "label": "Brussels",
+    "coordinates": [
+      50.84,
+      4.34
+    ],
+    "date": "2021-09-02T09:30:19.433Z",
+    "hash": "bed4e7425e2e098bc82ecb849a83a3e3ad278754",
+    "country_code": "be",
+    "timezone_name": "Europe/Brussels"
+  },
+  {
+    "label": "Groningen",
+    "coordinates": [
+      53.22,
+      6.56
+    ],
+    "date": "2021-04-05T07:49:23.129Z",
+    "hash": "e89b185bb7512458e89e47fd9f5b709c02d76c0d",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
+    "label": "Goa",
+    "coordinates": [
+      15.63,
+      73.73
+    ],
+    "date": "2020-12-21T08:22:40.426Z",
+    "hash": "8417e7a30cd6538f340b81049b5fa7d5acdf4b3e",
+    "country_code": "in",
+    "timezone_name": "Asia/Kolkata"
+  },
+  {
+    "label": "Istanbul",
+    "coordinates": [
+      41.26,
+      28.74
+    ],
+    "date": "2020-01-31T20:58:20.906Z",
+    "hash": "45f6753ba0c82a634e8e83d46f8c7d4fe613e952",
+    "country_code": "tr",
+    "timezone_name": "Europe/Istanbul"
+  },
+  {
+    "label": "Washington",
+    "coordinates": [
+      38.9,
+      -77.04
+    ],
+    "date": "2019-12-23T16:11:47.608Z",
+    "hash": "b5667dfb21fbfbae747854cf7578a58502514a6f",
+    "country_code": "us",
+    "timezone_name": "America/New_York"
+  },
+  {
+    "label": "Boston",
+    "coordinates": [
+      42.37,
+      -71.02
+    ],
+    "date": "2019-12-16T18:08:02.565Z",
+    "hash": "783edcfb048facb722ca2600fa6d1392ced61ff4",
+    "country_code": "us",
+    "timezone_name": "America/New_York"
+  },
+  {
+    "label": "New York",
+    "coordinates": [
+      40.75,
+      -73.77
+    ],
+    "date": "2019-09-25T01:46:34.487Z",
+    "hash": "51afdcba622dc0d5669a4b6ee487b9c0308d55e0",
+    "country_code": "us",
+    "timezone_name": "America/New_York"
+  },
+  {
+    "label": "San Francisco",
+    "coordinates": [
+      37.72,
+      -121.85
+    ],
+    "date": "2019-09-15T14:48:56.459Z",
+    "hash": "f4a6045fdaac4b973d503b343bc9073c535b7512",
+    "country_code": "us",
+    "timezone_name": "America/Los_Angeles"
+  },
+  {
+    "label": "Rotterdam",
+    "coordinates": [
+      51.92,
+      4.47
+    ],
+    "date": "2019-05-19T15:18:08.182Z",
+    "hash": "20bbb4e976a023aba8ebcecfd7abecf32f9770a3",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
+    "label": "Hengelo",
+    "coordinates": [
+      52.26,
+      6.79
+    ],
+    "date": "2019-05-09T19:07:44.997Z",
+    "hash": "ee63f7cbe00c2e03c6be12debd8bc4c9f82e024d",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
+    "label": "London",
+    "coordinates": [
+      51.89,
+      0.25
+    ],
+    "date": "2018-11-14T12:30:07.370Z",
+    "hash": "a12f0366c67e076682f704f30c255272e3bbf7d9",
+    "country_code": "gb",
+    "timezone_name": "Europe/London"
+  },
+  {
+    "label": "Kuala Lumpur",
+    "coordinates": [
+      3.17,
+      101.69
+    ],
+    "date": "2018-10-22T15:02:53.309Z",
+    "hash": "a77db8caaa5fe57a0e6bcc8a8cfb4bde59331a2d",
+    "country_code": "my",
+    "timezone_name": "Asia/Kuala_Lumpur"
+  },
+  {
+    "label": "Toulouse",
+    "coordinates": [
+      43.63,
+      1.37
+    ],
+    "date": "2018-07-04T05:01:10.781Z",
+    "hash": "a06888bc181457993bb295e5095bbf38cbf8f7b8",
+    "country_code": "fr",
+    "timezone_name": "Europe/Paris"
+  },
+  {
+    "label": "Cologne",
+    "coordinates": [
+      50.94,
+      6.96
+    ],
+    "date": "2018-06-30T15:12:06.174Z",
+    "hash": "a66861b277f9593f5bc44481035bc9f18d336212",
+    "country_code": "de",
+    "timezone_name": "Europe/Berlin"
+  },
+  {
+    "label": "Münster",
+    "coordinates": [
+      51.95,
+      7.63
+    ],
+    "date": "2018-06-30T10:01:30.640Z",
+    "hash": "8c3e345ec8cd73fc8a85454f1ec19f6492081c03",
+    "country_code": "de",
+    "timezone_name": "Europe/Berlin"
+  },
+  {
+    "label": "Almelo",
+    "coordinates": [
+      52.36,
+      6.65
+    ],
+    "date": "2018-06-24T18:31:36.811Z",
+    "hash": "dcd34bc9d3b02baa09f6bcd8c6d745928f74ac10",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
+    "label": "Eindhoven",
+    "coordinates": [
+      51.4,
+      5.38
+    ],
+    "date": "2018-06-23T17:15:21.804Z",
+    "hash": "1385b842f8159157805fb17ee5cce221181536ac",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
+    "label": "Bruges",
+    "coordinates": [
+      51.2,
+      3.23
+    ],
+    "date": "2018-06-22T16:26:30.604Z",
+    "hash": "6a9a79c0e696addbce9fc0eacbd01f5dbf8652f0",
+    "country_code": "be",
+    "timezone_name": "Europe/Brussels"
+  },
+  {
+    "label": "Nijmegen",
+    "coordinates": [
+      51.84,
+      5.86
+    ],
+    "date": "2018-06-15T22:55:52.504Z",
+    "hash": "bf59ef0a2fb5b1364a669694ae24743eda30fe0f",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
+    "label": "Paris",
+    "coordinates": [
+      48.88,
+      2.36
+    ],
+    "date": "2018-06-14T19:57:10.789Z",
+    "hash": "21878e99aa174c104ff00281016436705de66169",
+    "country_code": "fr",
+    "timezone_name": "Europe/Paris"
+  },
+  {
+    "label": "Lille",
+    "coordinates": [
+      50.64,
+      3.08
+    ],
+    "date": "2018-06-13T22:27:00.501Z",
+    "hash": "c27ad8f02211bb9b385783a63d91eab647bd2e8a",
+    "country_code": "fr",
+    "timezone_name": "Europe/Paris"
+  },
+  {
+    "label": "Hanover",
+    "coordinates": [
+      52.41,
+      9.82
+    ],
+    "date": "2018-04-27T12:38:22.922Z",
+    "hash": "da79b6016adf542e270adfc81db8e0268aea2aae",
+    "country_code": "de",
+    "timezone_name": "Europe/Berlin"
+  },
+  {
+    "label": "Rome",
+    "coordinates": [
+      41.8,
+      12.25
+    ],
+    "date": "2018-01-12T22:34:33.892Z",
+    "hash": "8079abbfd22d0341718ae1fef4e275d885994b0c",
+    "country_code": "it",
+    "timezone_name": "Europe/Rome"
+  },
+  {
+    "label": "Dusseldorf",
+    "coordinates": [
+      51.22,
+      6.79
+    ],
+    "date": "2017-11-18T06:19:01.100Z",
+    "hash": "c0f2fe829abddb01e5bebfedab9db2b4744d5921",
+    "country_code": "de",
+    "timezone_name": "Europe/Berlin"
+  },
+  {
+    "label": "Enschede",
+    "coordinates": [
+      52.22,
+      6.89
+    ],
+    "date": "2017-08-22T19:23:15.796Z",
+    "hash": "365eed40f41252f2a30fa4c6300e1079c7d792d6",
+    "country_code": "nl",
+    "timezone_name": "Europe/Amsterdam"
+  },
+  {
+    "label": "Bengaluru",
+    "coordinates": [
+      12.99,
+      77.62
+    ],
+    "date": "2016-09-29T00:05:07.000Z",
+    "hash": "e43f2e5e98c8ba5004c3921c17bd906e56c35dab",
+    "country_code": "in",
+    "timezone_name": "Asia/Kolkata"
+  },
+  {
+    "label": "Indore",
+    "coordinates": [
+      22.7,
+      75.92
+    ],
+    "date": "2016-09-17T23:51:02.060Z",
+    "hash": "5cf98bd437e55812182f0675dec9cf7c7d23adf8",
+    "country_code": "in",
+    "timezone_name": "Asia/Kolkata"
+  },
+  {
+    "label": "Ahmedabad",
+    "coordinates": [
+      23.03,
+      72.53
+    ],
+    "date": "2016-04-10T23:14:07.086Z",
+    "hash": "1f7468ecc1a7fd9125154f90822c75f544a6541f",
+    "country_code": "in",
+    "timezone_name": "Asia/Kolkata"
+  },
+  {
+    "label": "Amritsar",
+    "coordinates": [
+      31.64,
+      74.87
+    ],
+    "date": "2015-07-11T05:43:17.625Z",
+    "hash": "1da6bddf53576bd85c6baa1674ee041ddb7f1267",
+    "country_code": "in",
+    "timezone_name": "Asia/Kolkata"
+  },
+  {
+    "label": "Jammu",
+    "coordinates": [
+      32.7,
+      74.88
+    ],
+    "date": "2015-07-08T16:44:58.684Z",
+    "hash": "eaf24906f382865fd2ec4eff8c8858f040cdf07a",
+    "country_code": "in",
+    "timezone_name": "Asia/Kolkata"
+  },
+  {
+    "label": "Mumbai",
+    "coordinates": [
+      18.94,
+      72.83
+    ],
+    "date": "2015-06-17T06:45:04.615Z",
+    "hash": "daca49ab066d556ba383ea235c48e213276fe576",
+    "country_code": "in",
+    "timezone_name": "Asia/Kolkata"
+  },
+  {
+    "label": "Tokyo",
+    "coordinates": [
+      35.77,
+      140.39
+    ],
+    "date": "2014-11-24T06:29:59.700Z",
+    "hash": "da447ddac2236a1f5a24c1359c4282a06e5b9cc5",
+    "country_code": "jp",
+    "timezone_name": "Asia/Tokyo"
+  },
+  {
+    "label": "Bangkok",
+    "coordinates": [
+      13.75,
+      100.5
+    ],
+    "date": "2011-05-30T00:00:00.000Z",
+    "hash": "a0a73fc409841b3bf089b1d6d8112dc21d7805c0",
+    "country_code": "th",
+    "timezone_name": "Asia/Bangkok"
+  },
+  {
+    "label": "Manila",
+    "coordinates": [
+      14.59,
+      120.98
+    ],
+    "date": "2011-05-30T00:00:00.000Z",
+    "hash": "54586ae8d7a05c66a59d9783d53f336f01f19822",
+    "country_code": "ph",
+    "timezone_name": "Asia/Manila"
+  },
+  {
+    "label": "New Delhi",
+    "coordinates": [
+      28.61,
+      77.21
+    ],
+    "date": "1997-12-29T12:00:00.000Z",
+    "hash": "7dfe75d2d19cc5fdf2f76e7322f263a101f42a75",
+    "country_code": "in",
+    "timezone_name": "Asia/Kolkata"
+  }
+]

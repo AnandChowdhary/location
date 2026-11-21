@@ -8,7 +8,8 @@
     "manual": "node -r @swc-node/register scripts/import-manual-data.ts",
     "ingest": "node -r @swc-node/register scripts/ingest-location.ts",
     "summarize": "node -r @swc-node/register scripts/summarize.ts",
-    "commits": "node -r @swc-node/register scripts/create-commits.ts"
+    "commits": "node -r @swc-node/register scripts/create-commits.ts",
+    "test": "node --require @swc-node/register --test tests/*.test.ts"
   },
   "dependencies": {
     "@octokit/core": "^7.0.3",
