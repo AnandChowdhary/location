@@ -2,30 +2,22 @@
   "name": "@anandchowdhary/location",
   "version": "0.0.0",
   "scripts": {
-    "start": "wrangler dev",
-    "deploy": "wrangler deploy",
-    "takeout": "node -r @swc-node/register scripts/import-google-takeout.ts",
-    "manual": "node -r @swc-node/register scripts/import-manual-data.ts",
     "ingest": "node -r @swc-node/register scripts/ingest-location.ts",
     "summarize": "node -r @swc-node/register scripts/summarize.ts",
     "commits": "node -r @swc-node/register scripts/create-commits.ts",
-    "test": "node --require @swc-node/register --test tests/*.test.ts"
+    "test": "node --require @swc-node/register --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit -p .",
+    "timeline": "node -r @swc-node/register scripts/import-google-timeline.ts"
   },
   "dependencies": {
-    "@octokit/core": "^7.0.3",
-    "@tsndr/cloudflare-worker-jwt": "^3.2.0",
     "countries-and-timezones": "^3.8.0",
     "country-emoji": "^1.5.6",
-    "dayjs": "^1.11.13",
     "tz-lookup": "^6.1.25"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "5.20260816.1",
     "@swc-node/register": "^1.10.10",
     "@types/node": "^25.6.2",
     "@types/tz-lookup": "^6.1.2",
-    "readdirp": "^4.1.2",
-    "typescript": "^5.9.2",
-    "wrangler": "4.123.0"
+    "typescript": "^5.9.2"
   }
 }

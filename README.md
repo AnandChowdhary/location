@@ -1,6 +1,6 @@
 # 📍 Anand's location
 
-This repository is used to track my (approximate) location in real time using Owntracks.
+This repository tracks my (approximate) location. An Apple Shortcut sends my coordinates to a GitHub Actions workflow, which stores them in `api.json` (rounded to ~1 km), commits them, and publishes the history to GitHub Pages.
 
 ![City](https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=city&query=%24.label&url=https%3A%2F%2Fanandchowdhary.github.io%2Flocation%2Fapi.json)
 ![Country](https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=green&label=country&query=%24.country_emoji&url=https%3A%2F%2Fanandchowdhary.github.io%2Flocation%2Fapi.json)
@@ -64,6 +64,20 @@ curl -X POST https://api.github.com/repos/AnandChowdhary/location/actions/workfl
 ```
 
 Use a fine-grained token scoped only to this repository. For `repository_dispatch`, grant Contents read/write. For `workflow_dispatch`, grant Actions write.
+
+## 🛠️ Development
+
+```bash
+npm ci
+npm test            # history, ingest, git and data tests
+npm run typecheck
+npm run summarize   # rebuild history*.json locally from the git history
+```
+
+- `src/`: the logic: `history.ts` (normalizing snapshots into stays), `ingest.ts` (payload → `api.json`), `git.ts` (reading 📍 commits).
+- `scripts/`: thin entry points used by the workflows, plus one-off backfill tools (`timeline`, `commits`).
+- `overwrite.json`: manual corrections: label aliases, ignored labels and layovers.
+- The golden test in `tests/history.test.ts` pins the output for the real history; if a change to the algorithm is intentional, regenerate `tests/fixtures/golden/`.
 
 ## 📄 License
 

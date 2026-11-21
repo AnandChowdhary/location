@@ -4,10 +4,12 @@ import {
   type Timezone,
 } from "countries-and-timezones";
 import { flag } from "country-emoji";
-import * as tzLookup from "tz-lookup";
 
-// @ts-ignore
 import { readFile, writeFile } from "fs/promises";
+
+// tz-lookup is CommonJS; require keeps swc-node from looking for a non-existent default export.
+// @ts-ignore
+const tzLookup = require("tz-lookup") as (lat: number, lon: number) => string;
 
 export interface OpenStreetMapGeocodeResponse {
   name: string;
@@ -82,7 +84,7 @@ const importGoogleTimeline = async () => {
 
   const data = JSON.parse(
     await readFile(
-      "/Users/anandchowdhary/Downloads/location-history.json",
+      process.argv[2] ?? "location-history.json",
       "utf-8"
     )
   ) as TimelineItem[];

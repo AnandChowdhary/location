@@ -1,27 +1,39 @@
 name: Summarize
+# Rebuilds the history files and publishes them with api.json to GitHub Pages.
+# Runs on pushes to main, and is called by Ingest Location after it commits.
 on:
   push:
     branches:
       - main
+  workflow_call:
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  summarize:
+  publish:
     runs-on: ubuntu-latest
-    name: Deploy
+    concurrency:
+      group: publish-pages
+      cancel-in-progress: false
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
+          # When called from Ingest Location, publish the commit it just pushed.
+          ref: main
           fetch-depth: 0
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
       - run: npm ci
       - run: npm run summarize
       - run: mkdir -p public && cp api.json history*.json public/
-      - name: Deploy to Github Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: public
+          # Keep gh-pages a single commit instead of growing with every update.
+          force_orphan: true
