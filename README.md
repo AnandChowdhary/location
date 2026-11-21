@@ -30,6 +30,8 @@ Payload shape:
 }
 ```
 
+To backfill a missed update, add an optional ISO 8601 `date` for when you arrived, e.g. `"date": "2026-11-18T12:00:00+05:30"`. It can't be in the future, and it must be later than the date in the current `api.json`. Without it, the update is dated now.
+
 Preferred endpoint for Shortcuts:
 
 ```bash

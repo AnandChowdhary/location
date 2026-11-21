@@ -1,11 +1,47 @@
 import { getCountry } from "countries-and-timezones";
-import { simpleGit } from "simple-git";
-import { ApiResult } from "..";
-
-// @ts-ignore
+import { execFileSync } from "child_process";
 import { readFile, writeFile } from "fs/promises";
+import type { ApiResult } from "..";
 
-const git = simpleGit({});
+// Every 📍 commit that touched api.json, newest first.
+const listLocationCommits = () =>
+  execFileSync("git", ["log", "--format=%H%x1f%s", "--", "api.json"], {
+    encoding: "utf-8",
+    maxBuffer: 64 * 1024 * 1024,
+  })
+    .split("\n")
+    .filter(Boolean)
+    .map((line) => {
+      const [hash, subject] = line.split("\x1f");
+      return { hash, subject };
+    })
+    .filter((commit) => commit.subject.startsWith("📍"));
+
+// Reads api.json at every commit with one `git cat-file --batch` process
+// instead of one `git show` per commit.
+const readApiJsonAt = (hashes: string[]): ApiResult[] => {
+  if (!hashes.length) return [];
+  const output = execFileSync("git", ["cat-file", "--batch"], {
+    input: hashes.map((hash) => `${hash}:api.json\n`).join(""),
+    maxBuffer: 256 * 1024 * 1024,
+  });
+  const decoder = new TextDecoder();
+  const results: ApiResult[] = [];
+  let offset = 0;
+  for (const hash of hashes) {
+    const headerEnd = output.indexOf(0x0a, offset);
+    const header = decoder.decode(output.subarray(offset, headerEnd));
+    const size = Number(header.split(" ")[2]);
+    if (!Number.isFinite(size))
+      throw new Error(`Could not read api.json at ${hash}: ${header}`);
+    const start = headerEnd + 1;
+    results.push(
+      JSON.parse(decoder.decode(output.subarray(start, start + size)))
+    );
+    offset = start + size + 1;
+  }
+  return results;
+};
 type Location = {
   label: string;
   coordinates: [number, number];
@@ -21,13 +57,11 @@ export const summarize = async () => {
     ignore: { labels: string[] };
     layovers: { hashes: string[] };
   };
-  const log = await git.log({ file: "api.json" });
-  const commits = log.all.filter((commit) => commit.message.startsWith("📍"));
+  const commits = listLocationCommits();
+  const snapshots = readApiJsonAt(commits.map((commit) => commit.hash));
   const data: Location[] = [];
-  for (const commit of commits) {
-    const show = JSON.parse(
-      await git.show(`${commit.hash}:api.json`)
-    ) as ApiResult;
+  commits.forEach((commit, index) => {
+    const show = snapshots[index];
     const item: Location = {
       label: show.label,
       coordinates: [show.coordinates[0], show.coordinates[1]],
@@ -37,7 +71,7 @@ export const summarize = async () => {
       timezone_name: show.timezone?.name ?? "",
     };
     data.push(item);
-  }
+  });
   await writeFile(
     "history-full.json",
     JSON.stringify(
@@ -82,12 +116,6 @@ export const summarize = async () => {
           location.timezone_name !== previous.timezone_name
         ) {
           if (skipped.length) {
-            const items: Record<string, number> = {};
-            skipped.forEach((item) => {
-              const overwrittenLabel = getOverwrittenLabel(item.label);
-              items[overwrittenLabel] =
-                (items[overwrittenLabel] || 0) + item.duration;
-            });
             const skippedSelected = skipped
               .filter((i) => i.duration > 43200000) // 12 hours
               .sort((a, b) => b.duration - a.duration)[0];
@@ -130,14 +158,9 @@ export const summarize = async () => {
       }
     });
   if (skipped.length) {
-    const items: Record<string, number> = {};
     skipped[skipped.length - 1].duration =
       new Date().getTime() -
       new Date(skipped[skipped.length - 1].date).getTime();
-    skipped.forEach((item) => {
-      const overwrittenLabel = getOverwrittenLabel(item.label);
-      items[overwrittenLabel] = (items[overwrittenLabel] || 0) + item.duration;
-    });
     const { duration: _, ...skippedSelected } = skipped.sort(
       (a, b) => b.duration - a.duration
     )[0];
