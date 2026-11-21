@@ -11,7 +11,7 @@ const readGolden = (file: string) => readFileSync(join(golden, file), "utf-8");
 const noOverwrite = (): Overwrite => ({
   similarLabels: { labels: {} },
   ignore: { labels: [] },
-  layovers: { hashes: [] },
+  layovers: { entries: [] },
 });
 
 let counter = 0;
@@ -183,14 +183,14 @@ describe("buildHistory: rules", () => {
     assert.deepEqual(labels(history.history), ["Delhi", "Paris"]);
   });
 
-  it("drops layovers by commit hash", () => {
+  it("drops layovers by snapshot date and raw label", () => {
     const layover = entry("Dubai", 48, [25.25, 55.36], "ae", "Asia/Dubai");
     const overwrite = noOverwrite();
-    overwrite.layovers.hashes = [layover.hash];
+    overwrite.layovers.entries = [{ date: layover.date, label: "Dubai" }];
     const history = buildHistory(
       [
         entry("Utrecht", 0, UTRECHT),
-        layover,
+        { ...layover, hash: "rewritten-hash" }, // hashes don't matter
         entry("Delhi", 60, DELHI, "in", "Asia/Kolkata"),
       ],
       overwrite,
@@ -198,5 +198,22 @@ describe("buildHistory: rules", () => {
     );
     assert.deepEqual(labels(history.history), ["Delhi", "Utrecht"]);
     assert.equal(history.full.length, 3, "history-full keeps layovers");
+  });
+
+  it("matches layovers before aliasing, and only on both date and label", () => {
+    const glitch = entry("Mandakini Enclave", 48, DELHI, "in", "Asia/Kolkata");
+    const sameTime = entry("Abu Dhabi", 96, [24.43, 54.65], "ae", "Asia/Dubai");
+    const overwrite = noOverwrite();
+    overwrite.similarLabels.labels = { "Mandakini Enclave": "New Delhi" };
+    overwrite.layovers.entries = [
+      { date: glitch.date, label: "Mandakini Enclave" },
+      { date: sameTime.date, label: "Dubai" }, // wrong label: not dropped
+    ];
+    const history = buildHistory(
+      [entry("Utrecht", 0, UTRECHT), glitch, sameTime],
+      overwrite,
+      farFuture
+    );
+    assert.deepEqual(labels(history.history), ["Abu Dhabi", "Utrecht"]);
   });
 });

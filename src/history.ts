@@ -54,14 +54,19 @@ export const buildHistory = (
   const getOverwrittenLabel = (label: string): string =>
     overwrite.similarLabels.labels[label] ?? label;
   const lastLabel = () => locationResult[locationResult.length - 1]?.label;
+  const layovers = new Set(
+    overwrite.layovers.entries.map((layover) => `${layover.date}\u0000${layover.label}`)
+  );
+  const isLayover = (item: HistoryEntry) => layovers.has(`${item.date}\u0000${item.label}`);
   const safePush = (item: HistoryEntry) => {
+    // Checked before aliasing: layovers name the snapshot's raw label.
+    const layover = isLayover(item);
     // Applied in order, so one alias can feed into a later one.
     Object.entries(overwrite.similarLabels.labels).forEach(([key, value]) => {
       if (item.label === key) item.label = value;
     });
     if (overwrite.ignore.labels.includes(item.label)) return;
-    if (!overwrite.layovers.hashes.includes(item.hash))
-      locationResult.push(item);
+    if (!layover) locationResult.push(item);
   };
 
   let skipped: (HistoryEntry & { duration: number })[] = [];

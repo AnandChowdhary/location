@@ -20,11 +20,20 @@ export interface OpenStreetMapGeocodeResponse {
   };
 }
 
+/**
+ * A 📍 snapshot to leave out, by its own date and raw (un-aliased) label.
+ * Unlike a commit hash, this survives rebases, squashes and re-imports.
+ */
+export interface Layover {
+  date: string;
+  label: string;
+}
+
 /** overwrite.json: manual corrections applied when building the history. */
 export interface Overwrite {
   similarLabels: { labels: Record<string, string> };
   ignore: { labels: string[] };
-  layovers: { hashes: string[] };
+  layovers: { entries: Layover[] };
 }
 
 /** One entry in the history files. */

@@ -22,7 +22,7 @@ const bengaluruGeocode = fixture<OpenStreetMapGeocodeResponse>("nominatim-bengal
 const overwrite: Overwrite = {
   similarLabels: { labels: { Karnataka: "Bengaluru", "Mandakini Enclave": "New Delhi" } },
   ignore: { labels: [] },
-  layovers: { hashes: [] },
+  layovers: { entries: [] },
 };
 const NOW = new Date("2026-11-21T10:52:48.769Z");
 

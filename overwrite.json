@@ -100,52 +100,111 @@
   },
   "ignore": {
     "description": "Ignore states, regions, airports, and other non-city locations that shouldn't appear in the history. Labels are checked after similarLabels mapping.",
-    "labels": ["Campania", "Utah", "Schiphol"]
+    "labels": [
+      "Campania",
+      "Utah",
+      "Schiphol"
+    ]
   },
   "layovers": {
-    "description": "Manually ignore layovers where I don't spend much time outside the airport. Each entry is a git hash to be ignored.",
-    "hashes": [
-      "c3099d8a5244114c10463792996278a7128c07a5",
-      "9af34d9158c5829583800bede1a2bdafe1f1ac19",
-      "2af4b5f95874bbdf8f418f3cf9d08fe35252771a",
-      "5bfb3d90a21f57b6e03d15a90f440e3fbe7d89bb",
-      "68530e461f7970be60e196e0064d624041b8627a",
-      "cbb8f5775ed48383de5b3752f1e21e2ed8153a53",
-      "78be355d2623a7ee1862e29dea3bf78578aa6cd9",
-      "683afb8a5f0338cb5f5f75197a8f809320aa7211",
-      "27fb9eff1dabeacacaed4f0486844deea7456ad5",
-      "d2d6ca5549084b23bf1f7df7f5e94905e6f2c36f",
-      "40ddc3d60ba09fb87027dd1dc3804ba781df7aec",
-      "1d85b663cb7b5738baf8b24bbf948c35a2f61f64",
-      "f0260150276dc356d1fea0483ebb7a19f8567761",
-      "d0140cf21ac98ae0ea40f4c00c847a50412e0219",
-      "644a2b55b0f7086e3efcfbd800d6d3a74913bcba",
-      "3624d768488b9754be31ea79d684bbac88c69b80",
-      "dd2cc042df2784e2d1ee4615e6a976807ce27444",
-      "706d6dfe1d8daacec0542a69ce17f7e99f973371",
-      "c74f4fe42468cb54c88ef29ce7ff000147f0801b",
-      "a6161bab0a96fbee821eebc51aae0e598c89adf3",
-      "3972d230f1d26cd176f952baebe53866b273e1d7",
-      "d20630fcda1472420e1dd626abef665580321408",
-      "bb8bf4b5736e30bfa0126243913bdb9b7f4d524e",
-      "74db397a59a47bc639632a4ba7b441fef3b0925b",
-      "a3f5c7ae90fbffca8d8405e873efcb289d94c0db",
-      "b373e402c0a72906f6c86a12a788d124666ac337",
-      "f792200cef9183305338cadd5f3a0d46b249e435",
-      "369cfa6beb347a6986bf07ed1ac511e7b250b27f",
-      "1c738f5edd1f4b7e0cff095b5ca625d338620bd6",
-      "681dcc9a39c74e3e5d45bc7c82b571aedf8a9473",
-      "3e91ac1db2b47d77aa5f169f228e357ba1cae3c3",
-      "d1a303adcece31204941570e007f403916e650e2",
-      "b78d71555af5b8e24db47ad79579ed05273521df",
-      "089debc7f8338bf78e8e177ee4b69d4e2d6cf6b7",
-      "a12d1b3d8132ff265811723db9465059ac4d0849",
-      "a6e439912eb3696805aa1972242b46d3de815fb7",
-      "b92953bbfbcc4378afb63051ff7848de8c204737",
-      "06e76ac79b9436b8e0c69cb8cc3c5f08ca670386",
-      "8f7131832ace26dcc1290eb64223b5619dbc6d07",
-      "fdb6f0bd924199dd3fa9d47e8c02b7f39a4dc8dc",
-      "c49ecab864e9703db67b8ab793e3844afc07afab"
+    "description": "Layovers to leave out of the history, where I barely left the airport (or the point was a geocoding glitch). Each entry is the date and raw label of a 📍 snapshot, as in history-full.json.",
+    "entries": [
+      {
+        "date": "2017-08-22T05:23:29.871Z",
+        "label": "Dubai"
+      },
+      {
+        "date": "2017-12-23T06:11:18.916Z",
+        "label": "Peschiera Borromeo"
+      },
+      {
+        "date": "2017-12-23T10:25:25.497Z",
+        "label": "Fiumicino"
+      },
+      {
+        "date": "2018-07-07T05:15:09.973Z",
+        "label": "Peschiera Borromeo"
+      },
+      {
+        "date": "2018-07-07T09:25:18.100Z",
+        "label": "Fiumicino"
+      },
+      {
+        "date": "2018-08-31T22:06:10.593Z",
+        "label": "Fiumicino"
+      },
+      {
+        "date": "2018-10-24T09:16:23.471Z",
+        "label": "Eindhoven"
+      },
+      {
+        "date": "2018-10-25T09:20:48.681Z",
+        "label": "Eindhoven"
+      },
+      {
+        "date": "2018-10-25T14:36:18.399Z",
+        "label": "Eindhoven"
+      },
+      {
+        "date": "2018-10-26T13:00:47.355Z",
+        "label": "Eindhoven"
+      },
+      {
+        "date": "2018-10-27T08:58:52.010Z",
+        "label": "Eindhoven"
+      },
+      {
+        "date": "2018-12-23T21:38:00.870Z",
+        "label": "Khimki"
+      },
+      {
+        "date": "2019-01-09T22:58:39.021Z",
+        "label": "Khimki"
+      },
+      {
+        "date": "2019-04-19T11:22:34.221Z",
+        "label": "Khimki"
+      },
+      {
+        "date": "2019-04-27T19:15:34.786Z",
+        "label": "Khimki"
+      },
+      {
+        "date": "2019-09-15T04:05:27.050Z",
+        "label": "Taoyuan City"
+      },
+      {
+        "date": "2021-09-06T01:52:05.140Z",
+        "label": "Hoogstraten"
+      },
+      {
+        "date": "2022-02-28T07:46:50.918Z",
+        "label": "Bad Bentheim"
+      },
+      {
+        "date": "2022-06-01T23:54:11.000Z",
+        "label": "Nazareth"
+      },
+      {
+        "date": "2023-04-22T22:21:38.679Z",
+        "label": "Abu Dhabi"
+      },
+      {
+        "date": "2025-06-10T08:40:00.165Z",
+        "label": "Boston"
+      },
+      {
+        "date": "2025-06-10T19:03:15.992Z",
+        "label": "College Park"
+      },
+      {
+        "date": "2026-02-09T18:29:16.000Z",
+        "label": "Jammu and Kashmir"
+      },
+      {
+        "date": "2026-02-19T09:04:08.000Z",
+        "label": "Kalamassery"
+      }
     ]
   }
 }
