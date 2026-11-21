@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       payload:
-        description: 'JSON payload: {"lat":52.08,"lon":5.06}'
+        description: 'JSON payload: {"lat":52.08,"lon":5.06} plus optional "date" (ISO 8601)'
         required: true
         type: string
   repository_dispatch:
@@ -21,12 +21,12 @@ concurrency:
 jobs:
   ingest:
     runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.ingest.outputs.changed }}
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
@@ -53,39 +53,30 @@ jobs:
       - name: Commit api.json
         if: steps.ingest.outputs.changed == 'true'
         env:
-          COMMIT_DATE: ${{ steps.ingest.outputs.date }}
+          GIT_AUTHOR_NAME: Finding Anand
+          GIT_AUTHOR_EMAIL: bot@anandchowdhary.com
+          GIT_COMMITTER_NAME: Finding Anand
+          GIT_COMMITTER_EMAIL: bot@anandchowdhary.com
+          GIT_AUTHOR_DATE: ${{ steps.ingest.outputs.date }}
+          GIT_COMMITTER_DATE: ${{ steps.ingest.outputs.date }}
           COMMIT_MESSAGE: ${{ steps.ingest.outputs.message }}
         run: |
-          git config user.name "Finding Anand"
-          git config user.email "bot@anandchowdhary.com"
           git add api.json
-          GIT_AUTHOR_NAME="Finding Anand" \
-          GIT_AUTHOR_EMAIL="bot@anandchowdhary.com" \
-          GIT_COMMITTER_NAME="Finding Anand" \
-          GIT_COMMITTER_EMAIL="bot@anandchowdhary.com" \
-          GIT_AUTHOR_DATE="$COMMIT_DATE" \
-          GIT_COMMITTER_DATE="$COMMIT_DATE" \
-            git commit -m "$COMMIT_MESSAGE"
-          git push
-
-      - name: Summarize history
-        if: steps.ingest.outputs.changed == 'true'
-        run: npm run summarize
-
-      - name: Prepare Pages files
-        if: steps.ingest.outputs.changed == 'true'
-        run: |
-          mkdir -p public
-          cp api.json history*.json public/
-
-      - name: Deploy to GitHub Pages
-        if: steps.ingest.outputs.changed == 'true'
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: public
+          git commit -m "$COMMIT_MESSAGE"
+          # main may have moved since checkout (e.g. a merged PR); replay on top.
+          git pull --rebase origin main
+          git push origin HEAD:main
 
       - name: Report skipped update
         if: steps.ingest.outputs.changed != 'true'
+        env:
+          REASON: ${{ steps.ingest.outputs.reason }}
         run: |
-          echo "Location update skipped: ${{ steps.ingest.outputs.reason }}"
+          echo "Location update skipped: $REASON"
+
+  publish:
+    needs: ingest
+    if: needs.ingest.outputs.changed == 'true'
+    permissions:
+      contents: write
+    uses: ./.github/workflows/summarize.yml
